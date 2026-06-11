@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Storie di Alessio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #080808;
+      --surface:   #111113;
+      --surface2:  #18181b;
+      --border:    #1f1f23;
+      --border2:   #2e2e35;
+      --text:      #e1e1e6;
+      --muted:     #8b8b99;
+      --accent:    #8b5cf6;
+      --accent2:   #a78bfa;
+      --radius:    16px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ---- HEADER ---- */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 0 40px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      background: rgba(8, 8, 8, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      z-index: 100;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .logo-dot {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      background: linear-gradient(135deg, var(--accent), #ec4899);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }
+
+    .badge {
+      font-size: 11px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: var(--surface2);
+      border: 1px solid var(--border2);
+      color: var(--muted);
+    }
+
+    /* ---- HERO ---- */
+    .hero {
+      padding: 100px 40px 80px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--accent2);
+      background: rgba(139, 92, 246, 0.1);
+      border: 1px solid rgba(139, 92, 246, 0.25);
+      border-radius: 20px;
+      padding: 4px 12px;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-size: clamp(36px, 6vw, 64px);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, #fff 30%, var(--muted) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero p {
+      font-size: 17px;
+      color: var(--muted);
+      max-width: 540px;
+      line-height: 1.7;
+    }
+
+    /* ---- GRID ---- */
+    .section {
+      padding: 0 40px 100px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+
+    /* ---- CARD ---- */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      border-color: var(--border2);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Thumbnail area */
+    .thumb {
+      width: 100%;
+      aspect-ratio: 16/9;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .thumb-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover .thumb-img { transform: scale(1.04); }
+
+    /* Fallback gradient visibile se immagine non carica */
+    .thumb-fallback {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 52px;
+    }
+
+    /* Overlay sfumato in basso */
+    .thumb::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 60px;
+      background: linear-gradient(transparent, var(--surface));
+      pointer-events: none;
+    }
+
+    /* Temi per ogni storia */
+    .theme-alieni   { background: linear-gradient(135deg, #0d0d2b 0%, #1a0533 50%, #0f1a2e 100%); }
+    .theme-mare     { background: linear-gradient(135deg, #03111e 0%, #044366 50%, #086788 100%); }
+    .theme-pescara  { background: linear-gradient(135deg, #1a0a00 0%, #7c3100 50%, #a84700 100%); }
+    .theme-threejs  { background: linear-gradient(135deg, #060618 0%, #1a1a4a 50%, #111138 100%); }
+    .theme-animejs  { background: linear-gradient(135deg, #1a001a 0%, #560d56 50%, #860e85 100%); }
+    .theme-skool    { background: linear-gradient(135deg, #001a0d 0%, #00501a 50%, #006b22 100%); }
+
+    /* Corpo card */
+    .card-body {
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-tag {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--accent2);
+      background: rgba(139, 92, 246, 0.1);
+      border: 1px solid rgba(139, 92, 246, 0.2);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .card-arrow {
+      font-size: 16px;
+      color: var(--muted);
+      transition: transform 0.2s, color 0.2s;
+    }
+
+    .card:hover .card-arrow {
+      transform: translateX(3px);
+      color: var(--accent2);
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--text);
+    }
+
+    .card-desc {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    .card-footer {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #22c55e;
+      box-shadow: 0 0 6px #22c55e;
+    }
+
+    /* ---- FOOTER ---- */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 40px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    footer span { color: #ec4899; }
+
+    /* ---- RESPONSIVE ---- */
+    @media (max-width: 640px) {
+      header { padding: 0 20px; }
+      .hero, .section { padding-left: 20px; padding-right: 20px; }
+      .hero { padding-top: 60px; padding-bottom: 50px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <a href="#" class="logo">
+    <div class="logo-dot">&#10022;</div>
+    Le Storie di Alessio
+  </a>
+  <span class="badge">6 storie</span>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-tag">&#10022; Storie animate per bambini</div>
+  <h1>Le avventure di&nbsp;Alessio</h1>
+  <p>Una raccolta di storie magiche, avventure nell&#39;oceano, incontri con gli alieni e amici meravigliosi. Ogni storia &egrave; animata e interattiva, pensata con amore per Alessio.</p>
+</section>
+
+<!-- GRIGLIA STORIE -->
+<div class="section">
+  <div class="section-title">Tutte le storie</div>
+  <div class="grid">
+
+    <!-- 1 - Alieni -->
+    <a class="card" href="storie/alessioalieni_new.html" target="_blank" rel="noopener">
+      <div class="thumb theme-alieni">
+        <div class="thumb-fallback">&#x1F30C;</div>
+        <img class="thumb-img"
+          src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=600&q=70&fit=crop"
+          alt="Spazio stellato"
+          onerror="this.style.display='none'" />
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="card-tag">Fantascienza</span>
+          <span class="card-arrow">&#8594;</span>
+        </div>
+        <div class="card-title">Alessio e gli Alieni</div>
+        <div class="card-desc">Un bambino coraggioso incontra creature gentili dallo spazio profondo. Un&#39;avventura galattica tra stelle e misteri.</div>
+        <div class="card-footer">
+          <span class="dot"></span>
+          Storia interattiva &bull; Animazioni avanzate
+        </div>
+      </div>
+    </a>
+
+    <!-- 2 - Mare -->
+    <a class="card" href="storie/alessiomareversione2.html" target="_blank" rel="noopener">
+      <div class="thumb theme-mare">
+        <div class="thumb-fallback">&#x1F30A;</div>
+        <img class="thumb-img"
+          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=70&fit=crop"
+          alt="Oceano blu"
+          onerror="this.style.display='none'" />
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="card-tag">Oceano</span>
+          <span class="card-arrow">&#8594;</span>
+        </div>
+        <div class="card-title">Alessio e il Mare</div>
+        <div class="card-desc">Tartarughe, pesci colorati e onde gentili. Un viaggio magico tra i fondali dell&#39;Adriatico.</div>
+        <div class="card-footer">
+          <span class="dot"></span>
+          Natura &bull; Animali marini
+        </div>
+      </div>
+    </a>
+
+    <!-- 3 - Pescara GSAP -->
+    <a class="card" href="storie/alessiopescara_gsap_v2.html" target="_blank" rel="noopener">
+      <div class="thumb theme-pescara">
+        <div class="thumb-fallback">&#x1F31E;</div>
+        <img class="thumb-img"
+          src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?w=600&q=70&fit=crop"
+          alt="Spiaggia al tramonto"
+          onerror="this.style.display='none'" />
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="card-tag">Avventura</span>
+          <span class="card-arrow">&#8594;</span>
+        </div>
+        <div class="card-title">Pescara con GSAP</div>
+        <div class="card-desc">Una giornata speciale a Pescara con animazioni fluide e cinematografiche. La citt&agrave; vista dagli occhi di Alessio.</div>
+        <div class="card-footer">
+          <span class="dot"></span>
+          Animazioni GSAP v2
+        </div>
+      </div>
+    </a>
+
+    <!-- 4 - Three.js -->
+    <a class="card" href="storie/alessiopescara_threejs.html" target="_blank" rel="noopener">
+      <div class="thumb theme-threejs">
+        <div class="thumb-fallback">&#x2728;</div>
+        <img class="thumb-img"
+          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=70&fit=crop"
+          alt="Mondo digitale 3D"
+          onerror="this.style.display='none'" />
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="card-tag">3D</span>
+          <span class="card-arrow">&#8594;</span>
+        </div>
+        <div class="card-title">Pescara in 3D</div>
+        <div class="card-desc">La stessa avventura, resa in un mondo tridimensionale con grafica Three.js. Un&#39;esperienza visiva unica.</div>
+        <div class="card-footer">
+          <span class="dot"></span>
+          WebGL &bull; Three.js
+        </div>
+      </div>
+    </a>
+
+    <!-- 5 - Anime.js -->
+    <a class="card" href="storie/alessiopescara_animejs.html" target="_blank" rel="noopener">
+      <div class="thumb theme-animejs">
+        <div class="thumb-fallback">&#x1F3A8;</div>
+        <img class="thumb-img"
+          src="https://images.unsplash.com/photo-1518756131217-31eb79b20e8f?w=600&q=70&fit=crop"
+          alt="Colori vivaci"
+          onerror="this.style.display='none'" />
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="card-tag">Arte</span>
+          <span class="card-arrow">&#8594;</span>
+        </div>
+        <div class="card-title">Pescara con Anime.js</div>
+        <div class="card-desc">Colori vivaci, transizioni morbide e un racconto che danza sullo schermo. La versione pi&ugrave; artistica di Pescara.</div>
+        <div class="card-footer">
+          <span class="dot"></span>
+          Anime.js &bull; Design creativo
+        </div>
+      </div>
+    </a>
+
+    <!-- 6 - Skool -->
+    <a class="card" href="storie/alessioskool.html" target="_blank" rel="noopener">
+      <div class="thumb theme-skool">
+        <div class="thumb-fallback">&#x1F4DA;</div>
+        <img class="thumb-img"
+          src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=70&fit=crop"
+          alt="Libri e apprendimento"
+          onerror="this.style.display='none'" />
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="card-tag">Scuola</span>
+          <span class="card-arrow">&#8594;</span>
+        </div>
+        <div class="card-title">Alessio a Skool</div>
+        <div class="card-desc">Amici, maestre e scoperte. Una giornata scolastica raccontata con dolcezza tra risate e nuove avventure.</div>
+        <div class="card-footer">
+          <span class="dot"></span>
+          Amicizia &bull; Crescita
+        </div>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  Fatto con <span>&#10084;</span> per Alessio &mdash; Gabriele Marchegiani &copy; 2026
+</footer>
+
+</body>
+</html>

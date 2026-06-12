@@ -184,6 +184,13 @@
       width: 76px; height: 76px;
       border-radius: 50%; object-fit: cover;
       border: 1.5px solid var(--border-md);
+      cursor: zoom-in;
+      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s;
+    }
+    .profile-avatar:hover {
+      transform: scale(1.22) perspective(260px) rotateY(-10deg);
+      box-shadow: 6px 14px 30px rgba(0,0,0,0.6);
+      z-index: 10; position: relative;
     }
 
     .profile-name {
@@ -201,7 +208,28 @@
       width: 100%; height: 0.5px; background: var(--border);
     }
 
-    .profile-links { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+    .profile-links {
+      max-height: 0; overflow: hidden; opacity: 0;
+      display: flex; flex-direction: column; gap: 6px; width: 100%;
+      transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s, margin-top 0.3s;
+      margin-top: 0;
+    }
+    .profile-links.open {
+      max-height: 500px; opacity: 1; margin-top: 6px;
+    }
+    .profile-menu-btn {
+      width: 100%; display: flex; align-items: center; justify-content: space-between;
+      background: var(--surface2); border: 0.5px solid var(--border);
+      border-radius: var(--radius-md); padding: 9px var(--sp-md);
+      color: var(--text-muted); font-size: 13px; font-weight: 500;
+      cursor: pointer; letter-spacing: 0.01em;
+      transition: border-color 0.15s, background 0.15s, color 0.15s;
+    }
+    .profile-menu-btn:hover { border-color: var(--border-md); background: #1c1d1f; color: var(--text); }
+    .profile-menu-btn .mbtn-arrow {
+      font-size: 13px; transition: transform 0.3s cubic-bezier(0.4,0,0.2,1); display: inline-block;
+    }
+    .profile-menu-btn.open .mbtn-arrow { transform: rotate(90deg); }
 
     .profile-link {
       display: flex; align-items: center; gap: var(--sp-sm);
@@ -408,7 +436,7 @@
       .page-wrapper  { flex-direction: column; padding: 0 var(--sp-lg); gap: 0; }
       .page-sidebar  { width: 100%; position: static; padding-top: 0; margin-bottom: var(--sp-3xl); order: -1; }
       .profile-card  { flex-direction: row; flex-wrap: wrap; align-items: flex-start; }
-      .profile-links { flex-direction: row; flex-wrap: wrap; }
+      .profile-links.open { flex-direction: row; flex-wrap: wrap; }
       .profile-link  { flex: 1 1 140px; }
     }
 
@@ -606,7 +634,11 @@
       <div class="profile-name">Gabriele Marchegiani</div>
       <div class="profile-bio">Padre, creativo, appassionato di AI<br>Pescara &mdash; Adriatico</div>
       <div class="profile-divider"></div>
-      <nav class="profile-links">
+      <button class="profile-menu-btn" onclick="this.classList.toggle('open');document.getElementById('profileLinks').classList.toggle('open')">
+        <span>&#x1F5C2;&nbsp; I miei link</span>
+        <span class="mbtn-arrow">&#8250;</span>
+      </button>
+      <nav class="profile-links" id="profileLinks">
 
         <a class="profile-link" href="#storie">
           <span class="pli">&#x1F4D6;</span>

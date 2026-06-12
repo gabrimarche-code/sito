@@ -464,6 +464,53 @@
       .profile-card { flex-direction: column; align-items: center; }
       .profile-link { flex: 1 1 100%; }
     }
+  
+    /* ---- FORM CONTATTI ---- */
+    .contact-section {
+      padding: var(--sp-4xl) 0;
+      border-top: 0.5px solid var(--border);
+      margin-top: var(--sp-4xl);
+    }
+    .contact-form {
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: var(--sp-2xl);
+      max-width: 540px;
+    }
+    .contact-form h2 {
+      font-size: 20px; font-weight: 400; letter-spacing: -0.02em;
+      color: var(--text); margin-bottom: var(--sp-xs);
+    }
+    .contact-form p {
+      font-size: 13px; color: var(--text-muted); margin-bottom: var(--sp-xl);
+    }
+    .form-row { display: flex; flex-direction: column; gap: var(--sp-md); }
+    .form-field { display: flex; flex-direction: column; gap: 6px; }
+    .form-field label { font-size: 12px; font-weight: 500; color: var(--text-muted); letter-spacing: 0.04em; text-transform: uppercase; }
+    .form-field input,
+    .form-field textarea {
+      background: var(--surface2); border: 0.5px solid var(--border);
+      border-radius: var(--radius-md); padding: 10px var(--sp-md);
+      color: var(--text); font-size: 13px; font-family: inherit;
+      transition: border-color 0.15s, box-shadow 0.15s;
+      outline: none; resize: vertical;
+    }
+    .form-field input:focus,
+    .form-field textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(94,106,210,0.15);
+    }
+    .form-field textarea { min-height: 100px; }
+    .form-submit {
+      margin-top: var(--sp-md);
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--btn-primary); color: var(--bg);
+      font-size: 13px; font-weight: 500; padding: 9px 20px;
+      border-radius: var(--radius-pill); border: none; cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .form-submit:hover { opacity: 0.85; }
   </style>
 </head>
 <body>
@@ -661,31 +708,31 @@
         <div class="acc-body">
           <a class="acc-item" href="storie/alessioalieni_new.html" target="_blank">
             <span class="acc-item-emoji">&#x1F30C;</span>
-            <span class="acc-item-text">Alessio e gli Alieni<span class="acc-item-sub">Galassie, segnali misteriosi e un'amicizia impossibile</span></span>
+            <span class="acc-item-text">Alessio e gli Alieni</span>
           </a>
           <a class="acc-item" href="storie/alessiomareversione2.html" target="_blank">
             <span class="acc-item-emoji">&#x1F30A;</span>
-            <span class="acc-item-text">Alessio e il Mare<span class="acc-item-sub">Tartarughe, onde gentili e i fondali dell'Adriatico</span></span>
+            <span class="acc-item-text">Alessio e il Mare</span>
           </a>
           <a class="acc-item" href="storie/NonnoBerto.html" target="_blank">
             <span class="acc-item-emoji">&#x1F41F;</span>
-            <span class="acc-item-text">Nonno Berto e il Tonno<span class="acc-item-sub">4 maggio 2026, Grado &mdash; una giornata leggendaria</span></span>
+            <span class="acc-item-text">Nonno Berto e il Tonno</span>
           </a>
           <a class="acc-item" href="storie/alessioskool.html" target="_blank">
             <span class="acc-item-emoji">&#x1F4DA;</span>
-            <span class="acc-item-text">Alessio a Skool<span class="acc-item-sub">Amici, maestre e scoperte quotidiane</span></span>
+            <span class="acc-item-text">Alessio a Skool</span>
           </a>
           <a class="acc-item" href="storie/alessiopescara_gsap_v2.html" target="_blank">
             <span class="acc-item-emoji">&#x1F31E;</span>
-            <span class="acc-item-text">Pescara con GSAP<span class="acc-item-sub">Il lungomare, il gelato, i gabbiani</span></span>
+            <span class="acc-item-text">Pescara con GSAP</span>
           </a>
           <a class="acc-item" href="storie/alessiopescara_threejs.html" target="_blank">
             <span class="acc-item-emoji">&#x2728;</span>
-            <span class="acc-item-text">Pescara in 3D<span class="acc-item-sub">Scena interattiva con Three.js e WebGL</span></span>
+            <span class="acc-item-text">Pescara in 3D</span>
           </a>
           <a class="acc-item" href="storie/alessiopescara_animejs.html" target="_blank">
             <span class="acc-item-emoji">&#x1F3A8;</span>
-            <span class="acc-item-text">Pescara con Anime.js<span class="acc-item-sub">La versione pi&ugrave; artistica e colorata</span></span>
+            <span class="acc-item-text">Pescara con Anime.js</span>
           </a>
         </div>
 
@@ -698,15 +745,15 @@
         <div class="acc-body">
           <a class="acc-item" href="#">
             <span class="acc-item-emoji">&#x1F4AC;</span>
-            <span class="acc-item-text">Agente AI per storie<span class="acc-item-sub">Genera favole animate con Claude + Runway</span></span>
+            <span class="acc-item-text">Agente AI per storie</span>
           </a>
           <a class="acc-item" href="#">
             <span class="acc-item-emoji">&#x1F9E0;</span>
-            <span class="acc-item-text">Memoria persistente<span class="acc-item-sub">Sistema di memoria cross-sessione per AI</span></span>
+            <span class="acc-item-text">Memoria persistente</span>
           </a>
           <a class="acc-item" href="#">
             <span class="acc-item-emoji">&#x1F399;&#xFE0F;</span>
-            <span class="acc-item-text">Podcast AI<span class="acc-item-sub">Storie audio generate con NotebookLM e ElevenLabs</span></span>
+            <span class="acc-item-text">Podcast AI</span>
           </a>
         </div>
 
@@ -719,15 +766,15 @@
         <div class="acc-body">
           <a class="acc-item" href="#">
             <span class="acc-item-emoji">&#x1F30A;</span>
-            <span class="acc-item-text">Pescara &mdash; Adriatico<span class="acc-item-sub">La nostra casa, il nostro mare</span></span>
+            <span class="acc-item-text">Pescara &mdash; Adriatico</span>
           </a>
           <a class="acc-item" href="#">
             <span class="acc-item-emoji">&#x1F3A3;</span>
-            <span class="acc-item-text">Grado, maggio 2026<span class="acc-item-sub">La pesca del tonno con Nonno Berto</span></span>
+            <span class="acc-item-text">Grado, maggio 2026</span>
           </a>
           <a class="acc-item" href="#">
             <span class="acc-item-emoji">&#x26F0;&#xFE0F;</span>
-            <span class="acc-item-text">Montagna, estate<span class="acc-item-sub">Boschi, sentieri e aria pulita con Alessio</span></span>
+            <span class="acc-item-text">Montagna, estate</span>
           </a>
         </div>
 
@@ -740,15 +787,15 @@
         <div class="acc-body">
           <a class="acc-item" href="#">
             <span class="acc-item-emoji">&#x1F9D1;&#x200D;&#x1F466;</span>
-            <span class="acc-item-text">Momenti con Alessio<span class="acc-item-sub">Ritratti di vita quotidiana e avventure</span></span>
+            <span class="acc-item-text">Momenti con Alessio</span>
           </a>
           <a class="acc-item" href="#">
             <span class="acc-item-emoji">&#x1F305;</span>
-            <span class="acc-item-text">Paesaggi Adriatico<span class="acc-item-sub">Albe, tramonti e onde sulla costa</span></span>
+            <span class="acc-item-text">Paesaggi Adriatico</span>
           </a>
           <a class="acc-item" href="#">
             <span class="acc-item-emoji">&#x1F41F;</span>
-            <span class="acc-item-text">Pesca e natura<span class="acc-item-sub">Scatti in barca, lagune e acque aperte</span></span>
+            <span class="acc-item-text">Pesca e natura</span>
           </a>
         </div>
 
@@ -759,13 +806,13 @@
           <span class="pla">&#8250;</span>
         </button>
         <div class="acc-body">
-          <a class="acc-item" href="mailto:gabrimarche@gmail.com">
+          <a class="acc-item" href="#form-contatti">
             <span class="acc-item-emoji">&#x1F4E7;</span>
-            <span class="acc-item-text">Email<span class="acc-item-sub">gabrimarche@gmail.com</span></span>
+            <span class="acc-item-text">Email</span>
           </a>
           <a class="acc-item" href="https://www.facebook.com/gmarchegiani/?locale=it_IT" target="_blank" rel="noopener">
             <span class="acc-item-emoji">&#x1F4CC;</span>
-            <span class="acc-item-text">Facebook<span class="acc-item-sub">Seguimi su Facebook</span></span>
+            <span class="acc-item-text">Facebook</span>
           </a>
         </div>
 
@@ -786,6 +833,35 @@
   </aside>
 
 </div><!-- end page-wrapper -->
+
+
+<!-- FORM CONTATTI -->
+<section id="form-contatti" class="contact-section">
+  <div style="max-width:1200px;margin:0 auto;padding:0 var(--sp-3xl);">
+    <div class="section-label"><span>Contatti</span></div>
+    <div class="contact-form">
+      <h2>Scrivimi</h2>
+      <p>Hai una domanda, una proposta o vuoi semplicemente salutare?</p>
+      <form class="form-row" action="https://formspree.io/f/placeholder" method="POST">
+        <div class="form-field">
+          <label for="cf-nome">Nome</label>
+          <input type="text" id="cf-nome" name="nome" placeholder="Il tuo nome" required>
+        </div>
+        <div class="form-field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" placeholder="tua@email.com" required>
+        </div>
+        <div class="form-field">
+          <label for="cf-msg">Messaggio</label>
+          <textarea id="cf-msg" name="messaggio" placeholder="Scrivi qui..." required></textarea>
+        </div>
+        <div>
+          <button type="submit" class="form-submit">Invia messaggio &#8594;</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
 
 <!-- FOOTER -->
 <footer>

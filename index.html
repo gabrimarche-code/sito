@@ -394,47 +394,6 @@
     }
     .status-dot { width: 5px; height: 5px; border-radius: 50%; background: #4dd97a; flex-shrink: 0; }
 
-    /* ---- CONTACT FORM ---- */
-    .contact-section {
-      margin-bottom: var(--sp-4xl);
-    }
-
-    .contact-form {
-      display: flex; flex-direction: column; gap: var(--sp-md);
-      max-width: 520px;
-      margin-top: var(--sp-lg);
-    }
-
-    .contact-form input,
-    .contact-form textarea {
-      background: transparent;
-      color: var(--text);
-      border: none;
-      border-bottom: 1px solid rgba(255,255,255,0.15);
-      border-radius: 0;
-      font-size: 14px;
-      font-family: inherit;
-      padding: var(--sp-sm) 0;
-      outline: none;
-      transition: border-color 0.15s;
-      resize: none;
-      width: 100%;
-    }
-    .contact-form input::placeholder,
-    .contact-form textarea::placeholder { color: var(--text-dim); }
-    .contact-form input:focus,
-    .contact-form textarea:focus { border-bottom-color: var(--accent); }
-
-    .contact-form textarea { min-height: 100px; line-height: 1.6; }
-
-    .contact-sent {
-      display: none;
-      font-size: 13px;
-      color: #4dd97a;
-      margin-top: var(--sp-sm);
-      letter-spacing: 0.02em;
-    }
-
     /* ---- FOOTER ---- */
     footer {
       border-top: 0.5px solid var(--border);
@@ -525,8 +484,8 @@
   </a>
   <div class="header-right">
     <span class="count-badge">7 storie</span>
-    <a class="btn-sec" href="https://github.com/gabrimarche-code/sito" target="_blank" rel="noopener">
-      GitHub &rarr;
+    <a class="btn-sec" href="#form-contatti">
+      Contatti &rarr;
     </a>
   </div>
 </header>
@@ -669,20 +628,6 @@
       </a>
 
     </div>
-
-    <!-- FORM CONTATTI -->
-    <section class="contact-section" id="contatti">
-      <div class="section-label"><span>Scrivimi</span></div>
-      <form class="contact-form" onsubmit="handleContact(event)">
-        <input type="text"  id="cf-nome"  placeholder="Il tuo nome"    required />
-        <input type="email" id="cf-email" placeholder="La tua email"   required />
-        <textarea           id="cf-msg"   placeholder="Il tuo messaggio..." rows="4" required></textarea>
-        <div>
-          <button type="submit" class="btn-primary">Invia messaggio &rarr;</button>
-          <span class="contact-sent" id="cf-sent">Messaggio pronto nel tuo client email!</span>
-        </div>
-      </form>
-    </section>
 
   </main>
 

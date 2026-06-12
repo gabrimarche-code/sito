@@ -842,7 +842,11 @@
     <div class="contact-form">
       <h2>Scrivimi</h2>
       <p>Hai una domanda, una proposta o vuoi semplicemente salutare?</p>
-      <form class="form-row" action="https://formspree.io/f/placeholder" method="POST">
+      <form class="form-row" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="e25568aa-891f-4928-ab27-9d0e328b7257">
+        <input type="hidden" name="subject" value="Nuovo messaggio dal sito di Alessio">
+        <input type="checkbox" name="botcheck" style="display:none">
+
         <div class="form-field">
           <label for="cf-nome">Nome</label>
           <input type="text" id="cf-nome" name="nome" placeholder="Il tuo nome" required>
@@ -887,6 +891,8 @@ function handleContact(e) {
 
 </body>
 </html>
+
+
 
 
 

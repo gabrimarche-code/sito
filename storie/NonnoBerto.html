@@ -96,6 +96,27 @@ h1 { display: inline-block; line-height: 1.25; }
   padding: 5px 18px;
 }
 
+/* ---- Credito audio ---- */
+.audio-credit {
+  display: flex; align-items: center; justify-content: center;
+  gap: 8px; flex-wrap: wrap;
+  font-size: 0.72em; color: #4a7090;
+  font-style: normal; letter-spacing: 0.01em;
+  margin-bottom: 44px;
+  text-align: center;
+}
+.audio-icon { font-size: 0.95em; color: #6a90a8; }
+.audio-btn {
+  background: rgba(232,168,48,0.12);
+  border: 1px solid rgba(232,168,48,0.3);
+  color: #e8a830; font-size: 0.9em;
+  padding: 3px 12px; border-radius: 999px;
+  cursor: pointer; transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+.audio-btn:hover { background: rgba(232,168,48,0.22); color: #f5c97a; }
+.audio-btn.playing { color: #4dd97a; border-color: rgba(77,217,122,0.4); background: rgba(77,217,122,0.08); }
+
 /* ---- Pannelli video ---- */
 .video-panels {
   display: grid;
@@ -277,6 +298,18 @@ footer .cuore { color: #e8a830; }
   <p class="tagline">Gabriele &amp; Nonno Berto &mdash; padre e figlio sul mare</p>
   <div class="data-badge"><span>4 Maggio 2026 &bull; Grado &bull; Adriatico</span></div>
 
+  <!-- CREDITO AUDIO + PULSANTE -->
+  <div class="audio-credit">
+    <span class="audio-icon">&#9835;</span>
+    <span>Colonna sonora: <em>Main Title (Theme from Jaws)</em> &mdash; John Williams &bull; <em>Lo Squalo</em>, Universal Pictures 1975</span>
+    <button class="audio-btn" id="audioBtn" onclick="toggleAudio()">&#9654; Musica</button>
+  </div>
+
+  <!-- AUDIO JAWS -->
+  <audio id="jawsAudio" loop>
+    <source src="../audio/jaws_theme.mp3" type="audio/mpeg">
+  </audio>
+
   <!-- PANNELLI VIDEO -->
   <div class="video-panels">
     <div class="vpanel" data-start="4">
@@ -440,6 +473,33 @@ footer .cuore { color: #e8a830; }
 
 <script>
 gsap.registerPlugin(ScrollTrigger);
+
+// ---- Audio Jaws ----
+var audio = document.getElementById('jawsAudio');
+var btn   = document.getElementById('audioBtn');
+audio.volume = 0.92;
+
+function toggleAudio() {
+  if (audio.paused) {
+    audio.play();
+    btn.textContent = '⏸ Pausa';
+    btn.classList.add('playing');
+  } else {
+    audio.pause();
+    btn.textContent = '▶ Musica';
+    btn.classList.remove('playing');
+  }
+}
+
+// Tenta autoplay al caricamento
+window.addEventListener('load', function() {
+  audio.play().then(function() {
+    btn.textContent = '⏸ Pausa';
+    btn.classList.add('playing');
+  }).catch(function() {
+    // Browser ha bloccato autoplay: il pulsante resta visibile
+  });
+});
 
 // ---- Onde di sfondo ----
 gsap.to("#onda1", { rotation: 360, duration: 20, repeat: -1, ease: "none", transformOrigin: "center center" });

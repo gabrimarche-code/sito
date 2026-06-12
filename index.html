@@ -209,27 +209,43 @@
     }
 
     .profile-links {
-      max-height: 0; overflow: hidden; opacity: 0;
-      display: flex; flex-direction: column; gap: 6px; width: 100%;
-      transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s, margin-top 0.3s;
-      margin-top: 0;
+      display: flex; flex-direction: column; gap: 4px; width: 100%;
     }
-    .profile-links.open {
-      max-height: 500px; opacity: 1; margin-top: 6px;
-    }
-    .profile-menu-btn {
-      width: 100%; display: flex; align-items: center; justify-content: space-between;
+    /* Accordion */
+    .acc-header {
+      width: 100%; display: flex; align-items: center; gap: var(--sp-sm);
       background: var(--surface2); border: 0.5px solid var(--border);
       border-radius: var(--radius-md); padding: 9px var(--sp-md);
-      color: var(--text-muted); font-size: 13px; font-weight: 500;
-      cursor: pointer; letter-spacing: 0.01em;
-      transition: border-color 0.15s, background 0.15s, color 0.15s;
+      color: var(--text); font-size: 13px; font-weight: 500;
+      cursor: pointer; text-align: left;
+      transition: border-color 0.15s, background 0.15s;
     }
-    .profile-menu-btn:hover { border-color: var(--border-md); background: #1c1d1f; color: var(--text); }
-    .profile-menu-btn .mbtn-arrow {
-      font-size: 13px; transition: transform 0.3s cubic-bezier(0.4,0,0.2,1); display: inline-block;
+    .acc-header:hover { border-color: var(--border-md); background: #1c1d1f; }
+    .acc-header .pll { flex: 1; }
+    .acc-header .pla {
+      font-size: 13px; color: var(--text-dim);
+      transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), color 0.15s;
+      display: inline-block;
     }
-    .profile-menu-btn.open .mbtn-arrow { transform: rotate(90deg); }
+    .acc-header.open .pla { transform: rotate(90deg); color: var(--text-muted); }
+    .acc-body {
+      max-height: 0; overflow: hidden;
+      transition: max-height 0.38s cubic-bezier(0.4,0,0.2,1), opacity 0.3s;
+      opacity: 0; display: flex; flex-direction: column; gap: 2px;
+      padding-left: 8px;
+    }
+    .acc-body.open { max-height: 300px; opacity: 1; }
+    .acc-item {
+      display: flex; align-items: center; gap: 8px;
+      padding: 7px var(--sp-md); border-radius: var(--radius-md);
+      font-size: 12px; color: var(--text-muted); text-decoration: none;
+      border: 0.5px solid transparent;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+    .acc-item:hover { background: var(--surface2); border-color: var(--border); color: var(--text); }
+    .acc-item-emoji { font-size: 14px; flex-shrink: 0; }
+    .acc-item-text { flex: 1; }
+    .acc-item-sub { font-size: 11px; color: var(--text-dim); display: block; margin-top: 1px; }
 
     .profile-link {
       display: flex; align-items: center; gap: var(--sp-sm);
@@ -436,7 +452,7 @@
       .page-wrapper  { flex-direction: column; padding: 0 var(--sp-lg); gap: 0; }
       .page-sidebar  { width: 100%; position: static; padding-top: 0; margin-bottom: var(--sp-3xl); order: -1; }
       .profile-card  { flex-direction: row; flex-wrap: wrap; align-items: flex-start; }
-      .profile-links.open { flex-direction: row; flex-wrap: wrap; }
+      .profile-links { flex-direction: column; }
       .profile-link  { flex: 1 1 140px; }
     }
 
@@ -634,43 +650,138 @@
       <div class="profile-name">Gabriele Marchegiani</div>
       <div class="profile-bio">Padre, creativo, appassionato di AI<br>Pescara &mdash; Adriatico</div>
       <div class="profile-divider"></div>
-      <button class="profile-menu-btn" onclick="this.classList.toggle('open');document.getElementById('profileLinks').classList.toggle('open')">
-        <span>&#x1F5C2;&nbsp; I miei link</span>
-        <span class="mbtn-arrow">&#8250;</span>
-      </button>
-      <nav class="profile-links" id="profileLinks">
+      <nav class="profile-links">
 
-        <a class="profile-link" href="#storie">
+        <!-- Storie di Alessio -->
+        <button class="acc-header" onclick="toggleAcc(this)">
           <span class="pli">&#x1F4D6;</span>
           <span class="pll">Storie di Alessio</span>
           <span class="pla">&#8250;</span>
-        </a>
+        </button>
+        <div class="acc-body">
+          <a class="acc-item" href="storie/alessioalieni_new.html" target="_blank">
+            <span class="acc-item-emoji">&#x1F30C;</span>
+            <span class="acc-item-text">Alessio e gli Alieni<span class="acc-item-sub">Galassie, segnali misteriosi e un'amicizia impossibile</span></span>
+          </a>
+          <a class="acc-item" href="storie/alessiomareversione2.html" target="_blank">
+            <span class="acc-item-emoji">&#x1F30A;</span>
+            <span class="acc-item-text">Alessio e il Mare<span class="acc-item-sub">Tartarughe, onde gentili e i fondali dell'Adriatico</span></span>
+          </a>
+          <a class="acc-item" href="storie/NonnoBerto.html" target="_blank">
+            <span class="acc-item-emoji">&#x1F41F;</span>
+            <span class="acc-item-text">Nonno Berto e il Tonno<span class="acc-item-sub">4 maggio 2026, Grado &mdash; una giornata leggendaria</span></span>
+          </a>
+          <a class="acc-item" href="storie/alessioskool.html" target="_blank">
+            <span class="acc-item-emoji">&#x1F4DA;</span>
+            <span class="acc-item-text">Alessio a Skool<span class="acc-item-sub">Amici, maestre e scoperte quotidiane</span></span>
+          </a>
+          <a class="acc-item" href="storie/alessiopescara_gsap_v2.html" target="_blank">
+            <span class="acc-item-emoji">&#x1F31E;</span>
+            <span class="acc-item-text">Pescara con GSAP<span class="acc-item-sub">Il lungomare, il gelato, i gabbiani</span></span>
+          </a>
+          <a class="acc-item" href="storie/alessiopescara_threejs.html" target="_blank">
+            <span class="acc-item-emoji">&#x2728;</span>
+            <span class="acc-item-text">Pescara in 3D<span class="acc-item-sub">Scena interattiva con Three.js e WebGL</span></span>
+          </a>
+          <a class="acc-item" href="storie/alessiopescara_animejs.html" target="_blank">
+            <span class="acc-item-emoji">&#x1F3A8;</span>
+            <span class="acc-item-text">Pescara con Anime.js<span class="acc-item-sub">La versione pi&ugrave; artistica e colorata</span></span>
+          </a>
+        </div>
 
-        <a class="profile-link" href="https://github.com/gabrimarche-code" target="_blank" rel="noopener">
+        <!-- Progetti AI -->
+        <button class="acc-header" onclick="toggleAcc(this)">
           <span class="pli">&#x1F916;</span>
           <span class="pll">Progetti AI</span>
           <span class="pla">&#8250;</span>
-        </a>
+        </button>
+        <div class="acc-body">
+          <a class="acc-item" href="#">
+            <span class="acc-item-emoji">&#x1F4AC;</span>
+            <span class="acc-item-text">Agente AI per storie<span class="acc-item-sub">Genera favole animate con Claude + Runway</span></span>
+          </a>
+          <a class="acc-item" href="#">
+            <span class="acc-item-emoji">&#x1F9E0;</span>
+            <span class="acc-item-text">Memoria persistente<span class="acc-item-sub">Sistema di memoria cross-sessione per AI</span></span>
+          </a>
+          <a class="acc-item" href="#">
+            <span class="acc-item-emoji">&#x1F399;&#xFE0F;</span>
+            <span class="acc-item-text">Podcast AI<span class="acc-item-sub">Storie audio generate con NotebookLM e ElevenLabs</span></span>
+          </a>
+        </div>
 
-        <a class="profile-link" href="#">
+        <!-- Viaggi -->
+        <button class="acc-header" onclick="toggleAcc(this)">
           <span class="pli">&#x2708;&#xFE0F;</span>
           <span class="pll">Viaggi</span>
           <span class="pla">&#8250;</span>
-        </a>
+        </button>
+        <div class="acc-body">
+          <a class="acc-item" href="#">
+            <span class="acc-item-emoji">&#x1F30A;</span>
+            <span class="acc-item-text">Pescara &mdash; Adriatico<span class="acc-item-sub">La nostra casa, il nostro mare</span></span>
+          </a>
+          <a class="acc-item" href="#">
+            <span class="acc-item-emoji">&#x1F3A3;</span>
+            <span class="acc-item-text">Grado, maggio 2026<span class="acc-item-sub">La pesca del tonno con Nonno Berto</span></span>
+          </a>
+          <a class="acc-item" href="#">
+            <span class="acc-item-emoji">&#x26F0;&#xFE0F;</span>
+            <span class="acc-item-text">Montagna, estate<span class="acc-item-sub">Boschi, sentieri e aria pulita con Alessio</span></span>
+          </a>
+        </div>
 
-        <a class="profile-link" href="https://www.facebook.com/gmarchegiani/?locale=it_IT" target="_blank" rel="noopener">
+        <!-- Fotografia -->
+        <button class="acc-header" onclick="toggleAcc(this)">
           <span class="pli">&#x1F4F7;</span>
           <span class="pll">Fotografia</span>
           <span class="pla">&#8250;</span>
-        </a>
+        </button>
+        <div class="acc-body">
+          <a class="acc-item" href="#">
+            <span class="acc-item-emoji">&#x1F9D1;&#x200D;&#x1F466;</span>
+            <span class="acc-item-text">Momenti con Alessio<span class="acc-item-sub">Ritratti di vita quotidiana e avventure</span></span>
+          </a>
+          <a class="acc-item" href="#">
+            <span class="acc-item-emoji">&#x1F305;</span>
+            <span class="acc-item-text">Paesaggi Adriatico<span class="acc-item-sub">Albe, tramonti e onde sulla costa</span></span>
+          </a>
+          <a class="acc-item" href="#">
+            <span class="acc-item-emoji">&#x1F41F;</span>
+            <span class="acc-item-text">Pesca e natura<span class="acc-item-sub">Scatti in barca, lagune e acque aperte</span></span>
+          </a>
+        </div>
 
-        <a class="profile-link" href="#contatti">
+        <!-- Contatti -->
+        <button class="acc-header" onclick="toggleAcc(this)">
           <span class="pli">&#x2709;&#xFE0F;</span>
           <span class="pll">Contatti</span>
           <span class="pla">&#8250;</span>
-        </a>
+        </button>
+        <div class="acc-body">
+          <a class="acc-item" href="mailto:gabrimarche@gmail.com">
+            <span class="acc-item-emoji">&#x1F4E7;</span>
+            <span class="acc-item-text">Email<span class="acc-item-sub">gabrimarche@gmail.com</span></span>
+          </a>
+          <a class="acc-item" href="https://www.facebook.com/gmarchegiani/?locale=it_IT" target="_blank" rel="noopener">
+            <span class="acc-item-emoji">&#x1F4CC;</span>
+            <span class="acc-item-text">Facebook<span class="acc-item-sub">Seguimi su Facebook</span></span>
+          </a>
+        </div>
 
       </nav>
+
+      <script>
+        function toggleAcc(btn) {
+          var body = btn.nextElementSibling;
+          var isOpen = btn.classList.contains('open');
+          // Chiudi tutti
+          document.querySelectorAll('.acc-header').forEach(function(h){ h.classList.remove('open'); });
+          document.querySelectorAll('.acc-body').forEach(function(b){ b.classList.remove('open'); });
+          // Apri questo se era chiuso
+          if (!isOpen) { btn.classList.add('open'); body.classList.add('open'); }
+        }
+      </script>
     </div>
   </aside>
 

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Papa Gabriele — Momenti AI</title>
+  <meta name="description" content="Gabriele Marchegiani — momenti di vita quotidiana raccontati con l'intelligenza artificiale." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --viola:       #7B5FC8;
+      --viola-light: #C4B3E8;
+      --viola-dark:  #5A3FA8;
+      --viola-foot:  #9B7FD4;
+      --crema:       #FBF2EB;
+      --beige-nav:   #F5F4EF;
+      --beige-card:  #ECE9DF;
+      --beige-div:   #D9D2BF;
+      --text:        #292929;
+      --text-sec:    #4D4D4D;
+      --oro:         #D4A843;
+      --verde:       #2D6A4F;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--crema);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* NAV */
+    nav.top-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--beige-nav);
+      box-shadow: 0px 2px 12px rgba(0,0,0,0.08);
+      height: 70px;
+      display: flex;
+      align-items: center;
+      padding: 0 44px;
+      gap: 8px;
+    }
+    .nav-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--viola-light);
+      color: var(--text);
+      border: 1.5px solid var(--viola-dark);
+      border-radius: 9999px;
+      padding: 8px 16px;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background 200ms ease-in-out;
+    }
+    .nav-back:hover { background: #b8a3df; }
+    .nav-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--viola);
+      margin-left: 8px;
+    }
+
+    /* HERO */
+    .hero {
+      max-width: 860px;
+      margin: 64px auto 0;
+      padding: 0 24px;
+      text-align: center;
+    }
+    .hero-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--beige-card);
+      border: 1px solid var(--beige-div);
+      border-radius: 9999px;
+      padding: 6px 16px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-sec);
+      margin-bottom: 24px;
+    }
+    .hero-label-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--oro);
+      display: inline-block;
+    }
+    .hero h1 {
+      font-family: 'Zilla Slab', serif;
+      font-size: clamp(36px, 6vw, 60px);
+      font-weight: 600;
+      line-height: 1.12;
+      background: linear-gradient(87deg, #8235B8 -9%, #974DCB 17%, #EF4967 73%, #D4A843 92%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 16px;
+    }
+    .hero-sub {
+      font-size: 18px;
+      color: var(--text-sec);
+      font-weight: 400;
+      max-width: 560px;
+      margin: 0 auto 48px;
+      line-height: 1.6;
+    }
+
+    /* VIDEO HERO */
+    .video-hero {
+      max-width: 720px;
+      margin: 0 auto 64px;
+      padding: 0 24px;
+    }
+    .video-wrapper {
+      background: #fff;
+      border-radius: 20px;
+      border: 2px solid var(--beige-card);
+      box-shadow: 0px 0px 12px #E8E8E8;
+      overflow: hidden;
+    }
+    .video-wrapper video {
+      width: 100%;
+      display: block;
+      border-radius: 18px;
+    }
+    .video-caption {
+      padding: 16px 20px;
+      font-size: 14px;
+      color: var(--text-sec);
+      font-style: italic;
+      text-align: center;
+      border-top: 1px solid var(--beige-div);
+    }
+
+    /* STORY */
+    .story {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 24px 96px;
+    }
+    .chapter {
+      background: #fff;
+      border-radius: 20px;
+      border: 2px solid var(--beige-card);
+      box-shadow: 0px 0px 12px #E8E8E8;
+      padding: 36px 40px;
+      margin-bottom: 24px;
+    }
+    .chapter-num {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--oro);
+      display: block;
+      margin-bottom: 10px;
+    }
+    .chapter h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(20px, 3vw, 28px);
+      font-weight: 700;
+      color: var(--viola);
+      margin-bottom: 16px;
+      line-height: 1.3;
+    }
+    .chapter p {
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+    }
+    .chapter p + p {
+      margin-top: 12px;
+    }
+
+    /* AI BADGE */
+    .ai-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #8235B8, #D4A843);
+      color: #fff;
+      border-radius: 9999px;
+      padding: 8px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 32px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--viola-foot);
+      color: #fff;
+      text-align: center;
+      padding: 40px 24px;
+      font-size: 14px;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      nav.top-nav { padding: 0 16px; }
+      .chapter { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="top-nav">
+    <a class="nav-back" href="index.html">&#8592; Torna al sito</a>
+    <span class="nav-title">Papa Gabriele</span>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-label">
+      <span class="hero-label-dot"></span>
+      Momenti reali &bull; Intelligenza artificiale
+    </div>
+    <h1>Un pomeriggio<br>con papa Gabriele</h1>
+    <p class="hero-sub">
+      Non tutte le storie hanno draghi o galassie. Alcune vivono in un ufficio tranquillo,
+      su una parete color crema, in un momento che vale la pena ricordare.
+    </p>
+  </section>
+
+  <!-- VIDEO -->
+  <div class="video-hero">
+    <div class="video-wrapper">
+      <video controls playsinline poster="">
+        <source src="video/gabri_geco.mp4" type="video/mp4" />
+        Il tuo browser non supporta il video.
+      </video>
+      <div class="video-caption">
+        Video generato con Gemini Omni Flash, dalla foto originale di Gabriele
+      </div>
+    </div>
+  </div>
+
+  <!-- STORIA -->
+  <section class="story">
+
+    <div class="chapter">
+      <span class="chapter-num">Capitolo 1</span>
+      <h2>Il silenzio dello studio</h2>
+      <p>
+        Era un pomeriggio di luglio come tanti. Gabriele sedeva sulla sua poltrona nera,
+        la giacca scura, la camicia a quadretti. Fuori il caldo ronzava pigro.
+        Dentro, solo il silenzio di chi ha pensieri grandi ma voce bassa.
+      </p>
+      <p>
+        Sul muro color crema alle sue spalle, un quadro verde: foreste viste dall'alto.
+        Un ricordo di natura, appeso li per non dimenticarla.
+      </p>
+    </div>
+
+    <div class="chapter">
+      <span class="chapter-num">Capitolo 2</span>
+      <h2>Lo sguardo che si gira</h2>
+      <p>
+        A volte bastano due secondi. Un movimento appena percepito con la coda dell'occhio.
+        Qualcosa di vivo che non dovrebbe esserci, eppure c'e.
+      </p>
+      <p>
+        Gabriele giro lentamente la testa verso il muro. Le sopracciglia si alzarono
+        appena — quella curva silenziosa che vale piu di mille parole.
+      </p>
+    </div>
+
+    <div class="chapter">
+      <span class="chapter-num">Capitolo 3</span>
+      <h2>Il geco sul muro</h2>
+      <p>
+        Piccolo, veloce, perfetto. Un geco dal basso verso l'alto, zampe minuscole
+        che sfidano la gravita con una disinvoltura antica quanto il mondo.
+      </p>
+      <p>
+        Non aveva paura. Non aveva fretta — o forse si, ma a modo suo.
+        Scalo la parete come se fosse ovvio, come se il muro fosse suo
+        e Gabriele l'ospite gradito.
+      </p>
+    </div>
+
+    <div class="chapter">
+      <span class="chapter-num">Capitolo 4</span>
+      <h2>Un momento che vale</h2>
+      <p>
+        Certi momenti non li cerchi. Arrivano da soli, tra un pensiero e l'altro,
+        e ti ricordano che la vita e piena di cose piccole e meravigliose
+        che aspettano solo di essere viste.
+      </p>
+      <p>
+        Gabriele sorriso. Quel sorriso tranquillo di chi ha capito qualcosa
+        che non sa ancora spiegare. E il geco sali, sali, sali —
+        fino a sparire oltre il bordo del quadro verde.
+      </p>
+      <div class="ai-badge">
+        Questo video e stato creato con AI &mdash; da una sola foto reale
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Papa Gabriele &mdash; <a href="index.html">Torna alle storie di Alessio</a></p>
+    <p style="margin-top:8px; opacity:0.8; font-size:12px;">
+      Video generato con Gemini Omni Flash &bull; Gabriele Marchegiani &copy; 2026
+    </p>
+  </footer>
+
+</body>
+</html>

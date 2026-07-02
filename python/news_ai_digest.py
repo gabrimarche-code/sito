@@ -41,9 +41,9 @@ YOUTUBER_HANDLES = [
 ]
 
 MODELLI_GEMINI = [
-    "gemini-2.0-flash",
-    "gemini-1.5-flash",
-    "gemini-1.5-flash-8b",
+    "gemini-2.5-flash",
+    "gemini-2.0-flash-lite",
+    "gemini-1.5-flash-latest",
 ]
 
 FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
@@ -147,7 +147,7 @@ def seleziona_top10_gemini(contenuti):
 
     for modello in MODELLI_GEMINI:
         url = (
-            "https://generativelanguage.googleapis.com/v1beta/models/"
+            "https://generativelanguage.googleapis.com/v1/models/"
             + modello
             + ":generateContent?key="
             + GEMINI_API_KEY

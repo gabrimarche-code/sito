@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI News del Giorno</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Poppins,sans-serif;background:#FBF2EB;color:#292929;min-height:100vh}
+.header{background:linear-gradient(135deg,#7B5FC8,#5A3FA8);color:white;padding:40px 24px;text-align:center}
+.header h1{font-size:28px;font-weight:700;margin-bottom:8px}
+.header p{font-size:15px;opacity:.85}
+.container{max-width:760px;margin:0 auto;padding:32px 16px}
+.selettore{background:white;border-radius:16px;border:2px solid #E8E4D9;padding:20px 24px;margin-bottom:28px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 0 12px #E8E8E8}
+.selettore label{font-weight:600;font-size:14px;color:#4D4D4D}
+select{border:1.5px solid #C4B3E8;border-radius:9999px;padding:8px 20px;font-family:Poppins,sans-serif;font-size:14px;color:#292929;background:white;cursor:pointer;outline:none}
+select:focus{border-color:#7B5FC8}
+.giorno{display:none}
+.giorno.attivo{display:block}
+.notizia{background:white;border-radius:20px;border:2px solid #E8E4D9;padding:24px;margin-bottom:16px;box-shadow:0 0 12px #E8E8E8}
+.notizia-fonte{font-size:11px;font-weight:700;color:#7B5FC8;text-transform:uppercase;letter-spacing:.8px;margin-bottom:8px}
+.notizia-titolo{font-size:17px;font-weight:700;color:#292929;margin-bottom:12px;line-height:1.4}
+.notizia-riassunto{font-size:14px;color:#4D4D4D;line-height:1.75;margin-bottom:16px}
+.notizia-link{display:inline-block;background:#7B5FC8;color:white;border-radius:9999px;padding:8px 20px;font-size:13px;font-weight:600;text-decoration:none;transition:background .2s}
+.notizia-link:hover{background:#5A3FA8}
+.footer{text-align:center;padding:32px;color:#4D4D4D;font-size:13px}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>AI News del Giorno</h1>
+  <p>Le 10 notizie piu importanti su AI, tool e tecnologia &mdash; selezionate da Gemini ogni giorno alle 18:00</p>
+</div>
+<div class="container">
+  <div class="selettore">
+    <label>Archivio date:</label>
+    <select id="sel" onchange="mostra(this.value)">
+      <option value="2026-07-02">02/07/2026</option>
+
+    </select>
+  </div>
+  <div class="giorno" data-date="2026-07-02">
+<div class="notizia">
+  <div class="notizia-fonte">OpenAI Blog</div>
+  <div class="notizia-titolo">OpenAI presenta GPT-5.6 Sol, il suo modello AI di prossima generazione</div>
+  <div class="notizia-riassunto">OpenAI ha annunciato l'anteprima del suo nuovo modello di linguaggio, GPT-5.6 Sol, promettendo capacità ancora più avanzate rispetto ai suoi predecessori. Questo significa che presto avremo a disposizione un'AI ancora più intelligente e versatile, capace di comprendere e generare testi in modi che prima non erano possibili, aprendo nuove frontiere per le applicazioni pratiche.</div>
+  <a href="https://openai.com/index/previewing-gpt-5-6-sol/" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">OpenAI Blog</div>
+  <div class="notizia-titolo">OpenAI pubblica la 'System Card' di GPT-5.6 Sol, con dettagli sul nuovo modello</div>
+  <div class="notizia-riassunto">Insieme all'annuncio del nuovo modello GPT-5.6 Sol, OpenAI ha rilasciato anche la sua "System Card". Questo documento è super importante perché spiega le misure di sicurezza, le potenziali limitazioni e le linee guida etiche adottate per il modello. È un modo per capire meglio come funzionerà questa nuova AI e quali sono le sue implicazioni, soprattutto per un uso responsabile.</div>
+  <a href="https://openai.com/index/system-card-for-gpt-5-6-sol/" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">Ars Technica AI</div>
+  <div class="notizia-titolo">Anthropic lancia globalmente i suoi modelli AI Fable e Mythos dopo i test di sicurezza</div>
+  <div class="notizia-riassunto">Anthropic, un'altra azienda leader nel campo dell'AI, ha finalmente reso disponibili a livello globale i suoi avanzati modelli AI, Fable e Mythos. Questi modelli erano stati sottoposti a rigorosi test di sicurezza, anche a seguito di preoccupazioni da parte di figure importanti, come l'ex presidente Trump. Ora che sono stati rilasciati, promettono di offrire nuove capacità nel campo dell'intelligenza artificiale generativa per sviluppatori e aziende in tutto il mondo.</div>
+  <a href="https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">VentureBeat AI</div>
+  <div class="notizia-titolo">Z-AI presenta ZCode per sfidare i giganti dell'AI nella programmazione</div>
+  <div class="notizia-riassunto">È arrivato un nuovo sfidante nel mondo degli assistenti AI per la programmazione! Z-AI ha lanciato ZCode, un tool progettato per competere con nomi già affermati come GitHub Copilot, Cursor e Claude Code. Se ti piace ottimizzare il codice e automatizzare il processo di sviluppo, questo potrebbe essere un nuovo strumento potentissimo da esplorare per aumentare la tua produttività.</div>
+  <a href="https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">Tom's Hardware Italia</div>
+  <div class="notizia-titolo">Meta entra nel cloud AI, più capacità anche per le imprese europee</div>
+  <div class="notizia-riassunto">Meta, l'azienda dietro Facebook, si sta lanciando nel mercato del cloud computing AI, offrendo la sua capacità di calcolo inutilizzata anche alle imprese europee. Questo è un grosso passo perché significa più potenza di calcolo disponibile per chi vuole sviluppare e utilizzare l'intelligenza artificiale, rendendo l'AI più accessibile e competitiva per tutti.</div>
+  <a href="https://www.tomshw.it/business/meta-entra-nel-cloud-ai-piu-capacita-anche-per-le-imprese-europee" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">VentureBeat AI</div>
+  <div class="notizia-titolo">Google ridisegna la sua barra di ricerca dopo 25 anni, con implicazioni AI</div>
+  <div class="notizia-riassunto">Per la prima volta in 25 anni, Google ha rivoluzionato l'aspetto e probabilmente le funzionalità della sua iconica barra di ricerca. Questo cambiamento è un segnale forte che l'AI sta trasformando anche il modo in cui cerchiamo informazioni online. Aspettiamoci integrazioni più profonde con l'intelligenza artificiale per risposte più smart e contestuali, un vero cambio di paradigma nell'interazione quotidiana con Google.</div>
+  <a href="https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">Ars Technica AI</div>
+  <div class="notizia-titolo">Nuovo attacco rivela vulnerabilità nei browser basati su AI</div>
+  <div class="notizia-riassunto">Una ricerca ha evidenziato nuove vulnerabilità nei "browser AI", cioè quei sistemi che integrano modelli di linguaggio avanzati. È stato dimostrato che basta un'affermazione semplice ma errata, come "2 + 2 = 5", per indurre l'AI a bypassare le sue misure di sicurezza e seguire istruzioni proibite. Questo è un campanello d'allarme importante per la sicurezza e l'affidabilità delle applicazioni AI che interagiscono direttamente con gli utenti.</div>
+  <a href="https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">OpenAI Blog</div>
+  <div class="notizia-titolo">OpenAI introduce GeneBench-Pro, un nuovo strumento per la ricerca genetica con AI</div>
+  <div class="notizia-riassunto">OpenAI ha presentato GeneBench-Pro, uno strumento di ricerca che applica l'intelligenza artificiale alla genetica. Questo tool promette di accelerare la scoperta scientifica in campi complessi come la biologia e la medicina, automatizzando analisi e offrendo nuove prospettive su dati genetici. È un esempio concreto di come l'AI stia rivoluzionando anche la ricerca scientifica avanzata.</div>
+  <a href="https://openai.com/index/introducing-genebench-pro/" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">OpenAI Blog</div>
+  <div class="notizia-titolo">HP adotta l'AI su larga scala per migliorare le sue operazioni aziendali</div>
+  <div class="notizia-riassunto">HP sta integrando massicciamente l'intelligenza artificiale nelle sue operazioni aziendali per ottimizzare vari processi. Questa mossa dimostra come le grandi aziende stiano puntando sull'AI per migliorare l'efficienza, l'automazione e la gestione, mostrando che le "early wins" dell'AI possono essere scalate per generare benefici concreti in un contesto enterprise.</div>
+  <a href="https://openai.com/index/hp-frontier-partnership/" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">Tom's Hardware Italia</div>
+  <div class="notizia-titolo">La verità sporca dietro l'IA nel nuovo episodio di Storie Invisibili</div>
+  <div class="notizia-riassunto">Questo nuovo episodio del podcast "Storie Invisibili" si propone di esplorare gli aspetti meno noti e potenzialmente problematici dell'intelligenza artificiale. È un'occasione per approfondire le sfide etiche, i bias o le complicazioni pratiche che possono emergere con l'adozione diffusa dell'AI, offrendo una prospettiva critica e approfondita su una tecnologia che non è sempre perfetta.</div>
+  <a href="https://www.tomshw.it/hardware/la-verita-sporca-dietro-lia-nel-nuovo-episodio-di-storie-invisibili" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div></div>
+
+</div>
+<div class="footer">Aggiornato automaticamente ogni giorno alle 18:00 &bull; Powered by Gemini AI + Firecrawl</div>
+<script>
+function mostra(d){
+  document.querySelectorAll('.giorno').forEach(g=>g.classList.remove('attivo'));
+  var el=document.querySelector('.giorno[data-date="'+d+'"]');
+  if(el)el.classList.add('attivo');
+}
+mostra('2026-07-02');
+</script>
+</body>
+</html>

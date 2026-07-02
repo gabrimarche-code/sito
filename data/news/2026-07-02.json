@@ -2,64 +2,74 @@
   "data": "2026-07-02",
   "notizie": [
     {
-      "titolo": "Anteprima di GPT-5.6 Sol: un modello di prossima generazione",
+      "titolo": "OpenAI presenta in anteprima GPT-5.6 Sol, il suo modello di prossima generazione",
       "fonte": "OpenAI Blog",
       "link": "https://openai.com/index/previewing-gpt-5-6-sol/",
-      "riassunto": "OpenAI ha offerto un'anteprima del suo prossimo modello di linguaggio avanzato, chiamato GPT-5.6 Sol. Questo modello di nuova generazione promette di portare miglioramenti significativi nelle capacità dell'intelligenza artificiale, rendendo le interazioni più sofisticate, accurate e utili, e aprendo nuove possibilità per applicazioni pratiche e automazioni in vari settori."
+      "data": "26/06/2026",
+      "riassunto": "OpenAI ha annunciato l'anteprima di GPT-5.6 Sol, il suo nuovo modello di linguaggio di prossima generazione. Questo è un passo avanti importante per l'intelligenza artificiale, promettendo capacità migliorate e nuove funzionalità che potrebbero rivoluzionare ulteriormente l'interazione con le IA. Sarà entusiasmante vedere come evolverà l'IA generativa con questo nuovo modello."
     },
     {
-      "titolo": "Il progetto DwarfStar permette di eseguire modelli AI avanzati come DeepSeek v4 su hardware consumer",
-      "fonte": "YouTube @simone_rizzo98",
-      "link": "https://www.youtube.com/shorts/kT0bNRpANGE",
-      "riassunto": "Un nuovo progetto chiamato DwarfStar, ideato da Salvatore SanFilippo (il creatore di Redis), sta rendendo l'intelligenza artificiale avanzata più accessibile a tutti. Permette agli utenti di far girare modelli AI potenti come DeepSeek v4 direttamente sui propri computer personali, senza dover dipendere da servizi cloud costosi o hardware super specializzato, democratizzando l'uso dell'AI locale."
+      "titolo": "I modelli AI di Anthropic, Fable e Mythos, sono ora disponibili a livello globale",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
+      "data": "01/07/2026",
+      "riassunto": "Anthropic ha rilasciato a livello globale i suoi avanzati modelli di intelligenza artificiale, Fable e Mythos. Questo significa che più persone e aziende potranno accedere e utilizzare questi potenti LLM. È un passo importante per la diffusione e l'adozione di AI sempre più sofisticate, dopo i test di sicurezza che avevano coinvolto anche figure politiche."
     },
     {
-      "titolo": "Gli \"Agentic Loops\" potrebbero sostituire i prompt nell'interazione con l'AI entro il 2027",
+      "titolo": "Agentic Loops: il futuro dell'IA che sostituirà i prompt nel 2027",
       "fonte": "YouTube @AntonioGuadagnoAI",
       "link": "https://www.youtube.com/watch?v=WKv7nMyxOUk",
-      "riassunto": "L'inventore di Claude Code prevede che entro il 2027 gli \"agentic loops\" prenderanno il posto dei prompt tradizionali nell'uso dell'AI. Questa tecnologia permette agli agenti AI di controllare autonomamente il proprio lavoro e correggere gli errori, delegando compiti complessi all'AI senza la necessità di un'interazione costante. Questo rivoluzionerà il modo in cui lavoriamo con l'intelligenza artificiale, rendendola molto più autonoma."
+      "data": "25/06/2026",
+      "riassunto": "Secondo l'inventore di Claude Code, gli \"agentic loops\" cambieranno il modo in cui interagiamo con l'IA, superando i tradizionali prompt entro il 2027. Questo video spiega cosa sono e come crearli con Claude Code e Codex per delegare compiti complessi. L'IA potrà controllare il proprio lavoro e correggere errori in autonomia, rendendola molto più efficiente."
     },
     {
-      "titolo": "Claude per Excel: l'add-in che crea modelli finanziari in pochi minuti senza formule",
+      "titolo": "Il progetto DwarfStar permette di eseguire DeepSeek v4 su hardware consumer, democratizzando l'AI locale",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/kT0bNRpANGE",
+      "data": "30/06/2026",
+      "riassunto": "Il nuovo progetto DwarfStar di Salvatore SanFilippo rende accessibile l'IA di frontiera, come DeepSeek v4, anche sui computer di casa. Questo è un \"game changer\" perché democratizza l'accesso all'intelligenza artificiale locale, permettendo a chiunque di sperimentare modelli avanzati senza la necessità di hardware costosissimo o servizi cloud."
+    },
+    {
+      "titolo": "GLM 5.2 ora funziona in locale con quantizzazione a 1-bit per la massima efficienza",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/4zKwQ7OXkGI",
+      "data": "29/06/2026",
+      "riassunto": "Una notizia super interessante per chi ama l'AI locale! Il modello GLM 5.2 può ora girare sul tuo hardware con una quantizzazione a 1-bit. Questo significa che l'IA è incredibilmente efficiente, richiede meno risorse e rende i modelli molto più veloci. È un passo avanti per l'utilizzo pratico e diffuso dell'intelligenza artificiale sui nostri dispositivi."
+    },
+    {
+      "titolo": "Claude per Excel: crea modelli finanziari completi in 10 minuti senza formule grazie al nuovo add-in",
       "fonte": "YouTube @gabrysolution",
       "link": "https://www.youtube.com/watch?v=D0-3j6D0GaQ",
-      "riassunto": "Claude ha rilasciato un nuovo componente aggiuntivo per Excel che rivoluziona la creazione di modelli finanziari. Ora è possibile costruire fogli di calcolo complessi, inclusi calcoli di ricavi mensili ricorrenti, tassi di abbandono, utili e grafici, semplicemente usando prompt testuali. Non è più necessario scrivere una singola formula, il che promette di accelerare notevolmente il lavoro di chiunque operi con dati e analisi finanziarie."
+      "data": "29/06/2026",
+      "riassunto": "Claude ha rilasciato un add-in ufficiale per Excel che cambia le regole del gioco per l'analisi dei dati. Puoi costruire modelli finanziari complessi, come quelli per le SaaS, in pochissimi minuti e senza scrivere una singola formula, solo con i prompt. È una svolta incredibile per la produttività e l'automazione in azienda e per chi lavora con i fogli di calcolo."
     },
     {
-      "titolo": "Printing Press: lo strumento per connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "titolo": "Printing Press: il nuovo strumento per connettere agenti AI a qualsiasi piattaforma, anche senza API",
       "fonte": "YouTube @lorenzodelia125",
       "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
-      "riassunto": "Il video presenta Printing Press, un nuovo strumento ingegnoso che risolve il problema di collegare agenti AI a piattaforme che non offrono API pubbliche o connettori standard. Permette di creare interfacce a riga di comando (CLI) personalizzate, connettendo l'AI a quasi ogni servizio. Questo apre nuove possibilità per l'automazione e la produttività, consentendo all'intelligenza artificiale di interagire anche con software che prima erano isolati."
+      "data": "21/05/2026",
+      "riassunto": "Hai presente quando un'app non ha un connettore o delle API pubbliche per l'IA? Printing Press risolve proprio questo problema! È un tool che ti permette di creare delle interfacce a riga di comando (CLI) per collegare i tuoi agenti AI a qualsiasi piattaforma, anche quelle più \"chiuse\". Questo apre un mondo di nuove possibilità per le automazioni e l'integrazione dell'IA."
     },
     {
-      "titolo": "SpokiApp integra un Agente AI per automatizzare la gestione clienti su WhatsApp",
-      "fonte": "YouTube @aclasio",
-      "link": "https://www.youtube.com/shorts/A3e8l4pbNts",
-      "riassunto": "Il video presenta SpokiApp, un nuovo tool che risolve il problema della gestione manuale dei clienti su WhatsApp integrando un Agente AI. Questo assistente virtuale pre-qualifica i potenziali clienti e gestisce le prime interazioni anche dopo l'orario di lavoro, assicurando che nessun potenziale cliente venga perso a causa della mancata risposta immediata. È una soluzione di automazione pratica per le aziende che vogliono migliorare il servizio clienti e la produttività."
+      "titolo": "Anthropic lancia Claude for Small Business, un plugin per integrare l'AI nelle PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsUOU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha lanciato \"Claude for Small Business\", un pacchetto di connettori e workflow preconfigurati per portare Claude all'interno delle piccole e medie imprese con pochi clic. Include 31 skill e 12 connettori per strumenti popolari come Gmail e Microsoft 365. Un'ottima notizia per le PMI che vogliono sfruttare l'AI per migliorare la propria produttività."
     },
     {
-      "titolo": "Sfruttare Claude al massimo: 5 lavori completi che puoi delegare all'AI, dai file alle presentazioni",
-      "fonte": "YouTube @VantaggioArtificiale",
-      "link": "https://www.youtube.com/watch?v=AFuOf90DFEk",
-      "riassunto": "Questo video dimostra come Claude possa essere utilizzato ben oltre una semplice chat, delegandogli compiti complessi e completi. Vengono mostrati cinque esempi pratici, dall'organizzazione di riunioni all'analisi di grandi set di dati, dalla revisione di proposte alla creazione di presentazioni PowerPoint e persino di applicazioni interattive, tutto usando Claude per lavorare direttamente sui tuoi file, con prompt efficaci e tempi reali."
-    },
-    {
-      "titolo": "Un magnate indiano investe 30 milioni di dollari per creare un'alternativa a Microsoft Office basata sull'AI",
-      "fonte": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
-      "riassunto": "Un ricco imprenditore indiano ha deciso di investire una grossa somma di denaro, ben 30 milioni di dollari, per sviluppare una suite di strumenti per l'ufficio che funzioni come alternativa a Microsoft Office, ma completamente integrata con l'intelligenza artificiale. L'obiettivo è rivoluzionare la produttività lavorativa, rendendo le attività d'ufficio più efficienti e smart grazie all'AI."
-    },
-    {
-      "titolo": "Z-AI lancia Zcode, un nuovo tool AI per la programmazione che sfida i giganti del settore",
+      "titolo": "Google ridisegna la barra di ricerca per la prima volta in 25 anni",
       "fonte": "VentureBeat AI",
-      "link": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
-      "riassunto": "Una nuova azienda chiamata Z-AI ha presentato il suo strumento, Zcode, progettato per aiutare i programmatori usando l'intelligenza artificiale. Questo nuovo tool si propone di competere con soluzioni già note e apprezzate come Cursor, Claude Code e GitHub Copilot, offrendo nuove funzionalità e approcci per rendere lo sviluppo di software più efficiente e automatico, aiutando a scrivere codice più velocemente."
+      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "data": "19/05/2026",
+      "riassunto": "Dopo un quarto di secolo, Google sta per rivoluzionare la sua storica barra di ricerca. Questo cambiamento è più significativo di quanto sembri, probabilmente integrando direttamente l'intelligenza artificiale generativa per fornire risposte più complete e contestuali. È un'evoluzione fondamentale per il modo in cui cerchiamo informazioni online e interagiamo con il motore di ricerca più usato al mondo."
     },
     {
-      "titolo": "Come ottenere 3 certificazioni AI ufficiali e gratuite da Nvidia, Amazon AWS e IBM",
-      "fonte": "YouTube @gabrysolution",
-      "link": "https://www.youtube.com/shorts/lVO1WGCYBW8",
-      "riassunto": "Non è più necessario spendere cifre elevate per imparare l'intelligenza artificiale. Questo video rivela tre certificazioni ufficiali offerte gratuitamente dai giganti tech Nvidia, Amazon AWS e IBM. Coprono argomenti come Deep Learning, AI Generativa e Machine Learning, offrendo percorsi formativi completi e la possibilità di ottenere un certificato riconosciuto, potenziando le proprie skill digitali a costo zero."
+      "titolo": "Z-AI lancia Zcode, un nuovo modello AI per la codifica che sfida i giganti del settore",
+      "fonte": "TechCrunch AI",
+      "link": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
+      "data": "",
+      "riassunto": "Z-AI ha lanciato Zcode, un nuovo strumento basato sull'intelligenza artificiale progettato per competere con i leader nell'assistenza alla codifica, come Cursor, Claude Code e GitHub Copilot. Questa novità promette di migliorare l'efficienza degli sviluppatori e di offrire nuove soluzioni per la scrittura del codice. È un segnale che il campo dell'AI per la programmazione è in rapida evoluzione e molto competitivo."
     }
   ]
 }

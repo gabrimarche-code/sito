@@ -412,12 +412,6 @@ def main():
     # 4. Aggiorna pagina sito
     genera_html_archivio()
 
-    # 5. Invia email
-    print("\nInvio email...")
-    creds = get_credentials()
-    service = build("gmail", "v1", credentials=creds)
-    invia_email(service, notizie)
-
     print("\n=== COMPLETATO ===")
 
 

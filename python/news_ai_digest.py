@@ -110,7 +110,7 @@ def scrapa_sito(sito):
         )
         data = r.json()
         if data.get("success"):
-            testo = data.get("data", {}).get("markdown", "")[:4000]
+            testo = data.get("data", {}).get("markdown", "")[:1500]
             print(f"  Firecrawl OK: {sito['nome']} ({len(testo)} chars)")
             return {"fonte": sito["nome"], "url": sito["url"], "contenuto": testo}
     except Exception as e:
@@ -153,7 +153,7 @@ def seleziona_top10_gemini(contenuti):
             + GEMINI_API_KEY
         )
         try:
-            r = requests.post(url, json=payload, timeout=90)
+            r = requests.post(url, json=payload, timeout=120)
             testo = (
                 r.json()
                 .get("candidates", [{}])[0]

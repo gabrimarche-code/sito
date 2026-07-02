@@ -32,7 +32,7 @@ SITI_NEWS = [
 YOUTUBER_CHANNELS = {
     "raffaelegaito": "UCrebGs3b-Z7JLKQM2YOpUKA",
     "simone_rizzo98": "UCbMlkb79E12CwveGAtdFj-A",
-    "michelecotti": "UChFrnbICKRs71v0VfW53oJA",
+    "michelecottiai": "UCdCpMFAeBo7nf-tmiVvQrJg",
     "antonioguadagno": "UCoQxOfhVjTdtZUDnR8-YDvg",
     "giovannibeggiato": "UCQbrJm-05Er6plcuNoVhuOw",
     "giuseppecastagna": "UCAFhdtRnKRqJQI7ht1Puo9Q",

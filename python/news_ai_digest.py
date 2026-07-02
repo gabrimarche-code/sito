@@ -154,8 +154,14 @@ def seleziona_top10_gemini(contenuti):
         )
         try:
             r = requests.post(url, json=payload, timeout=120)
+            print(f"Gemini {modello} status: {r.status_code}")
+            risposta = r.json()
+            if r.status_code != 200:
+                print(f"Gemini errore API: {risposta}")
+                time.sleep(2)
+                continue
             testo = (
-                r.json()
+                risposta
                 .get("candidates", [{}])[0]
                 .get("content", {})
                 .get("parts", [{}])[0]
@@ -164,6 +170,7 @@ def seleziona_top10_gemini(contenuti):
             if testo:
                 print(f"Gemini OK ({modello})")
                 return testo
+            print(f"Gemini risposta vuota: {risposta}")
         except Exception as e:
             print(f"Gemini errore {modello}: {e}")
             time.sleep(2)

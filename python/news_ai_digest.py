@@ -29,16 +29,16 @@ SITI_NEWS = [
     {"nome": "OpenAI Blog", "url": "https://openai.com/news/"},
 ]
 
-YOUTUBER_HANDLES = [
-    "raffaelegaito",
-    "simonerizzo",
-    "michelecotti",
-    "antonioguadagno",
-    "giovannibeggiato",
-    "giuseppecastagna",
-    "lorenzodelia",
-    "gabrysolution",
-]
+YOUTUBER_CHANNELS = {
+    "raffaelegaito": "UCrebGs3b-Z7JLKQM2YOpUKA",
+    "simone_rizzo98": "UCbMlkb79E12CwveGAtdFj-A",
+    "michelecotti": "UChFrnbICKRs71v0VfW53oJA",
+    "antonioguadagno": "UCoQxOfhVjTdtZUDnR8-YDvg",
+    "giovannibeggiato": "UCQbrJm-05Er6plcuNoVhuOw",
+    "giuseppecastagna": "UCAFhdtRnKRqJQI7ht1Puo9Q",
+    "lorenzodelia": "UCoCSwUjr9SHSRiOBOzhkjGQ",
+    "gabrysolution": "UC8oBIE88TrCD1b-gnVqXzgw",
+}
 
 MODELLI_GEMINI = [
     "gemini-2.5-flash",
@@ -52,22 +52,7 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 # === YOUTUBE RSS ===
 
-def get_channel_id(handle):
-    try:
-        url = f"https://www.youtube.com/@{handle}"
-        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
-        match = re.search(r'"channelId":"(UC[a-zA-Z0-9_-]{22})"', r.text)
-        if match:
-            return match.group(1)
-    except Exception:
-        pass
-    return None
-
-def get_video_recenti(handle):
-    channel_id = get_channel_id(handle)
-    if not channel_id:
-        print(f"  Channel ID non trovato per: {handle}")
-        return []
+def get_video_recenti(handle, channel_id):
     feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
     try:
         r = requests.get(feed_url, timeout=15)
@@ -91,7 +76,7 @@ def get_video_recenti(handle):
         print(f"  YouTube @{handle}: {len(risultati)} video trovati")
         return risultati
     except Exception as e:
-        print(f"  Errore RSS {handle}: {e}")
+        print(f"  Errore RSS @{handle}: {e}")
         return []
 
 
@@ -385,8 +370,8 @@ def main():
         time.sleep(1)
 
     print("\nRecupero video YouTube via RSS...")
-    for handle in YOUTUBER_HANDLES:
-        video = get_video_recenti(handle)
+    for handle, channel_id in YOUTUBER_CHANNELS.items():
+        video = get_video_recenti(handle, channel_id)
         contenuti.extend(video)
         time.sleep(0.5)
 

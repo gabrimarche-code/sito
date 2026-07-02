@@ -30,14 +30,16 @@ SITI_NEWS = [
 ]
 
 YOUTUBER_CHANNELS = {
-    "raffaelegaito": "UCrebGs3b-Z7JLKQM2YOpUKA",
+    "RaffaeleGaito": "UCrebGs3b-Z7JLKQM2YOpUKA",
     "simone_rizzo98": "UCbMlkb79E12CwveGAtdFj-A",
-    "michelecottiai": "UCdCpMFAeBo7nf-tmiVvQrJg",
-    "antonioguadagno": "UCoQxOfhVjTdtZUDnR8-YDvg",
+    "AntonioGuadagnoAI": "UCAFhdtRnKRqJQI7ht1Puo9Q",
     "giovannibeggiato": "UCQbrJm-05Er6plcuNoVhuOw",
-    "giuseppecastagna": "UCAFhdtRnKRqJQI7ht1Puo9Q",
-    "lorenzodelia": "UCoCSwUjr9SHSRiOBOzhkjGQ",
+    "gcastagna": "UCFermqARa66pnGJVV1PnYGA",
     "gabrysolution": "UC8oBIE88TrCD1b-gnVqXzgw",
+    "GiulioMichelon": "UCwkM5ziXQsnI422lEwZViwg",
+    "aclasio": "UCoZx0L3xyfhmSr0Vabu4G_g",
+    "lorenzodelia125": "UCA8V_dXrkT8DbuCCARrNzcQ",
+    "VantaggioArtificiale": "UChBdbETbc6tcveqbKtIMG_w",
 }
 
 MODELLI_GEMINI = [

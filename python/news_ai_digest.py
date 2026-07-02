@@ -69,11 +69,20 @@ def get_video_recenti(handle, channel_id):
             link = entry.find("atom:link", ns).attrib.get("href", "")
             desc_el = entry.find(".//media:description", ns)
             descrizione = (desc_el.text or "")[:600] if desc_el is not None else ""
+            pub_el = entry.find("atom:published", ns)
+            data_pub = ""
+            if pub_el is not None and pub_el.text:
+                try:
+                    dt = datetime.fromisoformat(pub_el.text.replace("Z", "+00:00"))
+                    data_pub = dt.strftime("%d/%m/%Y")
+                except Exception:
+                    pass
             risultati.append({
                 "fonte": f"YouTube @{handle}",
                 "titolo": titolo,
                 "contenuto": descrizione,
                 "url": link,
+                "data": data_pub,
             })
         print(f"  YouTube @{handle}: {len(risultati)} video trovati")
         return risultati
@@ -111,7 +120,7 @@ def seleziona_top10_gemini(contenuti):
     blocchi = []
     for c in contenuti:
         blocchi.append(
-            f"=== FONTE: {c['fonte']} ===\nURL: {c['url']}\n{c['contenuto']}"
+            f"=== FONTE: {c['fonte']} ===\nURL: {c['url']}\nDATA: {c.get('data','')}\n{c['contenuto']}"
         )
 
     prompt = (
@@ -124,6 +133,7 @@ def seleziona_top10_gemini(contenuti):
         "- TITOLO: [titolo chiaro in italiano]\n"
         "- FONTE: [nome della fonte]\n"
         "- LINK: [URL originale completo]\n"
+        "- DATA: [data di pubblicazione nel formato GG/MM/AAAA, o lascia vuoto se non disponibile]\n"
         "- RIASSUNTO: [3-4 righe in italiano semplice, come se lo spiegassi a un amico non tecnico]\n\n"
         "Separa ogni notizia con una riga che contiene solo: ---\n\n"
         "Seleziona esattamente 10 notizie (o meno se i contenuti rilevanti sono insufficienti).\n\n"
@@ -186,6 +196,9 @@ def parse_notizie(testo):
             elif riga.startswith("- LINK:"):
                 n["link"] = riga.replace("- LINK:", "").strip()
                 in_riassunto = False
+            elif riga.startswith("- DATA:"):
+                n["data"] = riga.replace("- DATA:", "").strip()
+                in_riassunto = False
             elif riga.startswith("- RIASSUNTO:"):
                 righe_riassunto = [riga.replace("- RIASSUNTO:", "").strip()]
                 in_riassunto = True
@@ -234,7 +247,7 @@ def genera_html_archivio():
             link = n.get("link", "#")
             notizie_html += f"""
 <div class="notizia">
-  <div class="notizia-fonte">{n.get("fonte","")}</div>
+  <div class="notizia-fonte">{n.get("fonte","")}{(" &bull; " + n["data"]) if n.get("data") else ""}</div>
   <div class="notizia-titolo">{n.get("titolo","")}</div>
   <div class="notizia-riassunto">{n.get("riassunto","")}</div>
   <a href="{link}" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>

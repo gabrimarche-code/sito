@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-04",
+  "notizie": [
+    {
+      "titolo": "Preview di GPT-5.6 Sol: un modello di prossima generazione",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "data": "26/06/2026",
+      "riassunto": "OpenAI ha annunciato l'anteprima di GPT-5.6 Sol, il suo prossimo modello di linguaggio all'avanguardia. Questo significa che l'intelligenza artificiale farà un altro grande passo avanti in termini di capacità e comprensione, promettendo interazioni più complesse e risultati ancora più accurati. È una notizia entusiasmante per chi aspetta le nuove evoluzioni degli LLM."
+    },
+    {
+      "titolo": "DeepSeek DSpark accelera l'inferenza degli LLM fino all'85%",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=-tjdRPUDDs4",
+      "data": "03/07/2026",
+      "riassunto": "DeepSeek ha rilasciato DSpark, una tecnologia che migliora drasticamente la velocità con cui i modelli di linguaggio generano risposte, arrivando fino all'85% di accelerazione. Questo significa che le AI potranno elaborare le tue richieste molto più velocemente, rendendo l'esperienza d'uso più fluida e riducendo i tempi di attesa. Un bel boost alla produttività degli LLM!"
+    },
+    {
+      "titolo": "DwarfStar democratizza l'AI locale con DeepSeek v4 su hardware consumer",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/kT0bNRpANGE",
+      "data": "30/06/2026",
+      "riassunto": "Il nuovo progetto DwarfStar, ideato da Salvatore SanFilippo, permette di far girare modelli avanzati come DeepSeek v4 direttamente sul tuo computer di casa, senza bisogno di server potenti. Questa è una notizia fantastica perché rende l'intelligenza artificiale più accessibile a tutti, permettendo di sperimentare con AI di frontiera in locale, garantendo maggiore privacy e controllo."
+    },
+    {
+      "titolo": "Agentic Loops: il futuro dell'AI che sostituirà i prompt",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=WKv7nMyxOUk",
+      "data": "25/06/2026",
+      "riassunto": "Dimentica i prompt, perché entro il 2027 potremmo usare gli \"agentic loops\". L'inventore di Claude Code spiega che questo approccio permette all'AI di controllare il proprio lavoro, correggere gli errori e agire in autonomia, quasi come un assistente che si auto-gestisce. Sarà un modo completamente nuovo per delegare compiti all'intelligenza artificiale, rendendo le automazioni molto più potenti e indipendenti."
+    },
+    {
+      "titolo": "Il metodo Karpathy per scrivere prompt efficienti con qualsiasi AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=nLgg4N5wrP8",
+      "data": "02/07/2026",
+      "riassunto": "Andrej Karpathy, co-fondatore di OpenAI, ha condiviso un metodo rivoluzionario per interagire con AI come Claude e ChatGPT, dieci volte più velocemente. Si basa su tre livelli (SPEC, Verificatore e Ambiente) che ti aiutano a fornire all'AI il contesto giusto, a controllare la qualità dell'output e a creare un ambiente di lavoro ideale. Questo ti permetterà di ottenere risultati migliori e in meno tempo."
+    },
+    {
+      "titolo": "Claude per Excel: modelli finanziari in 10 minuti senza formule",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=D0-3j6D0GaQ",
+      "data": "29/06/2026",
+      "riassunto": "Claude ha lanciato un nuovo add-in per Excel che cambia le regole del gioco per chi lavora con i fogli di calcolo. Ora puoi creare modelli finanziari complessi, analisi di dati e grafici in pochi minuti, senza scrivere una singola formula. Basta usare semplici prompt per chiedere a Claude di costruire e sviluppare i tuoi report, un vero acceleratore di produttività."
+    },
+    {
+      "titolo": "Agente AI su WhatsApp: automatizza la gestione clienti con Spoki",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/A3e8l4pbNts",
+      "data": "23/06/2026",
+      "riassunto": "È ora possibile creare un agente AI direttamente su WhatsApp per gestire i tuoi clienti in modo automatico. Questo tool, sviluppato con Spoki, può preparare i tuoi potenziali clienti prima di una chiamata o rispondere a domande frequenti, garantendo una presenza costante anche al di fuori dell'orario lavorativo. È un modo intelligente per non perdere opportunità e migliorare l'assistenza clienti."
+    },
+    {
+      "titolo": "Printing Press: collega Agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che permette agli agenti AI di interagire con qualsiasi piattaforma, anche quelle che non offrono API pubbliche (cioè \"connettori\" ufficiali). Questo avviene creando delle interfacce a riga di comando (CLI). È una soluzione super utile per estendere le capacità di automazione degli Agenti AI a un numero illimitato di tool, risparmiando tempo e token."
+    },
+    {
+      "titolo": "Claude for Small Business: il plugin di Anthropic per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hs2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha lanciato \"Claude for Small Business\", un pacchetto di plugin, connettori e workflow basati su agenti AI, pensato su misura per le piccole e medie imprese. Include 31 skill e 12 connettori pronti all'uso per integrare Claude con strumenti come Gmail, Google Drive e Microsoft 365, rendendo l'AI immediatamente utile per la produttività aziendale."
+    },
+    {
+      "titolo": "Claude Cowork: l'AI che automatizza la gestione delle fatture",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=jvblHDDJkA8",
+      "data": "02/07/2026",
+      "riassunto": "Claude Cowork ti permette di automatizzare completamente la gestione delle fatture, sia quelle ricevute che quelle emesse. L'AI può organizzare, rinominare e archiviare centinaia di documenti (anche da foto o scansioni), aggiornare fogli Excel e individuare eventuali duplicati. È un assistente virtuale perfetto per liberarsi da lunghe e noiose attività amministrative."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-05",
+  "notizie": [
+    {
+      "titolo": "Anteprima di GPT-5.6 Sol: il modello di prossima generazione di OpenAI",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "data": "26/06/2026",
+      "riassunto": "OpenAI ha annunciato l'anteprima di GPT-5.6 Sol, il suo nuovo modello di linguaggio di prossima generazione. Questa notizia è super interessante perché ci dà un'idea di come l'AI stia evolvendo, promettendo capacità ancora più avanzate rispetto ai modelli attuali. È un passo avanti importante per l'intelligenza artificiale generativa e le sue future applicazioni."
+    },
+    {
+      "titolo": "Crea team di Agenti AI con Claude per automatizzare il tuo lavoro",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=vs771_rmkWI",
+      "data": "05/07/2026",
+      "riassunto": "Ora puoi creare dei veri e propri \"team\" di Agenti AI con Claude Code, delegando attività noiose o complesse. Questo significa che l'AI può lavorare al posto tuo in modo più organizzato e autonomo, suddividendo compiti tra diversi \"agenti\" per processi lavorativi complessi. È un modo pazzesco per automatizzare e liberare tempo prezioso."
+    },
+    {
+      "titolo": "Sfrutta al massimo Claude Code: 16 funzioni essenziali per veri esperti",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=dnsW4zkbiH0",
+      "data": "30/06/2026",
+      "riassunto": "Se usi Claude Code solo come una semplice chat, ti stai perdendo un mondo di possibilità! Questo video svela 16 funzioni segrete o poco conosciute che sbloccano il vero potenziale di Claude Code. Imparare questi comandi ti permette di usare l'AI in modo super efficiente, trasformandoti da utente base a un vero power user per la generazione di codice e molto altro."
+    },
+    {
+      "titolo": "Il metodo Karpathy per scrivere prompt efficaci con qualsiasi AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=nLgg4N5wrP8",
+      "data": "02/07/2026",
+      "riassunto": "Smetti di perdere tempo con prompt a caso! Questo video ti mostra il metodo di Andrej Karpathy (co-fondatore di OpenAI ed ex capo dell'AI di Tesla) per usare Claude, ChatGPT e altre AI fino a 10 volte più velocemente. Si basa su tre livelli – SPEC, VERIFICATORE e AMBIENTE – per ottenere risposte migliori e più precise. Un vero game changer per la tua produttività."
+    },
+    {
+      "titolo": "Claude per Excel: crea modelli finanziari senza scrivere formule",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=D0-3j6D0GaQ",
+      "data": "29/06/2026",
+      "riassunto": "Claude ha appena rilasciato un add-in per Excel che cambia le regole del gioco! Ora puoi creare modelli finanziari complessi, come quelli per una SaaS, usando solo dei prompt e senza dover scrivere una singola formula. Ti permette di installare l'add-in in pochi secondi e trasformare le tue richieste in modelli completi, super utile per chi lavora con i numeri e vuole automatizzare."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha lanciato Claude for Small Business, un pacchetto di connettori e workflow agentici pensato per le piccole e medie imprese. Questo plugin porta Claude direttamente nella tua azienda, offrendo 31 skill e 12 connettori pronti all'uso per strumenti popolari come Gmail, Google Drive e Microsoft 365. È perfetto per le PMI che vogliono integrare l'AI nelle loro operazioni quotidiane per maggiore efficienza."
+    },
+    {
+      "titolo": "Claude Cowork automatizza la gestione e l'archiviazione delle fatture",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=jvblHDDJkA8",
+      "data": "02/07/2026",
+      "riassunto": "Dì addio alle fatture disordinate! Claude Cowork può ora organizzare, rinominare e archiviare automaticamente centinaia di fatture. Crea un sistema che le divide per tipo (ricevute/emesse), le archivia per anno e mese, aggiorna un registro Excel e persino individua i duplicati. Un'automazione incredibile per gestire la contabilità in modo efficiente senza aprire un singolo documento."
+    },
+    {
+      "titolo": "5 lavori complessi affidati a Claude: dalla riunione all'analisi dati",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=AFuOf90DFEk",
+      "data": "25/06/2026",
+      "riassunto": "Claude non è solo una chat: può svolgere lavori complessi e completi, come organizzare riunioni, analizzare grandi quantità di dati (oltre 500 righe di vendite), revisionare proposte commerciali, creare presentazioni PowerPoint e persino sviluppare un calcolatore ROI interattivo. Questo dimostra come Claude possa diventare un assistente virtuale completo, lavorando direttamente sui tuoi file e aumentando la produttività in modo significativo."
+    },
+    {
+      "titolo": "Fable 5 (Claude 5) jailbreak: subito hackerato dopo il lancio",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/3PejVr_yEJo",
+      "data": "05/07/2026",
+      "riassunto": "Appena lanciato, quello che sembra essere il nuovo modello \"Fable 5\" (probabilmente Claude 5, vista la menzione di Anthropic) è già stato \"jailbreakato\" in meno di 24 ore. Questa notizia sottolinea le sfide continue nella sicurezza e nel controllo dei modelli AI di ultima generazione. È un esempio lampante di quanto sia complesso gestire le capacità e i potenziali usi impropri dell'intelligenza artificiale."
+    },
+    {
+      "titolo": "Agente AI per WhatsApp con Spoki: non perdere più clienti",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/A3e8l1pbNts",
+      "data": "23/06/2026",
+      "riassunto": "Se gestisci i contatti su WhatsApp senza automazioni, potresti perdere clienti! L'app Spoki ti permette di creare un Agente AI direttamente su WhatsApp, che prepara i tuoi lead prima ancora di una chiamata. È una soluzione pratica per automatizzare la prima interazione con i clienti, assicurandoti che siano pronti e informati, anche fuori orario lavorativo o quando non puoi rispondere subito."
+    }
+  ]
+}

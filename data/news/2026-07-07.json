@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-07",
+  "notizie": [
+    {
+      "titolo": "Preview di GPT-5.6 Sol: un modello di nuova generazione",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "data": "26/06/2026",
+      "riassunto": "OpenAI ha offerto un'anteprima del suo prossimo modello linguistico, GPT-5.6 Sol. Questo modello promette di essere un passo avanti significativo rispetto alle versioni precedenti, offrendo probabilmente capacità migliorate in termini di comprensione, generazione di testo e ragionamento. È una notizia chiave per chi segue l'evoluzione degli LLM e le future applicazioni dell'AI."
+    },
+    {
+      "titolo": "Crea un team di Agenti AI con Claude per delegare le tue attività lavorative",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=vs771_rmkWI",
+      "data": "05/07/2026",
+      "riassunto": "Questo video mostra come utilizzare la nuova funzione \"Agent Teams\" di Claude Code per creare squadre di Agenti AI. L'obiettivo è delegare compiti lavorativi complessi o ripetitivi a questi team virtuali, aumentando enormemente la produttività. Gabriele, appassionato di automazioni, troverà interessante come configurare questi agenti per lavorare al posto suo."
+    },
+    {
+      "titolo": "Smetti di Scrivere Prompt a caso: il Metodo del Co-Fondatore di OpenAI per usare l'AI 10 volte più veloce",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=nLgg4N5wrP8",
+      "data": "02/07/2026",
+      "riassunto": "Gabriele imparerà un metodo strutturato in 3 livelli (SPEC, Verificatore, Ambiente) per ottimizzare l'uso di Claude, ChatGPT e altre AI. Il metodo, ispirato dal co-fondatore di OpenAI Andrej Karpathy, promette di migliorare drasticamente la qualità degli output e la velocità di interazione con gli LLM, superando l'approccio tradizionale al prompt engineering."
+    },
+    {
+      "titolo": "Come Claude Cowork può automatizzare la gestione delle fatture (organizzazione, rinomina, archiviazione e registro)",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=jvblHDDJkA8",
+      "data": "02/07/2026",
+      "riassunto": "Questo tutorial mostra come usare Claude Cowork per automatizzare completamente la gestione delle fatture. Dal dividere quelle ricevute ed emesse all'archiviarle per anno e mese, fino ad aggiornare un registro Excel e identificare duplicati. È un esempio pratico di come l'AI possa gestire compiti amministrativi ripetitivi, liberando tempo prezioso."
+    },
+    {
+      "titolo": "13 Tool AI GRATIS Nuovi che Distruggono quelli a Pagamento (ChatGPT Plus, Claude Pro, Midjourney, Canva Pro...)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=1R8hqJSB_TY",
+      "data": "06/07/2026",
+      "riassunto": "Per Gabriele, che cerca sempre nuovi tool, questo video recensisce 13 strumenti AI gratuiti del 2026 che possono sostituire costosi abbonamenti a servizi come ChatGPT Plus, Claude Pro, Midjourney o Canva Pro. È un'ottima risorsa per scoprire alternative economiche ma potenti per immagini, video, automazioni e editing."
+    },
+    {
+      "titolo": "Loop Engineering: è la nuova evoluzione degli Agenti AI o solo un'altra parola alla moda?",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=BSUHmVcaO1g",
+      "data": "07/07/2026",
+      "riassunto": "Questo video esplora il concetto di \"Loop Engineering\", analizzando se sia una reale evoluzione nella costruzione degli Agenti AI o semplicemente l'ennesima buzzword. Per un appassionato di AI, capire l'evoluzione da Prompt Engineering a Context, Harness e ora Loop Engineering è fondamentale per costruire soluzioni AI avanzate."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: il plugin per portare Claude nella tua azienda in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin pensato per le PMI che integra Claude direttamente nelle aziende. Con connettori e workflow agentici pre-costruiti per servizi come Gmail e Google Drive, rappresenta un modo semplice e veloce per le piccole imprese di adottare l'AI e automatizzare processi."
+    },
+    {
+      "titolo": "Nuovo modello AI OCR open-source di Baidu per scansionare documenti aziendali mantenendo la privacy",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/CaWMtFn3vw0",
+      "data": "07/07/2026",
+      "riassunto": "Baidu ha sviluppato un nuovo modello AI OCR (Optical Character Recognition) open-source che promette di scansionare documenti aziendali in modo efficiente, con un focus sulla privacy dei dati. Questo tool è particolarmente utile per le automazioni d'ufficio e per chi cerca soluzioni che garantiscano la riservatezza delle informazioni."
+    },
+    {
+      "titolo": "Anthropic porta Claude Cowork su mobile e web, dimostrando che la maggior parte degli utenti non programma",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-codin",
+      "data": "",
+      "riassunto": "Anthropic ha esteso la disponibilità di Claude Cowork anche a dispositivi mobile e al web, rendendolo più accessibile. La notizia è interessante perché sottolinea come, nonostante le capacità di coding di Claude, la maggior parte degli utenti lo utilizzi per compiti diversi dalla programmazione, evidenziando il suo potenziale come tool di produttività generale."
+    },
+    {
+      "titolo": "Printing Press: crea CLI per collegare un agente AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Questo strumento, Printing Press, risolve il problema di integrare gli Agenti AI con piattaforme che non hanno connettori o API pubbliche. Permette di creare interfacce a riga di comando (CLI) personalizzate per connettere qualsiasi agente AI, inclusi quelli basati su Claude, a sistemi altrimenti isolati. È un'innovazione chiave per automazioni complesse e per estendere le capacità degli LLM."
+    }
+  ]
+}

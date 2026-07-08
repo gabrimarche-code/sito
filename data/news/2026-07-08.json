@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-08",
+  "notizie": [
+    {
+      "titolo": "Introduzione a GPT-Live: il nuovo modello di OpenAI",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-gpt-live/",
+      "data": "08/07/2026",
+      "riassunto": "OpenAI ha annunciato GPT-Live, il loro ultimissimo modello di intelligenza artificiale. Non sono ancora stati svelati tutti i dettagli, ma si tratta di un'evoluzione importante che promette nuove capacità e funzionalità. Sarà interessante vedere come si integrerà nei tool che già usiamo e quali nuove applicazioni permetterà, aprendo scenari futuri nell'interazione con l'AI."
+    },
+    {
+      "titolo": "Come creare team di Agenti AI con Claude Code per automatizzare il lavoro",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=vs771_rmkWI",
+      "data": "05/07/2026",
+      "riassunto": "Claude Code ha introdotto una nuova funzione super utile: gli \"Agent Teams\". Immagina di poter creare una squadra di intelligenze artificiali che lavorano insieme al posto tuo, delegando loro compiti noiosi o complessi. Questo video spiega come configurare questi team e quando usarli per massimizzare la tua produttività, è un bel passo avanti per le automazioni personali e aziendali."
+    },
+    {
+      "titolo": "Printing Press: Collega Agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Spesso è un problema far interagire un'intelligenza artificiale con piattaforme che non hanno connettori o API pubbliche, facendoti perdere un sacco di tempo. Printing Press è un nuovo tool che permette di creare interfacce a riga di comando (CLI) per collegare un agente AI a *qualsiasi* piattaforma. È una soluzione super efficiente che ti permette di automatizzare processi che prima erano impossibili o troppo costosi in termini di risorse."
+    },
+    {
+      "titolo": "13 Nuovi Tool AI GRATIS che surclassano quelli a pagamento",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=1R8hqJSB_TY",
+      "data": "06/07/2026",
+      "riassunto": "Un video incredibile che mostra ben 13 nuovi strumenti di intelligenza artificiale, tutti gratuiti, che possono sostituire abbonamenti costosi come ChatGPT Plus o Midjourney. Si parla di tool per immagini, video, audio, editing e automazioni. È una risorsa preziosa per chi vuole sfruttare l'AI al massimo senza spendere una fortuna, scoprendo cosa fanno e quali limiti hanno i loro piani gratuiti."
+    },
+    {
+      "titolo": "Il Metodo del Co-Fondatore di OpenAI per scrivere prompt più efficaci",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=nLgg4N5wrP8",
+      "data": "02/07/2026",
+      "riassunto": "Smettere di scrivere prompt a caso per Claude o ChatGPT è possibile grazie al metodo di Andrej Karpathy, co-fondatore di OpenAI. Questo video spiega un approccio su tre livelli – SPEC, Verificatore, Ambiente – per usare l'AI fino a 10 volte più velocemente. Imparerai a passare il contesto all'AI in modo efficace, a creare output di qualità e a sfruttare al meglio gli ambienti come Claude.md, le knowledge base e le skill."
+    },
+    {
+      "titolo": "Baidu lancia un nuovo modello AI OCR open-source per documenti aziendali",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/CaWMtFn3vw0",
+      "data": "07/07/2026",
+      "riassunto": "Baidu ha sviluppato e reso disponibile un nuovo modello di Intelligenza Artificiale OCR (Optical Character Recognition) open-source. Questo tool è perfetto per scansionare documenti aziendali, permettendo di estrarre testo e dati in modo efficiente. Il grande vantaggio è che, essendo open-source, garantisce una maggiore privacy dei dati, un aspetto cruciale per le aziende che gestiscono informazioni sensibili."
+    },
+    {
+      "titolo": "Loop Engineering: il prossimo passo per gli Agenti AI o solo un nuovo buzzword?",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=BSUHmVcaO1g",
+      "data": "07/07/2026",
+      "riassunto": "Dopo Prompt Engineering, Context Engineering e Harness Engineering, ora si parla di \"Loop Engineering\" per costruire Agenti AI. Questo video esplora se sia solo una parola di moda o un vero cambiamento nel modo in cui le intelligenze artificiali interagiscono e apprendono. Viene spiegato quando ha senso usare questo approccio, quali problemi risolve e come si inserisce nell'evoluzione degli agenti AI, un tema super interessante per chi sviluppa."
+    },
+    {
+      "titolo": "Hacker usano tool AI popolari per creare botnet massive",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "data": "08/07/2026",
+      "riassunto": "Una ricerca ha rivelato che i criminali informatici possono sfruttare ben 9 dei più popolari strumenti di intelligenza artificiale per creare reti di botnet enormi. Questo fenomeno, chiamato \"HalluSquatting\", sfrutta la difficoltà degli LLM di ammettere di non sapere qualcosa, permettendo ai malintenzionati di assemblare strumenti per attacchi su larga scala. È un campanello d'allarme importante sulla sicurezza dei tool AI."
+    },
+    {
+      "titolo": "Claude Cowork per l'automazione della gestione fatture (anche da foto)",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=jvblHDDJkA8",
+      "data": "02/07/2026",
+      "riassunto": "Claude Cowork si rivela uno strumento potentissimo per automatizzare la gestione delle fatture, eliminando la necessità di aprirle una ad una. Questo video mostra come creare un workspace che divide le fatture in entrata e in uscita, le archivia automaticamente per anno e mese e aggiorna un registro Excel. Puoi anche elaborare foto e scansioni, creare nuove fatture da modelli e analizzare entrate/uscite, rendendo la contabilità molto più snella."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin rivoluzionario che porta l'intelligenza artificiale di Claude direttamente nelle piccole e medie imprese con pochi click. Si tratta di un pacchetto di connettori e workflow \"agentici\" pensato appositamente per le PMI, già scaricato da centinaia di migliaia di persone. Include 31 skill e 12 connettori pronti all'uso, tra cui integrazioni con Gmail, Google Drive e Microsoft 365, semplificando molte attività aziendali."
+    }
+  ]
+}

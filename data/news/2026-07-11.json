@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-11",
+  "notizie": [
+    {
+      "titolo": "OpenAI ha chiuso Atlas perché il browser è il posto sbagliato per gli agenti",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/perche-openai-ha-chiuso-atlas-il-suo-browser-ai",
+      "data": "10/07/2026",
+      "riassunto": "OpenAI ha deciso di chiudere il progetto Atlas, un browser basato su AI, perché ha capito che il vero valore degli agenti AI non è in un browser a sé stante, ma piuttosto nell'integrazione diretta nei flussi di lavoro aziendali già esistenti. Questo significa che OpenAI si concentrerà su soluzioni come ChatGPT Work, che portano l'intelligenza artificiale dove serve di più, rendendo le automazioni più efficaci e meno invasive."
+    },
+    {
+      "titolo": "OpenAI lancia ChatGPT Work: l'agente AI per automatizzare i task complessi",
+      "fonte": "Ars Technica AI / VentureBeat AI / OpenAI Blog",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "data": "09/07/2026",
+      "riassunto": "OpenAI ha presentato ChatGPT Work, un nuovo strumento basato sull'intelligenza artificiale progettato per agire come un vero e proprio assistente personale nel tuo lavoro. Questo agente AI è in grado di gestire e automatizzare attività complesse attraverso email, Slack e altri strumenti, lavorando autonomamente per ore se necessario. L'obiettivo è supportare gli utenti nei progetti più ambiziosi, liberandoli da compiti ripetitivi e migliorando la produttività generale."
+    },
+    {
+      "titolo": "Rilasciati i nuovi modelli AI di frontiera: GPT-5.6 (OpenAI), Muse Spark 1.1 (Meta) e Grok 4.5 (xAI)",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=36E9m9uSyRI",
+      "data": "11/07/2026",
+      "riassunto": "OpenAI, Meta e xAI hanno contemporaneamente rilasciato le nuove versioni dei loro modelli di intelligenza artificiale: GPT-5.6, Muse Spark 1.1 e Grok 4.5. Questo video analizza in dettaglio le novità introdotte da questi modelli, confrontando i benchmark e spiegando cosa cambia concretamente per sviluppatori, aziende e utenti finali. È un aggiornamento fondamentale per capire lo stato dell'arte dell'AI generativa."
+    },
+    {
+      "titolo": "Anthropic presenta Claude Sonnet 5 e il nuovo Claude for Science",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/OnjbpxC21s4",
+      "data": "11/07/2026",
+      "riassunto": "Anthropic ha annunciato l'introduzione di Claude Sonnet 5, una nuova iterazione del suo modello di linguaggio, e Claude for Science, una versione specializzata. Questi nuovi modelli promettono miglioramenti significativi nelle capacità di comprensione e generazione, con una particolare attenzione alle applicazioni scientifiche per Claude for Science, rendendolo uno strumento potente per la ricerca e l'analisi di dati complessi."
+    },
+    {
+      "titolo": "Creare team di Agenti AI con Claude Code per automatizzare le attività lavorative",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=vs771_rmkWI",
+      "data": "05/07/2026",
+      "riassunto": "Grazie alla nuova funzione \"Agent Teams\" di Claude Code, è ora possibile creare squadre di agenti AI in grado di collaborare e delegare le attività più noiose o complesse. Il video spiega la differenza tra \"Subagents\" e \"Agent Teams\" e mostra come configurare questi team passo dopo passo. Questo rappresenta un grande passo avanti per le automazioni personali e aziendali, permettendo all'AI di gestire interi flussi di lavoro al posto tuo."
+    },
+    {
+      "titolo": "Le 7 capacità fondamentali di Claude Cowork per una produttività \"illegale\"",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=GJDZnc_p29Q",
+      "data": "09/07/2026",
+      "riassunto": "Questo tutorial in italiano esplora le sette funzionalità chiave di Claude Cowork, l'app desktop di Anthropic, che promettono di rivoluzionare la velocità con cui lavori. Il video spiega le differenze fondamentali rispetto a Claude Chat, come l'accesso ai file locali, i risultati pronti all'uso e i prompt orientati all'obiettivo. Un'ottima risorsa per capire come sfruttare al massimo questo strumento per la tua produttività."
+    },
+    {
+      "titolo": "13 nuovi tool AI gratuiti che competono con le alternative a pagamento",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=1R8hqJSB_TY",
+      "data": "06/07/2026",
+      "riassunto": "Un video che presenta una selezione di 13 nuovi strumenti di intelligenza artificiale disponibili gratuitamente, capaci di sostituire molte funzionalità offerte da abbonamenti a pagamento. Vengono mostrati tool per immagini, video, automazioni, podcast ed editing, offrendo alternative a servizi come ChatGPT Plus, Claude Pro, Midjourney o Canva Pro. Perfetto per chi vuole ottimizzare i costi senza rinunciare alle potenzialità dell'AI."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: un plugin AI con connettori e workflow per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin pensato per integrare facilmente l'intelligenza artificiale nelle piccole e medie imprese. Questo pacchetto include una serie di connettori e workflow agentici pre-costruiti, compatibili con strumenti comuni come Gmail, Google Drive e Microsoft 365, e si attiva direttamente all'interno di Claude Cowork. Offre alle PMI un modo rapido per adottare l'AI e migliorare la produttività."
+    },
+    {
+      "titolo": "Ricreare un CRM con AI: confronto tra Fable 5, Claude Opus 4.8 e ChatGPT 5.5 in Codex",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=_hB54-GmYws",
+      "data": "09/07/2026",
+      "riassunto": "Questo video esplora un esperimento interessante: provare a clonare un software CRM reale come Pipedrive utilizzando tre diversi modelli di intelligenza artificiale (Fable 5, Claude Opus 4.8 e ChatGPT 5.5) all'interno di Codex. Vengono analizzati i risultati, gli errori, i costi e le differenze tra i modelli, offrendo spunti preziosi sul \"vibe coding\" e sull'efficacia dell'AI generativa nello sviluppo di software personalizzato."
+    },
+    {
+      "titolo": "Come creare video AI cinematografici ultra-realistici con Claude Fable 5 e Seedance 2.0",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=02ye7bfFSFU",
+      "data": "10/07/2026",
+      "riassunto": "Questo tutorial mostra come utilizzare l'intelligenza artificiale per generare video di alta qualità, inclusi trailer di film d'azione con personaggi consistenti e persino la propria immagine. Il processo si avvale di Claude Fable 5 per sviluppare la trama e scrivere prompt ottimizzati, e Seedance 2.0 per la generazione video in 4K. È un'applicazione pratica e creativa dell'AI generativa per la produzione di contenuti visivi."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-13",
+  "notizie": [
+    {
+      "titolo": "GPT-5.6: Intelligenza di frontiera che cresce con le tue ambizioni",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-5-6/",
+      "data": "09/07/2026",
+      "riassunto": "OpenAI ha annunciato il lancio di GPT-5.6, il suo ultimo modello di intelligenza artificiale. Questa nuova versione promette capacità avanzate e una maggiore scalabilità, permettendo agli utenti di affrontare progetti più complessi e ambiziosi. È un passo avanti significativo nelle capacità dei modelli linguistici di grandi dimensioni, offrendo prestazioni migliorate e nuove opportunità per lo sviluppo di applicazioni AI."
+    },
+    {
+      "titolo": "GPT-5.6 è ora il modello preferito in Microsoft 365 Copilot",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot/",
+      "data": "09/07/2026",
+      "riassunto": "La nuova e più potente versione di OpenAI, GPT-5.6, è stata integrata come modello principale in Microsoft 365 Copilot. Questo significa che gli strumenti di produttività di Microsoft, come Word, Excel e PowerPoint, beneficeranno delle capacità avanzate di GPT-5.6, offrendo agli utenti assistenze AI ancora più intelligenti e performanti per le loro attività quotidiane in ufficio."
+    },
+    {
+      "titolo": "Google ha ridisegnato la sua casella di ricerca per la prima volta in 25 anni",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "data": "19/05/2026",
+      "riassunto": "Dopo un quarto di secolo, Google ha rivoluzionato il design e la funzionalità della sua iconica casella di ricerca. Questo cambiamento radicale suggerisce un profondo impatto sull'interazione degli utenti con le informazioni online, probabilmente integrando maggiormente funzionalità AI per fornire risposte più dirette e contestualizzate, superando il classico elenco di link e introducendo una nuova era della ricerca."
+    },
+    {
+      "titolo": "OpenAI vuole che il suo nuovo strumento faccia il tuo lavoro per te e con te",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
+      "data": "09/07/2026",
+      "riassunto": "OpenAI sta sviluppando un nuovo strumento, un rebranding di \"Codex\", che mira a gestire flussi di lavoro complessi e indipendenti per gli utenti, anche per ore. L'obiettivo è creare un assistente AI capace di collaborare e agire in autonomia, liberando le persone da compiti ripetitivi e permettendo loro di concentrarsi su attività più strategiche e creative."
+    },
+    {
+      "titolo": "NON usare Claude Fable prima di vedere questi 8 casi d'uso",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=AR6NSwHFL4I",
+      "data": "13/07/2026",
+      "riassunto": "Claude Fable 5, un potente modello di intelligenza artificiale di Anthropic, è tornato con funzionalità avanzate che lo rendono capace di lavorare autonomamente per ore. Questo video presenta 8 casi d'uso pratici e sorprendenti, dal più semplice al più complesso, per mostrare come sfruttare al meglio le capacità di questo AI, che va ben oltre la semplice risposta a domande."
+    },
+    {
+      "titolo": "Anthropic ha lanciato Claude for Small Business: un plugin per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin progettato per integrare Claude nelle piccole e medie imprese con pochi click. Questo pacchetto include una serie di connettori e flussi di lavoro predefiniti per servizi come Gmail, Google Drive e Microsoft 365, rendendo l'AI accessibile e utile per migliorare la produttività delle PMI."
+    },
+    {
+      "titolo": "DeepSeek DSpark: il nuovo framework che velocizza i modelli AI fino al 400%",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/rRPiV1bitFw",
+      "data": "12/07/2026",
+      "riassunto": "DeepSeek, un'azienda cinese, ha rilasciato DSpark, un innovativo framework di \"Speculative Decoding\" che può accelerare l'esecuzione dei modelli di intelligenza artificiale dal 51% fino al 400%. Questa tecnologia è un grande passo avanti per ottimizzare le prestazioni degli LLM, rendendoli più veloci ed efficienti, un fattore cruciale per le applicazioni che richiedono risposte rapide."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare agenti AI a qualsiasi piattaforma (anche senza API)",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "\"Printing Press\" è un nuovo strumento che risolve il problema di integrare agenti AI con piattaforme che non offrono API pubbliche o connettori diretti. Permette di creare interfacce a riga di comando (CLI) personalizzate, connettendo così l'AI a praticamente qualsiasi sistema, aumentando la produttività e riducendo il consumo di token rispetto ad altri metodi più complessi."
+    },
+    {
+      "titolo": "Crea video AI ultra realistici con Claude Fable 5 e Seedance 2.0 in 4K",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=02ye7bfFSFU",
+      "data": "10/07/2026",
+      "riassunto": "Questo tutorial mostra come realizzare video AI cinematografici e ultra realistici, inclusi trailer di film con personaggi consistenti e persino la propria faccia, utilizzando Claude Fable 5 come direttore creativo e Seedance 2.0 per la generazione video in 4K. È un esempio pratico e avanzato delle potenzialità dell'AI generativa nel campo della creazione di contenuti visivi."
+    },
+    {
+      "titolo": "AI ombra nelle aziende: cos'è e come evitarla",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=XnMt2KYChuY",
+      "data": "13/07/2026",
+      "riassunto": "Il video spiega il fenomeno dell'AI ombra (Shadow AI) nelle aziende, ovvero l'uso non autorizzato o non supervisionato di strumenti di intelligenza artificiale da parte dei dipendenti. Viene illustrato perché è pericoloso per la sicurezza dei dati e la conformità, e vengono forniti consigli pratici su come le imprese, grandi e piccole, possono prevenire e gestire questo rischio emergente."
+    }
+  ]
+}

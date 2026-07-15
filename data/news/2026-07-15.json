@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-15",
+  "notizie": [
+    {
+      "titolo": "GPT-5.6: La nuova frontiera dell'intelligenza che si adatta alle tue ambizioni",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-5-6/",
+      "data": "09/07/2026",
+      "riassunto": "OpenAI ha annunciato il rilascio del suo nuovo modello di intelligenza artificiale, GPT-5.6. Questo modello rappresenta un passo avanti significativo nelle capacità degli LLM, offrendo prestazioni e scalabilità migliorate per applicazioni complesse e ambiziose. È progettato per essere più efficiente e potente, consentendo agli sviluppatori di spingersi oltre con le loro innovazioni basate sull'AI."
+    },
+    {
+      "titolo": "GPT-5.6 è ora il modello AI preferito in Microsoft 365 Copilot",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot/",
+      "data": "09/07/2026",
+      "riassunto": "Microsoft ha integrato GPT-5.6 come modello di intelligenza artificiale preferito all'interno di Microsoft 365 Copilot. Questa mossa significa che gli utenti di Copilot beneficeranno direttamente delle capacità avanzate di GPT-5.6 per migliorare la produttività, automatizzare compiti e generare contenuti più sofisticati all'interno delle applicazioni di Microsoft 365, rendendo il lavoro ancora più intelligente."
+    },
+    {
+      "titolo": "8 Casi d'Uso di Claude Fable 5, l'AI potente ora disponibile al pubblico",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=AR6NSwHFL4I",
+      "data": "13/07/2026",
+      "riassunto": "Un video esplora in dettaglio otto casi d'uso pratici per Claude Fable 5, un potente modello di intelligenza artificiale che era stato precedentemente limitato dal governo americano e ora è tornato. Il modello viene dimostrato in azione per compiti che vanno dalla semplice interazione a scenari complessi che prima richiedevano interi team. È un'ottima risorsa per capire come sfruttare al meglio questa AI per la produttività."
+    },
+    {
+      "titolo": "Lavorare in modo super veloce con Claude Cowork: le 7 capacità fondamentali",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=GJDZnc_p29Q",
+      "data": "09/07/2026",
+      "riassunto": "Questo tutorial presenta le sette capacità principali di Claude Cowork, l'applicazione desktop di Anthropic per la produttività avanzata. Viene spiegato come Cowork si differenzi da Claude Chat grazie all'accesso ai file locali, ai risultati pronti all'uso e a un approccio \"outcome-first\", mostrando come configurarlo e sfruttarne la memoria per automatizzare e velocizzare il lavoro quotidiano come mai prima d'ora."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin progettato per integrare facilmente l'intelligenza artificiale basata su Claude nelle piccole e medie imprese. Questo pacchetto include una serie di connettori e workflow agentici pronti all'uso per Gmail, Google Drive e Microsoft 365, permettendo alle PMI di beneficiare dell'AI con pochi click e aumentare la loro produttività e competitività."
+    },
+    {
+      "titolo": "PixelRAG: il nuovo sistema RAG che non legge il testo e supera i modelli tradizionali",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Ts9bwHWIh3U",
+      "data": "14/07/2026",
+      "riassunto": "L'Università di Berkeley ha rilasciato PixelRAG, un innovativo sistema Retrieval-Augmented Generation (RAG) che non si basa sulla lettura testuale tradizionale. Questa nuova pipeline supera le precedenti metodologie \"text-based\", promettendo maggiore efficienza e accuratezza nell'elaborazione delle informazioni per i modelli di intelligenza artificiale, un passo avanti significativo nel miglioramento delle capacità dei LLM."
+    },
+    {
+      "titolo": "Printing Press: il tool per connettere agenti AI a qualsiasi piattaforma senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Un nuovo strumento chiamato Printing Press risolve il problema delle piattaforme senza connettori o API pubbliche, permettendo di collegare agenti AI a qualsiasi servizio tramite la creazione di interfacce a riga di comando (CLI). Questo tool promette di aumentare la produttività e ridurre il consumo di token rispetto ad altri metodi, rendendo possibile l'automazione anche con piattaforme precedentemente \"isolate\"."
+    },
+    {
+      "titolo": "Crea video AI ultra realistici e cinematografici con Claude Fable 5 e Seedance 2.0",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=02ye7bfFSFU",
+      "data": "10/07/2026",
+      "riassunto": "Questo video tutorial mostra come sfruttare l'intelligenza artificiale per creare video cinematografici ultra realistici. Utilizzando Claude Fable 5 come \"direttore creativo\" per sviluppare la trama e i prompt, e Seedance 2.0 per generare i video in 4K, è possibile realizzare trailer e contenuti video con personaggi consistenti, inclusa la propria faccia, aprendo nuove frontiere alla produzione di contenuti multimediali."
+    },
+    {
+      "titolo": "OpenAI presenta Codex Micro, una nuova console per agenti AI",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/openai-presenta-codex-micro-console-per-gli-age",
+      "data": "",
+      "riassunto": "OpenAI ha presentato Codex Micro, una nuova \"console\" progettata per la gestione e l'interazione con gli agenti AI. Questo strumento mira a semplificare lo sviluppo e il controllo di sistemi basati su intelligenza artificiale, offrendo un'interfaccia più intuitiva per programmare e monitorare le attività degli agenti, migliorando così l'efficienza e la praticità nell'implementazione dell'AI per gli sviluppatori."
+    },
+    {
+      "titolo": "Ricreare un CRM con 3 AI: un test comparativo tra Fable 5, Claude Opus 4.8 e ChatGPT 5.5",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=_hB54-GmYws",
+      "data": "09/07/2026",
+      "riassunto": "Un esperimento pratico ha messo alla prova Fable 5, Claude Opus 4.8 e ChatGPT 5.5 (all'interno di Codex) per ricreare un CRM. Il video analizza i risultati, gli errori, i costi e le differenze tra i modelli nell'approccio al \"vibe coding\" e alla gestione di database come Supabase, fornendo spunti preziosi sulle capacità e i limiti attuali dell'AI nello sviluppo di software personalizzato e automazioni complesse."
+    }
+  ]
+}

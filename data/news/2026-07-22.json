@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-22",
+  "notizie": [
+    {
+      "titolo": "Anthropic sceglie (di nuovo) AMD: Claude girerà su Instinct MI450",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/hardware/amd-e-anthropic-insieme-fino-a-2-gw-di-gpu-instinct-mi450",
+      "data": "",
+      "riassunto": "Anthropic, l'azienda che ha creato l'LLM Claude, ha rinnovato la sua partnership con AMD. Questo significa che i modelli di Claude useranno le nuove GPU Instinct MI450 di AMD per funzionare. È un accordo importante che mostra come i grandi modelli di intelligenza artificiale richiedano un'infrastruttura hardware sempre più potente e strategica."
+    },
+    {
+      "titolo": "Il \"Security Gap\" degli Agenti AI: oltre la metà delle aziende ha avuto incidenti di sicurezza",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "data": "16/07/2026",
+      "riassunto": "Una ricerca rivela che il 54% delle aziende che usano agenti AI ha già avuto incidenti di sicurezza o quasi-incidenti. Molti agenti AI hanno ancora accesso a credenziali condivise e non sono isolati a sufficienza. Questo sottolinea che, mentre gli agenti AI stanno diventando più autonomi e integrati nei sistemi aziendali, le misure di sicurezza per gestirli non stanno tenendo il passo, creando un vero e proprio \"gap\" di controllo."
+    },
+    {
+      "titolo": "OpenAI lancia il programma ChatGPT per le piccole imprese",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-chatgpt-small-business-program/",
+      "data": "21/07/2026",
+      "riassunto": "OpenAI ha annunciato un nuovo programma dedicato alle piccole e medie imprese per aiutarle ad adottare l'AI. L'obiettivo è rendere ChatGPT e le sue capacità più accessibili e utili per le attività quotidiane delle piccole aziende, migliorando la produttività e l'efficienza senza richiedere competenze tecniche avanzate."
+    },
+    {
+      "titolo": "Elon Musk e Grok Build sotto accusa per la raccolta dati dalle repository GitHub",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/ideh6ex39WQ",
+      "data": "21/07/2026",
+      "riassunto": "È emersa una polemica riguardo a Grok Build di Elon Musk. Sembra che la piattaforma abbia caricato intere repository GitHub degli utenti nel proprio storage XAI, sollevando preoccupazioni significative sulla privacy e la sicurezza dei dati. Questa notizia mette in luce i rischi e le questioni etiche legate alla raccolta e all'uso dei dati da parte delle intelligenze artificiali."
+    },
+    {
+      "titolo": "Google rilascia Alpha Evolve per la ricerca scientifica in cloud",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/QrYmDp601fE",
+      "data": "19/07/2026",
+      "riassunto": "Google ha lanciato \"Alpha Evolve\", una nuova piattaforma che permette di condurre ricerche scientifiche direttamente nel cloud. Questo tool è pensato per accelerare i processi di scoperta e analisi, offrendo agli scienziati e ai ricercatori potenti capacità di calcolo e strumenti AI senza la necessità di infrastrutture locali complesse."
+    },
+    {
+      "titolo": "ChatGPT Work: l'agente AI di OpenAI per automatizzare il lavoro d'ufficio con i nuovi GPT 5.6",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiW04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha introdotto ChatGPT Work, un agente AI progettato per automatizzare le attività d'ufficio. Utilizza i nuovi modelli GPT 5.6 (come ChatGPT Sol, Terra e Luna) e permette di interagire con il computer, accedere a siti e gestire file per completare lavori complessi. Questo tool si presenta come una soluzione pratica per aumentare la produttività e gestire il lavoro quotidiano in modo più efficiente."
+    },
+    {
+      "titolo": "I migliori corsi AI GRATUITI di Google e OpenAI: quali fare e in che ordine",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=3qjQiYoAEMc",
+      "data": "20/07/2026",
+      "riassunto": "Un video ha recensito 13 corsi gratuiti sull'AI offerti da Google e OpenAI, selezionandone i 9 più validi e suggerendo l'ordine migliore per seguirli. Questi corsi, pensati per tutti i livelli (base, intermedio, avanzato), sono un'ottima risorsa per chi vuole acquisire nuove skill digitali e approfondire la conoscenza dell'intelligenza artificiale direttamente dalle fonti principali."
+    },
+    {
+      "titolo": "NotebookLM 2.0 di Google: il tool AI si trasforma in una piattaforma per produrre contenuti e analizzare dati",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=C1CNfKUvQno",
+      "data": "16/07/2026",
+      "riassunto": "Google ha aggiornato NotebookLM alla versione 2.0, trasformandolo da un semplice assistente di ricerca a una vera e propria piattaforma per l'analisi dati e la produzione di contenuti. Ora può generare direttamente dalla chat file PowerPoint, Excel, PDF, documenti, immagini e grafici, basandosi sempre sulle fonti e i dati che gli hai fornito. Un tool potentissimo per la produttività e l'automazione."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve il problema di collegare agenti AI a piattaforme senza API pubbliche. Permette di creare interfacce a riga di comando (CLI) personalizzate, rendendo possibile l'automazione e l'interazione tra agenti AI e qualsiasi software. È una soluzione efficiente che promette di consumare meno token rispetto ad altre alternative."
+    },
+    {
+      "titolo": "Ricreare un CRM con AI: confronto tra Fable 5, Claude Opus 4.8 e ChatGPT 5.5 in Codex",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=_hB54-GmYws",
+      "data": "09/07/2026",
+      "riassunto": "Un video mostra il tentativo di clonare un software complesso come un CRM usando diverse intelligenze artificiali: Fable 5, Claude Opus 4.8 e ChatGPT 5.5 (tramite Codex). Vengono analizzati i risultati, gli errori e i costi di ciascun modello, evidenziando le differenze nel \"vibe coding\" e ponendo la domanda se convenga sviluppare soluzioni in-house con l'AI piuttosto che affidarsi a SaaS preesistenti."
+    }
+  ]
+}

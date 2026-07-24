@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-17",
+  "notizie": [
+    {
+      "titolo": "Il divario di sicurezza degli agenti AI: oltre la metà delle aziende ha già avuto incidenti",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "data": "16/07/2026",
+      "riassunto": "Una ricerca rivela che più della metà delle aziende che usano agenti AI ha già avuto problemi di sicurezza o \"quasi-incidenti\". Il problema principale è che questi agenti vengono spesso dotati di troppi accessi e le aziende usano ancora vecchi sistemi di protezione, non specifici per l'AI. Questo crea un vero e proprio \"buco\" nella sicurezza, perché gli agenti AI si stanno diffondendo molto più velocemente dei controlli necessari per gestirli in modo sicuro."
+    },
+    {
+      "titolo": "GPT-5.6 è ora il modello AI preferito in Microsoft 365 Copilot",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-5-6-is-now-the-preferred-model-in-microsoft-365-copilot/",
+      "data": "13/07/2026",
+      "riassunto": "OpenAI ha annunciato che il suo nuovo e avanzato modello, GPT-5.6, è stato scelto come motore principale per Microsoft 365 Copilot. Questo significa che tutti gli strumenti di produttività di Microsoft, come Word, Excel e PowerPoint, avranno un'intelligenza artificiale potenziata. Per gli utenti, questo si traduce in prestazioni migliorate e funzionalità AI più smart per aiutare nel lavoro quotidiano."
+    },
+    {
+      "titolo": "Meta aggiorna la sua AI Muse Spark alla versione 1.1",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/o7fZdxZwIv0",
+      "data": "17/07/2026",
+      "riassunto": "Meta ha lanciato un aggiornamento per Muse Spark, la sua intelligenza artificiale, portandola alla versione 1.1. Questo aggiornamento promette notevoli miglioramenti, probabilmente nelle sue capacità creative, come la generazione di immagini o altri contenuti multimediali. È una buona notizia per chi usa o è interessato agli strumenti di AI generativa di Meta."
+    },
+    {
+      "titolo": "Kimi k3: il nuovo LLM Cinese open-source che sfida OpenAI e Anthropic",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/T8FflMvswcw",
+      "data": "17/07/2026",
+      "riassunto": "È arrivato Kimi k3, un nuovo modello di linguaggio cinese che sta già ottenendo risultati eccezionali nei test, mettendo pressione a colossi come OpenAI e Anthropic. La cosa più interessante è che Kimi k3 è open-source, rendendolo accessibile a tutti e potenzialmente un grande punto di svolta nel panorama dei Large Language Models. Sarà interessante vedere come si evolverà la competizione."
+    },
+    {
+      "titolo": "ChatGPT Work: l'agente AI di OpenAI per automatizzare il lavoro d'ufficio con GPT 5.6",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha lanciato ChatGPT Work, un agente AI progettato per rivoluzionare l'automazione delle attività d'ufficio. Non è una semplice chat: può leggere i file sul tuo computer, interagire con altre applicazioni e completare compiti pratici. Sfrutta i nuovi modelli GPT 5.6 (Sol, Terra e Luna) e introduce funzioni avanzate come Computer Use e Sites per rendere il lavoro ancora più automatizzato ed efficiente."
+    },
+    {
+      "titolo": "NotebookLM 2.0: il tool AI di Google diventa una piattaforma completa per dati e contenuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=C1CNfKUvQno",
+      "data": "16/07/2026",
+      "riassunto": "NotebookLM di Google ha ricevuto un aggiornamento massiccio, trasformandosi radicalmente. Da semplice assistente per la ricerca, con la versione 2.0 diventa una vera e propria piattaforma per analizzare dati e creare contenuti. Ora può generare direttamente dalla chat presentazioni PowerPoint, file Excel, PDF, documenti e grafici modificabili, il tutto basandosi sulle fonti che gli fornisci. È un enorme passo avanti per la produttività."
+    },
+    {
+      "titolo": "Claude Fable 5: 8 casi d'uso pratici per l'AI super potente di Anthropic",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=AR6NSwFL4I",
+      "data": "13/07/2026",
+      "riassunto": "Claude Fable 5, l'intelligenza artificiale avanzatissima di Anthropic, è tornato. Questo modello è progettato per lavorare per ore in autonomia, controllando da solo il proprio operato fino al completamento dei compiti. Il video mostra 8 esempi concreti e pratici di come utilizzare Claude Fable 5 per affrontare sfide complesse, dimostrando il suo potenziale per automatizzare e risolvere problemi che prima richiedevano intere squadre."
+    },
+    {
+      "titolo": "Printing Press: il nuovo strumento per collegare agenti AI a qualsiasi piattaforma (anche senza API)",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "È stato lanciato Printing Press, un tool geniale per superare una grande limitazione dell'AI: la difficoltà di connettersi a piattaforme senza API pubbliche. Questo strumento permette di creare facilmente delle \"CLI\" (interfacce a riga di comando) personalizzate, così puoi far interagire il tuo agente AI con quasi ogni software. Inoltre, consuma meno \"token\" rispetto ad altre soluzioni, rendendo le automazioni più efficienti ed economiche."
+    },
+    {
+      "titolo": "Claude for Small Business: Anthropic lancia un plugin per portare l'AI nelle PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha presentato \"Claude for Small Business\", un plugin pensato per le piccole e medie imprese. Questo pacchetto innovativo permette di integrare facilmente Claude, l'AI di Anthropic, nelle operazioni quotidiane di un'azienda, con un click. Include numerosi connettori e \"workflow agentici\" già pronti per strumenti comuni come Gmail, Google Drive e Microsoft 365, offrendo alle PMI un modo semplice per migliorare la produttività con l'AI."
+    },
+    {
+      "titolo": "Ricreare un CRM con l'AI: confronto pratico tra Fable 5, Claude Opus 4.8 e ChatGPT 5.5",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=_hB54-GmYws",
+      "data": "09/07/2026",
+      "riassunto": "Questo video presenta un esperimento affascinante: provare a costruire un CRM (Customer Relationship Management) da zero usando tre diverse intelligenze artificiali: Claude Fable 5, Claude Opus 4.8 e ChatGPT 5.5 con Codex. Vengono analizzati i risultati, gli errori incontrati, i costi e le differenze nel modo in cui ogni modello gestisce lo sviluppo software tramite \"vibe coding\", offrendo spunti concreti sull'efficacia dell'AI nella creazione di applicazioni complesse."
+    }
+  ]
+}

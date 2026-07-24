@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-16",
+  "notizie": [
+    {
+      "titolo": "OpenAI lancia ChatGPT Work: l'agente AI per automatizzare il lavoro d'ufficio con i nuovi modelli GPT 5.6 (Sol, Terra, Luna)",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha presentato ChatGPT Work, un nuovo agente AI pensato per automatizzare molte attività d'ufficio. Questo strumento utilizza i recenti modelli GPT 5.6 (chiamati Sol, Terra e Luna) e permette di interagire direttamente con il computer, leggere file e collegarsi ad applicazioni per completare compiti complessi, come se fosse un assistente super efficiente."
+    },
+    {
+      "titolo": "Google NotebookLM 2.0 rivoluzionato: da assistente a piattaforma completa per dati e contenuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=C1CNfKUvQno",
+      "data": "16/07/2026",
+      "riassunto": "NotebookLM di Google ha ricevuto un aggiornamento importante, trasformandosi da semplice assistente per la ricerca in una vera e propria piattaforma per l'analisi dei dati e la creazione di contenuti. Ora può generare direttamente dalla chat file PowerPoint, Excel, PDF, documenti, immagini e grafici modificabili, basandosi sui dati che gli hai fornito."
+    },
+    {
+      "titolo": "Claude Fable 5: 8 casi d'uso pratici per l'AI super potente di Anthropic",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=AR6NSwFLI",
+      "data": "13/07/2026",
+      "riassunto": "Questo video esplora otto modi pratici per utilizzare Claude Fable 5, l'AI più avanzata di Anthropic. Fable 5 è progettato per lavorare in autonomia per ore, controllando e migliorando il proprio operato. Il video mostra come sfruttare le sue capacità per risolvere problemi complessi e automatizzare processi che prima richiedevano il lavoro di un intero team."
+    },
+    {
+      "titolo": "Printing Press: il tool per connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve un problema comune: connettere l'intelligenza artificiale a piattaforme che non hanno connettori o API pubbliche. Permette di creare interfacce a riga di comando personalizzate per far interagire gli agenti AI con qualsiasi sistema, migliorando la produttività e le automazioni, e usando anche meno risorse rispetto ad altri metodi."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI con connettori e workflow agentici",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato Claude for Small Business, un plugin pensato per integrare facilmente l'intelligenza artificiale Claude nelle piccole e medie imprese. Include 31 \"skill\" e 12 connettori predefiniti per servizi popolari come Gmail e Google Drive, offrendo soluzioni rapide per migliorare la produttività e automatizzare i processi lavorativi."
+    },
+    {
+      "titolo": "Ricreare un CRM con AI: confronto tra Claude Fable 5, Opus 4.8 e ChatGPT 5.5 (Codex)",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=_hB54-GmYws",
+      "data": "09/07/2026",
+      "riassunto": "Un interessante esperimento ha confrontato le capacità di tre diverse AI (Claude Fable 5, Claude Opus 4.8 e ChatGPT 5.5 con Codex) nel ricreare un CRM. Il video mostra i risultati, gli errori e i costi di ciascun modello, evidenziando le differenze nelle loro performance e sollevando il dibattito sulla convenienza di creare software con l'AI rispetto all'uso di soluzioni esistenti."
+    },
+    {
+      "titolo": "Anthropic scopre il \"J-Space\" in Claude: un passo avanti nella comprensione del ragionamento AI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=I04DOIZPQqM",
+      "data": "16/07/2026",
+      "riassunto": "I ricercatori di Anthropic hanno fatto una scoperta fondamentale: il \"J-Space\" all'interno del loro modello Claude. Sembra essere una sezione dove l'AI \"pensa\" e elabora le informazioni. Questa scoperta è importantissima perché ci aiuta a capire meglio come ragionano i modelli linguistici avanzati e apre la strada a future intelligenze artificiali ancora più sofisticate e trasparenti."
+    },
+    {
+      "titolo": "GPT-Red: Svelare l'Auto-Miglioramento per la Robustezza",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
+      "data": "15/07/2026",
+      "riassunto": "OpenAI ha annunciato GPT-Red, un progetto di ricerca volto a migliorare l'auto-miglioramento e la robustezza dei modelli AI. L'obiettivo è rendere le intelligenze artificiali più resilienti agli errori e capaci di imparare e adattarsi in modo più efficace a nuove situazioni, rendendole più affidabili e performanti nel tempo."
+    },
+    {
+      "titolo": "L'orchestrazione agentica nell'AI aziendale: i chatbot sono agenti?",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "data": "15/07/2026",
+      "riassunto": "Una ricerca su diverse aziende rivela che, sebbene ci sia un forte interesse per gli \"agenti AI\" (sistemi autonomi), molti strumenti chiamati così sono ancora semplici chatbot. Lo studio evidenzia le sfide nell'implementazione di vere automazioni agentiche nelle aziende e mostra come molte stiano cercando piattaforme flessibili per evitare di rimanere bloccate con un solo fornitore."
+    },
+    {
+      "titolo": "Meta accusata di aver usato l'AI per i licenziamenti",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
+      "data": "14/07/2026",
+      "riassunto": "È stata intentata una causa contro Meta, sostenendo che l'azienda abbia utilizzato l'intelligenza artificiale per decidere i licenziamenti, colpendo in particolare lavoratori con disabilità. Meta nega le accuse, ma questa notizia solleva importanti questioni etiche e legali sull'uso dell'AI in decisioni così delicate, specialmente in ambito lavorativo, dove l'impatto sulle persone è enorme."
+    }
+  ]
+}

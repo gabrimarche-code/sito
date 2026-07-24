@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-18",
+  "notizie": [
+    {
+      "titolo": "L'implementazione dell'AI in azienda è più cruciale della potenza del modello",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/anthropic-e-blackstone-lai-che-conta-meno-del-chi-la-installa",
+      "data": "17/07/2026",
+      "riassunto": "Anthropic e Blackstone hanno creato Ode, una joint venture da 1,5 miliardi per aiutare le aziende a integrare l'AI. La notizia evidenzia che non è tanto il modello di AI in sé ad essere importante, ma come questo viene effettivamente implementato nelle infrastrutture aziendali. Questo sottolinea un cambio di focus dal \"cosa\" al \"come\" nell'adozione dell'intelligenza artificiale per ottenere benefici reali."
+    },
+    {
+      "titolo": "Il \"gap di sicurezza\" degli agenti AI: oltre la metà delle aziende ha già subito incidenti",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "data": "16/07/2026",
+      "riassunto": "Uno studio rivela che il 54% delle aziende ha già avuto problemi di sicurezza con gli agenti AI, spesso a causa della condivisione di credenziali e controlli insufficienti. Molte aziende utilizzano ancora soluzioni di sicurezza non specifiche per gli agenti, creando un ritardo tra la proliferazione di questi strumenti autonomi e le misure di protezione necessarie. Questo evidenzia l'urgenza di sviluppare nuove skill digitali e strategie per gestire gli agenti AI in modo sicuro."
+    },
+    {
+      "titolo": "Cos'è la Self-Improving AI (SIA) e come permette all'agente AI di migliorarsi da solo",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/wOibjZIzKoE",
+      "data": "18/07/2026",
+      "riassunto": "Simone Rizzo introduce il concetto di \"Self-Improving AI\" (SIA), un framework che permette a un'AI o a un agente di auto-migliorarsi in completa autonomia per specifici compiti. Questo significa che l'AI può imparare e ottimizzare le proprie prestazioni nel tempo, senza intervento umano costante, rendendo le automazioni ancora più efficienti e adattabili."
+    },
+    {
+      "titolo": "Kimi K3: il potente modello AI OpenSource e i requisiti hardware per eseguirlo",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/6m7uTD6fU8Y",
+      "data": "18/07/2026",
+      "riassunto": "Il video di Simone Rizzo esplora Kimi K3, presentato come il più potente modello AI open-source disponibile, e discute i requisiti hardware necessari per poterlo eseguire. È una notizia interessante per chi vuole sperimentare con LLM avanzati sul proprio computer, fornendo un'idea concreta delle risorse tecniche richieste per i modelli più recenti."
+    },
+    {
+      "titolo": "ChatGPT Work: l'agente AI di OpenAI con GPT 5.6 (Sol, Terra, Luna) per automatizzare il lavoro da ufficio",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "Antonio Guadagno presenta ChatGPT Work, il nuovo agente AI di OpenAI, mostrando come automatizzare il lavoro d'ufficio con nuove funzioni come \"Computer Use\" e \"Sites\". Questo tool, basato sui nuovi modelli GPT 5.6 (Sol, Terra e Luna), è pensato per gestire compiti complessi, leggere file, interagire con applicazioni esterne e consegnare lavori finiti, trasformando ChatGPT da una semplice chat a un vero assistente per la produttività."
+    },
+    {
+      "titolo": "NotebookLM 2.0: la piattaforma AI di Google si trasforma in un centro per analisi dati e creazione contenuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=C1CNfKUvQno",
+      "data": "16/07/2026",
+      "riassunto": "Gabriele Solution svela le importanti novità di NotebookLM 2.0 di Google, uno strumento AI che va oltre la semplice ricerca. Ora è in grado di creare direttamente dalla chat file PowerPoint, Excel, PDF, documenti, immagini e grafici modificabili, il tutto partendo dai dati caricati. Questo lo rende una potente piattaforma per analizzare informazioni e produrre contenuti in modo automatico."
+    },
+    {
+      "titolo": "Claude Fable 5: 8 casi d'uso che cambiano il modo di lavorare con l'AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=AR6NSwFLI",
+      "data": "13/07/2026",
+      "riassunto": "Il video presenta Claude Fable 5, l'avanzatissimo modello di Anthropic, mostrando 8 casi d'uso reali che sfruttano la sua capacità di lavorare in autonomia per ore. Spiega come Fable 5 non sia solo per rispondere a domande, ma per portare a termine progetti complessi che prima richiedevano team interi, rivoluzionando la produttività e le possibilità delle automazioni basate su LLM."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Lorenzo D'Elia introduce Printing Press, uno strumento innovativo che permette di creare interfacce a riga di comando (CLI) per connettere un agente AI a piattaforme che non hanno connettori diretti o API pubbliche. Questo risolve il problema della scarsa interazione tra AI e alcuni software, aumentando notevolmente la produttività e le possibilità di automazione, riducendo anche il consumo di token."
+    },
+    {
+      "titolo": "Claude for Small Business: Anthropic lancia un plugin per portare l'AI nelle PMI in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin progettato per integrare facilmente l'intelligenza artificiale nelle Piccole e Medie Imprese. Il pacchetto include 31 skill e 12 connettori predefiniti per strumenti comuni come Gmail, Google Drive e Microsoft 365, rendendo l'automazione e l'adozione degli agenti AI accessibile anche a realtà aziendali più piccole con pochi click."
+    },
+    {
+      "titolo": "Clonare un CRM con 3 AI diverse: confronto pratico tra Fable 5, Claude Opus 4.8 e ChatGPT 5.5 (Codex)",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=_hB54-GmYws",
+      "data": "09/07/2026",
+      "riassunto": "Questo video offre un confronto dettagliato tra Fable 5, Claude Opus 4.8 e ChatGPT 5.5 (tramite Codex) nel tentativo di ricreare un CRM reale come Pipedrive usando il \"vibe coding\". Vengono mostrati risultati, errori, costi e differenze tra i modelli, offrendo a Gabriele uno spunto pratico su quale LLM sia più efficace per lo sviluppo di applicazioni aziendali complesse e per le automazioni."
+    }
+  ]
+}

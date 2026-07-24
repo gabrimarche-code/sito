@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-12",
+  "notizie": [
+    {
+      "titolo": "OpenAI lancia ChatGPT Work, un agente AI per la produttività aziendale",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "data": "09/07/2026",
+      "riassunto": "OpenAI ha introdotto ChatGPT Work, un nuovo agente AI progettato per agire come un vero e proprio partner nei tuoi flussi di lavoro più ambiziosi. Questo strumento promette di automatizzare e gestire attività complesse per ore se necessario, integrandosi nei processi aziendali per aumentare drasticamente la produttività e permettere ai team di concentrarsi su compiti più strategici."
+    },
+    {
+      "titolo": "GPT-5.6 è il nuovo modello AI preferito in Microsoft 365 Copilot",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot/",
+      "data": "09/07/2026",
+      "riassunto": "OpenAI ha annunciato che GPT-5.6, la sua ultima e più avanzata intelligenza artificiale, è ora il modello di scelta per Microsoft 365 Copilot. Questo significa che gli strumenti Microsoft che usi ogni giorno, come Word, Excel e PowerPoint, saranno potenziati da capacità AI ancora superiori, rendendo le automazioni e l'assistenza smart ancora più performanti e affidabili."
+    },
+    {
+      "titolo": "OpenAI chiude il progetto Atlas, focalizzandosi sugli agenti AI nei flussi di lavoro esistenti",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/perche-openai-ha-chiuso-atlas-il-suo-browser-ai",
+      "data": "10/07/2026",
+      "riassunto": "OpenAI ha deciso di interrompere lo sviluppo di Atlas, il suo progetto di browser basato sull'AI. L'azienda ha spiegato che il browser non è l'ambiente ideale per gli agenti AI e che il vero valore si trova nell'integrare l'intelligenza artificiale direttamente nei flussi di lavoro e nelle applicazioni che usiamo già. Questo segna un chiaro orientamento verso agenti AI più pratici e contestualizzati."
+    },
+    {
+      "titolo": "Anthropic lancia Claude Sonnet 5 e il nuovo Claude for Science",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/OnjbpxC21s4",
+      "data": "11/07/2026",
+      "riassunto": "Anthropic ha presentato importanti aggiornamenti per la sua suite di modelli AI. Sono stati rilasciati Claude Sonnet 5, una nuova e migliorata versione del suo LLM, e Claude for Science, un modello specializzato pensato per supportare la ricerca e l'analisi in ambito scientifico. Queste novità puntano a offrire prestazioni più avanzate e strumenti mirati per specifiche esigenze professionali."
+    },
+    {
+      "titolo": "Crea video AI ultra realistici in 4K usando Claude Fable 5 e Seedance 2.0",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=02ye7bfFSFU",
+      "data": "10/07/2026",
+      "riassunto": "Questo video-guida mostra come sfruttare l'intelligenza artificiale per generare video cinematografici e incredibilmente realistici. Utilizzando Claude Fable 5 come \"direttore creativo\" per sviluppare la trama scena per scena e Seedance 2.0 per produrre i video in 4K, è possibile creare trailer, filmati e persino contenuti con la propria immagine, mantenendo i personaggi coerenti."
+    },
+    {
+      "titolo": "Come creare un team di Agenti AI con Claude Code per automatizzare le attività lavorative",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=vs771_rmkWI",
+      "data": "05/07/2026",
+      "riassunto": "Il video illustra la nuova funzione \"Agent Teams\" di Claude Code, che rende incredibilmente semplice creare squadre di agenti AI capaci di collaborare e svolgere compiti complessi o ripetitivi. Viene spiegato come configurare questi team e quando usarli, fornendo un metodo efficace per delegare attività e automatizzare processi, rendendo il lavoro più efficiente."
+    },
+    {
+      "titolo": "Claude Cowork: l'app desktop di Anthropic per lavorare a velocità \"illegale\"",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=GJDZnc_p29Q",
+      "data": "09/07/2026",
+      "riassunto": "Claude Cowork è la nuova applicazione desktop di Anthropic progettata per rivoluzionare la tua produttività. Il tutorial esplora le sue sette capacità fondamentali, mostrando come l'app possa farti lavorare a una velocità sorprendente. Vengono evidenziate le differenze con Claude Chat, come l'accesso diretto ai file locali e la capacità di fornire risultati pronti all'uso, spiegando configurazione e memoria."
+    },
+    {
+      "titolo": "Ho Provato 13 Tool AI GRATIS Nuovi (e distruggono quelli a pagamento)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=1R8hqJSB_TY",
+      "data": "06/07/2026",
+      "riassunto": "Un video che recensisce 13 nuovi strumenti di intelligenza artificiale gratuiti del 2026 che possono competere seriamente con alternative a pagamento. Dalla generazione di immagini, video e audio, fino a tool agentici, il video mostra cosa offrono queste soluzioni free, i loro limiti e quali abbonamenti Pro (come ChatGPT Plus o Midjourney) potrebbero aiutarti a smettere di pagare."
+    },
+    {
+      "titolo": "DeepSeek DSpark: il framework AI che velocizza i modelli LLM fino al 400%",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/rRPiV1bitFw",
+      "data": "12/07/2026",
+      "riassunto": "La nota azienda cinese DeepSeek ha lanciato DSpark, un innovativo framework di Speculative decoding. Questa tecnologia permette di accelerare l'esecuzione dei modelli di linguaggio (LLM) da un minimo del 51% fino a un impressionante 400%. È una notizia importantissima per chi lavora con l'AI, in quanto significa risposte più rapide e un'efficienza maggiore nell'utilizzo di modelli complessi."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Il video presenta Printing Press, uno strumento rivoluzionario che permette di connettere agenti AI a piattaforme che normalmente non hanno connettori o API pubbliche. Questo tool crea interfacce a riga di comando (CLI) per far interagire l'AI con qualsiasi software, riducendo il consumo di token e aumentando la produttività, risultando cruciale per automazioni complesse e per superare le barriere di integrazione."
+    }
+  ]
+}

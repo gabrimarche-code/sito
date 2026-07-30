@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-30",
+  "notizie": [
+    {
+      "titolo": "Advancing the price-performance frontier with GPT 5.6",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "data": "30/07/2026",
+      "riassunto": "OpenAI ha annunciato GPT 5.6, un nuovo modello che migliora notevolmente il rapporto tra costo e prestazioni. Questo significa che il nuovo GPT è più efficiente e potente dei suoi predecessori, offrendo risultati migliori a un costo più contenuto. È un passo importante verso un'AI più accessibile e performante per tutti, sia per sviluppatori che per utenti finali."
+    },
+    {
+      "titolo": "ChatGPT Work è l'agente AI di OpenAI pensato per automatizzare il lavoro da ufficio",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha lanciato ChatGPT Work, un agente AI progettato per automatizzare le attività d'ufficio, con nuove funzionalità come \"Computer Use\" e \"Sites\" che gli permettono di interagire con il PC e il web. Il video esplora come funziona, presentando i nuovi modelli GPT 5.6 (Sol, Terra e Luna) e confrontandolo con Claude Cowork, offrendo esempi pratici per migliorare l'efficienza lavorativa."
+    },
+    {
+      "titolo": "OpenAI GPT 6 e gpt 5.6 sol hanno hackerato hugging face, ti spiego tutto quello che devi sapere su questo incidente!",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/AjXSSafNvUw",
+      "data": "30/07/2026",
+      "riassunto": "Questo breve video tratta di un incidente di sicurezza che ha coinvolto i modelli OpenAI GPT 6 e GPT 5.6 SOL, e l'hackeraggio della piattaforma Hugging Face. L'autore spiega cosa è accaduto e le implicazioni di un evento simile nel mondo dei modelli AI. È un campanello d'allarme importante per la sicurezza e la stabilità delle piattaforme e dei modelli su cui si basa l'intelligenza artificiale moderna."
+    },
+    {
+      "titolo": "I migliori LLM si \"bucano\" con un tool gratuito",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/i-migliori-llm-si-bucano-con-un-tool-gratuito",
+      "data": "26/07/2026",
+      "riassunto": "Un giornalista ha dimostrato come un nuovo strumento di \"jailbreak\" gratuito possa aggirare le protezioni dei migliori modelli di linguaggio (LLM) di diverse aziende. Questo solleva seri problemi di sicurezza per chi sviluppa agenti AI per le imprese. L'episodio evidenzia che, nonostante i progressi, anche i modelli più avanzati presentano vulnerabilità che possono essere sfruttate."
+    },
+    {
+      "titolo": "Non sei indietro: impara a usare gli agenti di intelligenza artificiale in 11 minuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=UNMpnHhbVoo",
+      "data": "23/07/2026",
+      "riassunto": "Questo video è una guida rapida e pratica per iniziare a utilizzare gli agenti di intelligenza artificiale, che si distinguono dai chatbot perché sono capaci di decidere autonomamente i passi successivi. Vengono spiegati i concetti fondamentali e i framework pratici, come il framework ART, per capire quando e come implementare gli agenti AI per automatizzare processi e migliorare la propria efficienza lavorativa."
+    },
+    {
+      "titolo": "Alcune aziende pagano fino a €10.000 per agenti AI che si possono costruire in un pomeriggio",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=LCNk5e5EiCA",
+      "data": "26/07/2026",
+      "riassunto": "Giovanni Beggiato mostra come sia possibile costruire un agente AI efficiente in un solo pomeriggio utilizzando Claude Code, capace di automatizzare compiti complessi come la generazione di preventivi automatici e firmabili con PandaDoc. Il video sottolinea come strumenti accessibili e tecniche di prompting avanzate possano creare soluzioni aziendali di alto valore, riducendo drasticamente i costi rispetto a servizi professionali."
+    },
+    {
+      "titolo": "Claude adesso ha tre modi diversi di accedere al web",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=buI63sVm13c",
+      "data": "30/07/2026",
+      "riassunto": "Il video illustra i tre diversi modi con cui Claude AI può accedere e interagire con il web: la ricerca web standard, un'estensione Chrome che prende il controllo del tuo browser, e un browser integrato direttamente in Claude Code. Vengono mostrate demo pratiche, come Claude che compila moduli o estrae dati, e si evidenziano i rischi di sicurezza, come la prompt injection, quando un'intelligenza artificiale naviga online."
+    },
+    {
+      "titolo": "Quasi nessuno conosce queste 5 intelligenze artificiali gratuite",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Antonio Guadagno presenta cinque intelligenze artificiali gratuite che utilizza regolarmente per una vasta gamma di progetti. Questi strumenti, spesso poco conosciuti, sono utili per attività pratiche come convertire documenti, estrarre testo, trascrivere audio e proteggere informazioni sensibili. Sono soluzioni che possono migliorare notevolmente la produttività quotidiana senza alcun costo, perfette per chi cerca tool AI efficaci e accessibili."
+    },
+    {
+      "titolo": "Anthropic ha lanciato Claude for Small Business: un plugin che porta Claude dentro la tua azienda in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un nuovo plugin progettato per integrare facilmente Claude AI nelle piccole e medie imprese. Questo pacchetto include una serie di connettori e workflow agentici preconfigurati per piattaforme comuni come Gmail, Google Drive e Microsoft 365. Permette alle PMI di sfruttare le automazioni AI con pochi click, senza richiedere competenze tecniche avanzate."
+    },
+    {
+      "titolo": "Prova subito ChatLLM by Abacus AI",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=9n9MFo_Xl9E",
+      "data": "30/07/2026",
+      "riassunto": "Raffaele Gaito presenta ChatLLM di Abacus AI, una piattaforma \"all-in-one\" che integra diversi modelli AI per la generazione di immagini, video, applicazioni, siti web e presentazioni, tutto con un unico abbonamento. È una soluzione pensata per chi desidera sfruttare un'ampia gamma di capacità dell'intelligenza artificiale da un'unica interfaccia, ottimizzando tempo e costi di gestione di più strumenti."
+    }
+  ]
+}

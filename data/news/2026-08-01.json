@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-01",
+  "notizie": [
+    {
+      "titolo": "OpenAI lancia ChatGPT Work con i nuovi modelli GPT 5.6 per automatizzare il lavoro d'ufficio",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha presentato ChatGPT Work, un agente AI che promette di rivoluzionare l'automazione in ufficio. Integra nuove funzioni come \"Computer Use\" e \"Sites\" e utilizza i recenti modelli GPT 5.6 (Sol, Terra e Luna). Questo significa che puoi delegare a ChatGPT attività complesse, rendendo il tuo lavoro molto più efficiente, quasi come avere un assistente virtuale super smart."
+    },
+    {
+      "titolo": "DeepSeek v4 0731: il nuovo LLM che sfida OpenAI per performance e costi bassi",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/snIGbTRryWw",
+      "data": "01/08/2026",
+      "riassunto": "È stato lanciato DeepSeek v4 0731, un nuovo modello linguistico che sta facendo parlare di sé per le sue prestazioni eccezionali e il costo incredibilmente basso. Alcuni si chiedono se possa rappresentare una minaccia per il dominio di OpenAI. Per te significa che ci sono sempre più alternative potenti e accessibili nel panorama degli LLM."
+    },
+    {
+      "titolo": "Thinking Machines presenta Inkling, un piccolo modello AI open-source con prestazioni da gigante",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/thinking-machines-debuts-inkling-small-open-source-ai-model-nearing-performance-of-predecessor-at-about-1-4-size)",
+      "data": "July 30, 2026",
+      "riassunto": "Thinking Machines ha debuttato con Inkling, un modello AI open-source compatto che offre prestazioni simili a quelle di modelli molto più grandi, ma con solo un quarto delle dimensioni. Questo è super interessante perché permette alle aziende di avere maggiore controllo su dati e comportamenti del modello, unendo performance elevate con costi e risorse ridotte."
+    },
+    {
+      "titolo": "Impara a usare gli agenti di Intelligenza Artificiale in 11 minuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=UNMpnHhbVoo",
+      "data": "23/07/2026",
+      "riassunto": "Il video spiega la differenza fondamentale tra un chatbot e un agente AI: mentre un chatbot aspetta il tuo prossimo prompt, un agente AI prende decisioni autonome. Ti mostra framework concreti, come ART, per fare il salto nell'utilizzo degli agenti. È una guida pratica essenziale per capire come sfruttare al meglio la prossima evoluzione dell'AI e non rimanere indietro."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Ti sarà utile questo strumento chiamato Printing Press, che risolve il problema di far interagire l'AI con piattaforme senza connettori o API pubbliche. Permette di creare interfacce a riga di comando (CLI) per collegare gli agenti AI ovunque. Significa che puoi automatizzare processi anche su piattaforme solitamente chiuse, aumentando la tua produttività senza limiti."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: un plugin per integrare Claude nelle PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin pensato per portare l'AI di Claude nelle Piccole e Medie Imprese con pochi clic. Questo pacchetto include connettori e workflow agentici pronti all'uso per strumenti come Gmail e Microsoft 365, permettendo alle PMI di adottare l'AI per l'automazione in modo semplice e veloce."
+    },
+    {
+      "titolo": "Rizzo pii: un modello AI locale e open-source per anonimizzare i tuoi dati",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/4xNux0fDURQ",
+      "data": "31/07/2026",
+      "riassunto": "È stato sviluppato Rizzo pii, un modello AI locale e open-source creato per l'Italia, che permette di anonimizzare i tuoi dati prima di caricarli su servizi come ChatGPT, Claude o Gemini. Questo strumento è fondamentale per chi vuole usare l'AI tutelando la propria privacy e quella dei propri dati sensibili, garantendo un controllo maggiore sulle informazioni."
+    },
+    {
+      "titolo": "Claude: tutti e tre i modi avanzati per accedere al web e automatizzare compiti",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=buI63sVm13c",
+      "data": "30/07/2026",
+      "riassunto": "La maggior parte delle persone conosce solo un modo per far accedere Claude al web, ma ce ne sono tre! Il video ti mostra la ricerca web classica, l'estensione Chrome che prende il controllo del tuo browser e il nuovo browser integrato in Claude Code. Potrai vedere Claude compilare moduli, estrarre dati e persino testare applicazioni, aprendo un mondo di automazioni."
+    },
+    {
+      "titolo": "Come costruire un mini business con Claude Code: dalla mappatura dei processi alla \"company brain\"",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=Rn8eJxrybQ8",
+      "data": "01/08/2026",
+      "riassunto": "Questo video ti guida passo dopo passo nella creazione di un piccolo business interamente gestito da Claude Code. Si parte dalla definizione dei processi aziendali fino alla costruzione di una \"company brain\" con Obsidian. Ti spiega anche perché molti progetti AI falliscono e come evitarlo con framework pratici. È un ottimo spunto per applicare l'AI all'organizzazione e automazione aziendale."
+    },
+    {
+      "titolo": "5 intelligenze artificiali gratuite per convertire documenti, estrarre testo e trascrivere audio",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Il video presenta 5 intelligenze artificiali gratuite e poco conosciute, che però sono estremamente utili per la produttività quotidiana. Puoi usarle per convertire facilmente documenti, estrarre testo, trascrivere audio in modo automatico e proteggere informazioni sensibili. Sono strumenti pratici e subito utilizzabili per ottimizzare tanti piccoli progetti."
+    }
+  ]
+}

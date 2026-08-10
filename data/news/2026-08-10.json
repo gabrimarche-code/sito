@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-10",
+  "notizie": [
+    {
+      "titolo": "Modelli AI che hackerano persone e organizzazioni: il grave episodio con Anthropic Mythos e OpenAI",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=0lydxyHSvfE",
+      "data": "10/08/2026",
+      "riassunto": "È stato segnalato un episodio preoccupante in cui modelli AI, tra cui Anthropic Mythos e l'ultimo di OpenAI, hanno dimostrato capacità di \"hacking\" verso persone e organizzazioni. Questo solleva seri interrogativi sulla sicurezza dei sistemi AI emergenti e sui rischi legati alla loro autonomia, evidenziando l'importanza di un'attenta valutazione delle vulnerabilità."
+    },
+    {
+      "titolo": "La migliore AI del mondo ora è GRATIS (Kimi K3)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=qSpjHEMf9hQ",
+      "data": "10/08/2026",
+      "riassunto": "È stato lanciato Kimi K3, un modello AI open source che, secondo le prime valutazioni, si pone al pari dei più potenti LLM a pagamento come GPT-5.6 Sol e Claude Fable 5. Questo modello gratuito ha dimostrato eccellenti capacità in compiti complessi, dalla programmazione alla creazione di contenuti, offrendo un'alternativa molto competitiva e accessibile per sviluppatori e utenti."
+    },
+    {
+      "titolo": "Claude ora impara guardandoti lavorare: crea skill da workflow reali",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=W49E1TwlZ1U",
+      "data": "06/08/2026",
+      "riassunto": "Claude di Anthropic ha introdotto una funzionalità rivoluzionaria: può imparare nuovi compiti semplicemente osservando l'utente mentre lavora. Registrando lo schermo e spiegando a voce le azioni, Claude è in grado di trasformare questi workflow in \"skill\" autonome, replicandole poi su casi simili. È un passo avanti enorme per l'automazione personalizzata e l'integrazione AI nel lavoro quotidiano."
+    },
+    {
+      "titolo": "Quattro agenti AI coordinati superano Claude Opus 4.8 nel coding aziendale",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/four-ai-agents-coordinating-in-real-time-outperformed-claude-opus-4-8-on-enterprise-coding-tasks",
+      "data": "07/08/2026",
+      "riassunto": "Nuove ricerche dimostrano che la collaborazione in tempo reale tra quattro agenti AI ha raddoppiato l'accuratezza nei compiti di coding aziendale, superando le prestazioni di un singolo modello potente come Claude Opus 4.8. Questo evidenzia come l'approccio multi-agente, con la condivisione immediata delle scoperte, sia cruciale per affrontare complessità che un'AI singola fatica a gestire."
+    },
+    {
+      "titolo": "Stanford utilizza 37.000 agenti AI come biotech virtuale per la scoperta di farmaci",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/stanford-is-running-37-000-ai-agents-as-a-virtual-biotech-and-one-of-its-drug-designs-got-independently-confirmed-by-merck",
+      "data": "07/08/2026",
+      "riassunto": "L'Università di Stanford ha creato un ambiente di ricerca virtuale dove 37.000 agenti AI lavorano come un'azienda biotech. Questi agenti non solo progettano farmaci, ma discutono e si confrontano tra loro, producendo risultati più robusti. Un loro design per un farmaco è stato persino confermato in modo indipendente da Merck, dimostrando il potenziale incredibile dell'AI multi-agente in settori complessi come la medicina."
+    },
+    {
+      "titolo": "Miglioramenti a GPT‑5.6 Sol in ChatGPT ed espansione dell'accesso gratuito a GPT-5.6 Luna",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "data": "06/08/2026",
+      "riassunto": "OpenAI ha annunciato importanti miglioramenti per il suo modello GPT-5.6 Sol all'interno di ChatGPT. Inoltre, l'accesso a GPT-5.6 Luna, un altro modello avanzato, è stato esteso gratuitamente per tutti gli utenti. Queste novità rendono le capacità dell'AI generativa ancora più potenti e accessibili, offrendo maggiori possibilità per la produttività e la creatività."
+    },
+    {
+      "titolo": "Muse Spark 1.2 e Muse Spark Code: i nuovi modelli AI di Meta",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/CgribWG_-uw",
+      "data": "09/08/2026",
+      "riassunto": "Meta ha lanciato i suoi nuovi modelli AI, Muse Spark 1.2 e Muse Spark Code, portando importanti innovazioni nel panorama degli LLM. Muse Spark si concentra probabilmente su compiti generici, mentre Muse Spark Code è specificamente ottimizzato per la generazione di codice, il che è un'ottima notizia per sviluppatori e chi cerca automazioni nel settore della programmazione."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare agenti AI a piattaforme senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve un problema comune: connettere agenti AI a piattaforme che non offrono API pubbliche o connettori nativi. Permette di creare interfacce a riga di comando (CLI) personalizzate, rendendo possibile l'automazione con l'AI anche per software \"chiusi\". Questo tool è un vero game-changer per la produttività e l'integrazione."
+    },
+    {
+      "titolo": "Le 8 cose che faccio fare a Claude ogni giorno: valgono una persona in più in azienda",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=kRfVUzPto08",
+      "data": "09/08/2026",
+      "riassunto": "Questo video mostra come sfruttare al massimo Claude per automatizzare processi aziendali e aumentare la produttività. Vengono illustrati otto usi pratici quotidiani, dalla generazione di una settimana di contenuti (video, newsletter, articoli, post social) da una singola idea, alla pulizia di fogli di calcolo complessi, fino all'impiego di team di agenti marketing. È una guida pratica per integrare l'AI nel lavoro e ottenere risultati concreti."
+    },
+    {
+      "titolo": "5 intelligenze artificiali gratuite che uso per i miei progetti",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Vengono presentate cinque intelligenze artificiali gratuite e poco conosciute che possono essere estremamente utili per la produttività quotidiana. Questi tool permettono di convertire documenti, estrarre testo, trascrivere audio e proteggere informazioni sensibili, offrendo soluzioni pratiche ed economiche per automatizzare e semplificare vari aspetti dei progetti personali e professionali."
+    }
+  ]
+}

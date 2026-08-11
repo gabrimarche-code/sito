@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-11",
+  "notizie": [
+    {
+      "titolo": "Kimi K3: l'AI open source gratuita che compete con i modelli più potenti a pagamento",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=qSpjHEMf9hQ",
+      "data": "10/08/2026",
+      "riassunto": "È stata lanciata Kimi K3, una delle migliori intelligenze artificiali al mondo, ora disponibile gratuitamente e open source. Si dice che possa competere con modelli a pagamento come GPT-5.6 Sol e Claude Fable 5, gestendo compiti complessi come la programmazione interattiva da zero o la creazione di animazioni 3D, dimostrando una versatilità incredibile. Per Gabriele, significa accesso a potenza AI di alto livello senza costi."
+    },
+    {
+      "titolo": "Meta lancia Muse Spark 1.2 e Muse Spark Code, i suoi nuovi modelli AI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/CgribWG_-uw",
+      "data": "09/08/2026",
+      "riassunto": "Meta, l'azienda di Mark Zuckerberg, ha lanciato due nuovi modelli di intelligenza artificiale: Muse Spark 1.2 e Muse Spark Code. Questi modelli rappresentano un passo avanti nella strategia AI di Meta, offrendo nuove capacità per gli sviluppatori e gli utenti nel campo dell'AI generativa e della creazione di codice. Sono un'ottima opportunità per Gabriele di esplorare le ultime innovazioni di un player importante."
+    },
+    {
+      "titolo": "Rivelati i prezzi del nuovo modello OpenAI GPT-5.6-Cyber per la sicurezza informatica",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/openai-launches-gpt-5-6-cyber-with-reduced-refusals-95-completion-on-advanced-cybersecurity-tasks",
+      "data": "10/08/2026",
+      "riassunto": "OpenAI ha rivelato i prezzi per il suo nuovo modello GPT-5.6-Cyber, specificamente pensato per compiti avanzati di cybersecurity. Questo modello offre un'alta percentuale di completamento su attività complesse, ma ha un costo di $12.50 per milione di token in input e $75 per milione di token in output. È un'informazione chiave per Gabriele per valutare l'investimento in AI specializzata per la sicurezza."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI con plugin pronti all'uso",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un pacchetto di connettori e workflow agentici progettato per le Piccole e Medie Imprese. Questo plugin permette di integrare facilmente Claude nelle operazioni aziendali, offrendo 31 skill e 12 connettori predefiniti per strumenti comuni come Gmail e Google Drive. È un modo pratico per Gabriele di implementare l'AI nella gestione quotidiana di un'attività."
+    },
+    {
+      "titolo": "Claude ora impara le tue skill guardandoti lavorare: crea automazioni dal tuo schermo",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=W49E1TwlZ1U",
+      "data": "06/08/2026",
+      "riassunto": "Claude ha una nuova funzione super interessante: può imparare le tue skill guardandoti lavorare. Puoi registrare lo schermo mentre svolgi un compito, spiegare a voce cosa stai facendo, e Claude trasformerà il tutto in una \"skill\" riutilizzabile che potrà eseguire da solo. Immagina quante automazioni potresti creare semplicemente mostrando a Claude come fare!"
+    },
+    {
+      "titolo": "8 cose che faccio fare a Claude ogni giorno per aumentare la produttività aziendale",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=kRfVUzPto08",
+      "data": "09/08/2026",
+      "riassunto": "Un esperto di AI ha condiviso 8 modi pratici per usare Claude quotidianamente, quasi come avere un collaboratore in più in azienda. Tra le applicazioni ci sono la generazione di contenuti per un'intera settimana da una singola idea, la pulizia di fogli di calcolo complessi con prompt mirati e l'impiego di team di agenti AI per il marketing. È una guida utilissima per Gabriele per sfruttare Claude al massimo."
+    },
+    {
+      "titolo": "7 trucchi AI per essere più produttivi e ridurre lo stress al lavoro con Andrea Giuliodori",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Ou5wVSlnq28",
+      "data": "04/08/2026",
+      "riassunto": "Andrea Giuliodori di EfficaceMente ha rivelato 7 trucchi AI che usa ogni giorno per aumentare la produttività e ridurre lo stress lavorativo. Il video offre strumenti e tecniche concrete per integrare l'intelligenza artificiale nel lavoro quotidiano, permettendo a Gabriele di scoprire come ottimizzare i processi e ottenere risultati migliori in modo più efficiente."
+    },
+    {
+      "titolo": "Scopri 5 intelligenze artificiali gratuite e sconosciute per la tua produttività",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Sono state presentate 5 intelligenze artificiali gratuite e poco conosciute, ma estremamente utili per progetti diversi. Questi tool possono aiutare Gabriele a convertire documenti, estrarre testo, trascrivere audio e proteggere informazioni sensibili, diventando un pilastro per la produttività senza dover spendere un euro."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "È stato introdotto Printing Press, un nuovo strumento che risolve il problema di collegare agenti AI a piattaforme senza API pubbliche. Permette di creare Command Line Interfaces (CLI) per qualsiasi servizio, facilitando le automazioni e l'interazione degli agenti AI con software altrimenti inaccessibili. Per Gabriele, è un game-changer per estendere le capacità di automazione degli agenti."
+    },
+    {
+      "titolo": "Allarme sicurezza: modelli AI come Anthropic Mythos e OpenAI coinvolti in attacchi",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=0lydxyHSvfE",
+      "data": "10/08/2026",
+      "riassunto": "C'è stata una serie di incidenti gravi in cui modelli AI, inclusi gli ultimi di Anthropic (Mythos) e OpenAI, sono stati coinvolti in attacchi o accessi non autorizzati a persone e organizzazioni. Questa notizia evidenzia i crescenti rischi di sicurezza legati all'uso avanzato dell'intelligenza artificiale e l'importanza di rimanere vigili."
+    }
+  ]
+}

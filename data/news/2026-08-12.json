@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-12",
+  "notizie": [
+    {
+      "titolo": "Gemini di Google raggiunge 1 miliardo di utenti, diventando il prodotto a più rapida crescita",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+      "data": "11/08/2026",
+      "riassunto": "Gemini, l'intelligenza artificiale di Google, ha tagliato il traguardo di un miliardo di utenti più velocemente di qualsiasi altro prodotto Google. Questo indica un'adozione massiccia e rapida della tecnologia AI, rendendola una delle piattaforme più diffuse al mondo. Un segnale chiaro di come l'AI stia entrando nel quotidiano di tantissime persone."
+    },
+    {
+      "titolo": "I Bot di Grok: agenti AI con interfaccia operativa avanzata per il lavoro",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/spacexais-grok-bot-turns-agents-into-persistent-digital-coworkers-that-can-operate-your-apps-for-120-per-month",
+      "data": "11/08/2026",
+      "riassunto": "Grok Bot introduce un approccio innovativo agli agenti AI, non solo dimostrando la capacità dell'AI di operare software, ma integrando l'uso del computer, la persistenza e l'apprendimento del workflow in un'unica interfaccia. Questi agenti AI funzionano come \"colleghi digitali\" persistenti, coordinando più agenti per automatizzare compiti e processi."
+    },
+    {
+      "titolo": "I modelli Daybreak di OpenAI sono ora disponibili su AWS",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws/",
+      "data": "11/08/2026",
+      "riassunto": "OpenAI ha annunciato che i suoi nuovi modelli Daybreak sono ora accessibili tramite Amazon Web Services (AWS). Questa novità rende più facile per le aziende e gli sviluppatori integrare e utilizzare le avanzate capacità di questi modelli AI nei loro servizi e applicazioni cloud. È un passo importante per l'adozione e la scalabilità dell'intelligenza artificiale."
+    },
+    {
+      "titolo": "OpenAI sta testando le pubblicità in ChatGPT",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt/",
+      "data": "11/08/2026",
+      "riassunto": "OpenAI ha iniziato a testare la presenza di pubblicità all'interno di ChatGPT. Questa mossa potrebbe indicare un nuovo modello di business per la piattaforma, permettendo l'accesso gratuito ma con inserzioni, o offrendo piani premium senza pubblicità. Sarà interessante vedere come questa integrazione influenzerà l'esperienza utente e il futuro del modello."
+    },
+    {
+      "titolo": "Nuovo protocollo MCP: crea app direttamente negli agenti AI come Claude e ChatGPT",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/BEc75uSnNug",
+      "data": "11/08/2026",
+      "riassunto": "È stato introdotto il nuovo protocollo MCP, che permette di creare e far funzionare vere e proprie applicazioni direttamente all'interno degli agenti AI, come Claude o ChatGPT. Questa innovazione apre nuove frontiere per l'interazione con l'intelligenza artificiale, trasformando gli agenti in veri e propri ecosistemi per tool e funzionalità personalizzate, espandendo notevolmente le loro capacità pratiche."
+    },
+    {
+      "titolo": "Kimi K3: un modello AI open source e gratuito che compete con i top di gamma",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=qSpjHEMf9hQ",
+      "data": "10/08/2026",
+      "riassunto": "È stato lanciato Kimi K3, un nuovo modello di intelligenza artificiale open source e completamente gratuito. Questo modello si sta dimostrando estremamente potente, confrontabile con i migliori LLM a pagamento come GPT-5.6 Sol e Claude Fable 5, riuscendo a gestire compiti complessi di programmazione e creazione multimediale. È una risorsa incredibile per chiunque voglia esplorare l'AI avanzata senza costi."
+    },
+    {
+      "titolo": "Printing Press: il nuovo tool per connettere agenti AI a qualsiasi piattaforma",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve il problema di collegare gli agenti AI a piattaforme prive di API pubbliche o del protocollo MCP. Permette di creare interfacce a riga di comando (CLI) personalizzate, rendendo possibile automatizzare processi e interazioni anche con i sistemi più chiusi. Questo tool è un vero game-changer per estendere le capacità di automazione degli agenti AI."
+    },
+    {
+      "titolo": "Claude for Small Business: Anthropic lancia un plugin per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin pensato per integrare facilmente l'intelligenza artificiale Claude nelle piccole e medie imprese. Il pacchetto include connettori e workflow agentici preconfigurati per piattaforme comuni come Gmail, Google Drive e Microsoft 365, permettendo alle PMI di beneficiare subito dell'automazione e dell'efficienza dell'AI."
+    },
+    {
+      "titolo": "Claude impara guardando lo schermo: nuove automazioni personalizzate",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=W49E1TwlZ1U",
+      "data": "06/08/2026",
+      "riassunto": "Claude di Anthropic ha introdotto una funzionalità rivoluzionaria: ora può imparare a eseguire compiti semplicemente guardandoti lavorare sullo schermo. Registrando il tuo workflow e spiegando a voce le azioni, Claude è in grado di trasformare quel processo in una \"skill\" riutilizzabile e automatica. Questo apre la strada a automazioni estremamente personalizzate, anche per software senza API."
+    },
+    {
+      "titolo": "5 AI gratuite essenziali per la produttività quotidiana",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Un video rivela cinque intelligenze artificiali gratuite e poco conosciute che possono aumentare notevolmente la produttività. Questi strumenti sono utili per diverse attività quotidiane, come convertire documenti, estrarre testo, trascrivere audio e proteggere informazioni sensibili. È una risorsa pratica per integrare l'AI nel proprio lavoro senza costi aggiuntivi."
+    }
+  ]
+}

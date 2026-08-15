@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-15",
+  "notizie": [
+    {
+      "titolo": "Come padroneggiare il Nuovo ChatGPT Work, l'agente di OpenAI basato su GPT-5.6 (corso gratis)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=D4p-tABbZXI",
+      "data": "13/08/2026",
+      "riassunto": "Viene presentato ChatGPT Work, il nuovo agente di OpenAI basato su GPT-5.6, capace di svolgere compiti autonomamente, leggere file e interagire con altri strumenti. Il video offre un corso gratuito completo per imparare a usarlo, dall'installazione alle automazioni, evidenziando come possa lavorare al posto tuo e sbrigare attività anche mentre fai altro."
+    },
+    {
+      "titolo": "Claude impara guardandoti lavorare: crea skill AI registrando il tuo schermo",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=W49E1TwlZ1U",
+      "data": "06/08/2026",
+      "riassunto": "Claude AI ha introdotto una nuova funzione rivoluzionaria: può imparare un compito registrando il tuo schermo mentre lo esegui e spiegando a voce i passaggi. In questo modo, Claude trasforma la tua dimostrazione in una \"skill\" autonoma, capace di ripetere il processo, anche per programmi senza connettori o API, rendendo le automazioni più accessibili che mai."
+    },
+    {
+      "titolo": "Anteprima della modalità Ultrafast: GPT-5.6 Sol fino a 14 volte più veloce",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/previewing-ultrafast/",
+      "data": "13/08/2026",
+      "riassunto": "OpenAI sta introducendo una modalità \"Ultrafast\" per GPT-5.6 Sol, promettendo una velocità di risposta fino a 14 volte superiore rispetto al modello attuale. Questo è un enorme passo avanti per tutte le applicazioni che richiedono risposte in tempo reale, come chatbot e assistenti virtuali, migliorando notevolmente l'esperienza utente."
+    },
+    {
+      "titolo": "La guida per gli sviluppatori a GPT-5.6",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6/",
+      "data": "13/08/2026",
+      "riassunto": "OpenAI ha rilasciato una guida dettagliata e completa per gli sviluppatori su come sfruttare al meglio le nuove funzionalità e potenzialità di GPT-5.6. Questo apre nuove possibilità per creare applicazioni e servizi innovativi basati su uno dei più recenti e potenti modelli di linguaggio, fornendo un supporto pratico a chi vuole innovare con l'AI."
+    },
+    {
+      "titolo": "Gemini 3.7 Flash di Google punta a coding e agenti con un taglio di prezzo introduttivo del 50%",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut",
+      "data": "13/08/2026",
+      "riassunto": "Google ha lanciato Gemini 3.7 Flash, una versione del suo modello AI ottimizzata specificamente per il coding e per la creazione di agenti AI autonomi. Il modello è offerto con uno sconto del 50% per il lancio, rendendolo una soluzione molto competitiva per gli sviluppatori e per chi vuole creare automazioni complesse basate su AI a costi contenuti."
+    },
+    {
+      "titolo": "GLM-5.3 è qui con capacità cyber avanzate e avrebbe già trovato una seria vulnerabilità in Cursor",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor",
+      "data": "14/08/2026",
+      "riassunto": "È stato rilasciato GLM-5.3, un nuovo modello di linguaggio che integra capacità avanzate focalizzate sulla cybersicurezza. Il modello avrebbe già dimostrato la sua efficacia scoprendo una grave vulnerabilità nel popolare tool Cursor, evidenziando il crescente potenziale dell'AI nel campo della sicurezza informatica e nella ricerca di exploit."
+    },
+    {
+      "titolo": "Meta rilascia Muse Glimmer, un nuovo modello AI open source",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/ZnqkiDDUZ0A",
+      "data": "15/08/2026",
+      "riassunto": "Meta ha lanciato Muse Glimmer, un nuovo e promettente modello di intelligenza artificiale open source. Essendo disponibile pubblicamente, offre agli sviluppatori e alla comunità la libertà di esplorare, modificare e integrare nuove capacità creative nelle loro applicazioni, spingendo avanti l'innovazione nella generazione di contenuti e immagini."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve un problema comune nell'integrazione di agenti AI: la mancanza di connettori o API pubbliche per molte piattaforme. Questo tool permette di creare interfacce a riga di comando (CLI) personalizzate per far interagire l'AI con qualsiasi software, riducendo il tempo perso e aumentando la produttività anche con le piattaforme più \"chiuse\"."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business, un plugin per integrare Claude nelle PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin pensato appositamente per le piccole e medie imprese. Questo pacchetto include connettori e workflow agentici preconfigurati per integrare facilmente Claude AI in pochi click con strumenti comuni come Gmail, Google Drive e Microsoft 365, permettendo alle PMI di automatizzare processi e migliorare la produttività senza sforzi."
+    },
+    {
+      "titolo": "Settimana folle per l'AI: nuovi modelli open source, AI più veloci e agenti autonomi (con Qwen3.8-27B)",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=9vAT3_t0r8I",
+      "data": "14/08/2026",
+      "riassunto": "Questa settimana è stata eccezionalmente ricca di novità per il mondo dell'AI, con il lancio di nuovi modelli open source come Qwen3.8-27B, che è multimodale e progettato anche per girare direttamente sui nostri dispositivi locali. Si sta assistendo a un incremento di velocità senza precedenti e alla crescente capacità degli agenti AI di operare in modo autonomo."
+    }
+  ]
+}

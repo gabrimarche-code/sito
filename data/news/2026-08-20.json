@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-20",
+  "notizie": [
+    {
+      "titolo": "Un nuovo modello AI, Qwen 3.8 27B, potente come Claude Opus ma utilizzabile localmente",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/KUi25SzZJ4E",
+      "data": "17/08/2026",
+      "riassunto": "È stato lanciato Qwen 3.8 27B, un modello di intelligenza artificiale super potente, quasi come Claude Opus 4.6 Max, ma la cosa pazzesca è che puoi usarlo sul tuo computer con soli 16GB di RAM. Questo significa che hai a disposizione un'AI di altissimo livello senza dover dipendere da servizi online o spendere soldi in abbonamenti, perfetto per chi vuole sperimentare in locale."
+    },
+    {
+      "titolo": "Scoperti i segreti di GLM 5.3, il miglior modello AI open source del momento",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Ao7Co3q9chQ",
+      "data": "18/08/2026",
+      "riassunto": "È emerso GLM 5.3, e si dice sia il modello open source più performante del momento. Per te che ami l'AI, significa poter accedere a una tecnologia all'avanguardia, modificabile e adattabile alle tue esigenze, senza i vincoli dei modelli proprietari. Un'ottima risorsa per sviluppatori e appassionati che vogliono spingersi oltre con l'intelligenza artificiale."
+    },
+    {
+      "titolo": "I ricercatori scoprono il \"J-Space\", uno spazio di pensiero nascosto che si è evoluto in Claude senza intervento umano",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/g6F0Qkz98DA",
+      "data": "17/08/2026",
+      "riassunto": "I ricercatori hanno fatto una scoperta incredibile dentro Claude: un \"J-Space\", una sorta di \"spazio di pensiero\" o \"workspace globale\" che il modello ha sviluppato da solo, senza che nessuno lo programmasse. Questa notizia apre un dibattito enorme sulla \"coscienza\" delle AI e sulla loro capacità di auto-organizzazione, un tema affascinante per un appassionato come te."
+    },
+    {
+      "titolo": "ChatGPT ora è illimitato e gratis (con pubblicità): tutte le 19 novità AI della settimana",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=qpAjsVNCJgU",
+      "data": "19/08/2026",
+      "riassunto": "Grandi novità per ChatGPT! Ora puoi usarlo gratuitamente e senza limiti di testo, con il nuovo modello GPT-5.6 Luna. C'è un piccolo \"prezzo\": dal 24 agosto inizierà a mostrare pubblicità, anche in Italia. Questo video riassume anche altre 19 novità AI della settimana, tra cui Gemini 3.7 Flash e la modalità Ultrafast di GPT-5.6, tutte spiegate in modo semplice per chi lavora."
+    },
+    {
+      "titolo": "Come usare Google Gemini da zero: guida gratuita e completa in 2 minuti",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=XkzS3wUPH_c",
+      "data": "18/08/2026",
+      "riassunto": "Se vuoi iniziare a usare Google Gemini, questo video ti mostra come farlo da zero in modo super facile. Include il piano gratuito, la configurazione completa in soli due minuti e un metodo efficace per ottenere risposte precise al primo tentativo. È una guida pratica per sfruttare al meglio il tuo nuovo assistente AI per leggere email, preparare riunioni e automatizzare attività."
+    },
+    {
+      "titolo": "3 funzioni avanzate di ChatGPT Work per automatizzare le attività quotidiane",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=_S8zleZ-YXc",
+      "data": "17/08/2026",
+      "riassunto": "Questo video ti svela tre funzioni avanzate di ChatGPT Work che ti permetteranno di automatizzare tantissime attività lavorative, trasformando questo assistente AI nella tua arma segreta per la produttività. Ti mostra come usare template e la funzione \"Record and Replay\" per semplificare il tuo lavoro e ottenere risultati migliori ogni giorno."
+    },
+    {
+      "titolo": "10 tool AI GRATIS e open source così potenti da rendere inutili molti abbonamenti a pagamento",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=q8lapvNgQeE",
+      "data": "17/08/2026",
+      "riassunto": "Ho trovato 10 strumenti di intelligenza artificiale gratuiti e open source che sono incredibilmente potenti e possono farti risparmiare un sacco di soldi in abbonamenti. Dal video alla generazione di immagini (come Qwen-Image che gestisce bene il testo), dalla clonazione vocale agli agenti AI, questi tool possono essere usati anche sul tuo computer, senza bisogno di scrivere codice. Una miniera d'oro per la tua produttività!"
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Hai mai avuto problemi a far interagire l'AI con piattaforme senza connettori? Printing Press è la soluzione! Questo strumento innovativo permette di creare \"CLI\" (interfacce a riga di comando) per collegare un agente AI a qualsiasi piattaforma, anche quelle senza API pubbliche. È un modo efficiente per automatizzare, risparmiare token e integrare l'AI dove prima era impossibile."
+    },
+    {
+      "titolo": "Anthropic lancia \"Claude for Small Business\", un plugin per integrare Claude nelle PMI in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un pacchetto di connettori e workflow basati su agenti AI pensato appositamente per le piccole e medie imprese. Si attiva all'interno di Claude Cowork e include 31 skill e 12 connettori pronti all'uso, come quelli per Gmail e Microsoft 365, permettendo alle PMI di integrare facilmente l'AI per migliorare la produttività."
+    },
+    {
+      "titolo": "OpenAI offre la Zero Data Retention per i suoi modelli AI avanzati",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/",
+      "data": "19/08/2026",
+      "riassunto": "OpenAI ha annunciato la disponibilità della \"Zero Data Retention\" per i suoi modelli più avanzati. Questo significa che i dati che invii ai modelli non vengono conservati o utilizzati per addestrare ulteriormente l'AI, garantendo una maggiore privacy e sicurezza. È un passo importante per chi usa l'AI in contesti sensibili e vuole essere sicuro che le proprie informazioni rimangano confidenziali."
+    }
+  ]
+}

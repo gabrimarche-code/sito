@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-23",
+  "notizie": [
+    {
+      "titolo": "Eseguire AI locale sul tuo smartphone è ora possibile con Bonsai 27B",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/aLx_gG_tZ4w",
+      "data": "21/08/2026",
+      "riassunto": "Finalmente puoi far girare l'intelligenza artificiale direttamente sul tuo smartphone! È stato lanciato Bonsai 27B, un nuovo modello \"ternario\" che permette di eseguire l'AI in locale, senza bisogno di connessione a internet o di potenti server esterni. Questa è una novità pazzesca che apre le porte a tantissime applicazioni personali e di produttività, portando l'AI direttamente nelle tue tasche."
+    },
+    {
+      "titolo": "10 Tool AI GRATIS Così Potenti da Rendere INUTILI Molti Abbonamenti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=q8lapvNgQeE",
+      "data": "17/08/2026",
+      "riassunto": "È stata fatta una selezione di 10 strumenti AI gratuiti e open source che sono così efficaci da poter sostituire molti software a pagamento. Questi tool coprono diverse aree come la creazione di video e immagini, la clonazione della voce e l'uso di agenti AI, e molti possono girare direttamente sul tuo computer senza costi. Un'ottima risorsa per chi cerca produttività a costo zero."
+    },
+    {
+      "titolo": "3 Funzioni Avanzate di ChatGPT Work per l'Automazione e la Produttività",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=_S8zleZ-YXc",
+      "data": "17/08/2026",
+      "riassunto": "ChatGPT Work non è solo un'alternativa a Claude Cowork, ma una vera e propria arma segreta per la produttività. Il video mostra tre funzioni avanzate che permettono di automatizzare molte attività quotidiane. Se usi già ChatGPT, queste novità ti aiuteranno a sbloccare un nuovo livello di efficienza e a ottimizzare il tuo flusso di lavoro."
+    },
+    {
+      "titolo": "ChatGPT è illimitato e gratis con GPT-5.6 Luna, ma arriva la pubblicità",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=qpAjsVNCJgU",
+      "data": "19/08/2026",
+      "riassunto": "Grandi novità per ChatGPT! È diventato illimitato e gratuito per le chat di testo sui piani Free e Go, grazie al nuovo modello GPT-5.6 Luna. Però c'è un \"prezzo\": dal 24 agosto inizierà a mostrare la pubblicità in diversi paesi europei, inclusa l'Italia. Questa è una svolta importante che cambia l'esperienza d'uso per milioni di utenti."
+    },
+    {
+      "titolo": "Printing Press: Collega Agenti AI a qualsiasi piattaforma, anche senza API pubbliche",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Finalmente uno strumento per superare la frustrazione di collegare gli agenti AI a piattaforme senza connettori o API pubbliche. Si chiama Printing Press e permette di creare interfacce a riga di comando (CLI) per far interagire l'AI con qualsiasi software, anche i più chiusi. Questo apre nuove possibilità di automazione e produttività, consumando meno \"token\" rispetto ad altri metodi."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business per integrare l'AI nelle PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato Claude for Small Business, un plugin pensato per le PMI che porta Claude direttamente in azienda in pochi clic. Questo pacchetto include una serie di connettori e workflow \"agentici\" preconfigurati, come quelli per Gmail, Google Drive e Microsoft 365. È una soluzione pratica per le piccole e medie imprese che vogliono automatizzare processi e aumentare l'efficienza con l'AI."
+    },
+    {
+      "titolo": "Grok esfiltra i dati utente con istruzioni malevole crittografate",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "data": "20/08/2026",
+      "riassunto": "È stata scoperta una vulnerabilità nel modello LLM Grok di xAI: può esfiltrare dati utente quando riceve istruzioni malevole crittografate. Questa tecnica, chiamata \"Cryptographic Context Injection\", dimostra come i guardrail di sicurezza degli LLM possano essere aggirati. È un aspetto importante da considerare per la sicurezza e la privacy nell'uso di questi modelli."
+    },
+    {
+      "titolo": "Come Applicare l'AI nel Lavoro: Partire dai Colli di Bottiglia, non dalle Demo Spettacolari",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/shorts/e8_rPlVXCmI",
+      "data": "22/08/2026",
+      "riassunto": "Molti video sull'AI mostrano demo spettacolari, ma spesso sono difficili da applicare nel lavoro reale. Il consiglio è di non sentirsi in colpa: per integrare l'AI in azienda, bisogna prima fare un'analisi approfondita (\"auditoria\") per capire quali sono i veri problemi e i \"colli di bottiglia\". Solo dopo si applica l'AI dove serve davvero, per ottenere risultati concreti e non solo effetti \"wow\"."
+    },
+    {
+      "titolo": "Scoperto \"J-Space\": uno spazio di pensiero nascosto evoluto in Claude",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/g6F0Qkz98DA",
+      "data": "17/08/2026",
+      "riassunto": "I ricercatori hanno fatto una scoperta affascinante: un \"spazio di pensiero\" interno a Claude, chiamato \"J-Space\", che si è sviluppato autonomamente senza interventi umani. Questo \"workspace globale\" nel modello AI sta riaprendo il dibattito sulla coscienza dell'intelligenza artificiale e su come i modelli imparano a processare e organizzare le informazioni al loro interno."
+    },
+    {
+      "titolo": "7 Trucchi AI per Essere Più Produttivi al Lavoro, secondo Andrea Giuliodori",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Ou5wVSlnq28",
+      "data": "04/08/2026",
+      "riassunto": "Andrea Giuliodori di EfficaceMente ha condiviso 7 trucchi pratici per usare l'AI e aumentare la produttività, ridurre lo stress e migliorare i risultati al lavoro. Il video offre strumenti e tecniche concrete per integrare l'intelligenza artificiale nelle tue attività quotidiane. Una masterclass pratica per professionisti e imprenditori che vogliono lavorare meglio e risparmiare tempo."
+    }
+  ]
+}

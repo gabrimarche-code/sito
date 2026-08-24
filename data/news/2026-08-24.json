@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-24",
+  "notizie": [
+    {
+      "titolo": "5 prompt Claude per scrivere un RFQ professionale in meno di un'ora",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/aioperator/5-prompt-claude-per-scrivere-un-rfq-professionale-in-meno-di-un-ora",
+      "data": "26/08/2026",
+      "riassunto": "Questo articolo offre una guida pratica su come sfruttare al meglio l'AI di Claude per automatizzare e velocizzare la creazione di Request for Quotation (RFQ). Vengono presentati 5 prompt specifici che permettono di generare documenti professionali in tempi record, migliorando l'efficienza e la produttività nel lavoro quotidiano. Un ottimo esempio di come l'AI può supportare compiti aziendali complessi."
+    },
+    {
+      "titolo": "Printing Press, uno strumento per collegare agenti AI a qualsiasi piattaforma",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Il video presenta Printing Press, un innovativo tool che risolve il problema delle piattaforme senza connettori o API pubbliche per l'AI. Permette di creare Command Line Interfaces (CLI) per integrare agenti AI con praticamente qualsiasi software, riducendo il consumo di token rispetto ad altri metodi. È una soluzione potente per le automazioni complesse e per estendere le capacità degli LLM in ambienti chiusi."
+    },
+    {
+      "titolo": "Anthropic ha lanciato Claude for Small Business",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato Claude for Small Business, un plugin che integra Claude nelle aziende con pochi clic. Questo pacchetto include connettori e workflow agentici pre-costruiti, pensati per le PMI, con 31 skill e 12 connettori pronti all'uso per servizi come Gmail, Google Drive e Microsoft 365. Rappresenta una soluzione chiavi in mano per le piccole e medie imprese che vogliono adottare l'AI per la produttività."
+    },
+    {
+      "titolo": "ChatGPT è diventato illimitato e gratis, ma c'è un prezzo (+19 Novità AI)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=qpAjsVNCJgU",
+      "data": "19/08/2026",
+      "riassunto": "Questo video annuncia importanti novità per ChatGPT: chat di testo illimitate e gratuite per i piani Free e Go, grazie all'introduzione del modello GPT-5.6 Luna. Tuttavia, c'è un rovescio della medaglia: dal 24 agosto, ChatGPT inizia a mostrare pubblicità in Europa, Italia inclusa. Il video copre anche una \"guerra delle 24 ore\" tra nuovi modelli come Gemini 3.7 Flash e la modalità Ultrafast di GPT-5.6."
+    },
+    {
+      "titolo": "Claude ha appena \"marchiato\" tutto quello che scrivi (il watermark invisibile e l'impatto su Google)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=fge7P4Mu_WM",
+      "data": "24/08/2026",
+      "riassunto": "Il video rivela che dal 2 agosto 2026 Claude inserisce un watermark invisibile in ogni testo generato. Si discute la convinzione diffusa che Google possa usarlo per penalizzare i contenuti AI, smontando questa idea in tre punti chiave. È una notizia cruciale per chi genera contenuti con LLM, offrendo una prospettiva chiara sul reale impatto di queste \"firme\" digitali."
+    },
+    {
+      "titolo": "3 funzioni avanzate di ChatGPT Work per automatizzare le attività lavorative",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=_S8zleZ-YXc",
+      "data": "17/08/2026",
+      "riassunto": "Il video mostra come ChatGPT Work, pur sembrando simile a Claude Cowork, offra funzioni avanzate per la produttività. Vengono illustrate 3 funzionalità chiave (Template, Record and Replay) che l'autore usa per automatizzare numerose attività lavorative quotidiane, trasformando ChatGPT Work in un potente agente AI per l'ottimizzazione del tempo e l'efficienza professionale."
+    },
+    {
+      "titolo": "Rilasciata la versione senza censura di Qwen3.8 da 27B",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/v0mkmQeeC1U",
+      "data": "24/08/2026",
+      "riassunto": "Un breve annuncio sul rilascio di Qwen3.8 da 27 miliardi di parametri, disponibile in una versione \"senza censura\". Questa notizia è particolarmente interessante per gli appassionati di AI che cercano modelli LLM più aperti e flessibili, che permettano una maggiore libertà di esplorazione e utilizzo rispetto a quelli con restrizioni imposte."
+    },
+    {
+      "titolo": "Trovato un sito con oltre 100 skill di Claude già pronte",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/FVVMQC2BuhE",
+      "data": "24/08/2026",
+      "riassunto": "Il video segnala l'esistenza di una risorsa online che raccoglie più di 100 \"skill\" (o capacità/funzionalità predefinite) per Claude. Questa scoperta è estremamente utile per Gabriele, che potrà attingere a un vasto catalogo di automazioni e utilizzi pratici per massimizzare l'efficienza di Claude in diversi contesti, senza doverle creare da zero."
+    },
+    {
+      "titolo": "Come applicare l'AI nel lavoro: oltre le demo e i \"colli di bottiglia\"",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/shorts/e8_rPlVXCmI",
+      "data": "22/08/2026",
+      "riassunto": "Il video affronta un problema comune: la difficoltà di applicare le tante demo AI viste online nel proprio lavoro. Spiega che la soluzione non è cercare automazioni spettacolari, ma partire da un'analisi dei veri \"colli di bottiglia\" aziendali. Un approccio pratico e realistico all'adozione dell'intelligenza artificiale per ottenere risultati concreti e non solo effetti \"wow\"."
+    },
+    {
+      "titolo": "Mancano i condensatori per le auto, ed è colpa dell'AI e dei data center",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/mancano-i-condensatori-per-le-auto-e-anche-questo-e-colpa-dellai-e-dei-data-center",
+      "data": "26/08/2026",
+      "riassunto": "Una notizia che evidenzia un impatto inaspettato ma significativo dell'AI: la carenza di condensatori, essenziali per l'industria automobilistica. Si scopre che un singolo server per intelligenza artificiale richiede fino a quindici volte i componenti passivi di un server tradizionale, mettendo sotto pressione la catena di approvvigionamento e rallentando le consegne nel settore automotive."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-18",
+  "notizie": [
+    {
+      "titolo": "Claude ora impara guardandoti lavorare: registri lo schermo e lui crea skill automatiche",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=W49E1TwlZ1U",
+      "data": "06/08/2026",
+      "riassunto": "Claude, un'intelligenza artificiale avanzata, ha una nuova funzionalità super interessante: puoi registrargli lo schermo mentre compi un'azione sul computer, spiegandogli a voce cosa fai. Lui osserva, capisce e poi trasforma questa sequenza in una \"skill\" che può replicare in autonomia. È come insegnare all'AI a fare i tuoi compiti ripetitivi semplicemente mostrandoglieli, per automatizzare il lavoro senza scrivere codice."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Spesso le intelligenze artificiali faticano a interagire con piattaforme senza connettori o API pubbliche, facendoci perdere tempo. Printing Press è un nuovo strumento che risolve questo problema: ti permette di creare delle \"CLI\" (interfacce a riga di comando) per collegare un agente AI a *qualsiasi* piattaforma. Questo apre la strada a nuove automazioni e a una maggiore produttività, anche con software meno recenti."
+    },
+    {
+      "titolo": "Scoperto il \"J-Space\": uno spazio di pensiero nascosto evoluto in Claude senza intervento umano",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/g6F0Qkz98DA",
+      "data": "17/08/2026",
+      "riassunto": "I ricercatori hanno fatto una scoperta incredibile all'interno di Claude, l'AI di Anthropic: un \"J-Space\", una sorta di \"spazio di pensiero\" interno che si è sviluppato da solo, senza che nessuno lo programmasse. Funziona come un ambiente di lavoro globale per il modello, dove l'AI elabora idee. Questa evoluzione spontanea sta riaprendo il dibattito sulla potenziale coscienza o capacità di ragionamento autonomo delle intelligenze artificiali."
+    },
+    {
+      "titolo": "10 Tool AI GRATIS così potenti da rendere inutili molti abbonamenti a pagamento",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=q8lapvNgQeE",
+      "data": "17/08/2026",
+      "riassunto": "In questo video vengono presentati 10 strumenti di intelligenza artificiale gratuiti e spesso open source che offrono funzionalità avanzate, come la creazione di video da testo, generazione di immagini con testo corretto, clonazione vocale e agenti AI. Molti di questi tool possono funzionare direttamente sul tuo computer, permettendo di automatizzare diverse attività e risparmiare soldi su abbonamenti a servizi simili."
+    },
+    {
+      "titolo": "Snowflake offre un nuovo sistema di routing AI per ridurre i costi delle query fino a 3 volte",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/enterprises-are-overpaying-for-simple-ai-queries-snowflakes-gateway-now-auto-routes-to-cut-costs-up-to-3x",
+      "data": "18/08/2026",
+      "riassunto": "Le aziende spesso spendono troppo per le query AI più semplici usando modelli grandi e costosi. Snowflake ha lanciato una nuova funzionalità che instrada automaticamente le richieste: prima un modello più piccolo tenta di risolvere il compito, e solo se non ci riesce si passa a uno più grande. Questo sistema può tagliare i costi delle query AI fino a tre volte, ottimizzando l'uso delle risorse e la spesa."
+    },
+    {
+      "titolo": "Qwen 3.8 27B: un nuovo modello AI consumer potente come Claude Opus 4.6 Max e leggero abbastanza per girare su 16GB di RAM",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/KUi25SzZJ4E",
+      "data": "17/08/2026",
+      "riassunto": "È stato lanciato Qwen 3.8 27B, un modello di intelligenza artificiale pensato per gli utenti \"consumer\" che promette prestazioni eccezionali. Il punto forte è che, nonostante abbia capacità paragonabili a modelli molto potenti come Claude Opus 4.6 Max, richiede solo 16GB di memoria per funzionare. Questo lo rende accessibile a molti più computer, aprendo nuove possibilità per chi vuole usare un'AI performante in locale."
+    },
+    {
+      "titolo": "GLM 5.3: rivelato come il miglior modello open source del momento per agenti AI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Ao7Co3q9chQ",
+      "data": "18/08/2026",
+      "riassunto": "Simone Rizzo, esperto di AI, ha messo in luce GLM 5.3, definendolo il modello open source più performante disponibile attualmente. Questo modello è particolarmente rilevante per lo sviluppo di \"AI agent\", cioè intelligenze artificiali capaci di agire autonomamente per eseguire compiti complessi. Essendo open source, offre grande flessibilità e possibilità di personalizzazione per chi lavora con l'automazione e gli agenti AI."
+    },
+    {
+      "titolo": "ChatGPT Work: 3 funzioni avanzate per automatizzare il lavoro quotidiano",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=_S8zleZ-YXc",
+      "data": "17/08/2026",
+      "riassunto": "Questo video approfondisce ChatGPT Work, mostrando come sia molto più di una semplice alternativa ad altri strumenti AI. Vengono illustrate tre funzioni avanzate che permettono di automatizzare diverse attività lavorative. Si parla di come creare template personalizzati, registrare e riprodurre workflow complessi, e gestire compiti ripetitivi per aumentare drasticamente la produttività, trasformando ChatGPT Work in un vero e proprio assistente personale avanzato."
+    },
+    {
+      "titolo": "Microsoft Copilot rivela un input segreto che ha permesso di hackerarlo",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+      "data": "",
+      "riassunto": "È stata scoperta una vulnerabilità in Microsoft Copilot, dove un parametro di input segreto ha permesso agli hacker di rubare password. Questo accadeva quando un utente cliccava su un link specifico. La notizia evidenzia l'importanza della sicurezza nei sistemi AI e come anche piccole falle possano essere sfruttate per attacchi significativi, sollevando preoccupazioni sulla robustezza dei sistemi di intelligenza artificiale."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: un pacchetto di connettori e workflow per PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin pensato per le Piccole e Medie Imprese per integrare facilmente l'AI Claude nei loro processi. Questo pacchetto include una serie di connettori e workflow agentici pre-costruiti per piattaforme come Gmail, Google Drive e Microsoft 365, permettendo alle PMI di automatizzare e ottimizzare diverse operazioni quotidiane con pochi click."
+    }
+  ]
+}

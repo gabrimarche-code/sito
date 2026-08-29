@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-27",
+  "notizie": [
+    {
+      "titolo": "Anthropic lancia Claude Opus 5, un modello AI più economico e potente per sviluppatori e aziende",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/anthropic-launches-claude-opus-5-a-cheaper-ai-model-for-coding-agents-and-enterprise-workflows",
+      "data": "24/07/2026",
+      "riassunto": "Anthropic ha rilasciato Claude Opus 5, un nuovo e più conveniente modello di intelligenza artificiale, ottimizzato per il coding, la creazione di agenti AI e i flussi di lavoro aziendali. È ora il modello predefinito per gli abbonati a Claude Max e promette alte prestazioni a costi ridotti, rendendolo ideale per chi cerca soluzioni AI avanzate."
+    },
+    {
+      "titolo": "OpenAI introduce \"Health in ChatGPT\" per informazioni e supporto sanitario",
+      "fonte": "OpenAI News",
+      "link": "https://openai.com/index/health-in-chatgpt/",
+      "data": "23/07/2026",
+      "riassunto": "OpenAI ha lanciato \"Health in ChatGPT\", una nuova funzionalità che permette al chatbot di fornire informazioni e supporto in ambito sanitario. L'obiettivo è offrire agli utenti un accesso più semplice a risorse mediche, risposte a domande comuni sulla salute e assistenza generale per la gestione del proprio benessere personale in modo immediato."
+    },
+    {
+      "titolo": "OpenAI si concentra sulla creazione di soluzioni AI per le piccole imprese",
+      "fonte": "OpenAI News",
+      "link": "https://openai.com/index/building-ai-for-the-ambitions-of-small-businesses/",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI sta sviluppando strumenti di intelligenza artificiale specifici e accessibili per le piccole e medie imprese. L'iniziativa mira a rendere l'AI un alleato per le PMI, aiutandole a migliorare l'efficienza, automatizzare processi chiave e cogliere nuove opportunità di business, fornendo soluzioni pratiche per la crescita aziendale."
+    },
+    {
+      "titolo": "Loop Agentici e Loop Engineering: Il Futuro degli Agenti AI e dell'Automazione",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=YpmRNpA0IWM",
+      "data": "27/07/2026",
+      "riassunto": "Raffaele Gaito esplora i concetti di \"loop agentici\" e \"loop engineering\", spiegando se si tratti di una moda o di una metodologia seria nell'ambito dell'IA. Il video approfondisce come gli agenti AI possano interagire in cicli autonomi per svolgere compiti complessi, migliorando l'efficienza e le capacità decisionali senza intervento umano costante."
+    },
+    {
+      "titolo": "Orchestrare Team di Agenti AI: Creare un'Azienda Virtuale Intelligente",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/KBB69FPcPNI",
+      "data": "27/07/2026",
+      "riassunto": "Simone Rizzo introduce l'idea di costruire \"team di agenti AI\" che operano in modo collaborativo, simulando una vera e propria azienda. L'utente ha il ruolo di orchestratore di questi team virtuali, delegando compiti e gestendo i flussi di lavoro per massimizzare la produttività e automatizzare processi complessi in modo innovativo."
+    },
+    {
+      "titolo": "Colibrì: Eseguire LLM come GLM 5.2 in Locale sul Tuo PC di Casa",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/y6_AUFKvGII",
+      "data": "26/07/2026",
+      "riassunto": "Viene presentato Colibrì, un engine leggero scritto in C che permette di eseguire modelli linguistici di grandi dimensioni (LLM) come GLM 5.2 direttamente sul proprio computer di casa. Questa soluzione innovativa offre il vantaggio di utilizzare l'AI avanzata offline, garantendo maggiore privacy e controllo, senza dover dipendere da servizi cloud."
+    },
+    {
+      "titolo": "5 Strumenti AI Gratuiti e Sconosciuti per Massimizzare la Produttività",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Antonio Guadagno rivela cinque intelligenze artificiali gratuite e poco conosciute che utilizza abitualmente per la sua produttività. Questi strumenti pratici permettono di convertire documenti, estrarre testo, trascrivere audio e proteggere informazioni sensibili, offrendo soluzioni efficaci e gratuite per automatizzare compiti comuni in diversi progetti."
+    },
+    {
+      "titolo": "ChatGPT Work: L'Agente AI di OpenAI per Automatizzare il Lavoro d'Ufficio con GPT 5.6",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha lanciato ChatGPT Work, un agente AI avanzato pensato per automatizzare le attività d'ufficio. Il video mostra come funziona, incluse le nuove funzionalità \"Computer Use\" e \"Sites\", e i nuovi modelli GPT 5.6 (Sol, Terra e Luna), evidenziando la sua capacità di leggere file, connettersi ad applicazioni e consegnare lavori finiti."
+    },
+    {
+      "titolo": "Creare Agenti AI con Claude Code: un'AI che genera preventivi automatici per l'azienda",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=LCNk5e5EiCA",
+      "data": "26/07/2026",
+      "riassunto": "Giovanni Beggiato mostra come sviluppare un agente AI utilizzando Claude Code per automatizzare completamente la generazione di preventivi. Questo agente può fungere da \"cervello aziendale\", creando documenti firmabili con PandaDoc, dimostrando l'enorme potenziale dell'AI per ottimizzare i processi e aumentare l'efficienza nelle imprese in tempi rapidi."
+    },
+    {
+      "titolo": "Claude AI: Scopri le 6 Funzioni Avanzate (Chat, Cowork, Dispatch, Code, Plugin, Skill)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=rBVX7H-GzoY",
+      "data": "27/07/2026",
+      "riassunto": "Il video illustra le sei funzioni principali di Claude AI, mostrando come sfruttare al massimo questo strumento oltre la semplice chat. Vengono spiegate la chat tradizionale, Cowork, Dispatch, Claude Code, e l'utilizzo di plugin e skill, evidenziando come queste diverse modalità possano potenziare la produttività senza richiedere competenze di programmazione."
+    }
+  ]
+}

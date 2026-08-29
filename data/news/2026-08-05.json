@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-05",
+  "notizie": [
+    {
+      "titolo": "Google eliminerà Assistant dai telefoni il 4 settembre, per far spazio a Gemini",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/",
+      "data": "04/08/2026",
+      "riassunto": "Google ha annunciato che il suo assistente vocale tradizionale sul telefono verrà rimosso a partire dal 4 settembre 2026, lasciando spazio unicamente a Gemini per il controllo vocale. Questo significa una transizione importante per gli utenti Android che dovranno abituarsi al nuovo assistente basato su intelligenza artificiale generativa. È un chiaro segno di come i modelli LLM stiano integrandosi sempre più nelle funzionalità di base dei nostri dispositivi."
+    },
+    {
+      "titolo": "Il costo degli agenti AI sta esplodendo: come le aziende stanno monitorando le spese",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/ai-coding-agents-are-blowing-through-budgets-replit-kilo-code-and-symbotic-explain-how-theyre-managing-it",
+      "data": "04/08/2026",
+      "riassunto": "Questo articolo affronta un problema emergente nell'uso degli agenti AI: la gestione dei costi. Viene raccontato come un ingegnere abbia accumulato una bolletta AI di 600 dollari al giorno e come le automazioni di supporto abbiano superato il budget. Tre aziende condividono le loro strategie per tracciare e controllare la spesa in AI, monitorando metriche diverse dal semplice consumo di risorse per evitare sorprese."
+    },
+    {
+      "titolo": "OpenAI lancia l'interazione vocale continua con GPT Live",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
+      "data": "03/08/2026",
+      "riassunto": "OpenAI ha annunciato \"GPT Live\", una nuova funzionalità che permette un'interazione vocale continua e più naturale con i suoi modelli GPT. Questo significa che potrai conversare con l'AI in modo più fluido, senza interruzioni e con risposte più rapide e contestualizzate. È un passo avanti importante verso assistenti AI sempre più \"umani\" e reattivi, rendendo l'esperienza utente molto più intuitiva."
+    },
+    {
+      "titolo": "Il mercato dell’AI è in subbuglio: modelli open-weight sempre più potenti e costi dei token in calo",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=3Elkmmon2vE",
+      "data": "05/08/2026",
+      "riassunto": "Questo video analizza il panorama attuale dei modelli di intelligenza artificiale, sottolineando come modelli open-weight sempre più potenti (come Qwen3.8-Max, Kimi K3, MiniMax M3, Inkling e NVIDIA Nemotron) stiano velocemente riducendo il divario con i modelli proprietari. Questo fenomeno sta portando a una significativa diminuzione del costo dei token, rendendo l'AI più accessibile e stimolando la competizione tra diversi attori globali, non solo la Cina."
+    },
+    {
+      "titolo": "Anthropic aggiorna il protocollo MCP per Coding Agents: integrazione migliore e costi ridotti",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/hroGpeXjhVQ",
+      "data": "04/08/2026",
+      "riassunto": "Anthropic ha rilasciato un aggiornamento al suo protocollo MCP, migliorando notevolmente l'integrazione dei coding agent con le applicazioni esistenti. Questa novità non solo aiuta a ridurre i costi dell'infrastruttura necessaria, ma permette anche agli agenti di gestire direttamente interfacce utente all'interno della chat. Questo significa che gli agenti AI possono diventare ancora più autonomi e capaci di interagire con il software in modo più complesso e conveniente, aprendo nuove possibilità di automazione."
+    },
+    {
+      "titolo": "7 trucchi AI che Andrea Giuliodori usa ogni giorno per essere super produttivo al lavoro",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Ou5wVSlnq28",
+      "data": "04/08/2026",
+      "riassunto": "Andrea Giuliodori di EfficaceMente rivela 7 trucchi pratici per integrare l'AI nel lavoro quotidiano e aumentare la produttività. Il video offre strumenti e tecniche concrete per professionisti e imprenditori che vogliono ottimizzare i processi, risparmiare tempo e migliorare i risultati. Un'ottima risorsa per capire come applicare l'AI in modo utile e senza complicazioni, diventando un vero fenomeno agli occhi dei colleghi."
+    },
+    {
+      "titolo": "5 intelligenze artificiali gratuite e poco conosciute per migliorare la produttività",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Vengono presentate 5 intelligenze artificiali gratuite e poco conosciute che possono essere utilizzate per migliorare la produttività in vari ambiti lavorativi. Questi strumenti sono utili per convertire documenti, estrarre testo, trascrivere audio e proteggere informazioni sensibili, dimostrando come l'AI possa semplificare molte operazioni quotidiane senza costi aggiuntivi. Un set di tool prezioso per chiunque voglia ottimizzare il proprio lavoro con l'AI."
+    },
+    {
+      "titolo": "Non sei indietro: impara a usare gli agenti di intelligenza artificiale in 11 minuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=UNMpnHhbVoo",
+      "data": "23/07/2026",
+      "riassunto": "Un video essenziale che spiega come utilizzare gli agenti di intelligenza artificiale, distinguendoli dai semplici chatbot. Viene introdotto il framework ART (Analyze, Reflect, Take action) per capire quando usare un prompt o un agente, e si illustra il funzionamento \"sotto il cofano\" di un agente AI. Un'ottima introduzione rapida e pratica per chi vuole fare il salto di qualità nell'uso dell'AI e sfruttarne tutto il potenziale."
+    },
+    {
+      "titolo": "La RAG per gli agenti AI ha un problema strutturale: arriva AGVM come alternativa",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/gQq5XWsw8Sw",
+      "data": "05/08/2026",
+      "riassunto": "Questo short solleva una questione critica sulla limitazione della Retrieval Augmented Generation (RAG) per la memoria degli agenti AI, suggerendo che possa creare problemi strutturali. Viene introdotta una soluzione alternativa, la AGVM (Autonomous Generative Virtual Machine), sviluppata da @eternaltech.ai e testabile su detwin.ai. Una novità interessante per chi lavora con gli agenti AI e cerca soluzioni più efficienti per la gestione della memoria."
+    },
+    {
+      "titolo": "Printing Press: il tool per connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Viene presentato Printing Press, un tool innovativo che consente di creare interfacce a riga di comando (CLI) per connettere agenti AI a qualsiasi piattaforma, anche quelle sprovviste di API pubbliche o protocolli come MCP. Questo strumento è fondamentale per le automazioni avanzate, poiché risolve il problema delle integrazioni difficili, ottimizzando i consumi di token e ampliando le capacità operative degli agenti AI. Un vero game-changer per l'automazione."
+    }
+  ]
+}

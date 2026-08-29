@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-25",
+  "notizie": [
+    {
+      "titolo": "5 prompt Claude per scrivere un RFQ professionale in meno di un'ora",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/aioperator/5-prompt-claude-per-scrivere-un-rfq-professionale-in-meno-di-un-ora",
+      "data": "",
+      "riassunto": "Questo articolo mostra come usare Claude, un modello di linguaggio AI, per generare rapidamente una Request for Quotation (RFQ) professionale. Vengono forniti 5 prompt specifici che ti guidano passo dopo passo, facendoti risparmiare tempo e migliorando l'efficacia delle tue richieste di preventivo. È un ottimo esempio di come l'AI possa ottimizzare task lavorativi comuni."
+    },
+    {
+      "titolo": "I primi risultati di Jalapeño mostrano velocità ed efficienza leader del settore nell'inferenza AI",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/jalapeno-first-results/",
+      "data": "25/08/2026",
+      "riassunto": "OpenAI ha presentato i primi risultati del suo chip \"Jalapeño\", progettato specificamente per l'inferenza AI. Questo chip promette di offrire velocità e efficienza energetica eccezionali, superando gli standard attuali. È una notizia importante perché l'hardware ottimizzato è fondamentale per far girare modelli AI sempre più complessi in modo più veloce ed economico."
+    },
+    {
+      "titolo": "Migliorare il rapporto prezzo-prestazioni per gli sviluppatori con GPT‑5.6 in Kiro",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-5-6-in-kiro/",
+      "data": "24/08/2026",
+      "riassunto": "OpenAI annuncia l'integrazione di GPT-5.6 nella piattaforma Kiro, con un focus sul miglioramento del rapporto prezzo-prestazioni per gli sviluppatori. Questo significa che sarà possibile accedere a un modello GPT avanzato con costi ridotti e performance ottimizzate, rendendo lo sviluppo di applicazioni AI più accessibile e conveniente per chi vuole innovare."
+    },
+    {
+      "titolo": "Sviluppatore guadagna 200k dollari con un prompt, lanciando il suo coding Agent per la ricerca di bug",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/r32oRwbfN0A",
+      "data": "25/08/2026",
+      "riassunto": "Un video breve che racconta la storia di uno sviluppatore che, usando un singolo prompt, ha creato un \"coding agent\" basato sull'AI. Questo agente si è dimostrato così efficace nella ricerca di bug da fargli guadagnare una cifra considerevole. È un esempio concreto del potenziale degli agenti AI e della \"prompt engineering\" per la produttività e la creazione di valore."
+    },
+    {
+      "titolo": "Rilasciata la versione senza censura di Qwen3.8 da 27B: ecco tutto quello che dovresti sapere!",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/v0mkmQeeC1U",
+      "data": "24/08/2026",
+      "riassunto": "Un nuovo Large Language Model (LLM) chiamato Qwen3.8, con 27 miliardi di parametri, è stato rilasciato in una versione \"senza censura\". Questo tipo di modelli offre maggiore libertà e flessibilità per usi specifici, anche se solleva questioni etiche. È interessante per chi vuole esplorare le capacità complete di un LLM senza le restrizioni dei modelli tradizionali."
+    },
+    {
+      "titolo": "3 funzioni avanzate di ChatGPT Work che automatizzano attività quotidiane",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=_S8zleZ-YXc",
+      "data": "17/08/2026",
+      "riassunto": "Questo video presenta 3 funzioni avanzate di ChatGPT Work (probabilmente una versione professionale o integrata di ChatGPT) che permettono di automatizzare molte attività lavorative. Viene spiegato come usare template e la funzione \"Record and Replay\" per aumentare la produttività e trasformare l'AI in un potente assistente personale nella tua giornata lavorativa."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare un agente AI a qualsiasi piattaforma senza API pubbliche",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Viene presentato Printing Press, uno strumento innovativo che permette di connettere agenti AI a piattaforme che normalmente non hanno API pubbliche o connettori diretti. Questo tool crea interfacce a riga di comando (CLI) e promette di ridurre il consumo di token rispetto ad altre soluzioni, aprendo nuove possibilità per le automazioni e l'integrazione dell'AI."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin per Claude Cowork progettato specificamente per le Piccole e Medie Imprese. Questo pacchetto include connettori e workflow preconfigurati per integrare rapidamente l'AI nelle attività aziendali, offrendo diverse skill e connettori per strumenti come Gmail e Microsoft 365, semplificando l'adozione dell'AI per le PMI."
+    },
+    {
+      "titolo": "Claude ha marchiato tutto ciò che scrivi: perché non devi farti prendere dal panico per i watermark",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=fge7P4Mu_WM",
+      "data": "24/08/2026",
+      "riassunto": "Dal 2 agosto 2026, Claude inserisce watermark invisibili nei testi generati. Questo video spiega che, nonostante le preoccupazioni diffuse, l'idea che Google penalizzerà i contenuti con watermark AI è infondata. Viene analizzato dove la catena di ragionamenti si spezza, smentendo l'utilità di pagare per \"ripulire\" i testi e fornendo una prospettiva più realistica sulla questione."
+    },
+    {
+      "titolo": "Ho trovato un sito con 100+ skill di Claude già pronte",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/FVVMQC2BuhE",
+      "data": "24/08/2026",
+      "riassunto": "Un breve video che annuncia la scoperta di un sito web che raccoglie oltre 100 \"skill\" già pronte per Claude. Si tratta di un'ottima risorsa pratica per chi usa questo LLM, permettendo di trovare rapidamente prompt e configurazioni predefinite per svolgere diverse attività, migliorando l'efficienza e la versatilità nell'uso di Claude senza dover partire da zero."
+    }
+  ]
+}

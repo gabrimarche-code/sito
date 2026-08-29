@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-26",
+  "notizie": [
+    {
+      "titolo": "Anthropic lancia Claude Opus 5, un modello AI più efficiente per codice, agenti e flussi aziendali",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/anthropic-launches-claude-opus-5-a-cheaper-ai-model-for-coding-agents-and-enterprise-workflows",
+      "data": "24/07/2026",
+      "riassunto": "Anthropic ha rilasciato Claude Opus 5, una nuova versione del suo potente modello AI che si distingue per l'efficienza dei token, rendendolo più economico e ottimizzato. È pensato soprattutto per chi sviluppa codice, crea agenti AI e gestisce flussi di lavoro complessi in azienda. Questo modello diventa il nuovo standard per gli abbonati premium di Claude, offrendo prestazioni elevate a un costo più accessibile."
+    },
+    {
+      "titolo": "Claude Opus 5: benchmark, miglioramenti e \"jailbreak\" del nuovo modello AI più potente",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=5gjvOUAL0Yg",
+      "data": "25/07/2026",
+      "riassunto": "Simone Rizzo analizza in dettaglio Claude Opus 5 di Anthropic, che, secondo i benchmark ufficiali, si posiziona come il modello AI più potente al momento. Il video esplora i miglioramenti rispetto alle versioni precedenti, le nuove funzionalità di sicurezza introdotte e anche il \"jailbreak\" (un modo per aggirare le restrizioni) scoperto poco dopo il lancio. È una notizia super interessante per capire a fondo le potenzialità e le sfide dei nuovi LLM."
+    },
+    {
+      "titolo": "ChatGPT Work: l'agente AI di OpenAI per automatizzare il lavoro da ufficio",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha lanciato ChatGPT Work, un agente AI progettato per automatizzare le attività d'ufficio. Il video mostra come funziona, illustrando le nuove funzioni \"Computer Use\" e \"Sites\" e presentando i modelli GPT 5.6 (Sol, Terra e Luna). È paragonabile a Claude Cowork e promette di trasformare il modo in cui gestiamo le attività quotidiane, delegando all'AI compiti ripetitivi."
+    },
+    {
+      "titolo": "La nuova app di ChatGPT con Work: un agente AI che lavora al posto tuo",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=U6qyoblc384",
+      "data": "16/07/2026",
+      "riassunto": "La nuova app di ChatGPT integra \"Work\", un agente AI che va oltre la semplice chat. Questo agente è capace di leggere file dal tuo computer, connettersi ai tuoi applicativi e completare compiti complessi, non solo fornire risposte. Il video mostra una demo pratica, collegando ChatGPT a un CRM per inviare solleciti di pagamento via email e generare documenti. È un salto di qualità nell'automazione personale e professionale."
+    },
+    {
+      "titolo": "Impara a usare gli agenti di intelligenza artificiale in 11 minuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=UNMpnHhbVoo",
+      "data": "23/07/2026",
+      "riassunto": "Questo video ti insegna rapidamente a padroneggiare gli agenti di intelligenza artificiale, distinguendoli dai chatbot tradizionali. Mentre un chatbot aspetta il tuo prossimo comando, un agente AI decide da solo le azioni da intraprendere. Ti vengono forniti framework concreti, come il sistema ART, per capire cosa succede \"sotto il cofano\" di un agente e come sfruttarli al meglio per fare un vero salto di qualità."
+    },
+    {
+      "titolo": "Costruire un agente AI aziendale con Claude Code per preventivi automatici",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=LCNk5e5EiCA",
+      "data": "26/07/2026",
+      "riassunto": "Giovanni Beggiato dimostra come sia possibile costruire agenti AI complessi in poco tempo, anche se le aziende sono disposte a pagare cifre molto alte per soluzioni simili. Nel video, crea un prototipo live usando Claude Code per trasformarlo in una \"company brain\" che genera preventivi automatici e firmabili con PandaDoc. È un esempio super pratico e utile di come l'AI generativa possa automatizzare processi aziendali chiave."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare agenti AI a qualsiasi piattaforma senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Molte piattaforme non offrono connettori diretti per l'AI, causando perdite di tempo. Printing Press è uno strumento che risolve questo problema permettendo di creare interfacce a riga di comando (CLI) per collegare un agente AI a qualsiasi piattaforma, anche quelle senza API pubbliche. Il video spiega cos'è, perché è più efficiente e mostra come installarlo e creare una CLI da zero, aprendo a infinite possibilità di automazione."
+    },
+    {
+      "titolo": "Claude for Small Business: il plugin di Anthropic per portare l'AI nelle PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha lanciato Claude for Small Business, un pacchetto di connettori e workflow basati su agenti AI pensato per le piccole e medie imprese. Questo plugin, scaricato da centinaia di migliaia di utenti, si integra in Claude Cowork e include decine di skill e connettori pronti all'uso per servizi come Gmail, Google Drive e Microsoft 365. È un modo semplice e rapido per le PMI di iniziare a usare l'AI per l'automazione."
+    },
+    {
+      "titolo": "Eseguire GLM 5.2 (e altri LLM) sul PC di casa con Colibrì",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/y6_AUFKGII",
+      "data": "26/07/2026",
+      "riassunto": "Questo video presenta Colibrì, un piccolo engine scritto in C che permette di eseguire modelli LLM avanzati come GLM 5.2 direttamente sul tuo personal computer. È un'opportunità fantastica per gli appassionati di AI che vogliono sperimentare l'inferenza di grandi modelli di linguaggio in locale, senza dover ricorrere a servizi cloud o hardware costosi. È un passo avanti per la democratizzazione dell'AI."
+    },
+    {
+      "titolo": "OpenAI lancia \"Health in ChatGPT\": l'AI per il settore sanitario",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/health-in-chatgpt/",
+      "data": "23/07/2026",
+      "riassunto": "OpenAI ha annunciato il lancio di \"Health in ChatGPT\", una nuova iniziativa che mira a portare le capacità dell'intelligenza artificiale generativa nel settore della salute. Questo indica un'espansione significativa delle applicazioni di ChatGPT in un ambito critico, promettendo potenziali miglioramenti in aree come l'assistenza al paziente, la ricerca medica e la gestione delle informazioni sanitarie."
+    }
+  ]
+}

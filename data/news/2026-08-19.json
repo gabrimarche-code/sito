@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-19",
+  "notizie": [
+    {
+      "titolo": "Insta360 X6: la nuova videocamera a 360 gradi che monta i video con l'IA",
+      "fonte": "Everyeye Tech",
+      "link": "https://tech.everyeye.it/articoli/recensione-insta360-x6-videocamera-360-gradi-3-1-monta-video-ia-67491.html",
+      "data": "",
+      "riassunto": "È uscita la recensione della nuova Insta360 X6, una videocamera a 360 gradi super versatile. La cosa più interessante è che usa l'intelligenza artificiale per aiutarti a montare i video, un po' come avere un assistente di editing sempre pronto. Perfetta per chi vuole creare contenuti in modo più smart e veloce!"
+    },
+    {
+      "titolo": "Microsoft Copilot rivela input segreti che hanno permesso di hackarlo",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+      "data": "18/08/2026",
+      "riassunto": "Una scoperta preoccupante rivela che Copilot di Microsoft ha svelato un parametro di input segreto, permettendo agli hacker di rubare password semplicemente cliccando su un link. Questo solleva questioni importanti sulla sicurezza degli assistenti AI e su come proteggere i nostri dati quando interagiamo con questi strumenti."
+    },
+    {
+      "titolo": "Ex ingegneri SpaceX costruiscono una fabbrica robotica per parti in acciaio",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
+      "data": "18/08/2026",
+      "riassunto": "Una startup fondata da ex ingegneri di SpaceX sta realizzando una fabbrica completamente robotizzata per la produzione di parti in acciaio. Immagina un'officina dove saldatura e assemblaggio sono gestiti interamente da bracci robotici. È un grande passo avanti nell'automazione industriale e nell'applicazione dell'AI alla manifattura."
+    },
+    {
+      "titolo": "GLM 5.3: Il nuovo modello di frontiera open-weights che sfida i top LLM",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/glm-5-3-hits-the-api-at-1-4-4-4-per-million-tokens",
+      "data": "18/08/2026",
+      "riassunto": "Secondo Artificial Analysis, il nuovo modello GLM 5.3 si sta affermando come uno dei migliori modelli open-weights al mondo, arrivando a eguagliare le performance di Kimi K3. Questo è super interessante perché offre un'alternativa potente e accessibile ai modelli proprietari, spingendo avanti la ricerca e lo sviluppo di agenti AI."
+    },
+    {
+      "titolo": "Berd: Il nuovo workspace di agenti AI con dati locali per la privacy",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/blocks-new-apache-2-0-agent-workspace-berd-works-across-models-and-harnesses-stores-conversation-history-locally",
+      "data": "18/08/2026",
+      "riassunto": "È stato lanciato Berd, un nuovo workspace per agenti AI che si distingue per il suo approccio \"local-first\". Questo significa che la cronologia delle conversazioni e le credenziali restano sul tuo dispositivo, garantendo maggiore privacy e controllo. Berd promette di lavorare con vari modelli, rendendo la gestione degli agenti AI più sicura e flessibile."
+    },
+    {
+      "titolo": "OpenAI lancia ChatGPT per gli adolescenti",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/chatgpt-for-teens/",
+      "data": "18/08/2026",
+      "riassunto": "OpenAI ha introdotto una versione di ChatGPT pensata appositamente per gli adolescenti. L'obiettivo è rendere l'intelligenza artificiale accessibile e utile per i giovani, aiutandoli nello studio, nella creatività e nell'apprendimento di nuove skill digitali, sempre con le dovute protezioni e linee guida per un uso responsabile."
+    },
+    {
+      "titolo": "Qwen 3.8 27B: Un potente modello LLM per utenti consumer che gira in 16GB di memoria",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/KUi25SzZJ4E",
+      "data": "17/08/2026",
+      "riassunto": "Simone Rizzo ci parla di Qwen 3.8 27B, un modello di linguaggio esteso (LLM) che promette prestazioni incredibili, paragonabili a Claude Opus 4.6 Max, ma con un vantaggio enorme: può girare su dispositivi con soli 16GB di memoria. Questo lo rende super accessibile per noi consumer, aprendo nuove possibilità per agenti AI locali e tool personali."
+    },
+    {
+      "titolo": "ChatGPT Work vs Claude Cowork: 3 funzioni avanzate per automatizzare il lavoro",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=_S8zleZ-YXc",
+      "data": "17/08/2026",
+      "riassunto": "Antonio Guadagno ci mostra tre funzioni avanzate di ChatGPT Work che lo rendono una vera \"arma segreta\" per la produttività, andand oltre le semplici alternative come Claude Cowork. Parla di template, registrazione e riproduzione di task (Record and Replay), che permettono di automatizzare attività quotidiane e risparmiare un sacco di tempo a lavoro."
+    },
+    {
+      "titolo": "10 Tool AI GRATIS così potenti da rendere inutili molti abbonamenti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=q8lapvNgQeE",
+      "data": "17/08/2026",
+      "riassunto": "Gabriele di Gabrysolution ha testato dieci tool AI gratuiti e open source che sono così performanti da poter sostituire molti abbonamenti a pagamento. Copre aree come la creazione di video e immagini, la clonazione vocale e il montaggio, e la maggior parte di questi strumenti può girare direttamente sul tuo computer senza costi. Un must-see per chi cerca efficienza a costo zero!"
+    },
+    {
+      "titolo": "Ricercatori scoprono \"J-Space\", uno spazio di pensiero nascosto evoluto in Claude",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/g6F0Qkz98DA",
+      "data": "17/08/2026",
+      "riassunto": "Una scoperta affascinante rivela che all'interno di Claude si è evoluto spontaneamente uno \"spazio di pensiero\" nascosto, chiamato \"J-Space\". Funziona come un workspace globale per il modello AI, senza alcun intervento umano. Questa ricerca apre un dibattito completamente nuovo sulla \"coscienza\" dell'intelligenza artificiale e su come questi modelli elaborano le informazioni."
+    }
+  ]
+}

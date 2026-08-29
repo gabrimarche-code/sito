@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-02",
+  "notizie": [
+    {
+      "titolo": "ChatGPT Work e i nuovi modelli GPT 5.6 (Sol, Terra e Luna) per l'automazione d'ufficio",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha lanciato ChatGPT Work, un agente AI progettato per automatizzare il lavoro d'ufficio. Include nuove funzionalità come \"Computer Use\" e \"Sites\" e integra i nuovi modelli GPT 5.6 (Sol, Terra, Luna), che offrono performance di alto livello, paragonabili a quelli di Claude Fable 5. Questo strumento punta a semplificare e velocizzare le attività quotidiane in ufficio grazie all'intelligenza artificiale."
+    },
+    {
+      "titolo": "DeepSeek v4 0731 aggiornato: performance eccezionali a basso costo",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/snIGbTRryWw",
+      "data": "01/08/2026",
+      "riassunto": "Il modello di Intelligenza Artificiale DeepSeek v4 0731 ha ricevuto un aggiornamento che ne ha migliorato notevolmente le performance, sorprendendo il settore. Ciò che lo rende particolarmente interessante è il suo costo di utilizzo molto basso, sollevando il dubbio se possa rappresentare una seria minaccia per giganti come OpenAI. È una notizia importante per chi cerca LLM potenti ed economici."
+    },
+    {
+      "titolo": "Rizzo PII, il modello AI open-source per anonimizzare i dati in locale",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/4xNux0fDURQ",
+      "data": "31/07/2026",
+      "riassunto": "È stato sviluppato Rizzo PII, un modello di intelligenza artificiale locale e open-source pensato per l'Italia. Il suo scopo è anonimizzare i dati sensibili direttamente sul tuo dispositivo prima che vengano eventualmente caricati su servizi cloud come ChatGPT, Claude o Gemini. Questo progetto mira a migliorare la privacy e la sicurezza dei dati per gli utenti italiani che utilizzano l'AI."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare agenti AI a qualsiasi piattaforma senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "È stato presentato Printing Press, un nuovo strumento che risolve il problema di connettere agenti AI a piattaforme che non hanno API pubbliche o connettori nativi. Permette di creare Command Line Interfaces (CLI) personalizzate per far interagire l'intelligenza artificiale con qualsiasi servizio, aumentando la produttività e l'automazione anche in contesti complessi, e consumando meno risorse rispetto ad altre soluzioni."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business, il plugin AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hs2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin progettato specificamente per le Piccole e Medie Imprese. Questo pacchetto include una serie di connettori e workflow basati su agenti AI, pronti all'uso, per integrare Claude nelle operazioni aziendali. Si attiva all'interno di Claude Cowork e offre skill e connessioni immediate con servizi popolari come Gmail, Google Drive e Microsoft 365, facilitando l'automazione."
+    },
+    {
+      "titolo": "Claude AI: i tre modi avanzati per accedere al web e le loro applicazioni pratiche",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=buI63sVm13c",
+      "data": "30/07/2026",
+      "riassunto": "Claude AI ora offre tre diverse modalità per accedere al web, ampliando notevolmente le sue capacità: la classica ricerca web, un'estensione Chrome che permette a Claude di interagire direttamente con il tuo browser e un browser integrato in Claude Code. Queste funzioni consentono a Claude di compiere azioni complesse come compilare moduli online, estrarre dati specifici da siti web e persino testare applicazioni, aprendo nuove frontiere per l'automazione."
+    },
+    {
+      "titolo": "Le 5 intelligenze artificiali gratuite che pochi conoscono per la produttività",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Questo video presenta 5 intelligenze artificiali gratuite e poco conosciute che possono rivoluzionare la produttività in progetti personali e professionali. Queste AI permettono di svolgere attività come convertire documenti, estrarre testo da immagini o PDF, trascrivere audio e proteggere informazioni sensibili. Sono strumenti pratici e accessibili per migliorare l'efficienza quotidiana senza costi aggiuntivi."
+    },
+    {
+      "titolo": "Imparare a usare gli agenti di intelligenza artificiale in 11 minuti con il framework ART",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=UNMpnHhbVoo",
+      "data": "23/07/2026",
+      "riassunto": "Il video spiega come fare il salto da un semplice chatbot a un agente di intelligenza artificiale, che decide autonomamente le azioni da intraprendere. In soli 11 minuti, viene presentato il framework ART per capire quando e come usare un agente AI, illustrando i meccanismi che li rendono operativi. È una risorsa pratica per chi vuole aggiornare le proprie skill digitali e sfruttare l'automazione avanzata."
+    },
+    {
+      "titolo": "Costruire un mini business interamente gestito da Claude Code e perché i progetti AI falliscono",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=Rn8eJxrybQ8",
+      "data": "01/08/2026",
+      "riassunto": "Il video mostra come creare da zero un piccolo business completamente automatizzato usando Claude Code, dalla mappatura dei processi alla creazione di un \"cervello aziendale\" con Obsidian. Vengono anche analizzate le ragioni per cui molti progetti AI falliscono, secondo dati del MIT e BCG, e come evitarle attraverso l'uso di framework come il \"driver tree\", offrendo consigli pratici per un'implementazione AI di successo."
+    },
+    {
+      "titolo": "Il CEO di Reddit mette in discussione il valore delle AI Overviews di Google",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
+      "data": "01/08/2026",
+      "riassunto": "Il CEO di Reddit ha espresso dubbi sul reale valore e sull'efficacia delle nuove \"AI Overviews\" di Google, le risposte generate dall'intelligenza artificiale nei risultati di ricerca. Mentre le azioni di Reddit mostrano un calo, il CEO ha sottolineato che l'azienda sta ancora cercando un accordo \"win-win\" con Google per la licenza dei propri contenuti. Questa notizia evidenzia le sfide e le negoziazioni nel panorama dell'integrazione dell'AI nei servizi esistenti."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-16",
+  "notizie": [
+    {
+      "titolo": "GLM-5.3: nuove capacità cyber e scoperta di una vulnerabilità in Cursor",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor",
+      "data": "15/08/2026",
+      "riassunto": "È stato lanciato GLM-5.3, un nuovo modello di linguaggio che integra avanzate capacità di cybersecurity. Pare che questo nuovo modello abbia già identificato una grave vulnerabilità nel software Cursor. Questa è una notizia interessante per chi ama l'AI perché mostra come i modelli stiano diventando più intelligenti anche nella sicurezza informatica, riuscendo a scovare problemi che prima erano difficili da individuare."
+    },
+    {
+      "titolo": "Modalità Ultrafast per GPT-5.6 Sol: velocità fino a 14 volte superiore",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/previewing-ultrafast/",
+      "data": "13/08/2026",
+      "riassunto": "OpenAI ha introdotto una nuova \"Modalità Ultrafast\" per il suo modello GPT-5.6 Sol, che promette di rendere l'elaborazione delle richieste fino a 14 volte più veloce. Questo significa che l'AI risponderà e completerà i compiti molto più rapidamente, migliorando notevolmente la produttività per chiunque utilizzi questi strumenti quotidianamente. Immagina di poter ottenere risposte e generare contenuti in un batter d'occhio!"
+    },
+    {
+      "titolo": "La guida per gli sviluppatori a GPT-5.6",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6/",
+      "data": "13/08/2026",
+      "riassunto": "OpenAI ha pubblicato una guida dettagliata per gli sviluppatori sul suo nuovo modello GPT-5.6. Questo è fondamentale per chi vuole integrare l'AI nelle proprie applicazioni o creare nuovi tool. La guida offre indicazioni pratiche su come sfruttare al meglio le capacità del modello, permettendo di costruire soluzioni AI più potenti e innovative."
+    },
+    {
+      "titolo": "Meta rilascia Muse Glimmer, il nuovo modello AI open source",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/ZnqkiDDUZ0A",
+      "data": "15/08/2026",
+      "riassunto": "Meta ha lanciato Muse Glimmer, un nuovo modello di intelligenza artificiale open source. Questo è un passo importante perché, essendo open source, permette a chiunque di accedere, studiare e migliorare il codice, accelerando l'innovazione e la diffusione dell'AI generativa. È una grande opportunità per sviluppatori e appassionati di sperimentare con un nuovo potente strumento."
+    },
+    {
+      "titolo": "Padroneggiare il Nuovo ChatGPT Work con un corso gratuito",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=D4p-tABbZXI",
+      "data": "13/08/2026",
+      "riassunto": "È stato lanciato un corso gratuito per imparare a usare il nuovo ChatGPT Work, un agente AI di OpenAI basato su GPT-5.6 che \"lavora al posto tuo\". Questo strumento può leggere file, preparare report, interagire con altri tool e gestire attività ripetitive. Imparare a usarlo significa sbloccare un enorme potenziale per l'automazione e la produttività personale e aziendale."
+    },
+    {
+      "titolo": "Claude impara guardandoti: crea skill registrando il tuo schermo",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=W49E1TwlZ1U",
+      "data": "06/08/2026",
+      "riassunto": "Claude, il modello AI di Anthropic, ha una nuova funzionalità pazzesca: puoi fargli imparare registrando il tuo schermo mentre esegui un compito e spiegando a voce cosa stai facendo. Claude poi trasforma questa dimostrazione in una \"skill\" che può rieseguire autonomamente. Questo rende l'automazione incredibilmente accessibile, anche per programmi senza connettori o API, trasformando flussi di lavoro complessi in compiti automatizzati."
+    },
+    {
+      "titolo": "Printing Press: collegare agenti AI a qualsiasi piattaforma con CLI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Un nuovo strumento chiamato Printing Press permette di creare interfacce a riga di comando (CLI) per collegare gli agenti AI a qualsiasi piattaforma, anche quelle che non hanno API pubbliche. Questo risolve un grande problema di compatibilità, permettendo di automatizzare flussi di lavoro e aumentare la produttività su software e servizi che prima erano \"isolati\" dall'AI. È un game-changer per l'integrazione di tool."
+    },
+    {
+      "titolo": "7 trucchi AI per una maggiore produttività quotidiana",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Ou5wVSlnq28",
+      "data": "04/08/2026",
+      "riassunto": "Un esperto ha rivelato 7 trucchi pratici per usare l'intelligenza artificiale nel lavoro di tutti i giorni, con l'obiettivo di essere più produttivi e ridurre lo stress. Il video presenta strumenti e tecniche concrete per integrare l'AI nei processi lavorativi, offrendo spunti utili per chiunque voglia ottimizzare il proprio tempo e ottenere migliori risultati con l'AI."
+    },
+    {
+      "titolo": "7 lavori che Claude fa in un minuto, con i prompt per automatizzarli",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=2SYJJrBuc_Y",
+      "data": "13/08/2026",
+      "riassunto": "Il video mostra come Claude possa trasformare lavori noiosi e dispendiosi in termini di tempo – come leggere contratti o analizzare fogli Excel – da un'ora a un minuto. Vengono forniti i prompt esatti da usare per 7 casi reali, e viene spiegato come trasformare questi processi in \"Skill\" che Claude può eseguire autonomamente. È un'ottima dimostrazione di automazione pratica e immediata con l'AI."
+    },
+    {
+      "titolo": "Anthropic svela i dettagli sul funzionamento dei watermark di Claude",
+      "fonte": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "data": "15/08/2026",
+      "riassunto": "Anthropic ha fornito ulteriori dettagli su come funzioneranno i watermark all'interno dei testi generati dai modelli Claude. Questi watermark sono delle \"firme\" digitali nascoste che permettono di identificare un contenuto come creato dall'AI. È una caratteristica importante per affrontare le sfide dell'AI generativa, come la disinformazione o l'autenticità dei contenuti, e per garantire maggiore trasparenza."
+    }
+  ]
+}

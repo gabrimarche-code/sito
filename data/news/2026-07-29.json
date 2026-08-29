@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-29",
+  "notizie": [
+    {
+      "titolo": "ChatGPT Work e i nuovi modelli GPT 5.6: l'agente AI per l'ufficio",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha lanciato ChatGPT Work, un potente agente AI progettato per automatizzare le attività d'ufficio. Include nuove funzioni come Computer Use e Sites, e introduce i nuovi modelli GPT 5.6 (Sol, Terra e Luna), con performance paragonabili a Claude Fable 5, Opus e Sonnet. Questo strumento permette di collegare ChatGPT direttamente ai tuoi applicativi, come un CRM, per svolgere compiti complessi in autonomia."
+    },
+    {
+      "titolo": "Le 6 funzioni avanzate di Claude AI che la maggior parte delle persone non usa",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=rBVX7H-GzoY",
+      "data": "27/07/2026",
+      "riassunto": "Questo video esplora le funzionalità meno conosciute di Claude AI, oltre alla semplice chat. Vengono illustrate le sue sei funzioni principali, tra cui la chat, Cowork, Dispatch, Claude Code, i plugin e le skill. Queste estensioni rendono Claude uno strumento estremamente versatile, capace di andare ben oltre le interazioni di base, permettendo automazioni e integrazioni più profonde."
+    },
+    {
+      "titolo": "Impara a usare gli agenti di intelligenza artificiale in 11 minuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=UNMpnHhbVoo",
+      "data": "23/07/2026",
+      "riassunto": "Se pensi di saper usare l'AI solo perché ChatGPT risponde bene, questo video ti mostrerà il prossimo livello: gli agenti di intelligenza artificiale. A differenza dei chatbot, gli agenti AI decidono in autonomia le mosse successive per raggiungere un obiettivo. Il video offre framework concreti, come il framework ART, per capire quando usare un prompt e quando delegare a un agente."
+    },
+    {
+      "titolo": "Costruire Agenti AI per aziende con Claude Code: dalla teoria alla pratica per preventivi automatici",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=LCNk5e5EiCA",
+      "data": "26/07/2026",
+      "riassunto": "Questo video dimostra come creare un Agente AI funzionale in un solo pomeriggio, utilizzando Claude Code. L'autore mostra come costruire una \"company brain\" ispirata al pattern di Andrej Karpathy, capace di generare preventivi automatici e firmabili tramite PandaDoc. Un esempio pratico e utile di automazione aziendale che può far risparmiare tempo e denaro."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: un plugin AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin rivoluzionario che integra Claude AI direttamente nelle piccole e medie imprese. Questo pacchetto include una serie di connettori e workflow agentici preconfigurati, come quelli per Gmail, Google Drive e Microsoft 365. È una soluzione pratica per le PMI che vogliono sfruttare l'intelligenza artificiale per migliorare la produttività senza complesse configurazioni."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare Agenti AI a piattaforme senza API pubbliche",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Questo video presenta Printing Press, un innovativo strumento che risolve il problema dell'integrazione di Agenti AI con piattaforme sprovviste di API pubbliche. Permette di creare interfacce a riga di comando (CLI) per connettere qualsiasi agente AI, superando le limitazioni dei connettori tradizionali. Una soluzione preziosa per automatizzare processi anche con software legacy o proprietari."
+    },
+    {
+      "titolo": "OmniRute: l'AI gateway che ti aiuta a gestire i token e risparmiare",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/i45osS1LST4",
+      "data": "29/07/2026",
+      "riassunto": "OmniRute è un nuovo AI gateway che permette di unire diversi provider di intelligenza artificiale in un'unica soluzione. Questo strumento è particolarmente utile per chi lavora con LLM e vuole ottimizzare l'utilizzo dei token, evitando di esaurirli o di spendere troppo. Una soluzione pratica per gestire in modo efficiente le risorse AI e migliorare la produttività."
+    },
+    {
+      "titolo": "Ricercatore scopre un Jailbreak completo per Claude Opus 5",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Pbd-oimexgg",
+      "data": "28/07/2026",
+      "riassunto": "Un ricercatore ha annunciato di aver trovato un metodo per effettuare un \"jailbreak\" completo su Claude Opus 5, sbloccando le sue capacità. Questa notizia è rilevante per chi studia le vulnerabilità e i limiti dei modelli LLM. Comprendere come questi modelli possono essere bypassati è cruciale per migliorare la loro sicurezza e il loro utilizzo etico."
+    },
+    {
+      "titolo": "5 intelligenze artificiali gratuite che pochi conoscono per documenti, audio e protezione dati",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Vengono presentate cinque intelligenze artificiali gratuite e poco note, ma estremamente utili per la produttività quotidiana. Questi strumenti possono convertire documenti, estrarre testo, trascrivere audio e proteggere informazioni sensibili, rendendoli indispensabili per molti progetti. Sono un ottimo modo per sfruttare l'AI senza costi, migliorando le skill digitali e l'automazione delle attività."
+    },
+    {
+      "titolo": "GM ridisegna i flussi di lavoro di ingegneria con gli agenti AI, triplicando i pull request",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/gm-redesigned-its-engineering-workflows-around-ai-agents-and-tripled-its-merged-pull-requests",
+      "data": "28/07/2026",
+      "riassunto": "GM ha rivoluzionato i suoi flussi di lavoro ingegneristici integrando agenti AI, il che ha portato a un impressionante aumento di tre volte nei pull request uniti. Rashed Haq, VP di Autonomous Vehicles di GM, ha spiegato come l'accesso agli agenti \"loop-by-loop\" abbia trasformato l'intera pipeline di ingegneria. Questo dimostra il potenziale dell'AI agentica per migliorare drasticamente l'efficienza e la produttività in contesti aziendali complessi."
+    }
+  ]
+}

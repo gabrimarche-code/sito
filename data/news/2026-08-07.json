@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-07",
+  "notizie": [
+    {
+      "titolo": "Miglioramenti a GPT-5.6 Sol in ChatGPT ed espansione dell'accesso gratuito a GPT-5.6 Luna",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "data": "06/08/2026",
+      "riassunto": "OpenAI ha annunciato importanti aggiornamenti per GPT-5.6 Sol all'interno di ChatGPT, rendendolo ancora più performante. Inoltre, sta espandendo l'accesso gratuito a GPT-5.6 Luna per un numero maggiore di utenti. Questo significa che più persone potranno sperimentare le capacità avanzate dei loro modelli linguistici, rendendo l'intelligenza artificiale più accessibile e potente per diverse applicazioni quotidiane."
+    },
+    {
+      "titolo": "Recensione di Claude Opus 5 dopo 7 giorni di test intensivo: un \"mostro\" di produttività",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=RmkJPQ9i1rQ",
+      "data": "06/08/2026",
+      "riassunto": "In questo video, viene presentata una recensione dettagliata di Claude Opus 5 dopo sette giorni di test intensivo. Si scoprono le sue capacità sorprendenti, come far funzionare un Mac dentro Chrome, creare scene 3D da una singola foto e montare video report autonomamente. Il video analizza cosa riesce a fare bene, dove incontra difficoltà e fornisce un'analisi dei costi."
+    },
+    {
+      "titolo": "Nessun cloud, nessuna GPU: il nuovo modello LFM2-5.2-6B di Liquid AI porta agenti AI potenti su dispositivi come Raspberry Pi",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/no-cloud-no-gpus-no-problem-liquid-ais-new-model-lfm2-5-2-6b-brings-powerful-ai-agents-to-devices-as-small-as-a-raspberry-pi",
+      "data": "06/08/2026",
+      "riassunto": "Liquid AI ha lanciato LFM2-5.2-6B, un innovativo modello AI che permette di far girare agenti di intelligenza artificiale potenti su hardware a basso costo come un Raspberry Pi, senza la necessità di cloud o schede grafiche dedicate. Questo modello si è dimostrato 3.7 volte più veloce di alternative simili, aprendo nuove frontiere per l'AI locale e portatile, un vero passo avanti per Gabriele!"
+    },
+    {
+      "titolo": "Claude impara guardandoti: crea skill automatizzate registrando lo schermo e la tua voce",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=W49E1TwlZ1U",
+      "data": "06/08/2026",
+      "riassunto": "Questo video mostra una funzionalità rivoluzionaria di Claude: la capacità di apprendere nuove skill osservando l'utente. Registrando lo schermo e spiegando a voce le proprie azioni, Claude può trasformare un flusso di lavoro in una skill automatizzabile. È un modo incredibilmente pratico per creare automazioni personalizzate, anche con software senza API, rendendo l'AI un vero e proprio assistente personale che impara da te."
+    },
+    {
+      "titolo": "Printing Press: il tool per connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Il video presenta Printing Press, uno strumento innovativo che risolve il problema di collegare gli agenti AI a piattaforme che non hanno connettori diretti o API pubbliche. Permette di creare interfacce a riga di comando (CLI) per far interagire l'AI con qualsiasi software, consumando meno token e aumentando la produttività. È una soluzione pratica per Gabriele che ama l'automazione e l'integrazione di nuovi tool."
+    },
+    {
+      "titolo": "Come costruire un assistente personale AI con Claude Code (documento gratuito)",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=52fl5ScE9F8",
+      "data": "07/08/2026",
+      "riassunto": "Giovanni Castagna condivide un progetto personale: la costruzione di un assistente AI utilizzando Claude Code, capace di gestire task, finanze e la pianificazione della giornata. Il video non solo illustra il processo, ma offre anche un documento gratuito di 90 pagine con le specifiche e i template per permettere a chiunque di creare il proprio assistente, un tool davvero pratico per l'automazione personale."
+    },
+    {
+      "titolo": "La corsa dei modelli AI open-weight: Qwen3.8-Max, Kimi K3, MiniMax M3 e altri stanno rivoluzionando il mercato",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=3Elkmmon2vE",
+      "data": "05/08/2026",
+      "riassunto": "Il video analizza l'attuale panorama dell'AI, sottolineando come modelli open-weight sempre più potenti come Qwen3.8-Max, Kimi K3, MiniMax M3, Inkling e NVIDIA Nemotron stiano rapidamente colmando il divario con i giganti del settore. Questa competizione sta portando a una riduzione significativa del costo dei token, rendendo l'intelligenza artificiale più accessibile e stimolando una crescita esponenziale nel settore."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI con skill e connettori pronti all'uso",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un nuovo plugin pensato per le piccole e medie imprese, che integra Claude direttamente nei loro processi lavorativi. Questo pacchetto include ben 31 skill e 12 connettori preconfigurati per servizi essenziali come Gmail, Google Drive e Microsoft 365, facilitando l'adozione dell'AI e delle automazioni anche per le realtà aziendali più piccole."
+    },
+    {
+      "titolo": "5 intelligenze artificiali gratuite che nessuno conosce per produttività e gestione documenti",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Antonio Guadagno svela 5 intelligenze artificiali gratuite, ma poco conosciute, che lui stesso utilizza quotidianamente per il 90% dei suoi progetti. Questi tool pratici permettono di convertire documenti, estrarre testo, trascrivere audio e proteggere informazioni sensibili, offrendo soluzioni gratuite ed efficaci per migliorare la produttività e semplificare la gestione dei dati."
+    },
+    {
+      "titolo": "Costruire un mini business con Claude Code e perché il 95% dei progetti AI fallisce",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=Rn8eJxrybQ8",
+      "data": "01/08/2026",
+      "riassunto": "Questo video guida l'utente nella costruzione di un piccolo business completamente automatizzato utilizzando Claude Code, partendo dalla mappatura dei processi fino alla creazione di una \"company brain\" con Obsidian. Viene inoltre spiegato il motivo per cui, secondo dati MIT e BCG, il 95% dei progetti AI fallisce, offrendo un framework per evitare gli errori più comuni e aumentare il successo dell'implementazione AI."
+    }
+  ]
+}

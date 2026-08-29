@@ -1,0 +1,75 @@
+{
+  "data": "2026-07-24",
+  "notizie": [
+    {
+      "titolo": "Claude Code ora integra il simulatore iOS: beta per (quasi) tutti",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/hardware/claude-code-compila-e-testa-le-app-nel-simulatore-ios-beta-per",
+      "data": "",
+      "riassunto": "Claude Code, un ambiente di sviluppo basato su AI, ora permette di compilare e testare applicazioni iOS direttamente al suo interno, grazie all'integrazione di un simulatore. Questo rende lo sviluppo di app molto più veloce e accessibile, permettendo di vedere subito come funziona il codice AI su un iPhone virtuale. È una novità super pratica per chi sviluppa con l'intelligenza artificiale."
+    },
+    {
+      "titolo": "Microsoft lancia nuovi modelli AI interni, si dice taglino i costi fino all'89% rispetto a OpenAI",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/infrastructure/microsoft-launches-new-in-house-ai-models-it-says-cut-costs-up-to-89-versus-openai",
+      "data": "",
+      "riassunto": "Microsoft ha annunciato nuovi modelli di intelligenza artificiale sviluppati internamente, che promettono di ridurre i costi di gestione fino all'89% rispetto ai modelli di OpenAI. Questi modelli sono già integrati in servizi come Bing, PowerPoint e GitHub Copilot. È un segnale forte di Microsoft che punta sull'AI proprietaria per ottimizzare le spese e rafforzare la sua offerta tecnologica."
+    },
+    {
+      "titolo": "Presentato il programma ChatGPT per le piccole imprese",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-chatgpt-small-business-program/",
+      "data": "",
+      "riassunto": "OpenAI ha lanciato un nuovo programma dedicato alle piccole imprese per aiutarle a integrare ChatGPT nelle loro operazioni quotidiane. L'iniziativa mira a fornire strumenti e risorse specifiche per la produttività, consentendo alle aziende di automatizzare attività, migliorare il servizio clienti o generare contenuti. È un modo per rendere l'AI generativa più accessibile e utile per il business."
+    },
+    {
+      "titolo": "La Cina torna a sorprendere con Kimi K3, un modello AI open-weight da 2,8 trilioni di parametri",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=FxJ96zhi-1A",
+      "data": "23/07/2026",
+      "riassunto": "La Cina ha lanciato Kimi K3, un modello di intelligenza artificiale \"open-weight\" (cioè con pesi accessibili) che vanta 2,8 trilioni di parametri, ponendosi come diretto concorrente dei migliori modelli proprietari come Fable 5. Questo rappresenta un enorme salto tecnologico che potrebbe mettere in seria difficoltà giganti come OpenAI, Anthropic e Google, spingendo ulteriormente l'innovazione nell'AI."
+    },
+    {
+      "titolo": "ChatGPT Work è l'agente AI di OpenAI per automatizzare il lavoro da ufficio (con GPT 5.6)",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=NRKfKMSiw04",
+      "data": "16/07/2026",
+      "riassunto": "OpenAI ha presentato ChatGPT Work, un agente AI progettato per automatizzare le attività d'ufficio. Utilizzando i nuovi modelli GPT 5.6 (Sol, Terra e Luna), questo agente è capace di interagire con il tuo computer, leggere file e collegarsi ad altri applicativi per svolgere compiti complessi. È pensato per migliorare la produttività, consegnandoti il lavoro finito anziché semplici risposte."
+    },
+    {
+      "titolo": "Impara a usare gli agenti di intelligenza artificiale in 11 minuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=UNMpnYVoo",
+      "data": "23/07/2026",
+      "riassunto": "Questo video spiega in modo rapido e pratico come iniziare a usare gli agenti di intelligenza artificiale, il prossimo grande passo dopo i semplici chatbot. Mentre un chatbot aspetta la tua prossima istruzione, un agente AI decide autonomamente come agire per raggiungere un obiettivo. Vengono presentati framework concreti per implementare questi strumenti, rendendo l'AI più autonoma e potente."
+    },
+    {
+      "titolo": "Ho provato 13 corsi AI GRATIS di Google e OpenAI: Fai solo questi 9",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=3qjQiYoAEMc",
+      "data": "20/07/2026",
+      "riassunto": "Un video analizza 13 corsi gratuiti sull'AI offerti da Google e OpenAI, selezionando i 9 che valgono davvero il tempo di un appassionato. Questi corsi, pensati per vari livelli di competenza (base, intermedio, avanzato), sono creati dagli stessi sviluppatori di ChatGPT e Gemini. È una risorsa preziosa per chi vuole migliorare le proprie skill digitali e rimanere aggiornato sull'AI."
+    },
+    {
+      "titolo": "Printing Press, lo strumento per creare CLI e collegare agenti AI a qualsiasi piattaforma",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "È stato lanciato Printing Press, un nuovo tool che risolve il problema di far interagire gli agenti AI con piattaforme che non hanno API pubbliche o connettori. Permette di creare Command Line Interface (CLI) personalizzate per collegare un agente AI a quasi ogni sistema, riducendo l'uso di token e aumentando la produttività. Ideale per automazioni complesse e integrazioni avanzate."
+    },
+    {
+      "titolo": "Anthropic ha lanciato Claude for Small Business: un plugin per portare Claude in azienda",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato Claude for Small Business, un plugin che integra il modello Claude nelle piccole e medie imprese. Questo pacchetto include una serie di connettori e workflow basati su agenti AI, pensati per automatizzare attività aziendali. Con skill e connettori pronti all'uso per servizi come Gmail e Microsoft 365, è un modo facile per le PMI di sfruttare l'AI per la produttività."
+    },
+    {
+      "titolo": "Claude non è solo una chat: 3 funzionalità avanzate che il 90% delle persone non usa",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=rGRc5Y-Cliw",
+      "data": "23/07/2026",
+      "riassunto": "Questo video svela tre funzionalità poco conosciute ma potentissime di Claude. Viene mostrato come Claude possa creare skill su misura dalle tue conversazioni, navigare e lavorare al posto tuo grazie a un'estensione Chrome, e come gli \"Artifacts\" possano essere usati per costruire piccoli strumenti personalizzati. Sono trucchi pratici per usare Claude in modo più avanzato e produttivo."
+    }
+  ]
+}

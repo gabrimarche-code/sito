@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-14",
+  "notizie": [
+    {
+      "titolo": "La guida per sviluppatori a GPT-5.6",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6/",
+      "data": "13/08/2026",
+      "riassunto": "OpenAI ha rilasciato una guida dettagliata per gli sviluppatori su come sfruttare al meglio il loro nuovo modello, GPT-5.6. Questo significa che ci sono nuove possibilità per creare applicazioni e soluzioni innovative, utilizzando le ultime capacità di questo potente LLM. È un punto di riferimento fondamentale per chi vuole integrare l'AI nei propri progetti."
+    },
+    {
+      "titolo": "Anteprima della modalità Ultrafast: GPT-5.6 Sol fino a 14 volte più veloce",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/previewing-ultrafast/",
+      "data": "13/08/2026",
+      "riassunto": "OpenAI ha presentato la modalità \"Ultrafast\" per il suo modello GPT-5.6 Sol, promettendo velocità fino a 14 volte superiori. Questo è un enorme passo avanti per le applicazioni che richiedono risposte in tempo reale, rendendo gli assistenti AI e i tool generativi ancora più reattivi ed efficienti per la produttività quotidiana."
+    },
+    {
+      "titolo": "Come padroneggiare il nuovo ChatGPT Work (Corso Gratis)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=D4p-tABbZXI",
+      "data": "13/08/2026",
+      "riassunto": "È stato lanciato ChatGPT Work, un nuovo agente di OpenAI basato su GPT-5.6, che può lavorare al posto tuo, leggendo file, preparando report e automatizzando attività. Questo video offre un corso gratuito completo per imparare a usarlo, dall'installazione alle automazioni più avanzate, trasformando ChatGPT in un vero e proprio collaboratore digitale."
+    },
+    {
+      "titolo": "Gemini 3.7 Flash di Google punta a coding e agenti con un taglio di prezzo del 50%",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut",
+      "data": "13/08/2026",
+      "riassunto": "Google ha rilasciato Gemini 3.7 Flash, un nuovo modello LLM ottimizzato per attività di coding e agenti AI, con un'offerta di lancio che include un taglio di prezzo del 50%. Questa mossa rende Gemini ancora più competitivo sul mercato, offrendo una soluzione potente e più accessibile per gli sviluppatori che creano soluzioni AI."
+    },
+    {
+      "titolo": "OpenAI e Anthropic in guerra dei prezzi mentre i rivali AI cinesi guadagnano terreno",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "data": "28/08/2026",
+      "riassunto": "Il mercato degli LLM sta vivendo una vera e propria guerra dei prezzi, con giganti come OpenAI e Anthropic che abbassano i costi dei loro modelli. Questo è dovuto anche alla crescente pressione dei rivali AI cinesi che stanno emergendo con soluzioni competitive, portando benefici in termini di costi e accesso a modelli sempre più potenti."
+    },
+    {
+      "titolo": "Puoi creare app che vivono dentro il tuo agente AI: Claude, ChatGPT ecc. grazie al nuovo protocollo MCP",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/BEc75uSnNug",
+      "data": "11/08/2026",
+      "riassunto": "Un nuovo protocollo chiamato MCP permette di creare vere e proprie applicazioni che funzionano direttamente all'interno degli agenti AI, come Claude e ChatGPT. Questo apre le porte a nuove forme di interazione e automazione, rendendo gli agenti AI non solo assistenti, ma piattaforme complete per tool e servizi personalizzati."
+    },
+    {
+      "titolo": "Claude ora impara guardandoti lavorare: registra lo schermo e crea una skill",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=W49E1TwlZ1U",
+      "data": "06/08/2026",
+      "riassunto": "Claude di Anthropic ha introdotto una funzione rivoluzionaria: può imparare le tue attività guardandoti mentre lavori sullo schermo. Registrando un flusso di lavoro e spiegando a voce cosa stai facendo, Claude trasforma queste azioni in una \"skill\" riutilizzabile, che può eseguire da sola in futuro. Questo rende le automazioni molto più intuitive e personalizzate."
+    },
+    {
+      "titolo": "Printing Press, uno strumento per collegare un agente AI a qualsiasi piattaforma (anche senza API pubbliche o MCP)",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo tool che risolve il problema di collegare gli agenti AI a piattaforme che non offrono API pubbliche o supporto MCP. Permette di creare Command Line Interfaces (CLI) per far interagire l'AI con quasi ogni software, riducendo il consumo di token e aumentando la produttività, anche con sistemi legacy o proprietari."
+    },
+    {
+      "titolo": "Le 5 intelligenze artificiali gratuite che uso per convertire, estrarre testo e trascrivere audio",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=Hs2nGzeGH-8",
+      "data": "27/07/2026",
+      "riassunto": "Questo video rivela 5 intelligenze artificiali gratuite e poco conosciute, ma estremamente utili per la produttività. Vengono usate per compiti quotidiani come convertire documenti, estrarre testo, trascrivere audio e proteggere informazioni sensibili, dimostrando come si possa migliorare il flusso di lavoro senza costi aggiuntivi."
+    },
+    {
+      "titolo": "Le 8 cose che faccio fare a Claude ogni giorno, che valgono una persona in più in azienda",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=kRfVUzPto08",
+      "data": "09/08/2026",
+      "riassunto": "Un video che mostra 8 casi d'uso pratici e avanzati di Claude AI per la produttività aziendale. Dalla generazione di contenuti per un'intera settimana (video, newsletter, articoli, social) alla pulizia di fogli di calcolo complessi, l'autore spiega come Claude possa essere impiegato come un vero e proprio membro del team, risparmiando tempo e risorse."
+    }
+  ]
+}

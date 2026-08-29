@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-17",
+  "notizie": [
+    {
+      "titolo": "Anteprima della modalità Ultrafast: GPT-5.6 Sol fino a 14 volte più veloce",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/previewing-ultrafast-mode/",
+      "data": "13/08/2026",
+      "riassunto": "OpenAI ha annunciato una nuova modalità \"Ultrafast\" per il suo modello GPT-5.6 Sol, che promette una velocità fino a 14 volte superiore. Questo significa risposte più rapide e una maggiore efficienza per chi usa l'AI, riducendo i tempi di attesa per le operazioni più complesse o ripetitive. È un passo avanti significativo per l'usabilità degli LLM."
+    },
+    {
+      "titolo": "La guida per gli sviluppatori a GPT-5.6",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6/",
+      "data": "13/08/2026",
+      "riassunto": "OpenAI ha rilasciato una guida dettagliata per aiutare sviluppatori e aziende a integrare e sfruttare al meglio il nuovo modello GPT-5.6. Questo documento offre indicazioni pratiche per la creazione di applicazioni e soluzioni basate su GPT-5.6, facilitando l'adozione e lo sviluppo di nuovi tool e automazioni basati su questa avanzata intelligenza artificiale."
+    },
+    {
+      "titolo": "10 Tool AI GRATIS Così Potenti da Rendere INUTILI Molti Abbonamenti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=q8lapvNgQeE",
+      "data": "17/08/2026",
+      "riassunto": "Un video presenta una selezione di 10 strumenti AI gratuiti e open source, molti dei quali funzionano in locale senza costi o necessità di codice. Questi tool coprono diverse aree come la creazione di video e immagini, la clonazione vocale e il montaggio, dimostrando come sia possibile ottenere risultati professionali con l'AI senza sottoscrivere costosi abbonamenti. Un'ottima risorsa per la produttività."
+    },
+    {
+      "titolo": "Claude ora impara guardandoti lavorare: crea skill da flussi di lavoro registrati",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=W49E1TwlZ1U",
+      "data": "06/08/2026",
+      "riassunto": "Una nuova funzionalità di Claude permette all'AI di imparare semplicemente osservandoti mentre svolgi un compito sullo schermo e ascoltando la tua spiegazione vocale. L'AI trasforma questo processo in una \"skill\" riutilizzabile, che può poi eseguire autonomamente. Questo apre nuove frontiere per l'automazione personalizzata, anche per software senza API dedicate."
+    },
+    {
+      "titolo": "Qwen 3.8 27B: un nuovo potente modello AI per utenti consumer con 16GB di memoria",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/KUi25SzZJ4E",
+      "data": "17/08/2026",
+      "riassunto": "È stato rilasciato Qwen 3.8 27B, un modello di intelligenza artificiale progettato per l'uso consumer che può girare con soli 16GB di memoria. La cosa sorprendente è che le sue capacità sono paragonabili a quelle di modelli molto più grandi e performanti come Claude Opus 4.6 Max. Questo lo rende un'opzione accessibile e potente per chi vuole sperimentare l'AI avanzata sul proprio computer."
+    },
+    {
+      "titolo": "Scoperto \"J-Space\": uno spazio di pensiero nascosto evoluto in Claude",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/g6F0Qkz98DA",
+      "data": "17/08/2026",
+      "riassunto": "I ricercatori hanno fatto una scoperta affascinante: all'interno del modello Claude di Anthropic si è sviluppato autonomamente uno \"spazio di pensiero\" nascosto, chiamato \"J-Space\". Funziona come un ambiente di lavoro interno e globale per l'AI, senza alcun intervento umano. Questa scoperta solleva nuove domande sulla \"coscienza\" e sui meccanismi interni delle intelligenze artificiali avanzate."
+    },
+    {
+      "titolo": "Stripe acquisirà OpenRouter, startup AI gateway, per oltre 7 miliardi di dollari",
+      "fonte": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "data": "16/08/2026",
+      "riassunto": "La notizia bomba è che Stripe, il gigante dei pagamenti online, sta per acquisire OpenRouter, una startup specializzata in \"AI gateway\", per una cifra che si dice superi i 7 miliardi di dollari. Questo significa che Stripe sta investendo pesantemente nell'integrazione dell'AI nei suoi servizi, probabilmente per migliorare ulteriormente le sue offerte e la gestione dei dati per le aziende."
+    },
+    {
+      "titolo": "Ridurre i costi di inferenza RAG di 6 volte partendo da ciò che non raggiunge l'LLM",
+      "fonte": "VentureBeat AI",
+      "link": "https://venturebeat.com/orchestration/cutting-rag-inference-costs-6x-starts-with-deciding-what-never-reaches-the-llm",
+      "data": "",
+      "riassunto": "Molti team che sviluppano sistemi RAG (Retrieval Augmented Generation) per LLM affrontano costi elevati di inferenza. Questo articolo suggerisce che una riduzione dei costi fino a sei volte può essere ottenuta decidendo attentamente quali dati e informazioni non devono nemmeno raggiungere l'LLM. Si tratta di un'ottimizzazione intelligente per rendere l'uso degli LLM più efficiente ed economico."
+    },
+    {
+      "titolo": "Stack di automazione IT: n8n self-hosted, Make o script Python, ecco come scegliere",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/aioperator/stack-di-automazione-it-n8n-self-hosted-make-o-script-python-il-confronto-operativo",
+      "data": "",
+      "riassunto": "Per chi vuole automatizzare i processi IT, ci sono diverse opzioni, tra cui n8n self-hosted, Make (ex Integromat) o script Python. L'articolo confronta queste tre strade, offrendo criteri chiari per scegliere quella più adatta a diverse esigenze e contesti. È una guida pratica per capire quale tool o approccio usare per le tue automazioni, dai più semplici ai più complessi."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Spesso è difficile far interagire gli agenti AI con piattaforme che non offrono connettori o API pubbliche, limitando la produttività. Printing Press è uno strumento che risolve questo problema permettendo di creare interfacce a riga di comando (CLI) per collegare un agente AI a *qualsiasi* piattaforma. Consente di estendere notevolmente le capacità di automazione degli agenti, anche in contesti complessi."
+    }
+  ]
+}

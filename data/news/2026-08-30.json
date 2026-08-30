@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-30",
+  "notizie": [
+    {
+      "titolo": "Qwen3.8 Flash di Qwen introduce una nuova architettura basata su N-gram",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/lvoruo9S_Rg",
+      "data": "28/08/2026",
+      "riassunto": "Simone Rizzo annuncia Qwen3.8 Flash, un nuovo modello LLM che definisce un \"capolavoro\" per la sua innovativa architettura basata su N-gram, simile a quella usata in DeepSeek. Questa novità promette di migliorare le performance e l'efficienza dei modelli di intelligenza artificiale, in particolare per gli agenti AI e lo sviluppo di codice."
+    },
+    {
+      "titolo": "Come creare un Agente AI locale con Qwen 3.8 27B, LM Studio e Pi Agent",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=GlDJwykehxY",
+      "data": "29/08/2026",
+      "riassunto": "Antonio Guadagno mostra un tutorial pratico per utilizzare Qwen 3.8 27B, il nuovo modello open weights di Alibaba, al fine di creare Agenti AI intelligenti che funzionano completamente in locale. Il video guida attraverso la configurazione con LM Studio e Pi Agent, permettendo di costruire un \"Second Brain\" senza inviare dati esterni e con capacità simili a quelle di modelli come Codex e Claude Code."
+    },
+    {
+      "titolo": "DeepSeek Harness: il nuovo agente AI open source che sfida Claude Code e ChatGPT",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=AbHwF7kOREg",
+      "data": "26/08/2026",
+      "riassunto": "Questo video presenta DeepSeek Harness, un promettente agente AI open source sviluppato da DeepSeek, che punta a competere con soluzioni proprietarie come Claude Code, Codex e ChatGPT. Si distingue per la possibilità di essere eseguito localmente, personalizzato tramite plugin e collegato a vari modelli AI, offrendo grande flessibilità agli sviluppatori."
+    },
+    {
+      "titolo": "Printing Press: un nuovo tool per collegare Agenti AI a qualsiasi piattaforma senza API pubbliche",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Lorenzo Delia introduce Printing Press, uno strumento innovativo che risolve la sfida di integrare Agenti AI con piattaforme che non offrono API pubbliche o connettori diretti. Permette di creare interfacce a riga di comando (CLI) per connettere l'AI a quasi ogni sistema, migliorando notevolmente la produttività e l'efficienza nell'uso dei token."
+    },
+    {
+      "titolo": "Anthropic rivela la guida ufficiale per fare prompting su Claude Opus 5: 5 regole innovative",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=QjQZ5dGZkQ0",
+      "data": "28/08/2026",
+      "riassunto": "Anthropic ha rilasciato una guida ufficiale con 5 regole per ottimizzare il prompting su Claude Opus 5, inclusi due principi che vanno contro le pratiche comuni. Il video di Gabrysolution traduce queste regole in consigli pratici, spiegando come scegliere il modello Claude più adatto, regolare il livello di ragionamento e applicare queste tecniche per progetti reali, come la creazione di una pagina web."
+    },
+    {
+      "titolo": "Anthropic lancia Claude Academy con corsi AI gratuiti per imparare a usare Claude e l'AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/shorts/uRsizcSF3nM",
+      "data": "30/08/2026",
+      "riassunto": "Anthropic, l'azienda che sviluppa l'AI Claude, ha lanciato Claude Academy, una piattaforma che offre 17 corsi gratuiti dedicati all'intelligenza artificiale. Questa iniziativa è un'ottima risorsa per chi vuole approfondire le proprie skill digitali, imparare a usare Claude AI, Claude Cowork, Claude Code e comprendere meglio concetti chiave come i protocolli Model Context e le Agent Skills."
+    },
+    {
+      "titolo": "Esplorare Claude Design: il tool nascosto di Claude per presentazioni, preventivi e email HTML",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=SLcUwZcNmjc",
+      "data": "27/08/2026",
+      "riassunto": "Questo video svela le potenzialità di Claude Design, una sezione spesso trascurata dell'AI Claude, mostrando come usarla per creare efficacemente presentazioni aziendali personalizzate, preventivi standardizzati, email HTML per newsletter e persino oggetti 3D interattivi. È uno strumento potente per aumentare la produttività e automatizzare la creazione di contenuti visivi e testuali."
+    },
+    {
+      "titolo": "Creare uno spot professionale da 10.000€ con l'AI: un caso pratico di generazione video",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=rS_0mA_0JQ8",
+      "data": "30/08/2026",
+      "riassunto": "Giovanni Castagna dimostra come ha prodotto uno spot video professionale, con un budget equivalente a 10.000€, utilizzando esclusivamente strumenti di intelligenza artificiale. Il video analizza cosa funziona bene nella generazione video AI, con un focus sul tool Higgsfield.ai, evidenziando i limiti attuali e come chiunque possa iniziare a creare contenuti video di qualità con l'AI."
+    },
+    {
+      "titolo": "La spinta di Meta per impiegare robot nei data center",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "data": "30/08/2026",
+      "riassunto": "Meta sta sperimentando l'utilizzo di robot per automatizzare compiti all'interno dei suoi data center. L'obiettivo è affidare ai robot attività che attualmente richiedono l'intervento umano, con l'intento di migliorare l'efficienza e l'affidabilità delle infrastrutture che supportano i servizi AI e l'intera rete di Meta."
+    },
+    {
+      "titolo": "Sony Music e Warner denunciano Anthropic per \"sfacciata campagna\" di furto di proprietà intellettuale",
+      "fonte": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "data": "29/08/2026",
+      "riassunto": "Le etichette discografiche Sony Music e Warner hanno citato in giudizio Anthropic, la società sviluppatrice di Claude AI, accusandola di violazione della proprietà intellettuale. La causa sostiene che Anthropic abbia utilizzato materiale protetto da copyright per addestrare i suoi modelli di intelligenza artificiale, sollevando importanti interrogativi legali ed etici sull'origine e l'uso dei dati nel campo dell'AI generativa."
+    }
+  ]
+}

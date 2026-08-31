@@ -18,6 +18,8 @@
     --oro-caldo:  #d4a843;
     --testo:      #f4efe6;
     --testo-soft: rgba(244,239,230,0.80);
+    --viaggio-ms: 950ms;
+    --viaggio-ease: cubic-bezier(.66, 0, .34, 1);
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { height: 100%; }
@@ -29,35 +31,40 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  /* ---------- contenitore a scatti ---------- */
+  /* ---------- palco + pista che scorre ---------- */
   .viaggio {
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-  }
-  .viaggio::-webkit-scrollbar { display: none; }
-
-  .tappa {
-    position: relative;
-    height: 100vh;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
+    position: fixed; inset: 0;
     overflow: hidden;
     background: var(--notte-2);
+    touch-action: none;
+  }
+  .pista {
+    position: absolute; inset: 0;
+    will-change: transform;
+    transition: transform var(--viaggio-ms) var(--viaggio-ease);
   }
 
-  /* sfondo scena */
+  .tappa {
+    position: absolute; left: 0; right: 0; height: 100%;
+    overflow: hidden;
+  }
+  .tappa:nth-child(1) { top: 0; }
+  .tappa:nth-child(2) { top: 100%; }
+  .tappa:nth-child(3) { top: 200%; }
+  .tappa:nth-child(4) { top: 300%; }
+
+  /* sfondo scena: leggero zoom "camera" legato allo stato */
   .sfondo {
-    position: absolute; inset: 0;
-    background-position: center;
-    background-size: cover;
-    transform: scale(1.06);
+    position: absolute; inset: -3%;
+    background-position: center; background-size: cover;
+    transform: scale(1.05);
+    transition: transform 1.6s var(--viaggio-ease), filter .6s ease;
     will-change: transform;
   }
-  .tappa.attiva .sfondo { animation: respiro 14s ease-in-out infinite alternate; }
-  @keyframes respiro { from { transform: scale(1.06) translateY(0); } to { transform: scale(1.13) translateY(-1.5%); } }
+  .tappa.attiva .sfondo { transform: scale(1.1); animation: respiro 16s ease-in-out 1.6s infinite alternate; }
+  .tappa.uscita .sfondo { transform: scale(1.2) translateY(-2%); }        /* sta sopra, la superi */
+  .tappa.prossima .sfondo { transform: scale(1.12) translateY(2%); }      /* sta sotto, arrivi */
+  @keyframes respiro { from { transform: scale(1.1); } to { transform: scale(1.16) translateY(-1.5%); } }
 
   .atmosfera {
     position: absolute; inset: 0; pointer-events: none;
@@ -66,13 +73,19 @@
       radial-gradient(150% 90% at 50% 118%, rgba(9,16,12,0.9), transparent 58%);
     mix-blend-mode: screen;
   }
+  /* velo che scurisce le tappe non attive durante il viaggio */
+  .velo {
+    position: absolute; inset: 0; pointer-events: none; z-index: 9;
+    background: #05100b; opacity: 0;
+    transition: opacity var(--viaggio-ms) var(--viaggio-ease);
+  }
+  .tappa:not(.attiva) .velo { opacity: .55; }
+
   .vignetta {
     position: absolute; inset: 0; pointer-events: none; z-index: 4;
     box-shadow: inset 0 0 200px 70px rgba(5,10,8,0.82), inset 0 0 70px 12px rgba(5,10,8,0.5);
   }
-  .vignetta::before, .vignetta::after {
-    content: ""; position: absolute; left: 0; right: 0; height: 32%;
-  }
+  .vignetta::before, .vignetta::after { content: ""; position: absolute; left: 0; right: 0; height: 32%; }
   .vignetta::before { top: 0;    background: linear-gradient(to bottom, rgba(4,9,7,0.9), transparent); }
   .vignetta::after  { bottom: 0; background: linear-gradient(to top,    rgba(4,9,7,0.95), transparent); }
 
@@ -81,103 +94,81 @@
     position: absolute; z-index: 6;
     display: block; text-decoration: none;
     opacity: 0;
-    transform: translateY(40px) scale(0.6);
+    transform: translateY(46px) scale(0.55);
     filter: drop-shadow(0 18px 26px rgba(0,0,0,0.5));
     transition: transform .3s ease, filter .3s ease;
     -webkit-tap-highlight-color: transparent;
   }
   .tappa.attiva .animale {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    transition: opacity 1s ease, transform 1.2s cubic-bezier(.22,1,.36,1);
+    opacity: 1; transform: translateY(0) scale(1);
+    transition: opacity 1s ease .15s, transform 1.25s cubic-bezier(.22,1,.36,1) .15s;
   }
-  .tappa.attiva .animale.a2 { transition-delay: .18s; }
+  .tappa.attiva .animale.a2 { transition-delay: .34s, .34s; }
   .animale img { display: block; width: 100%; height: auto; }
-  .tappa.attiva .animale { animation: galleggia 5s ease-in-out infinite; }
+  .tappa.attiva .animale { animation: galleggia 5.5s ease-in-out infinite 1.4s; }
   .animale:hover, .animale:focus-visible {
     transform: translateY(-6px) scale(1.06);
-    filter: drop-shadow(0 12px 22px rgba(0,0,0,0.5)) drop-shadow(0 0 26px rgba(232,192,106,0.55));
+    filter: drop-shadow(0 12px 22px rgba(0,0,0,0.5)) drop-shadow(0 0 28px rgba(232,192,106,0.6));
     outline: none;
   }
-  @keyframes galleggia { 0%,100% { translate: 0 0; } 50% { translate: 0 -10px; } }
+  @keyframes galleggia { 0%,100% { translate: 0 0; } 50% { translate: 0 -11px; } }
 
-  /* etichetta storia sotto l'animale */
   .animale .etichetta {
-    position: absolute; left: 50%; bottom: -30px; transform: translateX(-50%);
-    white-space: nowrap;
-    font-size: clamp(12px, 1.3vw, 15px); font-weight: 600;
-    color: var(--oro);
-    background: rgba(8,14,10,0.72);
-    padding: 5px 14px; border-radius: 9999px;
-    border: 1px solid rgba(232,192,106,0.3);
-    opacity: 0; transition: opacity .25s ease;
-    backdrop-filter: blur(6px);
-    pointer-events: none;
+    position: absolute; left: 50%; bottom: -32px; transform: translateX(-50%);
+    white-space: nowrap; font-size: clamp(12px, 1.3vw, 15px); font-weight: 600; color: var(--oro);
+    background: rgba(8,14,10,0.75); padding: 5px 14px; border-radius: 9999px;
+    border: 1px solid rgba(232,192,106,0.32);
+    opacity: 0; transition: opacity .25s ease; backdrop-filter: blur(6px); pointer-events: none;
   }
   .animale:hover .etichetta, .animale:focus-visible .etichetta { opacity: 1; }
 
   /* ---------- testo di scena ---------- */
   .parola {
-    position: absolute; z-index: 7;
-    left: 50%; top: 14%;
-    transform: translateX(-50%);
-    width: min(760px, 88vw);
-    text-align: center;
-    opacity: 0; translate: 0 16px;
-    text-shadow: 0 2px 26px rgba(0,0,0,0.7), 0 0 46px rgba(0,0,0,0.5);
+    position: absolute; z-index: 7; left: 50%; top: 13%; transform: translateX(-50%);
+    width: min(760px, 88vw); text-align: center;
+    opacity: 0; translate: 0 18px;
   }
-  .tappa.attiva .parola { opacity: 1; translate: 0 0; transition: opacity .9s ease .25s, translate .9s ease .25s; }
-  .parola .kicker {
-    font-size: clamp(11px, 1.1vw, 13px); letter-spacing: 3px; text-transform: uppercase;
-    color: var(--oro); font-weight: 600; margin-bottom: 12px;
+  .parola::before {
+    content: ""; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+    width: 150%; height: 260%; z-index: -1; pointer-events: none;
+    background: radial-gradient(ellipse at center, rgba(6,11,9,0.55) 0%, rgba(6,11,9,0.28) 45%, transparent 72%);
   }
-  .parola h1 {
-    font-family: 'Zilla Slab', Georgia, serif; font-weight: 700;
-    font-size: clamp(40px, 6vw, 76px); line-height: 1.04;
-  }
-  .parola h2 {
-    font-family: 'Zilla Slab', Georgia, serif; font-weight: 600;
-    font-size: clamp(23px, 3.2vw, 42px); line-height: 1.22;
-  }
-  .parola p { margin-top: 12px; font-size: clamp(14px, 1.5vw, 18px); color: var(--testo-soft); }
+  .tappa.attiva .parola { opacity: 1; translate: 0 0; transition: opacity 1s ease .35s, translate 1s ease .35s; }
+  .parola .kicker { font-size: clamp(11px,1.1vw,13px); letter-spacing: 3px; text-transform: uppercase; color: var(--oro); font-weight: 600; margin-bottom: 12px; }
+  .parola h1 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(40px,6vw,76px); line-height: 1.04; text-shadow: 0 2px 30px rgba(0,0,0,.5); }
+  .parola h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 600; font-size: clamp(23px,3.2vw,42px); line-height: 1.22; text-shadow: 0 2px 26px rgba(0,0,0,.6); }
+  .parola p { margin-top: 12px; font-size: clamp(14px,1.5vw,18px); color: var(--testo-soft); }
 
-  /* hint scorri */
   .giu {
-    position: absolute; z-index: 7; left: 50%; bottom: 40px; transform: translateX(-50%);
+    position: absolute; z-index: 7; left: 50%; bottom: 38px; transform: translateX(-50%);
     display: flex; flex-direction: column; align-items: center; gap: 8px;
     color: var(--testo-soft); font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+    opacity: 0; transition: opacity .5s ease .8s;
   }
-  .giu .fr { width: 20px; height: 20px; border-right: 2px solid var(--oro); border-bottom: 2px solid var(--oro);
-    transform: rotate(45deg); animation: rimbalza 1.8s ease-in-out infinite; }
+  .tappa.attiva .giu { opacity: 1; }
+  .giu .fr { width: 20px; height: 20px; border-right: 2px solid var(--oro); border-bottom: 2px solid var(--oro); transform: rotate(45deg); animation: rimbalza 1.8s ease-in-out infinite; }
   @keyframes rimbalza { 0%,100% { transform: rotate(45deg) translate(0,0); opacity:.4; } 50% { transform: rotate(45deg) translate(3px,3px); opacity:1; } }
 
-  /* ---------- RADURA finale ---------- */
-  #radura .parola { top: 10%; }
+  /* ---------- RADURA ---------- */
+  #radura .parola { top: 9%; }
   .entra {
-    position: absolute; z-index: 8; left: 50%; bottom: 12%;
-    transform: translateX(-50%);
-    display: inline-block;
-    background: var(--oro-caldo); color: #1a1206;
-    font-weight: 600; font-size: clamp(15px, 1.8vw, 18px);
-    padding: 15px 44px; border-radius: 9999px; text-decoration: none;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
-    opacity: 0; transition: transform .2s ease, box-shadow .3s ease, opacity .8s ease .5s;
+    position: absolute; z-index: 8; left: 50%; bottom: 10%; transform: translateX(-50%);
+    display: inline-block; background: var(--oro-caldo); color: #1a1206;
+    font-weight: 600; font-size: clamp(15px,1.8vw,18px); padding: 15px 44px; border-radius: 9999px;
+    text-decoration: none; box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    opacity: 0; transition: transform .2s ease, box-shadow .3s ease, opacity .9s ease .6s;
   }
   #radura.attiva .entra { opacity: 1; }
-  .entra:hover { transform: translateX(-50%) translateY(-2px) scale(1.03);
-    box-shadow: 0 0 60px rgba(232,192,106,0.5), 0 10px 40px rgba(0,0,0,0.5); }
+  .entra:hover { transform: translateX(-50%) translateY(-2px) scale(1.03); box-shadow: 0 0 60px rgba(232,192,106,0.5), 0 10px 40px rgba(0,0,0,0.5); }
 
   /* ---------- chrome ---------- */
   #particelle { position: fixed; inset: 0; z-index: 3; pointer-events: none; }
 
   .torna, #btn-audio {
     position: fixed; z-index: 30; top: 18px;
-    background: rgba(8,14,10,0.6);
-    border: 1px solid rgba(244,239,230,0.18);
-    color: var(--testo-soft);
+    background: rgba(8,14,10,0.6); border: 1px solid rgba(244,239,230,0.18); color: var(--testo-soft);
     font-family: 'Poppins', sans-serif; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;
-    padding: 9px 16px; border-radius: 9999px; backdrop-filter: blur(8px); cursor: pointer;
-    text-decoration: none;
+    padding: 9px 16px; border-radius: 9999px; backdrop-filter: blur(8px); cursor: pointer; text-decoration: none;
     transition: background .2s ease, color .2s ease;
   }
   .torna { left: 18px; }
@@ -187,20 +178,14 @@
   #btn-audio.suona .onda { opacity: 1; animation: pulsa 1.6s ease-in-out infinite; }
   @keyframes pulsa { 0%,100% { transform: scale(.8); } 50% { transform: scale(1.3); } }
 
-  .punti {
-    position: fixed; z-index: 30; right: 20px; top: 50%; transform: translateY(-50%);
-    display: flex; flex-direction: column; gap: 12px;
-  }
-  .punti button {
-    width: 9px; height: 9px; border-radius: 50%; border: 0; padding: 0; cursor: pointer;
-    background: rgba(244,239,230,0.28); transition: background .2s ease, transform .2s ease;
-  }
+  .punti { position: fixed; z-index: 30; right: 20px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 12px; }
+  .punti button { width: 9px; height: 9px; border-radius: 50%; border: 0; padding: 0; cursor: pointer; background: rgba(244,239,230,0.28); transition: background .25s ease, transform .25s ease; }
   .punti button.on { background: var(--oro); transform: scale(1.35); }
 
   .credito {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; text-align: center;
-    font-size: 11px; color: rgba(244,239,230,0.4);
-    padding: 9px; background: linear-gradient(to top, rgba(7,13,10,0.9), transparent);
+    font-size: 11px; color: rgba(244,239,230,0.4); padding: 9px;
+    background: linear-gradient(to top, rgba(7,13,10,0.9), transparent);
     opacity: 0; transition: opacity .5s ease; pointer-events: none;
   }
   .credito.on { opacity: 1; }
@@ -216,8 +201,8 @@
   #loader .b i { display: block; height: 100%; width: 100%; background: var(--oro); transform: scaleX(0); transform-origin: left; transition: transform .3s ease; }
 
   @media (prefers-reduced-motion: reduce) {
-    .viaggio { scroll-behavior: auto; }
-    .tappa.attiva .sfondo { animation: none; }
+    .pista { transition: none; }
+    .sfondo, .tappa.attiva .sfondo { animation: none; transition: none; }
     .tappa.attiva .animale { animation: none; transition: opacity .01s, transform .01s; }
     .giu .fr { animation: none; }
     #btn-audio.suona .onda { animation: none; }
@@ -238,88 +223,88 @@
 <nav class="punti" id="punti" aria-label="Tappe del viaggio"></nav>
 
 <div class="viaggio" id="viaggio">
+  <div class="pista" id="pista">
 
-  <!-- 1. SOGLIA -->
-  <section class="tappa" id="soglia" data-bg="viaggio-bosco/frames/scena1.jpg">
-    <div class="sfondo"></div>
-    <div class="atmosfera"></div>
-    <div class="parola">
-      <div class="kicker">Le Storie di Alessio</div>
-      <h1>Viaggio nel Bosco</h1>
-      <p>Ogni animale del bosco custodisce una storia. Scorri ed entra a conoscerli.</p>
-    </div>
-    <a class="animale a1" href="/storie/alessioalieni_new.html" target="_blank" rel="noopener"
-       style="left:12%; bottom:9%; width:min(17vw,195px);">
-      <img src="viaggio-bosco/animali/gufo.webp" alt="Un gufo che guarda le stelle" />
-      <span class="etichetta">Alessio e gli alieni</span>
-    </a>
-    <div class="vignetta"></div>
-    <div class="giu"><span>scorri</span><span class="fr"></span></div>
-  </section>
+    <!-- 1. SOGLIA -->
+    <section class="tappa" id="soglia" data-bg="viaggio-bosco/frames/scena1.jpg">
+      <div class="sfondo"></div>
+      <div class="atmosfera"></div>
+      <div class="parola">
+        <div class="kicker">Le Storie di Alessio</div>
+        <h1>Viaggio nel Bosco</h1>
+        <p>Ogni animale del bosco custodisce una storia. Scorri ed entra a conoscerli.</p>
+      </div>
+      <a class="animale a1" href="/storie/alessioalieni_new.html" target="_blank" rel="noopener"
+         style="left:12%; bottom:9%; width:min(17vw,195px);">
+        <img src="viaggio-bosco/animali/gufo.webp" alt="Un gufo che guarda le stelle" />
+        <span class="etichetta">Alessio e gli alieni</span>
+      </a>
+      <div class="vignetta"></div><div class="velo"></div>
+      <div class="giu"><span>scorri</span><span class="fr"></span></div>
+    </section>
 
-  <!-- 2. DISCESA -->
-  <section class="tappa" id="discesa" data-bg="viaggio-bosco/frames/scena2.jpg">
-    <div class="sfondo"></div>
-    <div class="atmosfera"></div>
-    <div class="parola"><h2>Pi&ugrave; scendi, pi&ugrave; il bosco si popola di amici.</h2></div>
-    <a class="animale a1" href="/storie/alessioskool.html" target="_blank" rel="noopener"
-       style="left:24%; bottom:12%; width:min(24vw,260px);">
-      <img src="viaggio-bosco/animali/scoiattoli.webp" alt="Due scoiattoli che giocano" />
-      <span class="etichetta">Alessio Skool</span>
-    </a>
-    <a class="animale a2" href="/storie/NonnoBerto.html" target="_blank" rel="noopener"
-       style="right:9%; top:42%; width:min(13vw,140px);">
-      <img src="viaggio-bosco/animali/picchio.webp" alt="Un picchio sul tronco" />
-      <span class="etichetta">Nonno Berto</span>
-    </a>
-    <div class="vignetta"></div>
-    <div class="giu"><span>scorri</span><span class="fr"></span></div>
-  </section>
+    <!-- 2. DISCESA -->
+    <section class="tappa" id="discesa" data-bg="viaggio-bosco/frames/scena2.jpg">
+      <div class="sfondo"></div>
+      <div class="atmosfera"></div>
+      <div class="parola"><h2>Pi&ugrave; scendi, pi&ugrave; il bosco si popola di amici.</h2></div>
+      <a class="animale a1" href="/storie/alessioskool.html" target="_blank" rel="noopener"
+         style="left:24%; bottom:12%; width:min(24vw,260px);">
+        <img src="viaggio-bosco/animali/scoiattoli.webp" alt="Due scoiattoli che giocano" />
+        <span class="etichetta">Alessio Skool</span>
+      </a>
+      <a class="animale a2" href="/storie/NonnoBerto.html" target="_blank" rel="noopener"
+         style="right:9%; top:42%; width:min(13vw,140px);">
+        <img src="viaggio-bosco/animali/picchio.webp" alt="Un picchio sul tronco" />
+        <span class="etichetta">Nonno Berto</span>
+      </a>
+      <div class="vignetta"></div><div class="velo"></div>
+      <div class="giu"><span>scorri</span><span class="fr"></span></div>
+    </section>
 
-  <!-- 3. CUORE -->
-  <section class="tappa" id="cuore" data-bg="viaggio-bosco/frames/scena3.jpg">
-    <div class="sfondo"></div>
-    <div class="atmosfera"></div>
-    <div class="parola"><h2>E in fondo, nel cuore del bosco&hellip;</h2></div>
-    <a class="animale a1" href="/storie/alessiopescara_gsap_v2.html" target="_blank" rel="noopener"
-       style="left:14%; bottom:12%; width:min(19vw,210px);">
-      <img src="viaggio-bosco/animali/cervo.webp" alt="Un cerbiatto che si avvicina" />
-      <span class="etichetta">Alessio a Pescara</span>
-    </a>
-    <a class="animale a2" href="/storie/alessiomareversione2.html" target="_blank" rel="noopener"
-       style="left:58%; bottom:13%; width:min(12vw,130px);">
-      <img src="viaggio-bosco/animali/tartaruga.webp" alt="Una tartaruga vicino al laghetto" />
-      <span class="etichetta">Alessio al mare</span>
-    </a>
-    <div class="vignetta"></div>
-    <div class="giu"><span>scorri</span><span class="fr"></span></div>
-  </section>
+    <!-- 3. CUORE -->
+    <section class="tappa" id="cuore" data-bg="viaggio-bosco/frames/scena3.jpg">
+      <div class="sfondo"></div>
+      <div class="atmosfera"></div>
+      <div class="parola"><h2>E in fondo, nel cuore del bosco&hellip;</h2></div>
+      <a class="animale a1" href="/storie/alessiopescara_gsap_v2.html" target="_blank" rel="noopener"
+         style="left:14%; bottom:12%; width:min(19vw,210px);">
+        <img src="viaggio-bosco/animali/cervo.webp" alt="Un cerbiatto che si avvicina" />
+        <span class="etichetta">Alessio a Pescara</span>
+      </a>
+      <a class="animale a2" href="/storie/alessiomareversione2.html" target="_blank" rel="noopener"
+         style="left:58%; bottom:13%; width:min(12vw,130px);">
+        <img src="viaggio-bosco/animali/tartaruga.webp" alt="Una tartaruga vicino al laghetto" />
+        <span class="etichetta">Alessio al mare</span>
+      </a>
+      <div class="vignetta"></div><div class="velo"></div>
+      <div class="giu"><span>scorri</span><span class="fr"></span></div>
+    </section>
 
-  <!-- 4. RADURA DEL RADUNO -->
-  <section class="tappa" id="radura" data-bg="viaggio-bosco/frames/scena3.jpg">
-    <div class="sfondo" style="filter: brightness(.72) saturate(.9);"></div>
-    <div class="atmosfera"></div>
-    <div class="parola">
-      <div class="kicker">Sei arrivato</div>
-      <h2>Il bosco al completo.</h2>
-      <p>Clicca un animale per la sua storia, o entra a vederle tutte.</p>
-    </div>
+    <!-- 4. RADURA -->
+    <section class="tappa" id="radura" data-bg="viaggio-bosco/frames/scena3.jpg">
+      <div class="sfondo" style="filter: brightness(.72) saturate(.9);"></div>
+      <div class="atmosfera"></div>
+      <div class="parola">
+        <div class="kicker">Sei arrivato</div>
+        <h2>Il bosco al completo.</h2>
+        <p>Clicca un animale per la sua storia, o entra a vederle tutte.</p>
+      </div>
+      <a class="animale a1" href="/storie/alessioalieni_new.html" target="_blank" rel="noopener" style="left:8%; top:26%; width:min(14vw,150px);">
+        <img src="viaggio-bosco/animali/gufo.webp" alt="Gufo" /><span class="etichetta">Alessio e gli alieni</span></a>
+      <a class="animale a1" href="/storie/alessioskool.html" target="_blank" rel="noopener" style="left:23%; bottom:26%; width:min(15vw,165px);">
+        <img src="viaggio-bosco/animali/scoiattoli.webp" alt="Scoiattoli" /><span class="etichetta">Alessio Skool</span></a>
+      <a class="animale a2" href="/storie/NonnoBerto.html" target="_blank" rel="noopener" style="right:9%; top:24%; width:min(11vw,115px);">
+        <img src="viaggio-bosco/animali/picchio.webp" alt="Picchio" /><span class="etichetta">Nonno Berto</span></a>
+      <a class="animale a1" href="/storie/alessiopescara_gsap_v2.html" target="_blank" rel="noopener" style="right:20%; bottom:22%; width:min(15vw,165px);">
+        <img src="viaggio-bosco/animali/cervo.webp" alt="Cerbiatto" /><span class="etichetta">Alessio a Pescara</span></a>
+      <a class="animale a2" href="/storie/alessiomareversione2.html" target="_blank" rel="noopener" style="left:46%; bottom:30%; width:min(10vw,110px);">
+        <img src="viaggio-bosco/animali/tartaruga.webp" alt="Tartaruga" /><span class="etichetta">Alessio al mare</span></a>
+      <a class="entra" href="/">Entra nelle storie</a>
+      <div class="vignetta"></div><div class="velo"></div>
+    </section>
 
-    <a class="animale a1" href="/storie/alessioalieni_new.html" target="_blank" rel="noopener" style="left:8%;  top:26%;  width:min(14vw,150px);">
-      <img src="viaggio-bosco/animali/gufo.webp" alt="Gufo" /><span class="etichetta">Alessio e gli alieni</span></a>
-    <a class="animale a1" href="/storie/alessioskool.html" target="_blank" rel="noopener" style="left:23%; bottom:26%; width:min(15vw,165px);">
-      <img src="viaggio-bosco/animali/scoiattoli.webp" alt="Scoiattoli" /><span class="etichetta">Alessio Skool</span></a>
-    <a class="animale a2" href="/storie/NonnoBerto.html" target="_blank" rel="noopener" style="right:9%; top:24%; width:min(11vw,115px);">
-      <img src="viaggio-bosco/animali/picchio.webp" alt="Picchio" /><span class="etichetta">Nonno Berto</span></a>
-    <a class="animale a1" href="/storie/alessiopescara_gsap_v2.html" target="_blank" rel="noopener" style="right:20%; bottom:22%; width:min(15vw,165px);">
-      <img src="viaggio-bosco/animali/cervo.webp" alt="Cerbiatto" /><span class="etichetta">Alessio a Pescara</span></a>
-    <a class="animale a2" href="/storie/alessiomareversione2.html" target="_blank" rel="noopener" style="left:46%; bottom:30%; width:min(10vw,110px);">
-      <img src="viaggio-bosco/animali/tartaruga.webp" alt="Tartaruga" /><span class="etichetta">Alessio al mare</span></a>
-
-    <a class="entra" href="/">Entra nelle storie</a>
-    <div class="vignetta"></div>
-  </section>
-
+  </div>
 </div>
 
 <script>
@@ -329,16 +314,16 @@
   var MOBILE  = matchMedia("(max-width: 768px)").matches;
   var params  = new URLSearchParams(location.search);
   var JUMP    = params.get("jump");
+  var AUDIO   = { amb: "viaggio-bosco/audio/ambiente-bosco.mp3", mus: "viaggio-bosco/audio/musica-magica.mp3" };
 
-  var AUDIO = { amb: "viaggio-bosco/audio/ambiente-bosco.mp3", mus: "viaggio-bosco/audio/musica-magica.mp3" };
-
-  var viaggio = document.getElementById("viaggio");
+  var pista   = document.getElementById("pista");
   var tappe   = Array.prototype.slice.call(document.querySelectorAll(".tappa"));
   var loader  = document.getElementById("loader");
   var barra   = document.getElementById("barra");
   var credito = document.getElementById("credito");
+  var VMS     = 950;
 
-  // ---- preload sfondi + set background ----
+  // ---- preload sfondi ----
   var bgs = tappe.map(function (t) { return t.dataset.bg; });
   var uniq = bgs.filter(function (v, i) { return bgs.indexOf(v) === i; });
   var done = 0;
@@ -346,52 +331,90 @@
   uniq.forEach(function (src) {
     var im = new Image();
     im.onload = im.onerror = function () {
-      done++;
-      barra.style.transform = "scaleX(" + (done / uniq.length).toFixed(3) + ")";
+      done++; barra.style.transform = "scaleX(" + (done / uniq.length).toFixed(3) + ")";
       if (done >= uniq.length) avvia();
     };
     im.src = src;
   });
   setTimeout(function () { if (done < uniq.length) avvia(); }, 4000);
 
-  var partito = false;
+  var partito = false, idx = 0, bloccato = false;
   function avvia() {
     if (partito) return; partito = true;
     loader.classList.add("via");
     setTimeout(function () { loader.style.display = "none"; }, 850);
-    montaOsservatore();
-    montaPunti();
-    montaParticelle();
-    montaAudio();
-    if (JUMP !== null) {
-      var i = Math.max(0, Math.min(tappe.length - 1, parseInt(JUMP, 10) || 0));
-      tappe[i].scrollIntoView();
-      tappe[i].classList.add("attiva");
-      requestAnimationFrame(function () { requestAnimationFrame(function () { window.__ready = true; }); });
+    montaPunti(); montaInput(); montaParticelle(); montaAudio();
+    var start = 0;
+    if (JUMP !== null) start = Math.max(0, Math.min(tappe.length - 1, parseInt(JUMP, 10) || 0));
+    posiziona(start, true);
+    if (JUMP !== null) requestAnimationFrame(function () { requestAnimationFrame(function () { window.__ready = true; }); });
+    else addEventListener("load", function () { setTimeout(function () { window.__ready = true; }, 300); });
+  }
+
+  // ---- posiziona su una tappa ----
+  function posiziona(n, istantaneo) {
+    n = Math.max(0, Math.min(tappe.length - 1, n));
+    idx = n;
+    if (istantaneo || RIDOTTO) {
+      var t0 = pista.style.transition; pista.style.transition = "none";
+      pista.style.transform = "translateY(-" + (n * 100) + "%)";
+      pista.offsetHeight; pista.style.transition = t0;
     } else {
-      tappe[0].classList.add("attiva");
-      addEventListener("load", function () { setTimeout(function () { window.__ready = true; }, 300); });
+      pista.style.transform = "translateY(-" + (n * 100) + "%)";
     }
+    tappe.forEach(function (t, i) {
+      t.classList.toggle("attiva", i === n);
+      t.classList.toggle("uscita", i < n && i === n - 1);
+      t.classList.toggle("prossima", i > n && i === n + 1);
+    });
+    aggiornaPunti();
+    credito.classList.toggle("on", n === tappe.length - 1);
   }
 
-  // ---- quale tappa e' attiva ----
-  var attivaIdx = 0;
-  function montaOsservatore() {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (e.isIntersecting && e.intersectionRatio >= 0.55) {
-          tappe.forEach(function (t) { t.classList.remove("attiva"); });
-          e.target.classList.add("attiva");
-          attivaIdx = tappe.indexOf(e.target);
-          aggiornaPunti();
-          credito.classList.toggle("on", attivaIdx === tappe.length - 1);
-        }
-      });
-    }, { threshold: [0.55, 0.8] });
-    tappe.forEach(function (t) { io.observe(t); });
+  function vai(d) {
+    if (bloccato) return;
+    var n = idx + d;
+    if (n < 0 || n > tappe.length - 1) return;
+    bloccato = true;
+    posiziona(n, false);
+    setTimeout(function () { bloccato = false; }, VMS + 60);
+  }
+  function saltaA(n) {
+    if (bloccato || n === idx) return;
+    bloccato = true; posiziona(n, false);
+    setTimeout(function () { bloccato = false; }, VMS + 60);
   }
 
-  // ---- punti di navigazione ----
+  // ---- input: rotella, touch, tastiera ----
+  function montaInput() {
+    var acc = 0, azzera = null;
+    document.getElementById("viaggio").addEventListener("wheel", function (e) {
+      e.preventDefault();
+      if (bloccato) return;
+      acc += e.deltaY;
+      clearTimeout(azzera);
+      azzera = setTimeout(function () { acc = 0; }, 180);
+      if (acc > 40) { acc = 0; vai(1); }
+      else if (acc < -40) { acc = 0; vai(-1); }
+    }, { passive: false });
+
+    var y0 = null;
+    document.getElementById("viaggio").addEventListener("touchstart", function (e) { y0 = e.touches[0].clientY; }, { passive: true });
+    document.getElementById("viaggio").addEventListener("touchend", function (e) {
+      if (y0 === null || bloccato) return;
+      var dy = e.changedTouches[0].clientY - y0; y0 = null;
+      if (dy < -50) vai(1); else if (dy > 50) vai(-1);
+    }, { passive: true });
+
+    addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown" || e.key === "PageDown" || e.key === " ") { vai(1); e.preventDefault(); }
+      else if (e.key === "ArrowUp" || e.key === "PageUp") { vai(-1); e.preventDefault(); }
+      else if (e.key === "Home") { saltaA(0); }
+      else if (e.key === "End") { saltaA(tappe.length - 1); }
+    });
+  }
+
+  // ---- punti ----
   var puntiBtn = [];
   function montaPunti() {
     var nav = document.getElementById("punti");
@@ -400,29 +423,13 @@
       var b = document.createElement("button");
       b.type = "button";
       b.setAttribute("aria-label", nomi[i] || ("Tappa " + (i + 1)));
-      b.addEventListener("click", function () { t.scrollIntoView(); });
-      nav.appendChild(b);
-      puntiBtn.push(b);
+      b.addEventListener("click", function () { saltaA(i); });
+      nav.appendChild(b); puntiBtn.push(b);
     });
-    aggiornaPunti();
   }
-  function aggiornaPunti() {
-    puntiBtn.forEach(function (b, i) { b.classList.toggle("on", i === attivaIdx); });
-  }
+  function aggiornaPunti() { puntiBtn.forEach(function (b, i) { b.classList.toggle("on", i === idx); }); }
 
-  // ---- tastiera ----
-  addEventListener("keydown", function (e) {
-    if (e.key === "ArrowDown" || e.key === "PageDown") { vai(1); e.preventDefault(); }
-    else if (e.key === "ArrowUp" || e.key === "PageUp") { vai(-1); e.preventDefault(); }
-    else if (e.key === "Home") { tappe[0].scrollIntoView(); }
-    else if (e.key === "End") { tappe[tappe.length - 1].scrollIntoView(); }
-  });
-  function vai(d) {
-    var n = Math.max(0, Math.min(tappe.length - 1, attivaIdx + d));
-    tappe[n].scrollIntoView();
-  }
-
-  // ---- particelle (lucciole + pulviscolo) ----
+  // ---- particelle ----
   function montaParticelle() {
     var cv = document.getElementById("particelle");
     var ctx = cv.getContext("2d");
@@ -433,39 +440,27 @@
       var s = document.createElement("canvas"); s.width = s.height = 32;
       var c = s.getContext("2d");
       var g = c.createRadialGradient(16, 16, 0, 16, 16, 16);
-      g.addColorStop(0, "rgba(255,240,200,1)");
-      g.addColorStop(.35, "rgba(240,200,120,.6)");
-      g.addColorStop(1, "rgba(240,200,120,0)");
+      g.addColorStop(0, "rgba(255,240,200,1)"); g.addColorStop(.35, "rgba(240,200,120,.6)"); g.addColorStop(1, "rgba(240,200,120,0)");
       c.fillStyle = g; c.fillRect(0, 0, 32, 32); return s;
     })();
-    function dim() {
-      W = innerWidth; H = innerHeight;
-      cv.width = W * DPR; cv.height = H * DPR; ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-    }
+    function dim() { W = innerWidth; H = innerHeight; cv.width = W * DPR; cv.height = H * DPR; ctx.setTransform(DPR, 0, 0, DPR, 0, 0); }
     function semina() {
       p = [];
-      for (var i = 0; i < N; i++) p.push({
-        x: Math.random() * W, y: Math.random() * H, z: .3 + Math.random() * .7,
-        r: 1 + Math.random() * 3, f: Math.random() * 6.28,
-        vx: (Math.random() - .5) * .22, vy: (Math.random() - .5) * .16
-      });
+      for (var i = 0; i < N; i++) p.push({ x: Math.random()*W, y: Math.random()*H, z: .3+Math.random()*.7, r: 1+Math.random()*3, f: Math.random()*6.28, vx: (Math.random()-.5)*.22, vy: (Math.random()-.5)*.16 });
     }
     dim(); semina();
     addEventListener("resize", function () { dim(); semina(); });
-
     var last = performance.now(), mx = 0, ds = [], logAt = last + 2000;
     function loop(now) {
-      var dt = now - last; last = now;
-      if (dt > mx) mx = dt; ds.push(dt);
+      var dt = now - last; last = now; if (dt > mx) mx = dt; ds.push(dt);
       if (now > logAt) {
         ds.sort(function (a, b) { return a - b; });
-        window.__jank = { p95: +(ds[Math.floor(ds.length * .95)] || 0).toFixed(1), max: +mx.toFixed(1) };
+        window.__jank = { p95: +(ds[Math.floor(ds.length*.95)]||0).toFixed(1), max: +mx.toFixed(1) };
         if (params.get("debug") !== null) console.log("[viaggio-bosco] rAF p95=" + window.__jank.p95 + " max=" + window.__jank.max);
         ds = []; mx = 0; logAt = now + 2000;
       }
       if (N > 0) {
-        ctx.clearRect(0, 0, W, H);
-        ctx.globalCompositeOperation = "lighter";
+        ctx.clearRect(0, 0, W, H); ctx.globalCompositeOperation = "lighter";
         var t = now / 1000;
         for (var i = 0; i < p.length; i++) {
           var d = p[i];
@@ -475,7 +470,7 @@
           var tw = .45 + .55 * Math.sin(t * (.8 + d.z) + d.f);
           var sz = d.r * (2.4 + d.z * 2.2);
           ctx.globalAlpha = Math.max(0, Math.min(1, tw * d.z));
-          ctx.drawImage(sp, d.x - sz / 2, d.y - sz / 2, sz, sz);
+          ctx.drawImage(sp, d.x - sz/2, d.y - sz/2, sz, sz);
         }
         ctx.globalAlpha = 1; ctx.globalCompositeOperation = "source-over";
       }

@@ -1,0 +1,75 @@
+{
+  "data": "2026-08-31",
+  "notizie": [
+    {
+      "titolo": "Digital Twin su software aziendali, per testare AI e modifiche senza rischi",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/digital-twin-su-software-aziendali-per-testare-ai-e-modifiche-senza-rischi",
+      "data": "",
+      "riassunto": "Questa notizia introduce l'uso dei \"Digital Twin\", ovvero copie virtuali di sistemi software aziendali. L'idea è di creare un ambiente sicuro dove poter testare nuove implementazioni di intelligenza artificiale o modifiche importanti senza mettere a rischio i sistemi reali. Permette all'AI di imparare e di valutare gli impatti in un \"sandbox\", prima di lanciare le novità in produzione."
+    },
+    {
+      "titolo": "Nvidia compra HuggingFace per 13 miliardi di dollari: cosa accadrà adesso ai modelli AI open source?",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/TJ5Jub8nsWs",
+      "data": "31/08/2026",
+      "riassunto": "Nvidia, gigante dell'hardware AI, ha acquisito Hugging Face, una delle piattaforme più importanti per lo sviluppo di modelli di intelligenza artificiale open source, per ben 13 miliardi di dollari. Questa mossa ha un impatto significativo sul futuro dell'AI open source, sollevando interrogativi su come questa acquisizione influenzerà l'accessibilità e lo sviluppo collaborativo di nuovi modelli e strumenti."
+    },
+    {
+      "titolo": "Qwen 3.8 27B: Agenti AI in Locale con il nuovo modello open weights di Alibaba",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=GlDJwykehxY",
+      "data": "29/08/2026",
+      "riassunto": "Alibaba ha lanciato Qwen 3.8 27B, un innovativo modello di AI \"open weights\" che, nonostante le dimensioni contenute, si rivela estremamente intelligente. La sua caratteristica principale è la capacità di creare Agenti AI direttamente sul proprio computer (in locale), offrendo prestazioni simili a quelle di modelli ben noti come Codex e Claude Code. Il video mostra come sfruttarlo per la gestione di un \"Second Brain\" personale."
+    },
+    {
+      "titolo": "DeepSeek Harness: il nuovo agente AI open source per competere con Claude Code e ChatGPT",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=AbHwF7kOREg",
+      "data": "26/08/2026",
+      "riassunto": "DeepSeek ha presentato Harness, un agente AI open source molto promettente, progettato per sfidare l'efficacia di strumenti come Claude Code, Codex e ChatGPT. Ha già riscosso un enorme successo su GitHub e può essere installato e personalizzato sul proprio computer. Questo agente supporta l'integrazione con plugin e la connessione sia a modelli AI locali (tramite Ollama) che a quelli via API."
+    },
+    {
+      "titolo": "Ho realizzato uno spot professionale da 10.000€ usando solo l'AI (con Higgsfield)",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=rS_0mA_0JQ8",
+      "data": "30/08/2026",
+      "riassunto": "Questo video dimostra come sia ormai possibile creare uno spot pubblicitario di alta qualità, paragonabile a produzioni da decine di migliaia di euro, utilizzando esclusivamente l'intelligenza artificiale. L'autore esplora il tool Higgsfield per la generazione video AI, mostrando le sue capacità e i limiti attuali. È una guida pratica per chi vuole sperimentare la creazione di contenuti video professionali con l'AI."
+    },
+    {
+      "titolo": "ChatGPT può \"guardarti\" lavorare con la cronologia del computer e automatizzare compiti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=ZW1jvEHsLDg",
+      "data": "31/08/2026",
+      "riassunto": "ChatGPT ha introdotto una nuova e potente funzionalità: può accedere alla cronologia del tuo computer, monitorando le app e i documenti che utilizzi. Questa capacità permette all'AI di analizzare il tuo modo di lavorare, capire le tue routine e trasformare i tuoi passaggi in procedure che può poi eseguire automaticamente. Un grande passo per l'automazione personale, ma anche un punto interrogativo sulla privacy."
+    },
+    {
+      "titolo": "Claude Academy: corsi AI GRATIS da Anthropic per imparare a usare Claude",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/shorts/uRsizcSF3nM",
+      "data": "30/08/2026",
+      "riassunto": "Anthropic ha lanciato Claude Academy, una piattaforma di corsi online completamente gratuiti, pensata per chi vuole imparare a usare Claude e comprendere meglio l'intelligenza artificiale. Sono disponibili 17 corsi che coprono una vasta gamma di argomenti, dall'AI Fluency all'uso avanzato di Claude Code e delle sue API. È un'opportunità fantastica per sviluppare nuove skill digitali in modo accessibile."
+    },
+    {
+      "titolo": "Nuovi Tool AI: Panoramica per Video Editing, Web Design, Content Writing e Presentazioni",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/XWoZjtphu88",
+      "data": "31/08/2026",
+      "riassunto": "Questo video offre una rapida ma completa panoramica di vari nuovi tool AI, organizzati per funzioni specifiche. Vengono presentati strumenti per l'editing creativo di video social (come InVideo e Higgsfield), la creazione di pagine web senza codice (Wix, Framer, Lovable), la generazione di contenuti testuali per i social media (Jasper, ChatGPT, Claude) e la realizzazione veloce di presentazioni (Adobe Express, Gamma). Utile per scoprire nuovi strumenti di produttività."
+    },
+    {
+      "titolo": "Printing Press: collega un agente AI a qualsiasi piattaforma senza API pubbliche",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "\"Printing Press\" è un innovativo strumento che risolve un problema comune: connettere agenti AI a piattaforme che non offrono API pubbliche o connettori nativi. Permette di creare interfacce a riga di comando (CLI) per far interagire l'AI con praticamente qualsiasi software o servizio. Questo ottimizza il consumo di token e apre nuove possibilità di automazione, superando i limiti di soluzioni come MCP e Computer Use."
+    },
+    {
+      "titolo": "Claude for Small Business: Anthropic lancia un plugin con 31 skill e 12 connettori per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha presentato \"Claude for Small Business\", un plugin progettato specificamente per le Piccole e Medie Imprese. Questo strumento integra Claude direttamente nei flussi di lavoro aziendali in modo semplice, offrendo un pacchetto pronto all'uso con 31 skill e 12 connettori preconfigurati. Include integrazioni con servizi popolari come Gmail, Google Drive e Microsoft 365, facilitando l'automazione e l'aumento della produttività nelle PMI."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#0b1410" />
 <title>Viaggio nel Bosco — Le Storie di Alessio</title>
-<meta name="description" content="Un portale nel mondo delle storie di Alessio: scorri ed entra nel bosco fatato." />
+<meta name="description" content="Un portale nel mondo delle storie di Alessio: entra nel bosco fatato e incontra gli animali che custodiscono ogni storia." />
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,732 +13,500 @@
 <style>
   :root {
     --notte:      #0b1410;
-    --notte-2:    #0e1a14;
-    --crepuscolo: #17263c;
+    --notte-2:    #0d1a17;
     --oro:        #e8c06a;
     --oro-caldo:  #d4a843;
-    --verde:      #2d6a4f;
     --testo:      #f4efe6;
-    --testo-soft: rgba(244,239,230,0.78);
+    --testo-soft: rgba(244,239,230,0.80);
   }
-
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-  html { background: var(--notte); }
-
+  html, body { height: 100%; }
   body {
     background: var(--notte);
     color: var(--testo);
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
     -webkit-font-smoothing: antialiased;
   }
 
-  /* ---------------- STAGE FISSO ---------------- */
-  .film {
-    position: relative;
-    /* altezza driver: intro + 3 scene + uscita (in vh) — impostata anche da JS */
-    height: 420vh;
-  }
-  .stage {
-    position: sticky;
-    top: 0;
+  /* ---------- contenitore a scatti ---------- */
+  .viaggio {
     height: 100vh;
-    width: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  .viaggio::-webkit-scrollbar { display: none; }
+
+  .tappa {
+    position: relative;
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
     overflow: hidden;
-    /* fondo leggermente sollevato: durante i cross-fade non si vede mai il vuoto */
-    background: #0d1a17;
+    background: var(--notte-2);
   }
 
-  /* ---------------- LIVELLI SCENA ---------------- */
-  .scena {
-    position: absolute;
-    inset: -6% -6% -6% -6%;   /* bordo extra per il parallax senza mostrare i lati */
-    opacity: 0;
-    will-change: transform, opacity;
+  /* sfondo scena */
+  .sfondo {
+    position: absolute; inset: 0;
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.06);
+    will-change: transform;
   }
-  .scena img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
+  .tappa.attiva .sfondo { animation: respiro 14s ease-in-out infinite alternate; }
+  @keyframes respiro { from { transform: scale(1.06) translateY(0); } to { transform: scale(1.13) translateY(-1.5%); } }
 
-  /* nebbia/atmosfera che si muove piano su ogni scena */
-  .nebbia {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
+  .atmosfera {
+    position: absolute; inset: 0; pointer-events: none;
     background:
-      radial-gradient(120% 80% at 50% 18%, rgba(232,192,106,0.10), transparent 55%),
-      radial-gradient(140% 90% at 50% 120%, rgba(11,20,16,0.85), transparent 60%);
+      radial-gradient(120% 75% at 50% 12%, rgba(232,192,106,0.12), transparent 55%),
+      radial-gradient(150% 90% at 50% 118%, rgba(9,16,12,0.9), transparent 58%);
     mix-blend-mode: screen;
-    will-change: transform, opacity;
-    opacity: 0;
   }
-
-  /* vignetta / cornice scura (sostituisce il livello fogliame) */
   .vignetta {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    z-index: 5;
-    box-shadow:
-      inset 0 0 180px 60px rgba(6,12,9,0.85),
-      inset 0 0 60px 10px rgba(6,12,9,0.55);
+    position: absolute; inset: 0; pointer-events: none; z-index: 4;
+    box-shadow: inset 0 0 200px 70px rgba(5,10,8,0.82), inset 0 0 70px 12px rgba(5,10,8,0.5);
   }
-  .vignetta::before,
-  .vignetta::after {
-    content: "";
-    position: absolute;
-    left: 0; right: 0;
-    height: 34%;
-    pointer-events: none;
+  .vignetta::before, .vignetta::after {
+    content: ""; position: absolute; left: 0; right: 0; height: 32%;
   }
-  .vignetta::before { top: 0;    background: linear-gradient(to bottom, rgba(4,9,7,0.92), transparent); }
-  .vignetta::after  { bottom: 0; background: linear-gradient(to top,    rgba(4,9,7,0.96), transparent); }
+  .vignetta::before { top: 0;    background: linear-gradient(to bottom, rgba(4,9,7,0.9), transparent); }
+  .vignetta::after  { bottom: 0; background: linear-gradient(to top,    rgba(4,9,7,0.95), transparent); }
 
-  /* particelle (lucciole + pulviscolo) */
-  #particelle {
-    position: absolute;
-    inset: 0;
-    z-index: 6;
-    pointer-events: none;
-  }
-
-  /* ---------------- BEAT DI TESTO ---------------- */
-  .beat {
-    position: absolute;
-    z-index: 8;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: min(760px, 86vw);
-    text-align: center;
+  /* ---------- animali cliccabili ---------- */
+  .animale {
+    position: absolute; z-index: 6;
+    display: block; text-decoration: none;
     opacity: 0;
-    will-change: transform, opacity;
-    text-shadow: 0 2px 30px rgba(0,0,0,0.7), 0 0 50px rgba(0,0,0,0.5);
+    transform: translateY(40px) scale(0.6);
+    filter: drop-shadow(0 18px 26px rgba(0,0,0,0.5));
+    transition: transform .3s ease, filter .3s ease;
+    -webkit-tap-highlight-color: transparent;
   }
-  /* scrim morbido dietro il testo: leggibile su qualunque scena */
-  .beat::before {
-    content: "";
-    position: absolute;
-    left: 50%; top: 50%;
-    transform: translate(-50%, -50%);
-    width: 150%; height: 260%;
-    background: radial-gradient(ellipse at center, rgba(6,11,9,0.62) 0%, rgba(6,11,9,0.34) 45%, transparent 72%);
-    z-index: -1;
-    pointer-events: none;
+  .tappa.attiva .animale {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition: opacity 1s ease, transform 1.2s cubic-bezier(.22,1,.36,1);
   }
-  .beat .kicker {
-    font-size: clamp(11px, 1.1vw, 13px);
-    letter-spacing: 3px;
-    text-transform: uppercase;
+  .tappa.attiva .animale.a2 { transition-delay: .18s; }
+  .animale img { display: block; width: 100%; height: auto; }
+  .tappa.attiva .animale { animation: galleggia 5s ease-in-out infinite; }
+  .animale:hover, .animale:focus-visible {
+    transform: translateY(-6px) scale(1.06);
+    filter: drop-shadow(0 12px 22px rgba(0,0,0,0.5)) drop-shadow(0 0 26px rgba(232,192,106,0.55));
+    outline: none;
+  }
+  @keyframes galleggia { 0%,100% { translate: 0 0; } 50% { translate: 0 -10px; } }
+
+  /* etichetta storia sotto l'animale */
+  .animale .etichetta {
+    position: absolute; left: 50%; bottom: -30px; transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: clamp(12px, 1.3vw, 15px); font-weight: 600;
     color: var(--oro);
-    margin-bottom: 14px;
-    font-weight: 600;
+    background: rgba(8,14,10,0.72);
+    padding: 5px 14px; border-radius: 9999px;
+    border: 1px solid rgba(232,192,106,0.3);
+    opacity: 0; transition: opacity .25s ease;
+    backdrop-filter: blur(6px);
+    pointer-events: none;
   }
-  .beat h1 {
-    font-family: 'Zilla Slab', Georgia, serif;
-    font-weight: 700;
-    font-size: clamp(38px, 6vw, 76px);
-    line-height: 1.05;
-    letter-spacing: 0.5px;
-  }
-  .beat h2 {
-    font-family: 'Zilla Slab', Georgia, serif;
-    font-weight: 600;
-    font-size: clamp(24px, 3.4vw, 44px);
-    line-height: 1.2;
-  }
-  .beat p {
-    margin-top: 14px;
-    font-size: clamp(15px, 1.6vw, 19px);
-    color: var(--testo-soft);
-    font-weight: 400;
-  }
+  .animale:hover .etichetta, .animale:focus-visible .etichetta { opacity: 1; }
 
-  .scorri {
-    position: absolute;
-    z-index: 8;
-    left: 50%;
-    bottom: 42px;
+  /* ---------- testo di scena ---------- */
+  .parola {
+    position: absolute; z-index: 7;
+    left: 50%; top: 14%;
     transform: translateX(-50%);
-    color: var(--testo-soft);
-    font-size: 13px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    transition: opacity 0.4s ease;
-  }
-  .scorri .freccia {
-    width: 22px; height: 22px;
-    border-right: 2px solid var(--oro);
-    border-bottom: 2px solid var(--oro);
-    transform: rotate(45deg);
-    animation: giu 1.8s ease-in-out infinite;
-  }
-  @keyframes giu {
-    0%, 100% { transform: rotate(45deg) translate(0, 0); opacity: 0.4; }
-    50%      { transform: rotate(45deg) translate(4px, 4px); opacity: 1; }
-  }
-
-  /* ---------------- USCITA / CUCITURA ---------------- */
-  .atterraggio {
-    position: absolute;
-    inset: 0;
-    z-index: 7;
-    opacity: 0;
-    pointer-events: none;
-    background: linear-gradient(to bottom, rgba(11,20,16,0.35) 0%, rgba(11,20,16,0.9) 62%, #0a1512 100%);
-  }
-  .finale {
-    position: absolute;
-    z-index: 9;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -46%);
+    width: min(760px, 88vw);
     text-align: center;
-    width: min(680px, 88vw);
-    opacity: 0;
-    pointer-events: none;
-    will-change: transform, opacity;
+    opacity: 0; translate: 0 16px;
+    text-shadow: 0 2px 26px rgba(0,0,0,0.7), 0 0 46px rgba(0,0,0,0.5);
   }
-  .finale h2 {
-    font-family: 'Zilla Slab', Georgia, serif;
-    font-weight: 600;
-    font-size: clamp(26px, 3.6vw, 46px);
-    margin-bottom: 8px;
+  .tappa.attiva .parola { opacity: 1; translate: 0 0; transition: opacity .9s ease .25s, translate .9s ease .25s; }
+  .parola .kicker {
+    font-size: clamp(11px, 1.1vw, 13px); letter-spacing: 3px; text-transform: uppercase;
+    color: var(--oro); font-weight: 600; margin-bottom: 12px;
   }
-  .finale p { color: var(--testo-soft); margin-bottom: 28px; font-size: clamp(15px,1.6vw,18px); }
-  .btn-entra {
-    display: inline-block;
-    background: var(--oro-caldo);
-    color: #1a1206;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    padding: 15px 40px;
-    border-radius: 9999px;
-    text-decoration: none;
-    box-shadow: 0 0 0 rgba(232,192,106,0.5), 0 10px 40px rgba(0,0,0,0.4);
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  .parola h1 {
+    font-family: 'Zilla Slab', Georgia, serif; font-weight: 700;
+    font-size: clamp(40px, 6vw, 76px); line-height: 1.04;
   }
-  .btn-entra:hover {
-    transform: translateY(-2px) scale(1.03);
-    box-shadow: 0 0 60px rgba(232,192,106,0.45), 0 10px 40px rgba(0,0,0,0.5);
+  .parola h2 {
+    font-family: 'Zilla Slab', Georgia, serif; font-weight: 600;
+    font-size: clamp(23px, 3.2vw, 42px); line-height: 1.22;
   }
-  .finale.attivo { pointer-events: auto; }
+  .parola p { margin-top: 12px; font-size: clamp(14px, 1.5vw, 18px); color: var(--testo-soft); }
 
-  /* ---------------- CHROME (audio + credito) ---------------- */
-  #btn-audio {
-    position: fixed;
-    top: 18px; right: 18px;
-    z-index: 30;
-    display: flex; align-items: center; gap: 8px;
-    background: rgba(8,15,11,0.6);
+  /* hint scorri */
+  .giu {
+    position: absolute; z-index: 7; left: 50%; bottom: 40px; transform: translateX(-50%);
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    color: var(--testo-soft); font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+  }
+  .giu .fr { width: 20px; height: 20px; border-right: 2px solid var(--oro); border-bottom: 2px solid var(--oro);
+    transform: rotate(45deg); animation: rimbalza 1.8s ease-in-out infinite; }
+  @keyframes rimbalza { 0%,100% { transform: rotate(45deg) translate(0,0); opacity:.4; } 50% { transform: rotate(45deg) translate(3px,3px); opacity:1; } }
+
+  /* ---------- RADURA finale ---------- */
+  #radura .parola { top: 10%; }
+  .entra {
+    position: absolute; z-index: 8; left: 50%; bottom: 12%;
+    transform: translateX(-50%);
+    display: inline-block;
+    background: var(--oro-caldo); color: #1a1206;
+    font-weight: 600; font-size: clamp(15px, 1.8vw, 18px);
+    padding: 15px 44px; border-radius: 9999px; text-decoration: none;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    opacity: 0; transition: transform .2s ease, box-shadow .3s ease, opacity .8s ease .5s;
+  }
+  #radura.attiva .entra { opacity: 1; }
+  .entra:hover { transform: translateX(-50%) translateY(-2px) scale(1.03);
+    box-shadow: 0 0 60px rgba(232,192,106,0.5), 0 10px 40px rgba(0,0,0,0.5); }
+
+  /* ---------- chrome ---------- */
+  #particelle { position: fixed; inset: 0; z-index: 3; pointer-events: none; }
+
+  .torna, #btn-audio {
+    position: fixed; z-index: 30; top: 18px;
+    background: rgba(8,14,10,0.6);
     border: 1px solid rgba(244,239,230,0.18);
     color: var(--testo-soft);
-    padding: 9px 16px;
-    border-radius: 9999px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    cursor: pointer;
-    backdrop-filter: blur(8px);
-    transition: background 0.2s ease, color 0.2s ease;
+    font-family: 'Poppins', sans-serif; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;
+    padding: 9px 16px; border-radius: 9999px; backdrop-filter: blur(8px); cursor: pointer;
+    text-decoration: none;
+    transition: background .2s ease, color .2s ease;
   }
-  #btn-audio:hover { background: rgba(20,32,24,0.85); color: var(--testo); }
-  #btn-audio .onda {
-    width: 8px; height: 8px; border-radius: 50%;
-    background: var(--oro);
-    box-shadow: 0 0 8px var(--oro);
-    opacity: 0.35;
-  }
+  .torna { left: 18px; }
+  #btn-audio { right: 18px; display: flex; align-items: center; gap: 8px; }
+  .torna:hover, #btn-audio:hover { background: rgba(20,32,24,0.85); color: var(--testo); }
+  #btn-audio .onda { width: 8px; height: 8px; border-radius: 50%; background: var(--oro); box-shadow: 0 0 8px var(--oro); opacity: .35; }
   #btn-audio.suona .onda { opacity: 1; animation: pulsa 1.6s ease-in-out infinite; }
-  @keyframes pulsa { 0%,100% { transform: scale(0.8); } 50% { transform: scale(1.3); } }
+  @keyframes pulsa { 0%,100% { transform: scale(.8); } 50% { transform: scale(1.3); } }
+
+  .punti {
+    position: fixed; z-index: 30; right: 20px; top: 50%; transform: translateY(-50%);
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .punti button {
+    width: 9px; height: 9px; border-radius: 50%; border: 0; padding: 0; cursor: pointer;
+    background: rgba(244,239,230,0.28); transition: background .2s ease, transform .2s ease;
+  }
+  .punti button.on { background: var(--oro); transform: scale(1.35); }
 
   .credito {
-    position: fixed;
-    left: 0; right: 0; bottom: 0;
-    z-index: 20;
-    text-align: center;
-    font-size: 11px;
-    color: rgba(244,239,230,0.4);
-    padding: 10px;
-    background: linear-gradient(to top, rgba(7,13,10,0.9), transparent);
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    pointer-events: none;
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; text-align: center;
+    font-size: 11px; color: rgba(244,239,230,0.4);
+    padding: 9px; background: linear-gradient(to top, rgba(7,13,10,0.9), transparent);
+    opacity: 0; transition: opacity .5s ease; pointer-events: none;
   }
-  .credito a { color: rgba(244,239,230,0.6); }
+  .credito.on { opacity: 1; }
 
-  /* torna al sito */
-  .torna {
-    position: fixed;
-    top: 18px; left: 18px;
-    z-index: 30;
-    color: var(--testo-soft);
-    text-decoration: none;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    background: rgba(8,15,11,0.6);
-    border: 1px solid rgba(244,239,230,0.18);
-    padding: 9px 16px;
-    border-radius: 9999px;
-    backdrop-filter: blur(8px);
-    transition: background 0.2s ease, color 0.2s ease;
-  }
-  .torna:hover { background: rgba(20,32,24,0.85); color: var(--testo); }
-
-  /* loader */
   #loader {
-    position: fixed;
-    inset: 0;
-    z-index: 100;
-    background: var(--notte);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 22px;
-    transition: opacity 0.8s ease;
+    position: fixed; inset: 0; z-index: 100; background: var(--notte);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px;
+    transition: opacity .8s ease;
   }
   #loader.via { opacity: 0; pointer-events: none; }
-  #loader .marchio {
-    font-family: 'Zilla Slab', Georgia, serif;
-    font-size: 22px;
-    color: var(--oro);
-    letter-spacing: 1px;
-  }
-  #loader .barra {
-    width: 200px; height: 3px;
-    background: rgba(244,239,230,0.12);
-    border-radius: 2px;
-    overflow: hidden;
-  }
-  #loader .barra i {
-    display: block; height: 100%; width: 100%;
-    background: var(--oro);
-    transform: scaleX(0);
-    transform-origin: left center;
-    transition: transform 0.3s ease;
-  }
+  #loader .m { font-family: 'Zilla Slab', Georgia, serif; font-size: 20px; color: var(--oro); letter-spacing: 1px; }
+  #loader .b { width: 190px; height: 3px; background: rgba(244,239,230,0.12); border-radius: 2px; overflow: hidden; }
+  #loader .b i { display: block; height: 100%; width: 100%; background: var(--oro); transform: scaleX(0); transform-origin: left; transition: transform .3s ease; }
 
-  /* ---------------- MOBILE ---------------- */
-  @media (max-width: 768px) {
-    .film { height: 360vh; }
-    .vignetta { box-shadow: inset 0 0 120px 40px rgba(6,12,9,0.85); }
-    .beat h1 { font-size: clamp(32px, 9vw, 44px); }
-  }
-
-  /* ---------------- REDUCED MOTION ---------------- */
   @media (prefers-reduced-motion: reduce) {
-    .scorri .freccia { animation: none; }
+    .viaggio { scroll-behavior: auto; }
+    .tappa.attiva .sfondo { animation: none; }
+    .tappa.attiva .animale { animation: none; transition: opacity .01s, transform .01s; }
+    .giu .fr { animation: none; }
     #btn-audio.suona .onda { animation: none; }
   }
 </style>
 </head>
 <body>
 
-<div id="loader">
-  <div class="marchio">Le Storie di Alessio</div>
-  <div class="barra"><i id="barra-fill"></i></div>
-</div>
+<div id="loader"><div class="m">Le Storie di Alessio</div><div class="b"><i id="barra"></i></div></div>
 
 <a class="torna" href="/">&larr; Le storie</a>
+<button id="btn-audio" aria-label="Attiva o disattiva l'audio"><span class="onda"></span><span id="audio-label">Suono</span></button>
+<audio id="au-amb" loop preload="none"></audio>
+<audio id="au-mus" loop preload="none"></audio>
+<div class="credito" id="credito">Musica e ambiente: <span id="credito-txt">tracce CC0 &mdash; freesound.org / pixabay.com</span></div>
 
-<button id="btn-audio" aria-label="Attiva o disattiva l'audio">
-  <span class="onda"></span><span id="audio-label">Suono</span>
-</button>
+<canvas id="particelle"></canvas>
+<nav class="punti" id="punti" aria-label="Tappe del viaggio"></nav>
 
-<audio id="audio-amb" loop preload="none"></audio>
-<audio id="audio-mus" loop preload="none"></audio>
+<div class="viaggio" id="viaggio">
 
-<div class="credito" id="credito">
-  Musica e ambiente: <span id="credito-txt">tracce CC0 — freesound.org / pixabay.com</span>
-</div>
-
-<div class="film" id="film">
-  <div class="stage" id="stage">
-
-    <div class="scena" id="scena1"><img src="viaggio-bosco/frames/scena1.jpg" alt="Una radura al crepuscolo, un sentiero entra fra gli alberi" /></div>
-    <div class="scena" id="scena2"><img src="viaggio-bosco/frames/scena2.jpg" alt="Il sentiero scende fra alberi giganti coperti di muschio" /></div>
-    <div class="scena" id="scena3"><img src="viaggio-bosco/frames/scena3.jpg" alt="Una radura segreta con un grande albero cavo che brilla d'oro" /></div>
-
-    <div class="nebbia" id="nebbia"></div>
-    <div class="vignetta"></div>
-    <canvas id="particelle"></canvas>
-
-    <div class="beat" id="beat-hero" data-in="-0.05" data-peak="0.02" data-out="0.13">
+  <!-- 1. SOGLIA -->
+  <section class="tappa" id="soglia" data-bg="viaggio-bosco/frames/scena1.jpg">
+    <div class="sfondo"></div>
+    <div class="atmosfera"></div>
+    <div class="parola">
       <div class="kicker">Le Storie di Alessio</div>
       <h1>Viaggio nel Bosco</h1>
-      <p>Scorri piano. Il bosco ti sta aspettando.</p>
+      <p>Ogni animale del bosco custodisce una storia. Scorri ed entra a conoscerli.</p>
+    </div>
+    <a class="animale a1" href="/storie/alessioalieni_new.html" target="_blank" rel="noopener"
+       style="left:12%; bottom:9%; width:min(17vw,195px);">
+      <img src="viaggio-bosco/animali/gufo.webp" alt="Un gufo che guarda le stelle" />
+      <span class="etichetta">Alessio e gli alieni</span>
+    </a>
+    <div class="vignetta"></div>
+    <div class="giu"><span>scorri</span><span class="fr"></span></div>
+  </section>
+
+  <!-- 2. DISCESA -->
+  <section class="tappa" id="discesa" data-bg="viaggio-bosco/frames/scena2.jpg">
+    <div class="sfondo"></div>
+    <div class="atmosfera"></div>
+    <div class="parola"><h2>Pi&ugrave; scendi, pi&ugrave; il bosco si popola di amici.</h2></div>
+    <a class="animale a1" href="/storie/alessioskool.html" target="_blank" rel="noopener"
+       style="left:24%; bottom:12%; width:min(24vw,260px);">
+      <img src="viaggio-bosco/animali/scoiattoli.webp" alt="Due scoiattoli che giocano" />
+      <span class="etichetta">Alessio Skool</span>
+    </a>
+    <a class="animale a2" href="/storie/NonnoBerto.html" target="_blank" rel="noopener"
+       style="right:9%; top:42%; width:min(13vw,140px);">
+      <img src="viaggio-bosco/animali/picchio.webp" alt="Un picchio sul tronco" />
+      <span class="etichetta">Nonno Berto</span>
+    </a>
+    <div class="vignetta"></div>
+    <div class="giu"><span>scorri</span><span class="fr"></span></div>
+  </section>
+
+  <!-- 3. CUORE -->
+  <section class="tappa" id="cuore" data-bg="viaggio-bosco/frames/scena3.jpg">
+    <div class="sfondo"></div>
+    <div class="atmosfera"></div>
+    <div class="parola"><h2>E in fondo, nel cuore del bosco&hellip;</h2></div>
+    <a class="animale a1" href="/storie/alessiopescara_gsap_v2.html" target="_blank" rel="noopener"
+       style="left:14%; bottom:12%; width:min(19vw,210px);">
+      <img src="viaggio-bosco/animali/cervo.webp" alt="Un cerbiatto che si avvicina" />
+      <span class="etichetta">Alessio a Pescara</span>
+    </a>
+    <a class="animale a2" href="/storie/alessiomareversione2.html" target="_blank" rel="noopener"
+       style="left:58%; bottom:13%; width:min(12vw,130px);">
+      <img src="viaggio-bosco/animali/tartaruga.webp" alt="Una tartaruga vicino al laghetto" />
+      <span class="etichetta">Alessio al mare</span>
+    </a>
+    <div class="vignetta"></div>
+    <div class="giu"><span>scorri</span><span class="fr"></span></div>
+  </section>
+
+  <!-- 4. RADURA DEL RADUNO -->
+  <section class="tappa" id="radura" data-bg="viaggio-bosco/frames/scena3.jpg">
+    <div class="sfondo" style="filter: brightness(.72) saturate(.9);"></div>
+    <div class="atmosfera"></div>
+    <div class="parola">
+      <div class="kicker">Sei arrivato</div>
+      <h2>Il bosco al completo.</h2>
+      <p>Clicca un animale per la sua storia, o entra a vederle tutte.</p>
     </div>
 
-    <div class="beat" id="beat-1" data-in="0.16" data-peak="0.24" data-out="0.33">
-      <h2>Oltre i primi alberi c'&egrave; una soglia.</h2>
-    </div>
+    <a class="animale a1" href="/storie/alessioalieni_new.html" target="_blank" rel="noopener" style="left:8%;  top:26%;  width:min(14vw,150px);">
+      <img src="viaggio-bosco/animali/gufo.webp" alt="Gufo" /><span class="etichetta">Alessio e gli alieni</span></a>
+    <a class="animale a1" href="/storie/alessioskool.html" target="_blank" rel="noopener" style="left:23%; bottom:26%; width:min(15vw,165px);">
+      <img src="viaggio-bosco/animali/scoiattoli.webp" alt="Scoiattoli" /><span class="etichetta">Alessio Skool</span></a>
+    <a class="animale a2" href="/storie/NonnoBerto.html" target="_blank" rel="noopener" style="right:9%; top:24%; width:min(11vw,115px);">
+      <img src="viaggio-bosco/animali/picchio.webp" alt="Picchio" /><span class="etichetta">Nonno Berto</span></a>
+    <a class="animale a1" href="/storie/alessiopescara_gsap_v2.html" target="_blank" rel="noopener" style="right:20%; bottom:22%; width:min(15vw,165px);">
+      <img src="viaggio-bosco/animali/cervo.webp" alt="Cerbiatto" /><span class="etichetta">Alessio a Pescara</span></a>
+    <a class="animale a2" href="/storie/alessiomareversione2.html" target="_blank" rel="noopener" style="left:46%; bottom:30%; width:min(10vw,110px);">
+      <img src="viaggio-bosco/animali/tartaruga.webp" alt="Tartaruga" /><span class="etichetta">Alessio al mare</span></a>
 
-    <div class="beat" id="beat-2" data-in="0.44" data-peak="0.53" data-out="0.63">
-      <h2>Pi&ugrave; scendi, pi&ugrave; il bosco diventa magico.</h2>
-    </div>
+    <a class="entra" href="/">Entra nelle storie</a>
+    <div class="vignetta"></div>
+  </section>
 
-    <div class="beat" id="beat-3" data-in="0.74" data-peak="0.82" data-out="0.9">
-      <h2>E in fondo&hellip; il cuore del bosco brilla.</h2>
-    </div>
-
-    <div class="atterraggio" id="atterraggio"></div>
-
-    <div class="finale" id="finale">
-      <h2>Sei arrivato.</h2>
-      <p>Da qui partono tutte le storie.</p>
-      <a class="btn-entra" href="/">Entra nelle storie</a>
-    </div>
-
-    <div class="scorri" id="scorri">
-      <span>scorri</span>
-      <span class="freccia"></span>
-    </div>
-
-  </div>
 </div>
 
-<script src="viaggio-bosco/lib/gsap.min.js"></script>
-<script src="viaggio-bosco/lib/ScrollTrigger.min.js"></script>
-<script src="viaggio-bosco/lib/lenis.min.js"></script>
 <script>
 (function () {
   "use strict";
-
-  var RIDOTTO = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var MOBILE  = window.matchMedia("(max-width: 768px)").matches;
+  var RIDOTTO = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var MOBILE  = matchMedia("(max-width: 768px)").matches;
   var params  = new URLSearchParams(location.search);
   var JUMP    = params.get("jump");
 
-  // ---- sorgenti audio (impostate qui, file esterni; se assenti il bottone resta inerte) ----
-  var AUDIO = {
-    amb: "viaggio-bosco/audio/ambiente-bosco.mp3",
-    mus: "viaggio-bosco/audio/musica-magica.mp3"
-  };
+  var AUDIO = { amb: "viaggio-bosco/audio/ambiente-bosco.mp3", mus: "viaggio-bosco/audio/musica-magica.mp3" };
 
-  var elLoader   = document.getElementById("loader");
-  var elBarra    = document.getElementById("barra-fill");
-  var film       = document.getElementById("film");
-  var stage      = document.getElementById("stage");
-  var scene      = [document.getElementById("scena1"), document.getElementById("scena2"), document.getElementById("scena3")];
-  var nebbia     = document.getElementById("nebbia");
-  var atter      = document.getElementById("atterraggio");
-  var finale     = document.getElementById("finale");
-  var scorri     = document.getElementById("scorri");
-  var credito    = document.getElementById("credito");
-  var beats      = Array.prototype.slice.call(document.querySelectorAll(".beat"));
+  var viaggio = document.getElementById("viaggio");
+  var tappe   = Array.prototype.slice.call(document.querySelectorAll(".tappa"));
+  var loader  = document.getElementById("loader");
+  var barra   = document.getElementById("barra");
+  var credito = document.getElementById("credito");
 
-  // =========================================================
-  //  PRECARICO IMMAGINI  (mai bloccare troppo il primo paint)
-  // =========================================================
-  var sorgenti = scene.map(function (s) { return s.querySelector("img").getAttribute("src"); });
-  var caricate = 0;
-  function passo() {
-    caricate++;
-    elBarra.style.transform = "scaleX(" + (caricate / sorgenti.length).toFixed(3) + ")";
-    if (caricate >= sorgenti.length) avvia();
-  }
-  sorgenti.forEach(function (src) {
+  // ---- preload sfondi + set background ----
+  var bgs = tappe.map(function (t) { return t.dataset.bg; });
+  var uniq = bgs.filter(function (v, i) { return bgs.indexOf(v) === i; });
+  var done = 0;
+  tappe.forEach(function (t) { t.querySelector(".sfondo").style.backgroundImage = "url('" + t.dataset.bg + "')"; });
+  uniq.forEach(function (src) {
     var im = new Image();
-    im.onload = passo;
-    im.onerror = passo;
+    im.onload = im.onerror = function () {
+      done++;
+      barra.style.transform = "scaleX(" + (done / uniq.length).toFixed(3) + ")";
+      if (done >= uniq.length) avvia();
+    };
     im.src = src;
   });
-  // rete lenta: parti comunque dopo 4s
-  setTimeout(function () { if (caricate < sorgenti.length) avvia(); }, 4000);
+  setTimeout(function () { if (done < uniq.length) avvia(); }, 4000);
 
   var partito = false;
   function avvia() {
-    if (partito) return;
-    partito = true;
-    elLoader.classList.add("via");
-    setTimeout(function () { elLoader.style.display = "none"; }, 850);
-    montaScroll();
+    if (partito) return; partito = true;
+    loader.classList.add("via");
+    setTimeout(function () { loader.style.display = "none"; }, 850);
+    montaOsservatore();
+    montaPunti();
     montaParticelle();
     montaAudio();
-    if (JUMP !== null) eseguiJump();
+    if (JUMP !== null) {
+      var i = Math.max(0, Math.min(tappe.length - 1, parseInt(JUMP, 10) || 0));
+      tappe[i].scrollIntoView();
+      tappe[i].classList.add("attiva");
+      requestAnimationFrame(function () { requestAnimationFrame(function () { window.__ready = true; }); });
+    } else {
+      tappe[0].classList.add("attiva");
+      addEventListener("load", function () { setTimeout(function () { window.__ready = true; }, 300); });
+    }
   }
 
-  // =========================================================
-  //  SCROLL ENGINE  (Lenis + GSAP + ScrollTrigger)
-  // =========================================================
-  var progresso = 0;
-  var lenis = null;
+  // ---- quale tappa e' attiva ----
+  var attivaIdx = 0;
+  function montaOsservatore() {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting && e.intersectionRatio >= 0.55) {
+          tappe.forEach(function (t) { t.classList.remove("attiva"); });
+          e.target.classList.add("attiva");
+          attivaIdx = tappe.indexOf(e.target);
+          aggiornaPunti();
+          credito.classList.toggle("on", attivaIdx === tappe.length - 1);
+        }
+      });
+    }, { threshold: [0.55, 0.8] });
+    tappe.forEach(function (t) { io.observe(t); });
+  }
 
-  function montaScroll() {
-    gsap.registerPlugin(ScrollTrigger);
-
-    if (!RIDOTTO && JUMP === null && window.Lenis) {
-      lenis = new window.Lenis({ lerp: 0.09, smoothWheel: true, wheelMultiplier: 0.9 });
-      lenis.on("scroll", ScrollTrigger.update);
-      gsap.ticker.add(function (t) { lenis.raf(t * 1000); });
-      gsap.ticker.lagSmoothing(0);
-    }
-
-    // trigger pinnato UNICO: da qui pilotiamo tutto (scene + nebbia + canvas)
-    ScrollTrigger.create({
-      trigger: film,
-      start: "top top",
-      end: "bottom bottom",
-      scrub: true,
-      onUpdate: function (self) {
-        progresso = self.progress;
-        rendi(progresso);
-      }
+  // ---- punti di navigazione ----
+  var puntiBtn = [];
+  function montaPunti() {
+    var nav = document.getElementById("punti");
+    var nomi = ["La soglia", "La discesa", "Il cuore", "La radura"];
+    tappe.forEach(function (t, i) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("aria-label", nomi[i] || ("Tappa " + (i + 1)));
+      b.addEventListener("click", function () { t.scrollIntoView(); });
+      nav.appendChild(b);
+      puntiBtn.push(b);
     });
-
-    rendi(0);
-    ScrollTrigger.refresh();
+    aggiornaPunti();
+  }
+  function aggiornaPunti() {
+    puntiBtn.forEach(function (b, i) { b.classList.toggle("on", i === attivaIdx); });
   }
 
-  function smooth(x) { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); }
-  function lerp(a, b, t) { return a + (b - a) * t; }
-
-  // fascia con plateau: 0 prima di a, sale a 1 entro b, resta 1 fino a c, scende a 0 entro d
-  function fascia(p, a, b, c, d) {
-    if (p <= a || p >= d) return 0;
-    if (p < b) return smooth((p - a) / (b - a));
-    if (p > c) return 1 - smooth((p - c) / (d - c));
-    return 1;
+  // ---- tastiera ----
+  addEventListener("keydown", function (e) {
+    if (e.key === "ArrowDown" || e.key === "PageDown") { vai(1); e.preventDefault(); }
+    else if (e.key === "ArrowUp" || e.key === "PageUp") { vai(-1); e.preventDefault(); }
+    else if (e.key === "Home") { tappe[0].scrollIntoView(); }
+    else if (e.key === "End") { tappe[tappe.length - 1].scrollIntoView(); }
+  });
+  function vai(d) {
+    var n = Math.max(0, Math.min(tappe.length - 1, attivaIdx + d));
+    tappe[n].scrollIntoView();
   }
 
-  // finestre scena: scena1 piena all'inizio, scena3 piena alla fine, cross-fade sovrapposti
-  var FIN = [
-    { a: -1,   b: -1,   c: 0.20, d: 0.42, e0: 0.00, e1: 0.40 },
-    { a: 0.15, b: 0.33, c: 0.60, d: 0.80, e0: 0.16, e1: 0.80 },
-    { a: 0.56, b: 0.74, c: 2,    d: 3,    e0: 0.56, e1: 1.00 }
-  ];
-
-  function rendi(p) {
-    // --- 3 scene: camera sempre "più dentro / più giù" ---
-    for (var i = 0; i < 3; i++) {
-      var w = FIN[i];
-      var a = fascia(p, w.a, w.b, w.c, w.d);
-      // progressione interna alla scena (0 = appena entrata, 1 = sta per uscire)
-      var interno = (p - w.e0) / (w.e1 - w.e0);
-      interno = Math.max(0, Math.min(1, interno));
-
-      var el = scene[i];
-      el.style.opacity = a.toFixed(3);
-      if (a <= 0.001) { el.style.visibility = "hidden"; continue; }
-      el.style.visibility = "visible";
-
-      if (RIDOTTO) {
-        el.style.transform = "none";
-        el.style.filter = "none";
-      } else {
-        // zoom lento in avanti + deriva verso il basso = si va sempre più in profondità
-        var scala = lerp(1.05, 1.18, interno);
-        var ty    = lerp(-2.5, 4.0, interno);   // %
-        // scena in uscita: accelera lo zoom = la camera "attraversa" gli alberi (non una dissolvenza piatta)
-        var uscita = (interno > 0.5) ? (1 - a) : 0;
-        scala += uscita * 0.34;
-        // scena in entrata: parte da un filo più dentro e più in alto, poi si assesta
-        var entrata = (interno < 0.5) ? (1 - a) : 0;
-        scala += entrata * 0.10;
-        ty    -= entrata * 3.0;
-        el.style.transform = "translate3d(0," + ty.toFixed(2) + "%,0) scale(" + scala.toFixed(4) + ")";
-      }
-    }
-
-    // --- nebbia: sale piano per tutto il viaggio ---
-    nebbia.style.opacity = (0.35 + 0.5 * Math.sin(p * Math.PI)).toFixed(3);
-    if (!RIDOTTO) {
-      nebbia.style.transform = "translate3d(0," + (-p * 6).toFixed(2) + "%,0) scale(" + (1.05 + p * 0.08).toFixed(3) + ")";
-    }
-
-    // --- beat di testo ---
-    for (var b = 0; b < beats.length; b++) rendiBeat(beats[b], p);
-
-    // --- hint di scroll: sparisce appena si parte ---
-    scorri.style.opacity = p < 0.04 ? String(1 - p / 0.04) : "0";
-
-    // --- cucitura finale: ultimi ~12% dissolvono verso il buio caldo + finale ---
-    var f = (p - 0.88) / 0.12;
-    f = Math.max(0, Math.min(1, f));
-    atter.style.opacity = f.toFixed(3);
-    finale.style.opacity = f.toFixed(3);
-    finale.style.transform = "translate(-50%," + lerp(-40, -46, f).toFixed(1) + "%)";
-    finale.classList.toggle("attivo", f > 0.6);
-    credito.style.opacity = f > 0.15 ? "1" : "0";
-
-    // particelle: intensità legata alla profondità
-    _pIntensita = 0.4 + 0.6 * Math.sin(Math.min(p, 0.95) * Math.PI);
-    _pDrift = p;
-  }
-
-  function rendiBeat(el, p) {
-    var i = parseFloat(el.dataset.in), pk = parseFloat(el.dataset.peak), o = parseFloat(el.dataset.out);
-    var alpha = 0;
-    if (p >= i && p <= o) {
-      if (p < pk) alpha = (p - i) / Math.max(1e-4, pk - i);
-      else        alpha = 1 - (p - pk) / Math.max(1e-4, o - pk);
-    }
-    alpha = Math.max(0, Math.min(1, alpha));
-    el.style.opacity = alpha.toFixed(3);
-    if (!RIDOTTO) {
-      var su = (1 - alpha) * 22;   // entra dal basso, esce verso l'alto
-      el.style.transform = "translate(-50%,calc(-50% + " + (su - 11).toFixed(1) + "px))";
-    }
-  }
-
-  // =========================================================
-  //  PARTICELLE  — lucciole calde + pulviscolo dorato
-  // =========================================================
-  var _pIntensita = 1, _pDrift = 0;
+  // ---- particelle (lucciole + pulviscolo) ----
   function montaParticelle() {
     var cv = document.getElementById("particelle");
     var ctx = cv.getContext("2d");
-    var W = 0, H = 0, DPR = Math.min(window.devicePixelRatio || 1, 1.5);
-    var N = RIDOTTO ? 0 : (MOBILE ? 26 : 60);
-    var parti = [];
-    var sprite = faiSprite();
-
-    function faiSprite() {
-      var s = document.createElement("canvas");
-      s.width = s.height = 32;
+    var W = 0, H = 0, DPR = Math.min(devicePixelRatio || 1, 1.5);
+    var N = RIDOTTO ? 0 : (MOBILE ? 24 : 55);
+    var p = [];
+    var sp = (function () {
+      var s = document.createElement("canvas"); s.width = s.height = 32;
       var c = s.getContext("2d");
       var g = c.createRadialGradient(16, 16, 0, 16, 16, 16);
       g.addColorStop(0, "rgba(255,240,200,1)");
-      g.addColorStop(0.35, "rgba(240,200,120,0.6)");
+      g.addColorStop(.35, "rgba(240,200,120,.6)");
       g.addColorStop(1, "rgba(240,200,120,0)");
-      c.fillStyle = g;
-      c.fillRect(0, 0, 32, 32);
-      return s;
-    }
-
+      c.fillStyle = g; c.fillRect(0, 0, 32, 32); return s;
+    })();
     function dim() {
-      W = cv.clientWidth; H = cv.clientHeight;
-      cv.width = W * DPR; cv.height = H * DPR;
-      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      W = innerWidth; H = innerHeight;
+      cv.width = W * DPR; cv.height = H * DPR; ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
     }
     function semina() {
-      parti = [];
-      for (var i = 0; i < N; i++) {
-        parti.push({
-          x: Math.random() * W,
-          y: Math.random() * H,
-          z: 0.3 + Math.random() * 0.7,          // profondità
-          r: 1 + Math.random() * 3,
-          fase: Math.random() * Math.PI * 2,
-          vx: (Math.random() - 0.5) * 0.25,
-          vy: (Math.random() - 0.5) * 0.18
-        });
-      }
+      p = [];
+      for (var i = 0; i < N; i++) p.push({
+        x: Math.random() * W, y: Math.random() * H, z: .3 + Math.random() * .7,
+        r: 1 + Math.random() * 3, f: Math.random() * 6.28,
+        vx: (Math.random() - .5) * .22, vy: (Math.random() - .5) * .16
+      });
     }
     dim(); semina();
-    window.addEventListener("resize", function () { dim(); semina(); });
+    addEventListener("resize", function () { dim(); semina(); });
 
-    var t0 = performance.now();
-    // ---- misuratore scatti ----
-    var last = t0, maxDelta = 0, deltas = [], logAt = t0 + 2000;
-
+    var last = performance.now(), mx = 0, ds = [], logAt = last + 2000;
     function loop(now) {
       var dt = now - last; last = now;
-      if (dt > maxDelta) maxDelta = dt;
-      deltas.push(dt);
+      if (dt > mx) mx = dt; ds.push(dt);
       if (now > logAt) {
-        deltas.sort(function (a, b) { return a - b; });
-        var p95 = deltas[Math.floor(deltas.length * 0.95)] || 0;
-        window.__jank = { p95: +p95.toFixed(1), max: +maxDelta.toFixed(1) };
-        if (params.get("debug") !== null) {
-          console.log("[viaggio-bosco] rAF Δ  p95=" + p95.toFixed(1) + "ms  max=" + maxDelta.toFixed(1) + "ms  (frame=" + deltas.length + ")");
-        }
-        deltas = []; maxDelta = 0; logAt = now + 2000;
+        ds.sort(function (a, b) { return a - b; });
+        window.__jank = { p95: +(ds[Math.floor(ds.length * .95)] || 0).toFixed(1), max: +mx.toFixed(1) };
+        if (params.get("debug") !== null) console.log("[viaggio-bosco] rAF p95=" + window.__jank.p95 + " max=" + window.__jank.max);
+        ds = []; mx = 0; logAt = now + 2000;
       }
-
       if (N > 0) {
         ctx.clearRect(0, 0, W, H);
         ctx.globalCompositeOperation = "lighter";
-        var tt = (now - t0) / 1000;
-        for (var i = 0; i < parti.length; i++) {
-          var d = parti[i];
-          d.x += d.vx * d.z;
-          d.y += d.vy * d.z - _pDrift * 0.15 * d.z;   // deriva verso l'alto = camera che scende
+        var t = now / 1000;
+        for (var i = 0; i < p.length; i++) {
+          var d = p[i];
+          d.x += d.vx * d.z; d.y += d.vy * d.z;
           if (d.x < -20) d.x = W + 20; if (d.x > W + 20) d.x = -20;
           if (d.y < -20) d.y = H + 20; if (d.y > H + 20) d.y = -20;
-          var tw = 0.45 + 0.55 * Math.sin(tt * (0.8 + d.z) + d.fase);
-          var alpha = tw * d.z * _pIntensita;
-          var size = d.r * (2.4 + d.z * 2.2);
-          ctx.globalAlpha = Math.max(0, Math.min(1, alpha));
-          ctx.drawImage(sprite, d.x - size / 2, d.y - size / 2, size, size);
+          var tw = .45 + .55 * Math.sin(t * (.8 + d.z) + d.f);
+          var sz = d.r * (2.4 + d.z * 2.2);
+          ctx.globalAlpha = Math.max(0, Math.min(1, tw * d.z));
+          ctx.drawImage(sp, d.x - sz / 2, d.y - sz / 2, sz, sz);
         }
-        ctx.globalAlpha = 1;
-        ctx.globalCompositeOperation = "source-over";
+        ctx.globalAlpha = 1; ctx.globalCompositeOperation = "source-over";
       }
       requestAnimationFrame(loop);
     }
     requestAnimationFrame(loop);
   }
 
-  // =========================================================
-  //  AUDIO  — muto all'avvio, toggle, credito
-  // =========================================================
+  // ---- audio ----
   function montaAudio() {
-    var amb = document.getElementById("audio-amb");
-    var mus = document.getElementById("audio-mus");
-    var btn = document.getElementById("btn-audio");
-    var lab = document.getElementById("audio-label");
-    amb.src = AUDIO.amb; mus.src = AUDIO.mus;
-    amb.volume = 0.0; mus.volume = 0.0;
-    var acceso = false, disponibile = true;
-
-    amb.addEventListener("error", function () { disponibile = false; btn.style.display = "none"; });
-
+    var amb = document.getElementById("au-amb"), mus = document.getElementById("au-mus");
+    var btn = document.getElementById("btn-audio"), lab = document.getElementById("audio-label");
+    amb.src = AUDIO.amb; mus.src = AUDIO.mus; amb.volume = 0; mus.volume = 0;
+    var on = false, ok = true;
+    amb.addEventListener("error", function () { ok = false; btn.style.display = "none"; });
     function fade(el, a, b, ms) {
       var t0 = performance.now();
-      (function step(now) {
-        var k = Math.min(1, (now - t0) / ms);
-        el.volume = a + (b - a) * k;
-        if (k < 1) requestAnimationFrame(step);
-      })(performance.now());
+      (function s(now) { var k = Math.min(1, (now - t0) / ms); el.volume = a + (b - a) * k; if (k < 1) requestAnimationFrame(s); })(performance.now());
     }
-
     btn.addEventListener("click", function () {
-      if (!disponibile) return;
-      acceso = !acceso;
-      if (acceso) {
+      if (!ok) return;
+      on = !on;
+      if (on) {
         amb.play().catch(function(){}); mus.play().catch(function(){});
-        fade(amb, 0, 0.5, 900); fade(mus, 0, 0.32, 1400);
+        fade(amb, 0, .5, 900); fade(mus, 0, .32, 1400);
         btn.classList.add("suona"); lab.textContent = "Suono acceso";
       } else {
         fade(amb, amb.volume, 0, 500); fade(mus, mus.volume, 0, 500);
         setTimeout(function () { amb.pause(); mus.pause(); }, 520);
         btn.classList.remove("suona"); lab.textContent = "Suono";
       }
-    });
-  }
-
-  // =========================================================
-  //  CONTRATTO DEV  — ?jump=<scrollY> + window.__ready
-  // =========================================================
-  function eseguiJump() {
-    history.scrollRestoration = "manual";
-    var y = parseInt(JUMP, 10) || 0;
-    window.scrollTo(0, y);
-    ScrollTrigger.refresh();
-    ScrollTrigger.update();
-    var h = document.documentElement.scrollHeight - window.innerHeight;
-    rendi(h > 0 ? y / h : 0);
-    requestAnimationFrame(function () {
-      requestAnimationFrame(function () { window.__ready = true; });
-    });
-  }
-
-  if (JUMP === null) {
-    window.addEventListener("load", function () {
-      setTimeout(function () { window.__ready = true; }, 400);
     });
   }
 })();

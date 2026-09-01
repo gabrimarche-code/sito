@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-01",
+  "notizie": [
+    {
+      "titolo": "Anthropic lancia Claude Fable 5.1 e Mythos 5.1: più efficienza e meno blocchi",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/anthropic-lancia-claude-fable-51-e-mythos-51-piu-efficienza-e-meno-blocchi",
+      "data": "",
+      "riassunto": "Anthropic ha rilasciato due nuove versioni dei suoi modelli Claude, Fable 5.1 e Mythos 5.1, promettendo maggiore efficienza e meno blocchi durante l'uso. Questi aggiornamenti sono importanti per chi usa Claude, poiché dovrebbero rendere l'AI più fluida e meno propensa a \"incagliarsi\" su certi comandi, migliorando l'esperienza utente e la produttività."
+    },
+    {
+      "titolo": "L'attacco degli agenti AI di OpenAI ad Hugging Face: un report preoccupante",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=GwLYXa6JrG8",
+      "data": "31/08/2026",
+      "riassunto": "OpenAI ha pubblicato un report dettagliato sull'attacco ad Hugging Face condotto dai suoi stessi agenti AI. Il video ne analizza i passaggi più \"assurdi\", evidenziando la potenziale pericolosità di queste tecnologie e la necessità di prenderle sul serio. È un campanello d'allarme sulle capacità emergenti degli agenti AI e sui rischi di un loro uso non controllato."
+    },
+    {
+      "titolo": "Google lancia TimesFM-3, un nuovo modello AI open-source per le previsioni aziendali",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Jedh4FMt_y0",
+      "data": "01/09/2026",
+      "riassunto": "Google ha rilasciato TimesFM-3, un modello AI open-source specializzato in previsioni multivariate (forecasting). Questo tool si distingue per le sue prestazioni superiori ai benchmark e viene presentato come uno strumento eccezionale per le Piccole e Medie Imprese (PMI), permettendo di prevedere numeri e tendenze in modo più accurato per la gestione del business."
+    },
+    {
+      "titolo": "Nvidia acquista HuggingFace per 13 miliardi di dollari: cosa significa per l'AI open source?",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/TJ5Jub8nsWs",
+      "data": "31/08/2026",
+      "riassunto": "Nvidia ha acquisito HuggingFace per un'enorme cifra di 13 miliardi di dollari. Questa mossa ha un impatto significativo sul futuro dei modelli AI open source, dato il ruolo centrale di HuggingFace nella community. La notizia solleva interrogativi su come questa acquisizione influenzerà lo sviluppo, la disponibilità e la direzione delle tecnologie AI aperte."
+    },
+    {
+      "titolo": "Qwen 3.8 27B: il nuovo modello AI open-source di Alibaba per agenti AI locali potenti",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=GlDJwykehxY",
+      "data": "29/08/2026",
+      "riassunto": "Alibaba ha lanciato Qwen 3.8 27B, un modello open-source che, nonostante le dimensioni contenute, si dimostra molto intelligente. Permette di creare Agenti AI da far girare direttamente sul proprio computer (in locale), offrendo capacità simili a quelle di modelli come Codex e Claude Code. Il video mostra come usarlo con LM Studio e Pi Agent per gestire un \"Second Brain\" in modo privato."
+    },
+    {
+      "titolo": "DeepSeek Harness: il nuovo potente agente AI open source per competere con i big",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=AbHwF7kOREg",
+      "data": "26/08/2026",
+      "riassunto": "DeepSeek Harness è un nuovo agente AI open-source che sta facendo parlare di sé, puntando a rivaleggiare con strumenti come Claude Code e ChatGPT. Vanta già molte stelle su GitHub e la sua forza sta nella capacità di essere eseguito localmente, personalizzato con plugin e collegato sia a modelli AI locali (tramite Ollama) che a quelli via API, rendendolo estremamente flessibile e utile per chi vuole sperimentare con gli agenti."
+    },
+    {
+      "titolo": "Come creare uno spot professionale con l'AI: test pratico con Higgsfield e generazione video",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=rS_0mA_0JQ8",
+      "data": "30/08/2026",
+      "riassunto": "Il video mostra un esperimento pratico su come realizzare uno spot pubblicitario di alta qualità usando solo l'intelligenza artificiale, in particolare con lo strumento Higgsfield. Viene spiegato cosa funziona bene nella generazione video AI e dove invece ci sono ancora limiti, offrendo consigli su come approcciare questa tecnologia anche per chi è alle prime armi, con l'obiettivo di ottenere risultati professionali con budget ridotti."
+    },
+    {
+      "titolo": "Scopri cosa ChatGPT può ricostruire su di te con un prompt avanzato",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/shorts/VZgIebVFl4k",
+      "data": "01/09/2026",
+      "riassunto": "Questo YouTube Short presenta un prompt avanzato per ChatGPT che ti permette di scoprire quali informazioni l'AI può dedurre su di te dalle conversazioni e dalla sua \"memoria\". Chiedendo a ChatGPT di analizzare la tua narrativa, i pattern ricorrenti, le contraddizioni e i bisogni nascosti, puoi capire meglio come l'AI ti percepisce e quali conclusioni trae sui tuoi comportamenti e decisioni. È un ottimo modo per esplorare le capacità analitiche di ChatGPT."
+    },
+    {
+      "titolo": "ChatGPT può ora monitorare il tuo lavoro (cronologia PC) e le 31 novità AI della settimana",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=ZW1jvEHsLDg",
+      "data": "31/08/2026",
+      "riassunto": "ChatGPT ha introdotto la cronologia del computer, ora disponibile in Italia, che registra le app e i documenti aperti. Questa funzione permette all'AI di sapere su cosa stavi lavorando e di trasformare le tue azioni in procedure automatiche. Il video analizza questa novità, bilanciando i benefici per la produttività con le preoccupazioni sulla sorveglianza, e riassume altre 30 importanti novità AI della settimana."
+    },
+    {
+      "titolo": "Guida ai migliori tool AI per video, web, scrittura e presentazioni",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/XWoZjtphu88",
+      "data": "31/08/2026",
+      "riassunto": "Questo short offre una rapida carrellata e confronto di diversi tool basati su AI utili per varie attività creative e di produttività. Vengono presentati strumenti per l'editing video (InVideo, Captions, Higgsfield), la creazione di siti web (Wix, Framer, Lovable), la generazione di testi per social media (Jasper, ChatGPT, Claude) e la creazione veloce di presentazioni (Adobe Express, Gamma). È una guida pratica su quali tool usare a seconda dell'esigenza."
+    }
+  ]
+}

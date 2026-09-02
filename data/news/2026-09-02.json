@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-02",
+  "notizie": [
+    {
+      "titolo": "ChatGPT ora può \"guardarti lavorare\" con la cronologia del computer, arrivata in Italia",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=ZW1jvEHsLDg",
+      "data": "31/08/2026",
+      "riassunto": "ChatGPT ha introdotto una nuova funzione che registra la cronologia del tuo computer, incluse le app usate e i documenti aperti. Questo le permette di sapere su cosa stai lavorando e di trasformare le tue azioni in procedure automatiche. È una novità che apre nuove frontiere per la produttività, ma solleva anche interrogativi sulla privacy e sulla possibilità di automazione avanzata del tuo lavoro."
+    },
+    {
+      "titolo": "Anthropic presenta Claude Fable 5.1 e Mythos 5.1, nuovi LLM con focus su coding e agenti AI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=QBJR6mzoBqU",
+      "data": "02/09/2026",
+      "riassunto": "Anthropic ha lanciato due nuovi modelli, Claude Fable 5.1 e Claude Mythos 5.1, che migliorano notevolmente le performance nel coding e nella gestione di task complessi (task agentici). Questi modelli sono stati ottimizzati anche per la ricerca scientifica, offrono costi ridotti e sistemi di sicurezza potenziati. Rappresentano un passo avanti significativo nell'evoluzione degli LLM."
+    },
+    {
+      "titolo": "Anthropic ridisegna la memoria di Claude con \"Memoria 2.0\" per una migliore produttività",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=v1BRUItxtrA",
+      "data": "02/09/2026",
+      "riassunto": "Claude di Anthropic ha un sistema di memoria completamente nuovo, chiamato \"Memoria 2.0\". Ora non si limita a riassumere le conversazioni, ma aggiorna la memoria progressivamente, riconoscendo le informazioni importanti in modo autonomo. Questa memoria è condivisa tra le diverse chat, rendendo Claude più efficace nel ricordare preferenze e dettagli, migliorando notevolmente l'interazione e la produttività lavorativa."
+    },
+    {
+      "titolo": "Google rilascia TimesFM-3, un nuovo modello AI open-source per previsioni utile alle PMI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Jedh4FMt_y0",
+      "data": "01/09/2026",
+      "riassunto": "Google ha rilasciato TimesFM-3, un nuovo modello AI open-source specializzato nelle previsioni multivariate (forecasting). Questo modello ha superato i benchmark dei concorrenti ed è un ottimo tool per le Piccole e Medie Imprese (PMI). Può aiutare le aziende a prevedere trend e numeri importanti per il loro business in modo più accurato ed efficiente."
+    },
+    {
+      "titolo": "Qwen 3.8 27B di Alibaba: un nuovo LLM open-source per creare Agenti AI in locale",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=GlDJwykehxY",
+      "data": "29/08/2026",
+      "riassunto": "Alibaba ha sviluppato Qwen 3.8 27B, un nuovo modello open-weights molto intelligente, nonostante le sue dimensioni contenute. Questo LLM permette di creare Agenti AI da far girare in locale, offrendo capacità simili a modelli più noti come Codex e Claude Code. Il video mostra come usarlo gratuitamente con tool come LM Studio e Pi Agent per gestire un \"second brain\" in locale."
+    },
+    {
+      "titolo": "Printing Press: il tool per connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve il problema di collegare agenti AI a piattaforme che non hanno connettori o API pubbliche. Permette di creare Command Line Interfaces (CLI) personalizzate per far interagire l'AI con qualsiasi applicazione. Questo tool può ridurre il consumo di token rispetto ad altre soluzioni e migliora la produttività, automatizzando interazioni altrimenti impossibili."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business, un plugin per PMI con connettori e workflow agentici",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto Claude for Small Business, un plugin pensato per le Piccole e Medie Imprese (PMI) che integra Claude direttamente nel loro ecosistema. Questo pacchetto include oltre 30 skill e 12 connettori pronti all'uso per servizi come Gmail, Google Drive e Microsoft 365. Si attiva tramite Claude Cowork e mira a semplificare e automatizzare i workflow aziendali."
+    },
+    {
+      "titolo": "Omarchy: la distribuzione Linux AI-native di DHH",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=mKTYYZoG9i4",
+      "data": "02/09/2026",
+      "riassunto": "È stata rilasciata Omarchy, una nuova distribuzione Linux progettata per essere \"AI-native\", creata da DHH, uno sviluppatore molto noto. Questa notizia sta facendo molto rumore nel mondo tech, suggerendo un sistema operativo interamente pensato per integrare e sfruttare al meglio l'intelligenza artificiale fin dalle fondamenta."
+    },
+    {
+      "titolo": "Creare spot professionali con AI: guida pratica alla generazione video",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=rS_0mA_0JQ8",
+      "data": "30/08/2026",
+      "riassunto": "È possibile realizzare spot video professionali con un budget ridotto, sfruttando l'intelligenza artificiale. Il video mostra quali tool di generazione video AI funzionano davvero e quali invece deludono, offrendo una guida pratica su come creare contenuti video di alta qualità anche partendo da zero. È un ottimo modo per esplorare le capacità dell'AI nel campo della produzione creativa."
+    },
+    {
+      "titolo": "Panoramica di nuovi tool AI per video editing, creazione web, content writing e presentazioni",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/XWoZjtphu88",
+      "data": "31/08/2026",
+      "riassunto": "Questo video presenta una rassegna utile di strumenti AI per diverse esigenze creative e di produttività. Vengono analizzati tool per l'editing di video social (InVideo, Captions, Higgsfield), la creazione di pagine web senza codice (Wix, Framer, Lovable), la scrittura di contenuti (Jasper, ChatGPT, Claude) e la generazione di presentazioni veloci (Adobe Express, Gamma). Offre un'ottima guida per Gabriele per scoprire nuovi tool pratici."
+    }
+  ]
+}

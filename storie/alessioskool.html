@@ -119,21 +119,6 @@
             color: #e8e0f8;
         }
 
-        .audio-btn {
-            background: rgba(123,95,200,0.18);
-            border: 1.5px solid rgba(123,95,200,0.4);
-            color: #C4B3E8;
-            font-family: 'Poppins', sans-serif;
-            font-size: 12px;
-            font-weight: 500;
-            padding: 6px 14px;
-            border-radius: 9999px;
-            cursor: pointer;
-            transition: background 200ms ease-in-out;
-        }
-
-        .audio-btn:hover { background: rgba(123,95,200,0.35); }
-
         /* ---- MAIN CONTAINER ---- */
         .container {
             max-width: 720px;
@@ -345,10 +330,6 @@
             .image-frame, .planet { animation: none; }
             .chapter { animation: none; opacity: 1; }
         }
-
-        audio {
-            display: none;
-        }
     </style>
 </head>
 <body>
@@ -359,11 +340,6 @@
         <p class="cover-subtitle">Una storia di stelle, spazio e meraviglia</p>
         <button class="start-button" onclick="startStory()">Inizia l'avventura</button>
     </div>
-
-    <!-- Musica di sottofondo -->
-    <audio id="bgMusic" loop>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-    </audio>
 
     <!-- Stelle fisse -->
     <div class="stars"></div>
@@ -378,7 +354,6 @@
     <nav class="story-nav">
         <a class="story-nav-brand" href="../index.html">← Storie di Alessio</a>
         <span class="story-nav-title">Alessio e l'Astronauta</span>
-        <button class="audio-btn" onclick="toggleAudio()" id="audioBtn">♪ Musica</button>
     </nav>
 
     <div class="container">
@@ -442,30 +417,8 @@
     </footer>
 
     <script>
-        var audioPlaying = false;
-
         function startStory() {
             document.getElementById('cover').classList.add('hidden');
-            var music = document.getElementById('bgMusic');
-            music.volume = 0.35;
-            music.play().then(function() {
-                audioPlaying = true;
-                document.getElementById('audioBtn').textContent = '♪ Pausa';
-            }).catch(function() {});
-        }
-
-        function toggleAudio() {
-            var music = document.getElementById('bgMusic');
-            var btn = document.getElementById('audioBtn');
-            if (audioPlaying) {
-                music.pause();
-                audioPlaying = false;
-                btn.textContent = '♪ Musica';
-            } else {
-                music.play().catch(function() {});
-                audioPlaying = true;
-                btn.textContent = '♪ Pausa';
-            }
         }
     </script>
 </body>

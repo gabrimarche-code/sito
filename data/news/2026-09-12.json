@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-12",
+  "notizie": [
+    {
+      "titolo": "DeepSeek V4.1 Flash: un nuovo LLM con architettura rivoluzionaria",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=jeZZAJo_8hM",
+      "data": "12/09/2026",
+      "riassunto": "Simone Rizzo presenta DeepSeek V4.1 Flash, un modello di linguaggio innovativo che cambia l'architettura tradizionale dei Large Language Models. Questo modello introduce caratteristiche come l'architettura Causal Encoder-Decoder e la memoria condizionale Engram, rendendolo più efficiente e potente rispetto ai classici LLM decoder-only. È una notizia super interessante per chi vuole capire come si evolvono i modelli AI \"sotto il cofano\"."
+    },
+    {
+      "titolo": "GPT-6 Astra: il nuovo modello AI di OpenAI per workflow complessi",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=vOmew9BioBM",
+      "data": "10/09/2026",
+      "riassunto": "Antonio Guadagno ha testato GPT-6 Astra, il nuovo modello di OpenAI, evidenziando la sua capacità di gestire workflow complessi e attività multi-step in autonomia. Dopo oltre 100 ore di test, sono stati individuati tre lavori in cui questo modello fa davvero la differenza, grazie alla sua maggiore autonomia rispetto ai predecessori. È un salto avanti per le automazioni e la produttività con l'AI."
+    },
+    {
+      "titolo": "Claude Fable 5.1: il nuovo potente LLM di Anthropic e l'analisi sul suo utilizzo",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=mB2RRordy3g",
+      "data": "11/09/2026",
+      "riassunto": "Claude Fable 5.1 è stato rilasciato da Anthropic come il loro modello più potente di sempre, ottenendo ottimi piazzamenti nelle classifiche indipendenti. Tuttavia, dopo un'analisi approfondita, Gabriele di gabrysolution ne valuta l'effettiva convenienza, specialmente per gli utenti comuni, mettendo in luce un trucco per risparmiare sui costi. Una notizia utile per capire se conviene adottare questo nuovo gigante dell'AI."
+    },
+    {
+      "titolo": "Pi Agent: l'agente AI leggero e personalizzabile che ottimizza i token",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=RM8c2AAnuz8",
+      "data": "06/09/2026",
+      "riassunto": "È arrivato Pi Agent, una nuova soluzione che promette di risolvere il problema dell'alto consumo di token di altri agenti AI come Claude Code o Codex. Pi Agent si distingue per essere più veloce, leggero e altamente personalizzabile, partendo da un'architettura minimale che permette di aggiungere solo le funzioni necessarie. Questo significa maggiore efficienza e risparmio per chi sviluppa o usa agenti AI."
+    },
+    {
+      "titolo": "annota.ai: la nuova startup per pulire e preparare dati per l'AI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/w8B5Sot-VP8",
+      "data": "12/09/2026",
+      "riassunto": "Simone Rizzo ha lanciato la sua quinta startup, annota.ai, focalizzata sulla preparazione e pulizia dei dati per l'intelligenza artificiale. La piattaforma offre servizi come modelli OCR per convertire PDF in Markdown e LLM wiki per creare \"second brain\" aziendali, oltre a facilitare il training di modelli AI. Un tool pratico che risolve un problema cruciale nel ciclo di vita dell'AI, migliorando la qualità dei dati."
+    },
+    {
+      "titolo": "Manus-AI: crea un sito web personalizzato senza scrivere codice",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/98n0dEP43Rs",
+      "data": "11/09/2026",
+      "riassunto": "Manus-AI è un nuovo strumento che permette di creare un sito web completamente personalizzato in pochissimo tempo e senza la necessità di scrivere una singola riga di codice. Utilizzando l'intelligenza artificiale, questo tool si propone come una soluzione pratica per chiunque voglia realizzare una presenza online in modo rapido ed efficiente, un vero e proprio game changer per la produttività."
+    },
+    {
+      "titolo": "Printing Press: collega agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Spesso è difficile far interagire l'AI con piattaforme che non hanno connettori o API pubbliche, causando perdite di tempo e produttività. Printing Press è un nuovo strumento che risolve questo problema, permettendo di creare interfacce a riga di comando (CLI) per collegare un agente AI a *qualsiasi* piattaforma. Questo tool offre un modo efficiente ed economico per estendere le capacità di automazione dell'AI."
+    },
+    {
+      "titolo": "Claude for Small Business: Anthropic lancia un pacchetto AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un pacchetto di connettori e workflow basati su agenti AI pensato per le piccole e medie imprese. Questo plugin, attivabile facilmente all'interno di Claude Cowork, include 31 skill e 12 connettori predefiniti per strumenti comuni come Gmail, Google Drive e Microsoft 365. È una soluzione pratica per le PMI che vogliono integrare rapidamente l'AI nelle loro operazioni quotidiane."
+    },
+    {
+      "titolo": "Le funzionalità nascoste di Claude: visione, scraping e Google Drive",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=jvJtcu46IdY",
+      "data": "10/09/2026",
+      "riassunto": "Claude non è solo una chat, ma un tool versatile con funzionalità avanzate che molti ignorano. Questo video mostra come Claude possa \"vedere\" e analizzare immagini (come appunti o scontrini), esplorare e fare scraping di interi siti web usando Firecrawl, e lavorare direttamente sui file di Google Drive, persino creando fogli Excel. Sono esempi concreti che dimostrano come sfruttare al massimo Claude per aumentare la produttività."
+    },
+    {
+      "titolo": "Avvocato sanzionato per aver usato ChatGPT per citare casi inesistenti",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
+      "data": "11/09/2026",
+      "riassunto": "Un avvocato del New Mexico è stato punito per aver citato testimonianze e casi legali inventati, generati da ChatGPT. Il legale ha dichiarato di non essere a conoscenza del fatto che l'AI potesse \"allucinare\" fatti. Questa notizia evidenzia l'importanza cruciale di verificare sempre le informazioni generate dagli LLM e sottolinea le responsabilità legate all'uso professionale dell'intelligenza artificiale."
+    }
+  ]
+}

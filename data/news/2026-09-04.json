@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-04",
+  "notizie": [
+    {
+      "titolo": "OpenAI lancia GPT-6 Astra, il nuovo modello di frontiera con la rivoluzionaria funzione \"Computer Use\"",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=uAPG3IGAU_M",
+      "data": "04/09/2026",
+      "riassunto": "OpenAI ha presentato il suo modello di punta, GPT-6 Astra, che introduce la funzione \"Computer Use\". Questo significa che Astra può interagire con il tuo computer, navigare sul web e gestire applicazioni, agendo come un vero \"dipendente digitale\". È un passo avanti enorme per l'automazione dei workflow complessi in ambito professionale e per le piccole e medie imprese."
+    },
+    {
+      "titolo": "Anthropic annuncia i nuovi modelli di punta Fable 5.1 e Mythos 5.1",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/qGbDZtlGTTY",
+      "data": "03/09/2026",
+      "riassunto": "Anthropic ha rilasciato due nuovi modelli di intelligenza artificiale, Fable 5.1 e Mythos 5.1, che rappresentano i loro nuovi punti di riferimento nel campo degli LLM. Questi aggiornamenti promettono prestazioni migliorate e nuove capacità, rafforzando la posizione di Anthropic tra i leader dello sviluppo AI."
+    },
+    {
+      "titolo": "Claude di Anthropic rivoluziona la sua memoria con la \"Memoria 2.0\"",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=v1BRUItxtrA",
+      "data": "02/09/2026",
+      "riassunto": "Anthropic ha completamente ripensato il sistema di memoria di Claude, introducendo una \"Memoria 2.0\". Ora Claude non si limita a riassumere le conversazioni, ma può aggiornare la sua conoscenza autonomamente e condividere le informazioni tra le diverse chat e la piattaforma Claude Cowork. Questo rende Claude molto più efficace nel ricordare le tue preferenze e il contesto dei tuoi lavori."
+    },
+    {
+      "titolo": "Claude Cowork introduce \"Record a Skill\" per apprendere le tue automazioni in tempo reale",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/shorts/YAqe2ZWnwUg",
+      "data": "04/09/2026",
+      "riassunto": "Claude Cowork ha lanciato \"Record a Skill\", una funzione che permette all'AI di imparare osservandoti. Registrando le tue azioni sul computer, inclusi clic, digitazione e voce, Claude analizza il tuo workflow e lo trasforma in una \"skill\" riutilizzabile. Questo significa che l'AI potrà replicare processi complessi senza che tu debba scrivere prompt dettagliati ogni volta, automatizzando il tuo lavoro."
+    },
+    {
+      "titolo": "Printing Press: il tool per connettere Agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "È nato Printing Press, uno strumento innovativo che permette di creare interfacce a riga di comando (CLI) per collegare Agenti AI a piattaforme che normalmente non offrirebbero questa possibilità. È la soluzione ideale quando non ci sono API pubbliche o connettori diretti, consentendo di integrare l'AI anche negli angoli più remoti dei tuoi workflow digitali."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business per integrare l'AI nelle PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato Claude for Small Business, un plugin pensato per le PMI che integra Claude direttamente nelle loro operazioni quotidiane. Include 31 skill e 12 connettori predefiniti per servizi come Gmail, Google Drive e Microsoft 365, permettendo alle piccole imprese di sfruttare l'AI per l'automazione e la produttività con pochi semplici clic."
+    },
+    {
+      "titolo": "Come usare Claude Cowork per analizzare le finanze e tagliare gli sprechi in mezz'ora",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=HZGBbdOvmBc",
+      "data": "03/09/2026",
+      "riassunto": "Un video pratico mostra come utilizzare Claude Cowork per un'analisi finanziaria personale o aziendale. Caricando i movimenti bancari, è possibile dare contesto all'AI e scoprire spese superflue, identificando sprechi significativi. Un esempio concreto dimostra come trovare aree di risparmio per migliaia di euro all'anno in pochissimo tempo."
+    },
+    {
+      "titolo": "Qwen 3.8 27B: il nuovo LLM open-weights di Alibaba per Agenti AI in locale",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=GlDJwykehxY",
+      "data": "29/08/2026",
+      "riassunto": "Alibaba ha introdotto Qwen 3.8 27B, un nuovo modello di linguaggio di grandi dimensioni (LLM) \"open-weights\". Nonostante le dimensioni contenute, è sorprendentemente potente e permette di creare Agenti AI da eseguire completamente in locale, senza dover inviare dati all'esterno. Questo offre un controllo maggiore e nuove possibilità per lo sviluppo di automazioni personalizzate."
+    },
+    {
+      "titolo": "Previsione della domanda: come costruire un modello con ChatGPT in 6 passaggi senza codice",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/aioperator/previsione-della-domanda-come-costruire-un-modello-con-chatgpt-in-6-passaggi",
+      "data": "",
+      "riassunto": "Un tutorial mostra come trasformare i dati storici delle vendite in un modello di previsione della domanda, utilizzando ChatGPT Data Analysis. Il processo è guidato e richiede solo sei passaggi, permettendo anche a chi non sa programmare di creare strumenti di analisi predittiva utili per il business."
+    },
+    {
+      "titolo": "Un set di tool AI per migliorare video, siti web, social media e presentazioni",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/XWoZjtphu88",
+      "data": "31/08/2026",
+      "riassunto": "Questo video presenta una carrellata di tool AI pratici per diverse esigenze digitali. Si parla di strumenti per l'editing video creativo (InVideo, Captions, Higgsfield), la creazione di pagine web senza codice (Wix, Framer, Lovable), la generazione di contenuti per i social (Jasper, ChatGPT, Claude) e la realizzazione rapida di presentazioni (Adobe Express, Gamma)."
+    }
+  ]
+}

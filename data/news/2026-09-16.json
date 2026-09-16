@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-16",
+  "notizie": [
+    {
+      "titolo": "DeepSeek V4.1 Flash: analisi dell'architettura e innovazioni rispetto ai LLM tradizionali",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=jeZZAJo_8hM",
+      "data": "12/09/2026",
+      "riassunto": "Simone Rizzo approfondisce DeepSeek V4.1 Flash, un modello AI che rompe con l'architettura tradizionale dei LLM decoder-only. Il video esplora le sue innovazioni, come la Causal Encoder-Decoder Architecture, la memoria condizionale Engram e l'attenzione sparsa, spiegando come queste caratteristiche rendano il modello più efficiente e più economico rispetto ai concorrenti. È una notizia tecnica molto interessante per chi vuole capire come funzionano i nuovi LLM."
+    },
+    {
+      "titolo": "GPT-6 Astra vs Claude Fable 5.1: confronto su 8 lavori reali d'agenzia",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=ZTAl_p8PoJc",
+      "data": "15/09/2026",
+      "riassunto": "Gabriele mette a confronto diretto GPT-6 Astra e Claude Fable 5.1 su otto diverse attività lavorative reali, dalla creazione di landing page all'analisi dati. Il video mostra i risultati, tempi e costi per ogni test, offrendo una valutazione pratica e dettagliata delle performance dei due modelli, e svelando le vere conclusioni oltre il semplice \"punteggio\". Utile per chi deve scegliere il LLM più adatto alle proprie esigenze."
+    },
+    {
+      "titolo": "Claude Fable 5.1 è brutale, ma non conviene a tutti: analisi pratica del modello Anthropic",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=mB2RRordy3g",
+      "data": "11/09/2026",
+      "riassunto": "Gabriele analizza in profondità Claude Fable 5.1, il nuovo potente modello di Anthropic, che promette grandi miglioramenti in termini di costo ed efficienza. Attraverso sei test reali, il video spiega perché, nonostante le sue elevate prestazioni, potrebbe non essere la scelta più conveniente per la maggior parte degli utenti, svelando un trucco per risparmiare fino al 38% sui costi."
+    },
+    {
+      "titolo": "GPT-6 Astra: il nuovo modello AI di OpenAI per workflow complessi e automatizzazione",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=vOmew9BioBM",
+      "data": "10/09/2026",
+      "riassunto": "Antonio Guadagno introduce GPT-6 Astra, il nuovo modello di OpenAI progettato per gestire workflow complessi e sequenze di attività articolate. Dopo oltre 100 ore di test, il video evidenzia tre ambiti lavorativi in cui Astra si distingue per la sua autonomia e capacità di fare la differenza, offrendo esempi concreti di come questo LLM possa rivoluzionare la produttività aziendale."
+    },
+    {
+      "titolo": "Printing Press: il tool per connettere agenti AI a qualsiasi piattaforma senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Lorenzo Delia presenta Printing Press, uno strumento innovativo che risolve il problema delle piattaforme senza API, permettendo di creare interfacce a riga di comando (CLI) per collegare gli agenti AI a qualsiasi servizio. Questo tool è fondamentale per automatizzare processi anche su sistemi legacy, consumando meno token rispetto ad altre soluzioni e incrementando significativamente la produttività."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin progettato per integrare Claude nelle PMI in modo semplice e veloce. Questo pacchetto include connettori e workflow preconfigurati, come quelli per Gmail e Google Drive, consentendo alle piccole e medie imprese di sfruttare immediatamente le capacità dell'AI per migliorare la produttività e l'automazione."
+    },
+    {
+      "titolo": "3 Funzionalità avanzate di Claude oltre la chat: visione, scraping e gestione file",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=jvJtcu46IdY",
+      "data": "10/09/2026",
+      "riassunto": "Il video dimostra come Claude possa essere utilizzato ben oltre la semplice interazione testuale. Viene mostrato come il modello sia in grado di leggere e interpretare immagini (appunti, scontrini), esplorare e fare scraping di siti web tramite Firecrawl, e lavorare direttamente con file su Google Drive, arrivando persino a creare fogli Excel. Sono esempi concreti di applicazione dell'AI per la produttività."
+    },
+    {
+      "titolo": "Come ho scoperto sprechi per 3.000€ l'anno con Claude e i miei movimenti bancari",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=HZGBbdOvmBc",
+      "data": "03/09/2026",
+      "riassunto": "Questo video illustra un caso d'uso reale in cui Claude Cowork viene impiegato per analizzare 2.000 movimenti bancari personali. In soli trenta minuti, l'AI ha identificato sprechi per oltre 3.000 euro annuali, dimostrando come sia possibile usare l'intelligenza artificiale per ottimizzare le finanze personali o aziendali, fornendo un metodo passo-passo per impostare il progetto e ottenere risultati concreti."
+    },
+    {
+      "titolo": "I nuovi robot umanoidi di Agility eviteranno di ferire i colleghi umani",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/",
+      "data": "",
+      "riassunto": "Agility ha sviluppato il suo nuovo robot umanoide, Digit 5, con una funzionalità di sicurezza innovativa: si fermerà e si accovaccierà per evitare di danneggiare i colleghi umani. Questo permetterà ai robot di lavorare in modo più sicuro al fianco delle persone, uscendo finalmente dalle gabbie protettive o dalle aree con barriere di sicurezza. È un passo importante per l'integrazione dei robot nell'ambiente lavorativo."
+    },
+    {
+      "titolo": "Come integrare l'AI nel lavoro per risparmiare tempo e automatizzare attività",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=JxMUMOMDcgg",
+      "data": "14/09/2026",
+      "riassunto": "Antonio Guadagno presenta una masterclass che insegna strategie pratiche per integrare l'AI nel workflow quotidiano, indipendentemente dallo strumento usato (ChatGPT, Claude, Gemini, Copilot). L'obiettivo è mostrare come automatizzare le attività ripetitive e liberare tempo per concentrarsi su compiti più strategici, migliorando la produttività e l'efficienza lavorativa. Molto utile per chi vuole applicare l'AI concretamente."
+    }
+  ]
+}

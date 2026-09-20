@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-20",
+  "notizie": [
+    {
+      "titolo": "GPT-6 Astra: il modello di OpenAI che usa il computer al posto tuo",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=J_rV7xRP3q4",
+      "data": "17/09/2026",
+      "riassunto": "Questo video presenta GPT-6 Astra di OpenAI, un modello di intelligenza artificiale che va oltre la semplice conversazione, agendo come un vero e proprio agente autonomo. Gabriele, immagina un'IA che può organizzare un viaggio, fare calcoli finanziari o recuperare documenti, navigando e interagendo con il computer come faresti tu. Il video mostra test reali di questo modello che si occupa di compiti complessi, delegando all'utente solo le decisioni più importanti."
+    },
+    {
+      "titolo": "Confronto tra GPT-6 Astra e Claude Fable 5.1 su lavori reali di agenzia",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=ZTAl_p8PoJc",
+      "data": "15/09/2026",
+      "riassunto": "Questo video mette a confronto diretto i due giganti dell'IA, GPT-6 Astra di OpenAI e Claude Fable 5.1 di Anthropic, su otto compiti tipici di un'agenzia. Gabriele, è come vedere una gara tra i migliori, dove si valuta chi scrive meglio una landing page, analizza dati o crea app senza codice. Il confronto è utile per capire le prestazioni reali, i costi e i tempi di questi LLM di ultima generazione nelle attività quotidiane di business."
+    },
+    {
+      "titolo": "ChatGPT Images 2.5: l'IA che trasforma i tuoi scarabocchi in immagini finite",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=kQoLREh2GJ8",
+      "data": "17/09/2026",
+      "riassunto": "OpenAI ha rilasciato ChatGPT Images 2.5, una nuova funzionalità che permette di disegnare uno scarabocchio direttamente nella chat e vederlo trasformato in una creatività completa dall'IA. Gabriele, puoi indicare cosa cambiare con un commento sull'immagine, usare la gomma o rimuovere lo sfondo per ottenere un PNG trasparente. È un tool di IA generativa molto pratico per chiunque abbia bisogno di creare immagini rapidamente partendo da idee semplici."
+    },
+    {
+      "titolo": "JEV: il nuovo modello di TypeSafe AI per decisioni strutturate",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=0nASbjPuMTs",
+      "data": "19/09/2026",
+      "riassunto": "TypeSafe AI ha presentato JEV, un modello innovativo che non è un LLM tradizionale né un chatbot. Gabriele, questo è un \"System One Model\" progettato per prendere decisioni strutturate che il software può utilizzare direttamente, non per generare testo. È una novità importante nel panorama dell'IA, che apre a nuove possibilità di automazione e integrazione di intelligenza artificiale nei sistemi software."
+    },
+    {
+      "titolo": "Printing Press: collega un agente AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Questo video presenta Printing Press, uno strumento che permette di creare interfacce a riga di comando (CLI) per connettere un agente AI a qualsiasi piattaforma, anche quelle che non offrono API pubbliche. Gabriele, è una soluzione geniale per superare le limitazioni di connettività e automatizzare processi su piattaforme \"chiuse\". In questo modo, i tuoi agenti AI possono lavorare ovunque, risparmiando tempo e token."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business per integrare l'AI in azienda",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsUOU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto Claude for Small Business, un plugin che porta il loro LLM, Claude, direttamente nelle piccole e medie imprese. Gabriele, è un pacchetto di connettori e workflow basati su agenti AI, già pronto all'uso con skill e integrazioni per Gmail, Google Drive e Microsoft 365. L'obiettivo è rendere l'intelligenza artificiale accessibile e pratica per le PMI, permettendo automazioni e miglioramenti della produttività con pochi click."
+    },
+    {
+      "titolo": "Claude va oltre la chat: vede, esplora siti e lavora su Google Drive",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=jvJtcu46IdY",
+      "data": "10/09/2026",
+      "riassunto": "Questo video mostra come Claude, oltre a generare testo, abbia capacità molto più avanzate. Gabriele, puoi fargli leggere immagini (appunti, scontrini), fargli esplorare e fare \"scraping\" di interi siti web usando Firecrawl, e persino fargli lavorare direttamente sui file del tuo Google Drive, creando per esempio un foglio Excel. Sono funzionalità pratiche che espandono enormemente il potenziale di automazione e produttività di questo LLM."
+    },
+    {
+      "titolo": "L'evoluzione dell'ingegneria AI: da prompt a graph engineering",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/cX0R4qU5yZs",
+      "data": "20/09/2026",
+      "riassunto": "Questo breve video illustra i cambiamenti nell'ingegneria dell'intelligenza artificiale, passando dal semplice \"prompt engineering\" a tecniche più avanzate come \"context engineering\", \"loop engineering\", \"harness engineering\" e \"graph engineering\". Gabriele, è un'ottima panoramica sull'evoluzione delle skill digitali necessarie per interagire e sviluppare al meglio con l'IA, mostrando come stia diventando sempre più complessa e sofisticata la gestione dei modelli."
+    },
+    {
+      "titolo": "Switchbot AI Mindclip: l'IA che gestisce la tua memoria personale",
+      "fonte": "Everyeye Tech",
+      "link": "https://tech.everyeye.it/articoli/recensione-switchbot-mindclip-addio-agende-diari-memoria-gestisce-ia-67621.html",
+      "data": "",
+      "riassunto": "Questo articolo recensisce Switchbot AI Mindclip, un nuovo gadget o tool che promette di rivoluzionare la gestione della memoria personale grazie all'intelligenza artificiale. Gabriele, immagina di dire addio ad agende e diari fisici, lasciando che un'IA si occupi di organizzare e ricordare le tue informazioni importanti. È uno strumento che punta a migliorare la produttività quotidiana e l'organizzazione personale, liberando la mente da compiti ripetitivi."
+    },
+    {
+      "titolo": "Un paper per creare skill AI che rendono i testi più umani",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/z-eJRqzAQqE",
+      "data": "16/09/2026",
+      "riassunto": "Questo short presenta un paper che permette di sviluppare una \"skill\" per rendere i testi generati dall'intelligenza artificiale più simili a quelli scritti da un essere umano. Gabriele, è una notizia molto utile per chi lavora con l'IA generativa e cerca di superare la tipica \"artificialità\" dei testi prodotti dai LLM. Questo strumento può aiutare a migliorare la qualità dei contenuti e la loro percepita autenticità."
+    }
+  ]
+}

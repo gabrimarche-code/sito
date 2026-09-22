@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-22",
+  "notizie": [
+    {
+      "titolo": "OpenAI lancia i nuovi modelli GPT-6 Sol e Luna",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "data": "22/09/2026",
+      "riassunto": "OpenAI ha presentato i suoi ultimi modelli linguistici, GPT-6 Sol e Luna. Questi nuovi LLM promettono di portare l'intelligenza artificiale a un livello superiore, con capacità migliorate in termini di comprensione, generazione e interazione. È un passo avanti significativo per l'AI generativa, aprendo nuove possibilità per sviluppatori e utenti finali."
+    },
+    {
+      "titolo": "Toyota userà 400.000 robot in fabbrica, ma dice che i lavoratori non saranno sostituiti",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+      "data": "01/09/2026",
+      "riassunto": "Toyota ha annunciato piani ambiziosi per implementare 400.000 robot nelle sue fabbriche, ma rassicura che l'obiettivo non è sostituire i lavoratori umani. Al contrario, i dipendenti saranno formati per lavorare a fianco dei robot, insegnando loro nuove mansioni e collaborando per migliorare l'efficienza. Un esempio chiaro di come l'automazione industriale sta evolvendo."
+    },
+    {
+      "titolo": "Come usare un \"Second Brain\" per la produttività: 3 casi reali",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=eGhXy-ETQ_0",
+      "data": "21/09/2026",
+      "riassunto": "Raffaele Gaito spiega come sfruttare al meglio il concetto di \"Second Brain\", un sistema per organizzare informazioni e idee in modo efficiente. Il video mostra tre casi pratici su come l'autore lo utilizza quotidianamente nel suo lavoro, aiutando a capire la reale utilità di questi tool per la produttività personale e professionale, al di là del semplice \"metterli in moda\"."
+    },
+    {
+      "titolo": "L'AI in locale è il futuro: come usare modelli super performanti senza abbonamenti",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/-z-qC7GivtA",
+      "data": "21/09/2026",
+      "riassunto": "Simone Rizzo esplora il trend crescente dell'AI in locale, sottolineando come i modelli più recenti e compatti possano girare su hardware domestico senza problemi. Questo significa meno dipendenza da servizi in abbonamento come ChatGPT o Anthropic, offrendo maggiore privacy e controllo, oltre a ridurre i costi. È un'opportunità per gli appassionati di tecnologia per sperimentare l'AI in modo indipendente."
+    },
+    {
+      "titolo": "4 modi per usare GitHub con Claude, Gemini e ChatGPT, anche se non sei uno sviluppatore",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=88aw3xz8EoM",
+      "data": "22/09/2026",
+      "riassunto": "Antonio Guadagno mostra come GitHub possa essere un alleato potente per chiunque utilizzi i chatbot AI, anche senza competenze da sviluppatore. Il video presenta quattro trucchi pratici per integrare GitHub con strumenti come Claude, Gemini e ChatGPT, permettendo di costruire un sistema di lavoro più robusto, portabile e meno legato al singolo tool di AI."
+    },
+    {
+      "titolo": "GPT-6 Astra: il nuovo modello AI di OpenAI che usa il computer al posto tuo",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=J_rV7xRP3q4",
+      "data": "17/09/2026",
+      "riassunto": "Questo video introduce GPT-6 Astra, un modello di OpenAI che non si limita a rispondere a domande, ma è capace di operare attivamente sul computer. Vengono mostrati tre esempi concreti (organizzare un viaggio, confrontare regimi fiscali, recuperare documenti) in cui Astra gestisce autonomamente browser e applicazioni, un passo avanti verso agenti AI sempre più autonomi e pratici."
+    },
+    {
+      "titolo": "Grok Bot da 21€/Mese: 7 lavori che non faccio più grazie al mio team di bot AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=7ARRMNcnAM",
+      "data": "21/09/2026",
+      "riassunto": "Gabriele di GabrySolution presenta Grok Bot, il nuovo prodotto di xAI, come un potente strumento per l'automazione. Mostra come un team di bot AI con nomi e professioni specifiche possa gestire autonomamente sette compiti quotidiani (email, ricerca idee, report, ecc.), lavorando nel cloud con browser e file. Un tutorial su come costruire il proprio team senza scrivere codice."
+    },
+    {
+      "titolo": "ChatGPT Images 2.5 è arrivato: disegni uno scarabocchio, lui fa il resto",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=kQoLREh2GJ8",
+      "data": "17/09/2026",
+      "riassunto": "OpenAI ha rilasciato ChatGPT Images 2.5, una versione migliorata per la generazione di immagini. Il video mostra le nuove funzionalità, come la possibilità di disegnare uno \"scarabocchio\" direttamente nella chat e vederlo trasformato in una creatività finita. Nuove opzioni come commenti sull'immagine, gomma, rimozione dello sfondo e ridimensionamento rendono il tool ancora più versatile."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per connettere agenti AI a qualsiasi piattaforma (anche senza API)",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Lorenzo D'Elia presenta Printing Press, un tool innovativo che risolve il problema delle piattaforme senza connettori per l'intelligenza artificiale. Permette di creare Command Line Interfaces (CLI) per collegare un agente AI a qualsiasi servizio, anche quelli senza API pubbliche. Questo apre nuove possibilità per l'automazione e la produttività, con un consumo di token inferiore rispetto ad altre soluzioni."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: il plugin per portare Claude in azienda",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin pensato per le PMI che integra Claude direttamente nelle aziende. Questo pacchetto include una serie di connettori e workflow agentici predefiniti, con skill per tool come Gmail, Google Drive e Microsoft 365. L'obiettivo è facilitare l'adozione dell'AI e migliorare la produttività delle piccole e medie imprese."
+    }
+  ]
+}

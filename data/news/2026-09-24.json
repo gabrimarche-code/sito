@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-24",
+  "notizie": [
+    {
+      "titolo": "MiniCPM: il modello AI più piccolo e intelligente del momento dalla Cina",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/BkvR8Awp7ds",
+      "data": "24/09/2026",
+      "riassunto": "Dalla Cina arriva MiniCPM, un nuovo modello di intelligenza artificiale che si distingue per essere estremamente piccolo (2 miliardi di parametri) ma allo stesso tempo molto performante. È considerato lo stato dell'arte per la sua categoria di dimensioni, rendendolo interessante per applicazioni dove le risorse sono limitate ma l'intelligenza è richiesta."
+    },
+    {
+      "titolo": "Claude Opus 5.5: La nuova intelligenza artificiale di Anthropic",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/CHzdeBmRNGA",
+      "data": "24/09/2026",
+      "riassunto": "Anthropic ha rilasciato Claude Opus 5.5, una nuova versione del suo modello di intelligenza artificiale. Questo video promette di spiegare tutte le novità e le caratteristiche di questo LLM, che si posiziona come un'alternativa o un concorrente ai modelli esistenti, offrendo nuove capacità e miglioramenti significativi."
+    },
+    {
+      "titolo": "GPT-6 Astra: il nuovo modello AI di OpenAI per workflow complessi",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=vOmew9BioBM",
+      "data": "10/09/2026",
+      "riassunto": "OpenAI ha introdotto GPT-6 Astra, un nuovo modello di intelligenza artificiale progettato per gestire autonomamente attività complesse e processi che richiedono molti passaggi. Dopo 100 ore di test, sono stati individuati 3 lavori specifici in cui questo modello fa la differenza grazie alla sua capacità di eseguire workflow in modo più indipendente e automatizzato."
+    },
+    {
+      "titolo": "Il browser di ChatGPT: 10 automazioni incredibili che fa al posto tuo",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Fs5NxAbxKes",
+      "data": "23/09/2026",
+      "riassunto": "ChatGPT ha integrato una modalità browser direttamente nell'app, chiamata \"Work\", che permette di automatizzare diverse attività online. Il video mostra 10 esempi pratici, come scaricare fatture o fare prenotazioni, evidenziando come l'AI possa navigare, cliccare e compilare pagine web al posto tuo, aumentando notevolmente la produttività."
+    },
+    {
+      "titolo": "Grok Bot da 21€/Mese: 7 lavori che non fai più grazie ai team di bot AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=7ARRMNcnAM",
+      "data": "21/09/2026",
+      "riassunto": "Il nuovo prodotto Grok Bot di xAI offre team di agenti AI capaci di svolgere autonomamente 7 diverse tipologie di lavori, dal gestire email alla ricerca di idee. Con un abbonamento di 21€ al mese, questi bot lavorano su un computer nel cloud, con browser e accesso ai file, rendendo molte attività quotidiane completamente automatizzate e senza bisogno di codice."
+    },
+    {
+      "titolo": "Printing Press: collegare agenti AI a piattaforme senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve il problema di collegare agenti AI a piattaforme che non offrono API pubbliche o connettori standard. Permette di creare interfacce a riga di comando (CLI) personalizzate, rendendo possibile automatizzare l'interazione degli agenti AI con quasi ogni servizio, ottimizzando la produttività e riducendo il consumo di token."
+    },
+    {
+      "titolo": "Claude for Small Business: il plugin di Anthropic per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin pensato per integrare facilmente il modello Claude nelle piccole e medie imprese. Il pacchetto include connettori e workflow agentici preconfigurati per strumenti comuni come Gmail e Microsoft 365, permettendo alle PMI di sfruttare l'AI per migliorare la produttività con pochi semplici click."
+    },
+    {
+      "titolo": "4 modi per usare GitHub con Claude, Gemini e ChatGPT (anche se non sei sviluppatore)",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=88aw3xz8EoM",
+      "data": "22/09/2026",
+      "riassunto": "Questo video mostra come utilizzare GitHub, una piattaforma per la gestione del codice, in combinazione con chatbot AI come Claude, Gemini e ChatGPT. Anche se non sei un programmatore, puoi apprendere 4 trucchi pratici per potenziare il tuo sistema di lavoro con l'AI, rendendolo più efficiente e versatile."
+    },
+    {
+      "titolo": "Muse Charm: un minuscolo pin AI da 30 dollari",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/gadgets/2026/09/muse-charm-is-a-tiny-ai-pin-you-can-get-for-30/",
+      "data": "",
+      "riassunto": "È stato lanciato Muse Charm, un piccolo gadget AI che si presenta come un pin. È un dispositivo molto economico, costa solo 30 dollari, e promette di integrare l'intelligenza artificiale in modo discreto nella vita di tutti i giorni. Potrebbe rappresentare un nuovo modo accessibile per interagire con l'AI."
+    },
+    {
+      "titolo": "Corsi gratuiti per implementare AI e Agenti AI in azienda con Claude",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=CM8boB2pO5E",
+      "data": "22/09/2026",
+      "riassunto": "Giovanni Beggiato offre corsi completi e gratuiti su come implementare l'intelligenza artificiale e gli Agenti AI all'interno delle aziende. I corsi coprono argomenti come l'utilizzo di Claude per creare un \"secondo cervello aziendale\" e l'ottimizzazione dei prompt per gli agenti AI, fornendo competenze pratiche per la produttività aziendale."
+    }
+  ]
+}

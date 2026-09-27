@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-27",
+  "notizie": [
+    {
+      "titolo": "Rilasciati Claude Opus 5.5, GPT-6 Sol e GPT-6 Luna da Anthropic e OpenAI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/MW5vuOjN_UA",
+      "data": "27/09/2026",
+      "riassunto": "Simone Rizzo annuncia l'uscita simultanea di nuovi modelli LLM avanzati: Claude Opus 5.5 da Anthropic e GPT-6 Sol e GPT-6 Luna da OpenAI. Questa è una notizia entusiasmante perché indica un'accelerazione nello sviluppo dell'intelligenza artificiale, con modelli sempre più potenti che arrivano sul mercato, superando l'idea di una \"pausa\" nello sviluppo dell'AI."
+    },
+    {
+      "titolo": "GPT-6 Astra: il nuovo modello AI di OpenAI per workflow complessi e automazioni avanzate",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=vOmew9BioBM",
+      "data": "10/09/2026",
+      "riassunto": "GPT-6 Astra di OpenAI si presenta come un nuovo modello AI progettato per gestire attività complesse e workflow che richiedono molti passaggi. Il video, dopo averlo testato per oltre 100 ore, evidenzia 3 ambiti in cui Astra si distingue per la sua autonomia. Questo segna un significativo passo avanti nell'automazione e nella capacità dell'AI di gestire processi articolati, rendendola uno strumento molto pratico."
+    },
+    {
+      "titolo": "Il browser di ChatGPT: 10 cose incredibili che fa al posto tuo (automatizza tutto)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Fs5NxAbxKes",
+      "data": "23/09/2026",
+      "riassunto": "Questo video presenta il browser integrato in ChatGPT, ora disponibile direttamente nell'app in modalità Work (dopo la chiusura di Atlas). Vengono mostrati 10 esempi pratici di come questa funzionalità AI può automatizzare compiti come scaricare fatture, fare prenotazioni o navigare pagine web, cliccando e compilando al posto tuo, anche in background. È un potente strumento per l'automazione e la produttività personale e professionale."
+    },
+    {
+      "titolo": "Guida Completa al Nuovo Claude Design: crea siti web, presentazioni e animazioni con AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=5zw8356tUhc",
+      "data": "25/09/2026",
+      "riassunto": "Questo tutorial mostra come utilizzare Claude Design, un nuovo strumento AI, per creare facilmente siti web, presentazioni e animazioni. In soli 14 minuti, l'autore spiega come usare prompt semplici e un design system per garantire coerenza con il proprio brand. È un tool pratico che permette anche a chi non è un designer professionista di generare contenuti visivi rapidamente grazie all'intelligenza artificiale generativa."
+    },
+    {
+      "titolo": "Spark X 2.5: il miglior modello AI locale da far girare sul tuo PC",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/_s048hi56F0",
+      "data": "26/09/2026",
+      "riassunto": "Questo short presenta Spark X 2.5, un modello AI locale con 4 miliardi di parametri che si può far girare direttamente sul proprio PC. Viene descritto come estremamente performante, con un supporto per 1 milione di token in input. È una notizia molto interessante per chi vuole sperimentare l'AI offline, avere controllo sui propri dati e disporre di un tool pratico per gli appassionati."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare agenti AI a qualsiasi piattaforma (anche senza API)",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Il video introduce Printing Press, un nuovo tool che permette di creare interfacce a riga di comando (CLI) per connettere agenti AI a qualsiasi piattaforma, anche quelle senza API pubbliche. Questo risolve il problema delle piattaforme \"isolate\", aumentando la produttività e permettendo nuove automazioni complesse senza sprecare troppi \"token\" come con altri metodi."
+    },
+    {
+      "titolo": "Come usare GitHub per potenziare Claude, Gemini e ChatGPT (anche senza essere sviluppatore)",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=88aw3xz8EoM",
+      "data": "22/09/2026",
+      "riassunto": "Antonio Guadagno mostra come usare GitHub, uno strumento solitamente per sviluppatori, per migliorare l'uso di LLM come Claude, Gemini e ChatGPT. Il video esplora 4 modi pratici per combinare GitHub con questi AI, creando un sistema di lavoro più potente, portatile e meno dipendente da un singolo chatbot. Ottimo per acquisire nuove skill digitali, automatizzare e gestire meglio i propri prompt e workflow AI."
+    },
+    {
+      "titolo": "Claude for Small Business: il nuovo plugin di Anthropic per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin pensato per integrare facilmente l'AI di Claude nelle PMI. Questo pacchetto include connettori e workflow agentici preconfigurati per strumenti come Gmail, Google Drive e Microsoft 365, rendendo l'intelligenza artificiale accessibile e utile per migliorare la produttività delle piccole e medie imprese attraverso nuove app e automazioni."
+    },
+    {
+      "titolo": "Airbnb amplia l'accesso a GPT-6 Astra e ai modelli frontier di OpenAI",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/airbnb-widens-access-to-gpt-6-astra-and-openai-frontier-models/",
+      "data": "",
+      "riassunto": "Airbnb sta ampliando l'accesso a GPT-6 Astra e ai nuovi modelli \"frontier\" di OpenAI. Questo significa che l'AI più avanzata sarà utilizzata su larga scala per migliorare l'esperienza utente, le ricerche e le comunicazioni sulla piattaforma. È un esempio concreto di come le grandi aziende stiano integrando i LLM di ultima generazione per innovare i loro servizi e offrire nuove funzionalità."
+    },
+    {
+      "titolo": "MOVA, l'Italia è il terzo mercato europeo: \"La nostra scommessa è la robotica intelligente\" | Intervista",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/altro/mova-litalia-e-il-terzo-mercato-europeo-la-nostra-scommessa-e-la-robotica-intelligente-intervista",
+      "data": "",
+      "riassunto": "Questa intervista a MOVA, azienda leader nella robotica, rivela come l'Italia sia un mercato chiave in Europa per l'intelligenza artificiale applicata ai robot. L'azienda sta puntando forte sulla robotica intelligente, segno che l'AI sta trovando sempre più applicazioni pratiche anche nel settore industriale e automazione, non solo nei chatbot, mostrando l'evoluzione delle skill digitali richieste."
+    }
+  ]
+}

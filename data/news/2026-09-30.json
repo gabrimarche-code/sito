@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-30",
+  "notizie": [
+    {
+      "titolo": "Le Ultime Novità dal Mondo AI: OpenAI DevDay, Nuovi LLM e Agenti",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=nBLD-ALKHrU",
+      "data": "30/09/2026",
+      "riassunto": "Simone Rizzo fa un riepilogo super interessante delle ultime novità. Parla dell'OpenAI DevDay 2026, dove sono stati presentati i \"dots\" (che sono dei nuovi agenti AI), e il nuovo modello GPT-6.1 Sol. Non si ferma qui, ma menziona anche i nuovi modelli di Anthropic, Claude Opus 5.5 e Sonnet 5.5, evidenziando come l'AI stia diventando sempre più capace ed efficiente."
+    },
+    {
+      "titolo": "GPT-6 Astra: L'AI di OpenAI che Usa il Computer al Posto Tuo per Automazioni Complesse",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=J_rV7xRP3q4",
+      "data": "17/09/2026",
+      "riassunto": "Immagina un'AI che non si limita a rispondere, ma che può usare il tuo computer per svolgere compiti complessi, proprio come faresti tu! GPT-6 Astra di OpenAI fa questo. Il video mostra come gestisce l'organizzazione di viaggi, confronti finanziari e persino la raccolta di documenti, navigando autonomamente tra browser e applicazioni, chiedendoti solo un permesso quando serve."
+    },
+    {
+      "titolo": "Guida Completa a Gemini Notebook (ex NotebookLM): L'AI che Risponde dalle Tue Fonti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Kp5H1d-5bZ0",
+      "data": "29/09/2026",
+      "riassunto": "Google ha rinominato NotebookLM in Gemini Notebook e lo ha arricchito di funzioni. Questo tool è super utile perché risponde alle tue domande usando SOLO le fonti che gli dai tu (siti, video, PDF), senza inventarsi nulla. È perfetto per chi vuole organizzare le proprie informazioni e creare contenuti basandosi su dati precisi e verificati."
+    },
+    {
+      "titolo": "Claude Design: Crea Siti Web, Presentazioni e Animazioni con l'AI in Pochi Minuti",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=5zw8356tUhc",
+      "data": "25/09/2026",
+      "riassunto": "Con \"Claude Design\", creare contenuti visivi di qualità diventa semplicissimo. Il video ti guida passo dopo passo per generare siti web, presentazioni e animazioni usando l'AI, partendo da semplici indicazioni. Puoi mantenere uno stile coerente con il tuo brand, il che lo rende uno strumento potentissimo per chiunque abbia bisogno di materiale grafico e di design."
+    },
+    {
+      "titolo": "Apple Introduce LensVLM: Un Nuovo Modello AI per Gestire Grandi Volumi di Testo",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/FFpiY3KHotE",
+      "data": "29/09/2026",
+      "riassunto": "Apple ha lanciato LensVLM, un nuovo modello di intelligenza artificiale progettato per affrontare un problema comune: la gestione di grandi quantità di testo in input. Questo modello è pensato per elaborare efficacemente molti \"token\", rendendo più efficiente l'analisi e la comprensione di documenti lunghi o conversazioni complesse per le applicazioni AI."
+    },
+    {
+      "titolo": "Anthropic Lancia Claude for Small Business: AI e Automazione per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin per portare l'intelligenza artificiale nelle piccole e medie imprese. È un pacchetto completo con 31 skill e 12 connettori predefiniti per tool come Gmail, Google Drive e Microsoft 365. Si attiva facilmente in Claude Cowork e permette alle PMI di implementare rapidamente automazioni e workflow basati sull'AI."
+    },
+    {
+      "titolo": "Printing Press: Connetti i Tuoi Agenti AI a Qualsiasi Piattaforma, Anche Senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Hai mai avuto problemi a collegare la tua AI a piattaforme che non hanno connettori o API pubbliche? Printing Press è la soluzione! Questo strumento ti permette di creare delle \"CLI\" (interfacce a riga di comando) per far interagire i tuoi agenti AI con praticamente qualsiasi piattaforma, superando i limiti di integrazione e aumentando enormemente le possibilità di automazione."
+    },
+    {
+      "titolo": "Il Browser Nascosto di ChatGPT: Automazioni Web Avanzate Senza API",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=6TNYaTh3Szs",
+      "data": "24/09/2026",
+      "riassunto": "Molti non lo sanno, ma l'app desktop di ChatGPT include un browser integrato capace di navigare, cliccare e compilare moduli al posto tuo. Questo significa che puoi automatizzare compiti web complessi – come confrontare fornitori, scaricare fatture o gestire un CRM – direttamente con ChatGPT, senza bisogno di usare API o integrazioni complicate. È un super trucco per aumentare la tua produttività!"
+    },
+    {
+      "titolo": "4 Modi per Potenziare il Tuo Lavoro AI con GitHub, Anche se Non Sei uno Sviluppatore",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=88aw3xz8EoM",
+      "data": "22/09/2026",
+      "riassunto": "Questo video ti mostra come usare GitHub, una piattaforma solitamente associata agli sviluppatori, per rendere il tuo lavoro con Claude, Gemini e ChatGPT ancora più efficiente. Scoprirai quattro trucchi pratici per creare un sistema di lavoro AI più robusto, portatile e indipendente da un singolo chatbot, permettendoti di gestire e organizzare meglio i tuoi progetti AI."
+    },
+    {
+      "titolo": "Crea un Sito Web da 10.000€ Gratis e Senza Codice Utilizzando l'Intelligenza Artificiale",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=6cc6w56q3T8",
+      "data": "29/09/2026",
+      "riassunto": "Giuseppe Castagna spiega come, grazie all'intelligenza artificiale, sia possibile creare un sito web dall'aspetto professionale e di alto valore, completamente gratis e senza scrivere una riga di codice. Il video dimostra il processo, sottolineando come oggi il vero valore stia nella capacità di sfruttare questi nuovi strumenti AI per la creazione e non più solo nella programmazione tradizionale."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-02",
+  "notizie": [
+    {
+      "titolo": "Google annuncia Gemini 4 Argon: il nuovo modello AI SOTA che sfida i giganti",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/njKV0_7ks8E",
+      "data": "02/10/2026",
+      "riassunto": "Simone Rizzo annuncia che Google ha appena lanciato Gemini 4 Argon, il suo nuovo modello di intelligenza artificiale. Google afferma che questo LLM è \"State Of The Art\" (SOTA), superando i rivali come GPT-6 Astra, Claude Opus 5.5 e Claude Fable 5.1. È una notizia importante per chi segue gli sviluppi dei modelli linguistici più avanzati e la loro competizione."
+    },
+    {
+      "titolo": "Una guida pratica alla costruzione con GPT-6 da OpenAI",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/practical-guide-building-gpt-6/",
+      "data": "02/10/2026",
+      "riassunto": "OpenAI ha pubblicato una guida pratica e dettagliata per chi vuole sviluppare applicazioni e soluzioni sfruttando le capacità del nuovo modello linguistico GPT-6. Questo strumento è fondamentale per gli sviluppatori e gli appassionati che desiderano mettere in pratica le potenzialità avanzate dell'intelligenza artificiale generativa e iniziare a costruire con l'ultima versione."
+    },
+    {
+      "titolo": "La competizione tra i nuovi modelli AI: GPT 6.1 Sol, Grokbot e OpenAI Dots",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/HzyQCv6pQA",
+      "data": "01/10/2026",
+      "riassunto": "Il mondo dell'intelligenza artificiale è in fermento con l'arrivo di numerosi nuovi modelli. Simone Rizzo sottolinea la forte competizione tra OpenAI Dots e Grokbot, e tra il nuovo GPT 6.1 Sol e Claude Opus 5.5, evidenziando come il panorama degli LLM sia in continua evoluzione con annunci e aggiornamenti quasi quotidiani da parte dei principali attori del settore."
+    },
+    {
+      "titolo": "Gemini Notebook (ex NotebookLM): corso completo e funzioni avanzate spiegate",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Kp5H1d-5bZ0",
+      "data": "29/09/2026",
+      "riassunto": "Google ha rinominato NotebookLM in Gemini Notebook, introducendo tantissime nuove funzioni. Questo video offre un corso completo e gratuito, spiegando da zero tutte le capacità di questo strumento. Gemini Notebook ti permette di interrogare e creare contenuti basandosi esclusivamente sulle tue fonti personali (siti, video, PDF), garantendo risposte accurate senza \"inventare\" informazioni."
+    },
+    {
+      "titolo": "Anthropic lancia \"Claude for Small Business\": un pacchetto AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un pacchetto di plugin e workflow pensato appositamente per le Piccole e Medie Imprese. Questo strumento integra Claude Cowork con 31 skill e 12 connettori predefiniti (come Gmail, Google Drive, Microsoft 365), permettendo alle PMI di sfruttare l'AI in modo semplice per aumentare la produttività e le automazioni aziendali."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per connettere agenti AI a piattaforme senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Questo strumento innovativo, chiamato Printing Press, risolve il problema di collegare agenti AI a piattaforme che non hanno API pubbliche o connettori diretti. Permette di creare interfacce a riga di comando (CLI) per far interagire l'AI con qualsiasi sito o servizio, riducendo il consumo di token rispetto ad altre soluzioni e aumentando significativamente l'automazione e la produttività."
+    },
+    {
+      "titolo": "Il browser integrato in ChatGPT: come navigare e automatizzare compiti web",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=6TNYaTh3Szs",
+      "data": "24/09/2026",
+      "riassunto": "Molti utenti non sanno che l'app desktop di ChatGPT include un browser integrato in grado di navigare, cliccare e compilare moduli al posto tuo. Il video mostra come sfruttare questa funzionalità per automatizzare compiti ripetitivi senza bisogno di API, come confrontare fornitori, scaricare fatture da email o gestire contatti nel CRM, migliorando enormemente la produttività personale e professionale."
+    },
+    {
+      "titolo": "Gestire il tempo e organizzare il calendario con ChatGPT, Gemini e Claude",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=HtJZueD4qOI",
+      "data": "29/09/2026",
+      "riassunto": "L'intelligenza artificiale può essere un potente alleato non solo per scrivere testi, ma anche per migliorare l'organizzazione personale e la gestione del tempo. Questo video spiega come usare ChatGPT, Gemini o Claude per applicare tecniche di time blocking, pianificare attività automaticamente e ottimizzare il calendario, così da lavorare meglio e in modo più efficiente senza sovraccaricare le giornate."
+    },
+    {
+      "titolo": "I 4 livelli di utilizzo dell'AI: da Stagista a Specialista con Claude e ChatGPT",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=l0yLHpb6DJ4",
+      "data": "01/10/2026",
+      "riassunto": "Questo video analizza quattro diversi livelli di utilizzo dell'AI (Stagista, Collega, Socio e Specialista) applicabili a modelli come Claude e ChatGPT. Ti aiuta a capire a che punto sei nel tuo percorso con l'intelligenza artificiale e come evolvere per sfruttarne appieno le potenzialità, ottimizzando anche la scelta del modello più adatto per ogni esigenza, evitando sprechi e massimizzando l'efficacia."
+    },
+    {
+      "titolo": "Come leggere e imparare meglio con l'AI: il metodo PRIME per diventare \"pericolosamente intelligente\"",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=L7fQg59qOPc",
+      "data": "01/10/2026",
+      "riassunto": "Se leggi molti libri ma fai fatica a ricordare e applicare le idee, questo video presenta il metodo PRIME. Ti insegna 5 mosse per usare l'intelligenza artificiale non per delegare il pensiero, ma per migliorare la comprensione, la memorizzazione e la trasformazione delle letture in idee pratiche e utili per il lavoro e la vita, aiutandoti a diventare \"pericolosamente intelligente\"."
+    }
+  ]
+}

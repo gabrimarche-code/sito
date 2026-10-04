@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-04",
+  "notizie": [
+    {
+      "titolo": "Guida pratica alla costruzione con GPT-6",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/practical-guide-building-gpt-6/",
+      "data": "02/10/2026",
+      "riassunto": "OpenAI ha rilasciato una guida pratica per chi vuole iniziare a sviluppare applicazioni o integrare soluzioni basate sul nuovo modello linguistico GPT-6. Questa risorsa è pensata per aiutare gli sviluppatori e gli innovatori a sfruttare al meglio le capacità del modello per creare nuovi strumenti e servizi. È un'opportunità per esplorare le potenzialità della nuova generazione di AI."
+    },
+    {
+      "titolo": "Nvidia e Stanford rilasciano CLM 8b, un nuovo modello AI 9 volte più veloce",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/ApOQjJP1Smo",
+      "data": "04/10/2026",
+      "riassunto": "Nvidia e Stanford hanno introdotto CLM 8b, un innovativo modello di intelligenza artificiale basato sul contrastive learning. La sua peculiarità è l'eccezionale velocità, essendo fino a nove volte più rapido rispetto ai modelli precedenti. Questo significa un passo avanti significativo nell'efficienza e nelle performance delle AI, aprendo nuove possibilità per applicazioni che richiedono risposte rapide."
+    },
+    {
+      "titolo": "Migliora la gestione del tempo e del calendario con l'AI",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=HtJZueD4qOI",
+      "data": "29/09/2026",
+      "riassunto": "Questo video mostra come utilizzare chatbot come ChatGPT, Gemini o Claude non solo per testi e ricerche, ma anche per organizzare meglio il tuo tempo. Imparerai tecniche di \"time blocking\" e come pianificare automaticamente le attività nel calendario, per aumentare la produttività senza sovraccaricarti di impegni. Un modo pratico per fare dell'AI il tuo assistente personale."
+    },
+    {
+      "titolo": "Usa GitHub per un sistema di lavoro AI più potente con Claude, Gemini e ChatGPT",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=88aw3xz8EoM",
+      "data": "22/09/2026",
+      "riassunto": "Scopri come integrare GitHub nel tuo flusso di lavoro con intelligenze artificiali come Claude, Gemini e ChatGPT, anche se non sei uno sviluppatore. Il video ti mostra quattro trucchi per costruire un sistema AI più robusto, portabile e indipendente dal singolo chatbot. È un modo intelligente per ottimizzare e rendere più efficiente il tuo utilizzo degli strumenti AI."
+    },
+    {
+      "titolo": "Trova oltre 10.000 lead qualificati in 14 minuti usando Claude e GetLeads.io",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=mbd2_UZ1tbk",
+      "data": "04/10/2026",
+      "riassunto": "Questo video svela un metodo per generare liste di migliaia di lead pronti all'acquisto in tempi record, utilizzando l'AI. Vedrai come combinare Claude e lo strumento GetLeads.io per definire il tuo cliente ideale e individuare aziende e prospect realmente interessati, trasformandoli in una risorsa preziosa per le tue campagne di vendita."
+    },
+    {
+      "titolo": "Printing Press: connetti agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Il video presenta Printing Press, un innovativo strumento che risolve il problema delle piattaforme senza connettori per l'AI. Permette di creare interfacce a riga di comando (CLI) per collegare agenti AI a qualsiasi servizio, anche quelli sprovvisti di API pubbliche. Questo tool promette di aumentare la produttività e ridurre il consumo di token, rendendo l'automazione più accessibile."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business, il plugin AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin progettato per integrare l'AI di Claude direttamente nelle piccole e medie imprese. Questo pacchetto include connettori e workflow agentici preconfigurati, con 31 skill e 12 connettori per servizi popolari come Gmail, Google Drive e Microsoft 365, facilitando l'automazione e l'efficienza aziendale."
+    },
+    {
+      "titolo": "Automatizza lavori ripetitivi con le Skill personalizzate di Claude",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/shorts/n3sC6aBxL9E",
+      "data": "04/10/2026",
+      "riassunto": "Impara a creare \"Skill\" su Claude per delegare compiti ripetitivi e complessi, come la generazione automatica di fatture. Invece di dover spiegare ogni volta le procedure, puoi configurare Claude per collegarsi al tuo CRM, recuperare i dati del cliente e preparare bozze di documenti, trasformando l'AI da assistente a un vero e proprio \"socio\" operativo."
+    },
+    {
+      "titolo": "Apple modifica i permessi di accesso al disco per limitare l'abuso degli agenti AI",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "data": "02/10/2026",
+      "riassunto": "Apple ha introdotto modifiche alle autorizzazioni di accesso completo al disco, con l'obiettivo di prevenire potenziali abusi da parte degli agenti di intelligenza artificiale. La mossa mira a rafforzare la sicurezza e la privacy degli utenti, limitando la capacità degli agenti AI di accedere e manipolare dati sensibili sui dispositivi. Questo solleva interrogativi sulla gestione dei dati da parte dell'AI."
+    },
+    {
+      "titolo": "Guida all'acquisto di computer per l'AI: dalle workstation ai mini PC",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/2U-7zzA_tic",
+      "data": "03/10/2026",
+      "riassunto": "Se ti stai chiedendo quale computer comprare per lavorare con l'AI, questo video esplora diverse opzioni. Vengono presentati la workstation Nvidia DGx Spark, ora più accessibile a $4999, i nuovi Mac Studio con chip M4 e una selezione di mini PC equipaggiati con AMD AI Max di marchi come Minisforum, GMTek e Bosegame, ideali per l'AI locale e la produttività."
+    }
+  ]
+}

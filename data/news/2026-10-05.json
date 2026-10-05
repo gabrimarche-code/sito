@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-05",
+  "notizie": [
+    {
+      "titolo": "AMD diventa Agentic Micro Devices, Ryzen AI Max porta gli agenti in locale",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/hardware/amd-diventa-agentic-micro-devices-ryzen-ai-max-porta-gli-agenti-in-locale",
+      "data": "",
+      "riassunto": "AMD sta spingendo forte sull'intelligenza artificiale, cambiando quasi il suo nome in \"Agentic Micro Devices\". Hanno lanciato Ryzen AI Max, una nuova tecnologia che permette di far girare gli \"agenti AI\" direttamente sul tuo computer, senza bisogno di connessione a internet. Questo significa più privacy e velocità per le applicazioni basate sull'IA, potendo usare l'AI direttamente sul proprio hardware."
+    },
+    {
+      "titolo": "A practical guide to building with GPT-6",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/practical-guide-building-gpt-6/",
+      "data": "02/10/2026",
+      "riassunto": "OpenAI ha rilasciato una guida pratica per iniziare a costruire applicazioni con il loro nuovo modello di linguaggio, GPT-6. Questa risorsa è pensata per sviluppatori e creatori che vogliono sfruttare le capacità avanzate di GPT-6 per realizzare nuovi tool, automazioni o integrare l'AI nei loro progetti. È un passo importante per capire come usare al meglio le ultime innovazioni di OpenAI."
+    },
+    {
+      "titolo": "Anthropic ha rilasciato Opus 5.5 con capacità di editare video",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=rLQHi8z1_QE",
+      "data": "05/10/2026",
+      "riassunto": "Anthropic ha lanciato Opus 5.5, l'ultima versione del suo modello di intelligenza artificiale. La grande novità di questo modello è la sua capacità di editare video, una funzionalità molto attesa che apre nuove frontiere per la creazione e la manipolazione di contenuti multimediali con l'AI generativa. Sarà interessante vedere come questa nuova capacità cambierà il modo di lavorare con i video."
+    },
+    {
+      "titolo": "Il miglior computer per far girare l’AI in locale: guida a RAM, VRAM e costi",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=fUvebU-Cgts",
+      "data": "05/10/2026",
+      "riassunto": "Un video approfondito spiega quali sono le migliori opzioni hardware per eseguire l'intelligenza artificiale direttamente sul proprio PC. Vengono confrontati diversi sistemi, da NVIDIA DGX Spark ad Apple Mac Studio e mini PC, chiarendo le differenze tra RAM, VRAM e memoria unificata e come stimare i requisiti per i modelli AI. Utile per chi vuole sperimentare l'AI in locale senza spendere una fortuna."
+    },
+    {
+      "titolo": "Tool AI per addestrare LLM in locale con meno di 4GB di GPU",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/GkNlg1t8tAc",
+      "data": "05/10/2026",
+      "riassunto": "Un giovane sviluppatore del Kazakistan ha creato un tool rivoluzionario che permette di addestrare modelli di linguaggio di grandi dimensioni (LLM) direttamente sul proprio PC, anche con schede grafiche meno potenti (meno di 4GB di VRAM). Questa innovazione democratizza l'addestramento dell'AI, rendendola accessibile a un pubblico molto più ampio che non dispone di hardware costoso o risorse cloud."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare agenti AI a qualsiasi piattaforma",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo tool che risolve il problema delle piattaforme senza connettori o API pubbliche, permettendo di creare interfacce a riga di comando (CLI) per agenti AI. Questo significa che puoi far interagire i tuoi agenti AI con praticamente qualsiasi software, anche quelli \"chiusi\", aumentando enormemente le possibilità di automazione e produttività, e risparmiando token rispetto ad altre soluzioni."
+    },
+    {
+      "titolo": "Anthropic lancia \"Claude for Small Business\" per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un pacchetto di connettori e workflow agentici specificamente pensato per le Piccole e Medie Imprese. Questo plugin porta le funzionalità avanzate di Claude direttamente nelle aziende con pochi clic, offrendo 31 skill e 12 connettori pronti all'uso per strumenti come Gmail, Google Drive e Microsoft 365, e rendendo l'AI più accessibile per l'automazione."
+    },
+    {
+      "titolo": "Come creare una Skill per Claude per automatizzare lavori ripetitivi",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/shorts/n3sC6aBxL9E",
+      "data": "04/10/2026",
+      "riassunto": "Invece di istruire Claude ogni volta per compiti specifici, questo short spiega come creare delle \"Skill\" personalizzate. Ad esempio, si può configurare Claude per generare automaticamente fatture partendo solo dal nome del cliente, recuperando dati dal CRM e preparando bozze via email. Questo trasforma l'AI da un semplice assistente a un vero e proprio \"socio\" capace di delegare e automatizzare interi processi."
+    },
+    {
+      "titolo": "Gestire il tempo con ChatGPT, Gemini o Claude: time blocking e pianificazione automatica",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=HtJZueD4qOI",
+      "data": "29/09/2026",
+      "riassunto": "Questo video mostra come utilizzare l'intelligenza artificiale (come ChatGPT, Gemini o Claude) non solo per compiti di base, ma per migliorare drasticamente la produttività e l'organizzazione personale. Vengono spiegate tecniche di \"time blocking\" e pianificazione automatica delle attività per ottimizzare la gestione del calendario, permettendo di lavorare meglio e senza sovraccaricare le giornate."
+    },
+    {
+      "titolo": "Trovare 10.000+ lead qualificati con l'AI (Claude + GetLeads.io)",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=mbd2_UZ1tbk",
+      "data": "04/10/2026",
+      "riassunto": "Questo video dimostra un metodo per trovare rapidamente migliaia di lead pronti all'acquisto, combinando l'intelligenza artificiale di Claude con il tool GetLeads.io. Viene spiegato passo dopo passo come definire il cliente ideale, individuare aziende e prospect rilevanti e generare liste di lead utilizzabili per campagne di marketing, accelerando enormemente il processo di acquisizione clienti con l'automazione."
+    }
+  ]
+}

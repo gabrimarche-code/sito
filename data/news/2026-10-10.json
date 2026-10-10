@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-10",
+  "notizie": [
+    {
+      "titolo": "GPT-6 e interfaccia utente intelligente per tutti",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-6-for-everyone/",
+      "data": "07/10/2026",
+      "riassunto": "OpenAI ha presentato GPT-6, il suo ultimo e più potente modello di linguaggio, che promette di portare un'interfaccia utente intelligente accessibile a tutti. Questo significa che l'AI diventerà ancora più semplice e intuitiva da usare, integrandosi meglio nelle nostre attività quotidiane per aiutarci a lavorare e creare in modi nuovi e più efficaci. Immagina un'AI che capisce le tue intenzioni e ti assiste proattivamente."
+    },
+    {
+      "titolo": "La Rivoluzione dell'AI Jev di TypeSafe AI: un'intelligenza artificiale che decide",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=P1p9Bs6b9wA",
+      "data": "08/10/2026",
+      "riassunto": "Questo video spiega Jev di TypeSafe AI, un nuovo tipo di intelligenza artificiale che si differenzia dai classici chatbot. Invece di generare testi, Jev è un \"Sistema 1\" che legge, decide e restituisce un sì/no o una scelta con una percentuale di sicurezza. È una vera rivoluzione perché permette all'AI di prendere decisioni rapide, utile per automatizzare processi complessi in azienda o nella vita di tutti i giorni."
+    },
+    {
+      "titolo": "Mistral Large 4: il nuovo potente modello AI europeo per coding e cybersicurezza",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Yx9TdWKjREc",
+      "data": "09/10/2026",
+      "riassunto": "L'Europa si fa avanti nella gara dell'AI con Mistral Large 4, un nuovo modello MoE (Mixture of Experts) open weight. Questo LLM europeo compete con i giganti del settore, dimostrando performance eccellenti nel coding e nella cybersicurezza. È un'ottima notizia per chi cerca soluzioni AI all'avanguardia con un'impronta europea, ideale per sviluppatori e esperti di sicurezza informatica."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto Claude for Small Business, un plugin che integra Claude nelle piccole e medie imprese con facilità. Il pacchetto include connettori e workflow agentici pronti all'uso per Gmail, Google Drive e Microsoft 365, rendendo l'AI uno strumento accessibile per migliorare la produttività. Più di 700 mila persone lo hanno già scaricato, rendendolo un tool molto promettente per automatizzare le operazioni aziendali."
+    },
+    {
+      "titolo": "Printing Press: collega agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve il problema di collegare gli agenti AI a piattaforme che non offrono API pubbliche. Permette di creare Command Line Interfaces (CLI) per far interagire l'AI con qualsiasi servizio, aumentando la produttività e riducendo il consumo di token. Questo significa poter automatizzare flussi di lavoro complessi e personalizzati, aprendo nuove possibilità per l'integrazione dell'intelligenza artificiale."
+    },
+    {
+      "titolo": "Costruisci un \"Second Brain\" per la tua AI con Myree: una memoria permanente per Claude e ChatGPT",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/watch?v=762C4el2aXM",
+      "data": "09/10/2026",
+      "riassunto": "Questo video mostra come creare una memoria permanente per la tua AI, trasformandola in un vero e proprio \"Second Brain\" con lo strumento Myree. Utilizzando file Markdown organizzati con il metodo PARA, puoi dare a Claude e ChatGPT la capacità di ricordare progetti, persone e contesto tra una conversazione e l'altra. È un modo pratico per rendere la tua AI più efficace e contestualizzata, migliorando la produttività e la continuità dei tuoi lavori."
+    },
+    {
+      "titolo": "4 modi per usare GitHub con ChatGPT, Gemini e Claude per un sistema AI più potente",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=88aw3xz8EoM",
+      "data": "22/09/2026",
+      "riassunto": "Anche se non sei uno sviluppatore, puoi usare GitHub per potenziare l'utilizzo dei tuoi chatbot preferiti come Claude, Gemini e ChatGPT. Il video esplora quattro modi concreti per integrare questi strumenti, creando un sistema di lavoro AI più robusto, portabile e meno dipendente dal singolo chatbot. È un'ottima risorsa per migliorare le tue skill digitali e rendere l'AI uno strumento ancora più versatile per la tua produttività."
+    },
+    {
+      "titolo": "Crea \"Skills\" personalizzate per Claude: l'AI diventa un socio che deleghi",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/shorts/n3sC6aBxL9E",
+      "data": "04/10/2026",
+      "riassunto": "Invece di dare istruzioni ripetitive a Claude, puoi creare delle \"Skills\" personalizzate. Ad esempio, puoi configurare Claude per generare automaticamente fatture, collegandosi al tuo CRM, recuperando i dati del cliente e preparandola in bozza via email. Questo trasforma l'AI da un semplice assistente a un vero e proprio \"socio\" a cui delegare lavori ripetitivi, liberando tempo prezioso e aumentando l'automazione."
+    },
+    {
+      "titolo": "L'evoluzione di Google Gemini: perché oggi insegue Claude e ChatGPT nella corsa all'AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=HoB2GZmB510",
+      "data": "09/10/2026",
+      "riassunto": "Questo video analizza il percorso di Google Gemini, spiegando perché, dopo essere stato annunciato come l'AI più forte, si trova ora a inseguire concorrenti come Claude e ChatGPT. Vengono esaminate le \"crepe\" nel suo sviluppo, dalla gara nel coding e negli agenti AI alla gestione dei chip TPU e alla \"fuga dei cervelli\". È un'analisi interessante sulla competizione e le sfide attuali nel mondo dei modelli LLM."
+    },
+    {
+      "titolo": "Scrivere codice con l'AI è veloce, ma il debugging e la comprensione restano cruciali",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/scrivere-codice-con-lai-e-veloce-ma-poi-qualcuno-deve-capirlo-e-correggerlo",
+      "data": "11/10/2026",
+      "riassunto": "L'intelligenza artificiale permette di generare codice molto più rapidamente, ma l'articolo sottolinea che questa velocità non si traduce sempre in un software pronto all'uso. Il processo di debugging, la comprensione del codice generato dall'AI e la sua correzione rimangono responsabilità umane e rappresentano un \"collo di bottiglia\". Questo evidenzia l'importanza delle skill digitali umane anche nell'era dell'AI, specialmente per chi lavora nello sviluppo."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-11",
+  "notizie": [
+    {
+      "titolo": "GPT-6 e interfaccia utente intelligente per tutti",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-6-for-everyone/",
+      "data": "07/10/2026",
+      "riassunto": "OpenAI ha annunciato GPT-6, promettendo un'intelligenza artificiale ancora più potente e accessibile. Questa nuova versione si focalizza su un'interfaccia utente intelligente, pensata per rendere l'interazione con l'AI molto più intuitiva e semplice per chiunque. Immagina un assistente che capisce meglio le tue intenzioni e si adatta al tuo modo di lavorare in maniera quasi magica."
+    },
+    {
+      "titolo": "Aggiornamento di Ottobre 2026 sui modelli GPT-6 Sol e GPT-6 Luna",
+      "fonte": "OpenAI Blog",
+      "link": "https://deploymentsafety.openai.com/gpt-6-october",
+      "data": "07/10/2026",
+      "riassunto": "OpenAI ha rilasciato un aggiornamento sui suoi ultimi modelli, GPT-6 Sol e GPT-6 Luna, svelando le loro capacità più recenti. Questo ci dà un'idea più chiara di come questi LLM di nuova generazione stiano evolvendo, specialmente in termini di sicurezza e performance. È un passo avanti per capire cosa aspettarci dai futuri sistemi AI più complessi."
+    },
+    {
+      "titolo": "Jev di TypeSafe AI: l'AI che decide, non che scrive (Spiegazione Semplice)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=P1p9Bs6b9wA",
+      "data": "08/10/2026",
+      "riassunto": "È arrivata una vera rivoluzione nell'AI: Jev di TypeSafe AI. A differenza dei modelli che generano testo, Jev è un \"Sistema 1\" che legge, analizza e prende decisioni, restituendo un sì/no, una scelta o un voto con un livello di sicurezza. Questo tipo di AI è pensata per automatizzare compiti decisionali complessi, liberando tempo da attività che prima richiedevano intervento umano."
+    },
+    {
+      "titolo": "CLM: un nuovo modello System One open source più veloce di JEV",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=uMZ3UKd1vZc",
+      "data": "11/10/2026",
+      "riassunto": "Il nuovo Contrastive Language Model (CLM) è un modello \"System One\" open source che sta facendo parlare di sé. Nei benchmark, riesce a eguagliare le prestazioni di JEV, un altro modello decisionale, ma con una latenza (il tempo di risposta) fino a nove volte inferiore. Questo significa processi decisionali ancora più rapidi e reattivi, e la sua natura open source lo rende super interessante per chi vuole sperimentare."
+    },
+    {
+      "titolo": "Come dare una memoria permanente alla tua AI (Second Brain per Claude)",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/watch?v=762C4el2aXM",
+      "data": "09/10/2026",
+      "riassunto": "Immagina di non dover più spiegare da capo i tuoi progetti alla tua AI ogni volta che inizi una conversazione. Questo video mostra come creare un \"Second Brain\" per la tua AI (come Claude), una memoria esterna che conserva tutte le informazioni importanti su progetti, persone e contesto. È un tool super pratico per rendere la tua AI un vero assistente personale, capace di richiamare informazioni rilevanti al momento giusto."
+    },
+    {
+      "titolo": "Printing Press: collega un agente AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Hai mai desiderato collegare un agente AI a una piattaforma che non ha API o connettori? Printing Press è lo strumento che ti permette di fare proprio questo, creando interfacce a riga di comando (CLI) personalizzate. Questo apre le porte a tantissime nuove automazioni, consentendoti di integrare l'AI in ecosistemi dove prima era impossibile, e con un consumo di token più efficiente."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto Claude for Small Business, un pacchetto di connettori e workflow basati su agenti AI pensato appositamente per le piccole e medie imprese. Con questo plugin, è possibile integrare facilmente Claude in tool come Gmail e Microsoft 365, automatizzando processi e migliorando la produttività. È una soluzione \"pronta all'uso\" per portare l'intelligenza artificiale nel cuore delle attività aziendali."
+    },
+    {
+      "titolo": "Automatizzare task ripetitivi con le \"Skill\" di Claude",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/shorts/n3sC6aBxL9E",
+      "data": "04/10/2026",
+      "riassunto": "Invece di ripetere a Claude come fare una fattura ogni singola volta, puoi insegnargli una \"Skill\" specifica. Configurandola, Claude può collegarsi al tuo CRM, recuperare i dati del cliente, creare la fattura secondo i tuoi criteri e persino prepararla in bozza nella tua mail, tutto in automatico. Questo trasforma l'AI da un semplice assistente a un vero socio a cui delegare compiti ripetitivi."
+    },
+    {
+      "titolo": "Guida completa per trasformare ChatGPT in un assistente personale proattivo",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=DX40HSN6pO4",
+      "data": "11/10/2026",
+      "riassunto": "Vuoi che ChatGPT faccia il lavoro al posto tuo in modo concreto? Questo video è una guida dettagliata su come configurare ChatGPT Astra per affidargli attività reali, anche in modo automatico. Imparerai a sfruttare le \"Skill\" di ChatGPT per renderlo un esperto delle tue attività specifiche, senza dovergli spiegare ogni volta il contesto, aumentando la tua produttività personale."
+    },
+    {
+      "titolo": "Cosa succede a Google Gemini: da leader a inseguitore nel mercato AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=HoB2GZmB510",
+      "data": "09/10/2026",
+      "riassunto": "Google Gemini, che a inizio anno sembrava essere il modello AI più potente, ora sta perdendo terreno rispetto a competitor come Claude e ChatGPT. Il video analizza le ragioni dietro questo calo, tra cui la corsa agli agenti AI, la gestione dei chip TPU e la \"fuga di cervelli\" da DeepMind. È una panoramica interessante sulle dinamiche competitive e le sfide che i giganti della tecnologia affrontano nel rapido mondo dell'intelligenza artificiale."
+    }
+  ]
+}

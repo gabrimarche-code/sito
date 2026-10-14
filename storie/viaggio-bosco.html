@@ -218,8 +218,7 @@
 <a class="torna" href="/">&larr; Le storie</a>
 <button id="btn-audio" aria-label="Attiva o disattiva l'audio"><span class="onda"></span><span id="audio-label">Suono</span></button>
 <audio id="au-amb" loop preload="none"></audio>
-<audio id="au-mus" loop preload="none"></audio>
-<div class="credito" id="credito">Musica e ambiente: <span id="credito-txt">tracce CC0 &mdash; freesound.org / pixabay.com</span></div>
+<div class="credito" id="credito">Suoni del bosco e versi degli animali: effetti generati con <span id="credito-txt">elevenlabs.io</span></div>
 
 <canvas id="particelle"></canvas>
 <nav class="punti" id="punti" aria-label="Tappe del viaggio"></nav>
@@ -316,7 +315,8 @@
   var MOBILE  = matchMedia("(max-width: 768px)").matches;
   var params  = new URLSearchParams(location.search);
   var JUMP    = params.get("jump");
-  var AUDIO   = { amb: "viaggio-bosco/audio/ambiente-bosco.mp3", mus: "viaggio-bosco/audio/musica-magica.mp3" };
+  var AUDIO   = { amb: "viaggio-bosco/audio/ambiente-bosco.mp3" };
+  var muto    = false;   // diventa true solo se l'utente spegne esplicitamente "Suono"
 
   var pista   = document.getElementById("pista");
   var tappe   = Array.prototype.slice.call(document.querySelectorAll(".tappa"));
@@ -345,7 +345,7 @@
     if (partito) return; partito = true;
     loader.classList.add("via");
     setTimeout(function () { loader.style.display = "none"; }, 850);
-    montaPunti(); montaInput(); montaParticelle(); montaAudio();
+    montaPunti(); montaInput(); montaParticelle(); montaAudio(); montaVersi();
     var start = 0;
     if (JUMP !== null) start = Math.max(0, Math.min(tappe.length - 1, parseInt(JUMP, 10) || 0));
     posiziona(start, true);
@@ -483,9 +483,9 @@
 
   // ---- audio ----
   function montaAudio() {
-    var amb = document.getElementById("au-amb"), mus = document.getElementById("au-mus");
+    var amb = document.getElementById("au-amb");
     var btn = document.getElementById("btn-audio"), lab = document.getElementById("audio-label");
-    amb.src = AUDIO.amb; mus.src = AUDIO.mus; amb.volume = 0; mus.volume = 0;
+    amb.src = AUDIO.amb; amb.volume = 0;
     var on = false, ok = true;
     amb.addEventListener("error", function () { ok = false; btn.style.display = "none"; });
     function fade(el, a, b, ms) {
@@ -494,16 +494,45 @@
     }
     btn.addEventListener("click", function () {
       if (!ok) return;
-      on = !on;
+      on = !on; muto = !on;
       if (on) {
-        amb.play().catch(function(){}); mus.play().catch(function(){});
-        fade(amb, 0, .5, 900); fade(mus, 0, .32, 1400);
+        amb.play().catch(function(){});
+        fade(amb, 0, .5, 900);
         btn.classList.add("suona"); lab.textContent = "Suono acceso";
       } else {
-        fade(amb, amb.volume, 0, 500); fade(mus, mus.volume, 0, 500);
-        setTimeout(function () { amb.pause(); mus.pause(); }, 520);
+        fade(amb, amb.volume, 0, 500);
+        setTimeout(function () { amb.pause(); }, 520);
         btn.classList.remove("suona"); lab.textContent = "Suono";
       }
+    });
+  }
+
+  // ---- versi degli animali: al passaggio del mouse, al tocco o con la tastiera ----
+  function montaVersi() {
+    var suoni = {}, ultimo = 0;
+    Array.prototype.forEach.call(document.querySelectorAll(".animale"), function (el) {
+      var img = el.querySelector("img");
+      var m = img && /animali\/(\w+)\.webp/.exec(img.getAttribute("src") || "");
+      if (!m) return;
+      var nome = m[1];
+      if (!suoni[nome]) {
+        var a = new Audio("viaggio-bosco/audio/" + nome + ".mp3");
+        a.preload = "auto"; a.volume = 0.7;
+        suoni[nome] = a;
+      }
+      function suona() {
+        var ora = performance.now();
+        if (muto || ora - ultimo < 400) return;   // niente sovrapposizioni
+        ultimo = ora;
+        var a = suoni[nome];
+        try { a.currentTime = 0; } catch (e) {}
+        a.play().catch(function () {});
+      }
+      // il browser consente l'audio solo dopo un gesto dell'utente (clic, tasto): il passaggio del
+      // mouse da solo non basta, quindi suona anche al clic/tocco, prima che si apra la storia
+      el.addEventListener("pointerenter", suona);
+      el.addEventListener("focus", suona);
+      el.addEventListener("click", suona);
     });
   }
 })();

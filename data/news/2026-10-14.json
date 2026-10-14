@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-14",
+  "notizie": [
+    {
+      "titolo": "GPT-6 e Interfaccia Utente Intelligente per tutti",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/gpt-6-for-everyone/",
+      "data": "07/10/2026",
+      "riassunto": "OpenAI ha annunciato l'arrivo di GPT-6, promettendo un'interfaccia utente intelligente accessibile a tutti. Questo nuovo modello LLM punta a semplificare l'interazione con l'intelligenza artificiale, rendendola più intuitiva e integrata nelle attività quotidiane. Un passo avanti significativo per l'adozione dell'AI a livello globale, rendendo la tecnologia ancora più a portata di mano per chiunque."
+    },
+    {
+      "titolo": "Aggiornamento su GPT-6 Sol e GPT-6 Luna",
+      "fonte": "OpenAI Blog",
+      "link": "https://deploymentsafety.openai.com/gpt-6-october",
+      "data": "07/10/2026",
+      "riassunto": "OpenAI ha rilasciato un importante aggiornamento sui suoi nuovi modelli, GPT-6 Sol e GPT-6 Luna, presentando le ultime evoluzioni di questi LLM. L'aggiornamento dettagliato fornisce informazioni sulle capacità migliorate e sulle caratteristiche di sicurezza implementate, sottolineando il costante impegno di OpenAI nello sviluppo di intelligenze artificiali sempre più sofisticate e affidabili per diverse applicazioni."
+    },
+    {
+      "titolo": "Google lancia Gemini 4 Argon per sfidare GPT-6 e Claude",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=eQH_p83gTKc",
+      "data": "14/10/2026",
+      "riassunto": "Google DeepMind ha lanciato Gemini 4 Argon, un nuovo modello AI che mira a competere direttamente con giganti come GPT-6 e Claude. Il modello promette capacità avanzate nel ragionamento, nella programmazione e persino nella robotica, grazie anche a un'architettura Mixture-of-Experts. Questa mossa intensifica la corsa allo sviluppo di LLM sempre più potenti, spingendo i confini di ciò che l'AI può fare."
+    },
+    {
+      "titolo": "Creare un sito web con AI (GPT-6 Astra e ChatGPT) senza codice",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=PkuwvHAxUP4",
+      "data": "12/10/2026",
+      "riassunto": "Questo video mostra come creare un sito web completo e \"spettacolare\" utilizzando GPT-6 Astra e ChatGPT, senza scrivere una singola riga di codice. Il tutorial copre tutto, dal brief vocale alla pubblicazione online, includendo la generazione di foto e video con AI (come ChatGPT Images 2.5 e Runway) e l'implementazione di effetti avanzati. È un esempio pratico di come l'AI generativa possa automatizzare e semplificare la creazione di contenuti digitali complessi."
+    },
+    {
+      "titolo": "Anthropic lancia \"Claude for Small Business\" per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un pacchetto di plugin e workflow agentici progettato specificamente per le Piccole e Medie Imprese. Il tool integra Claude direttamente nell'ambiente aziendale con un'installazione rapida, offrendo 31 skill e 12 connettori pronti all'uso per strumenti come Gmail, Google Drive e Microsoft 365. L'obiettivo è portare l'intelligenza artificiale al servizio della produttività delle PMI in modo semplice ed efficace."
+    },
+    {
+      "titolo": "Printing Press: collegare agenti AI a piattaforme senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "È stato presentato Printing Press, un innovativo strumento che risolve il problema di far interagire l'AI con piattaforme sprovviste di API o connettori diretti. Permette di creare interfacce a riga di comando (CLI) per agenti AI, consumando meno token rispetto ad altri metodi. Questo tool è fondamentale per l'automazione, consentendo di estendere le capacità degli agenti AI a qualsiasi applicazione o servizio, migliorando la produttività senza limitazioni di integrazione."
+    },
+    {
+      "titolo": "Trasformare ChatGPT in un assistente personale con le Skill di Astra",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=DX40HSN6pO4",
+      "data": "11/10/2026",
+      "riassunto": "Questa guida completa spiega come configurare ChatGPT Astra per renderlo un assistente personale altamente efficiente e capace di svolgere attività reali e automatiche. Il video illustra come insegnare a ChatGPT \"Skill\" specifiche, trasformandolo in un esperto delle tue mansioni senza dovergli ripetere ogni volta le istruzioni. È un modo pratico per sfruttare al massimo l'AI per la produttività personale e l'automazione dei compiti."
+    },
+    {
+      "titolo": "La Piramide del Contesto: insegnare all'AI chi sei una volta sola",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=8AVq92o0S7w",
+      "data": "14/10/2026",
+      "riassunto": "Questo video introduce il concetto di \"Piramide del Contesto\" per ottimizzare l'interazione con qualsiasi AI, da ChatGPT a Claude e Gemini. Invece di ripetere costantemente all'AI chi sei e cosa fai, si propone di costruire una struttura di file markdown che l'intelligenza artificiale possa leggere e comprendere una volta per tutte. Questo metodo, noto come context engineering, mira a migliorare l'efficacia e l'efficienza delle conversazioni con l'AI, rendendole più produttive."
+    },
+    {
+      "titolo": "Delegare lavori ripetitivi a Claude creando una Skill personalizzata",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/shorts/n3sC6aBxL9E",
+      "data": "04/10/2026",
+      "riassunto": "Questo short mostra come creare una \"Skill\" personalizzata per Claude, permettendogli di automatizzare lavori ripetitivi, come la creazione di fatture. Collegandosi a CRM ed email, Claude può recuperare dati, generare documenti e prepararli per l'invio, trasformandosi da semplice assistente a un vero e proprio \"socio\" al quale delegare compiti complessi. Un esempio concreto di come l'AI possa liberare tempo e risorse in azienda."
+    },
+    {
+      "titolo": "Gestione del tempo e produttività con ChatGPT, Gemini o Claude",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=HtJZueD4qOI",
+      "data": "29/09/2026",
+      "riassunto": "Questo video esplora come utilizzare l'intelligenza artificiale (ChatGPT, Gemini o Claude) non solo per compiti di scrittura o ricerca, ma anche per migliorare drasticamente la gestione del tempo e l'organizzazione personale. Vengono mostrate tecniche come il \"time blocking\" e la pianificazione automatica delle attività. L'AI diventa uno strumento per ottimizzare la produttività, assicurando una migliore organizzazione delle giornate lavorative."
+    }
+  ]
+}

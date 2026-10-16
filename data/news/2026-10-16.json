@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-16",
+  "notizie": [
+    {
+      "titolo": "Recensione NVIDIA RTX Spark: l'alternativa ad Apple per l'IA locale",
+      "fonte": "Everyeye Tech",
+      "link": "https://tech.everyeye.it/articoli/provato-rtx-spark-prova-nvidia-lancia-sfida-apple-windows-on-arm-pronto-67739.html",
+      "data": "11/10/2026",
+      "riassunto": "NVIDIA ha lanciato RTX Spark, una nuova piattaforma che porta l'intelligenza artificiale direttamente sui laptop, sfidando i MacBook Pro di Apple. Questa tecnologia permette di eseguire l'IA localmente sui dispositivi, promettendo performance avanzate per gli utenti che cercano un'alternativa ai sistemi Apple Silicon per le loro esigenze AI."
+    },
+    {
+      "titolo": "Meta potrebbe usare i suoi nuovi Termini di Servizio commerciali per evitare milioni in costi di licenza AI",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+      "data": "10/10/2026",
+      "riassunto": "Meta ha \"semplificato\" i suoi termini di servizio commerciali e, secondo gli esperti legali, questa mossa potrebbe essere una strategia per evitare ingenti costi di licenza per l'utilizzo di contenuti nel training delle sue intelligenze artificiali. È un \"power grab\" nell'arena legale dell'AI, con implicazioni significative per il settore."
+    },
+    {
+      "titolo": "OpenAI presenta il Rosalind Academic Plan per la ricerca e l'educazione",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+      "data": "15/10/2026",
+      "riassunto": "OpenAI ha annunciato il \"Rosalind Academic Plan\", una nuova iniziativa pensata per supportare la ricerca e l'educazione nel campo dell'intelligenza artificiale. Questo piano mira a facilitare l'accesso e l'uso delle tecnologie AI avanzate da parte di accademici e studenti, promuovendo l'innovazione e la diffusione delle conoscenze."
+    },
+    {
+      "titolo": "Google lancia Gemma 2, un nuovo modello di embedding AI leggero e multimodale",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/kL5gSqCqkiE",
+      "data": "16/10/2026",
+      "riassunto": "Google ha rilasciato Gemma 2, un innovativo modello di embedding AI gratuito. Questo modello è multimodale, il che significa che può trasformare diversi tipi di dati (testo, immagini, ecc.) in vettori. La sua leggerezza lo rende ideale per essere eseguito anche su dispositivi mobili, aprendo nuove possibilità per l'AI locale."
+    },
+    {
+      "titolo": "Meta raggiunge il podio con Muse Wonder, superando ChatGPT",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/3-qVW3USMKY",
+      "data": "15/10/2026",
+      "riassunto": "Meta ha fatto un balzo in avanti nel campo dell'intelligenza artificiale, posizionandosi tra i leader con il suo modello Muse Wonder. Questo nuovo sviluppo ha superato le performance di ChatGPT in determinate metriche, indicando una crescente e agguerrita competizione nel panorama degli LLM e dell'AI generativa."
+    },
+    {
+      "titolo": "Claude Code ora personalizzabile con Mods e plugin-authoring per automazioni",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=ZZDpAP5dSfM",
+      "data": "15/10/2026",
+      "riassunto": "Claude Code ha introdotto nuove funzionalità che permettono una personalizzazione profonda tramite \"Mods\" e il comando \"plugin-authoring\". Questo significa che ora puoi adattare Claude Code al tuo flusso di lavoro, aggiungendo automazioni e controlli specifici, rendendolo più versatile e allineato alle tue esigenze pratiche."
+    },
+    {
+      "titolo": "Guida completa: trasformare ChatGPT Astra in un assistente personale automatizzato",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=DX40HSN6pO4",
+      "data": "11/10/2026",
+      "riassunto": "Questo video offre una guida dettagliata su come configurare ChatGPT Astra per farlo diventare un vero assistente personale capace di automatizzare compiti e lavori. Vengono spiegate le \"Skill\" di ChatGPT e come sfruttarle per affidargli attività specifiche, senza dover ripetere le istruzioni ogni volta, migliorando notevolmente la produttività."
+    },
+    {
+      "titolo": "GPT-6 Astra e ChatGPT Work: l'AI che lavora al posto tuo direttamente sul computer",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Xb5Z09O7iUg",
+      "data": "16/10/2026",
+      "riassunto": "La combinazione di GPT-6 Astra e ChatGPT Work promette di rivoluzionare il modo di interagire con l'AI. Ora puoi semplicemente indicare all'AI cosa fare e lei eseguirà i compiti dall'inizio alla fine direttamente sul tuo computer, leggendo file, creando documenti e provando app, trasformandosi in un assistente operativo completo."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve il problema delle piattaforme senza connettori per l'AI. Permette di creare interfacce a riga di comando (CLI) per collegare agenti AI a qualsiasi piattaforma, anche quelle sprovviste di API pubbliche. Questo riduce il consumo di token e aumenta la produttività, con un focus sull'integrazione di AI agenti."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: AI agenti e connettori per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsY2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un pacchetto di connettori e workflow basati su AI agenti, pensato specificamente per le Piccole e Medie Imprese. Si integra con Claude Cowork e include decine di skill e connettori predefiniti, come quelli per Gmail e Microsoft 365, permettendo alle PMI di adottare l'AI in modo semplice ed efficace."
+    }
+  ]
+}

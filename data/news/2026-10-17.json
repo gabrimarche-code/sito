@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-17",
+  "notizie": [
+    {
+      "titolo": "GPT-6 Astra + ChatGPT Work Cambia TUTTO (Tu Parli, Lui Lavora)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Xb5Z09O7iUg",
+      "data": "16/10/2026",
+      "riassunto": "Il video annuncia l'integrazione di GPT-6 Astra in ChatGPT Work, una combinazione che permette all'AI di eseguire compiti complessi direttamente sul tuo computer. Ora ChatGPT non solo risponde, ma legge file, crea documenti e sviluppa app, trasformandosi in un assistente operativo autonomo. È un enorme passo avanti per l'automazione e la produttività personale."
+    },
+    {
+      "titolo": "Claude Code ora si può personalizzare con le Mods e il comando plugin-authoring",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=ZZDpAP5dSfM",
+      "data": "15/10/2026",
+      "riassunto": "Claude Code introduce le \"Mods\" e il comando \"plugin-authoring\", rendendo il tool molto più flessibile e potente. Questo aggiornamento permette agli utenti di personalizzare Claude Code adattandolo alle proprie esigenze lavorative, creando automazioni e controlli specifici. È una novità estremamente utile per aumentare la produttività e l'automazione su misura."
+    },
+    {
+      "titolo": "Printing Press: creare CLI per collegare un agente AI a qualsiasi piattaforma",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Viene presentato Printing Press, un innovativo strumento che permette di creare interfacce a riga di comando (CLI) per connettere agenti AI a piattaforme prive di API pubbliche. Questo tool è fondamentale per superare i limiti di integrazione, espandendo notevolmente le possibilità di automazione e rendendo l'AI più versatile e produttiva anche con sistemi legacy o chiusi."
+    },
+    {
+      "titolo": "Anthropic ha lanciato Claude for Small Business: un plugin che porta Claude dentro la tua azienda in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin progettato per integrare Claude nelle piccole e medie imprese. Questo pacchetto include connettori e workflow agentici predefiniti, con 31 skill e 12 connettori pronti all'uso per servizi come Gmail, Google Drive e Microsoft 365. Rende l'intelligenza artificiale generativa accessibile per migliorare la produttività aziendale."
+    },
+    {
+      "titolo": "Reverse Engineer Anything (REA) è una delle repository più virali di GitHub del momento",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=O8TPU5wqcvE",
+      "data": "17/10/2026",
+      "riassunto": "Il video analizza Reverse Engineer Anything (REA), un progetto open source su GitHub che permette agli agenti AI di eseguire reverse engineering su software senza accesso al codice sorgente. È un tool innovativo che dimostra le capacità avanzate degli agenti AI nell'automazione di compiti complessi di analisi software, affascinante per un appassionato di AI."
+    },
+    {
+      "titolo": "Emma 6: l’AI italiana pensata per l’Italia sovrana sui nostri dati",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/hw2QoTUt3wA",
+      "data": "17/10/2026",
+      "riassunto": "Viene presentata Emma 6, un'intelligenza artificiale sviluppata in Italia con un forte focus sulla sovranità dei dati nazionali. Questa notizia è molto interessante perché evidenzia lo sviluppo di LLM specifici per contesti locali e l'importanza della gestione e della protezione dei dati. Offre una prospettiva sulle alternative ai modelli globali."
+    },
+    {
+      "titolo": "Guida completa per trasformare ChatGPT in un vero assistente personale",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=DX40HSN6pO4",
+      "data": "11/10/2026",
+      "riassunto": "Il video offre una guida dettagliata su come configurare ChatGPT Astra per trasformarlo in un assistente personale altamente efficiente e proattivo. Vengono illustrate le \"Skill\" di ChatGPT, che permettono di automatizzare attività e renderlo un esperto nelle tue mansioni specifiche. È una risorsa pratica per migliorare concretamente la produttività con l'AI generativa."
+    },
+    {
+      "titolo": "Fallo UNA VOLTA. Ogni AI lavorerà meglio per te (La Piramide del Contesto)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=8AVq92o2S7w",
+      "data": "14/10/2026",
+      "riassunto": "Questo video insegna un metodo efficace, la \"Piramide del Contesto\", per migliorare l'interazione con qualsiasi AI (ChatGPT, Claude, Gemini). Invece di ripetere le stesse informazioni, si impara a strutturare il proprio contesto in file markdown, permettendo all'AI di lavorare meglio e più velocemente. È un'abilità pratica e utile per ottimizzare il lavoro con gli LLM."
+    },
+    {
+      "titolo": "Regia, il pannello che mi sono costruito dentro Claude Code senza scrivere una riga di codice",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=tbBfWS_-qjc",
+      "data": "15/10/2026",
+      "riassunto": "Il video presenta \"Regia\", un pannello personalizzato creato all'interno di Claude Code per aumentare significativamente la produttività. Questo \"mod\" permette di automatizzare compiti come l'oscuramento di dati sensibili, il conteggio delle ore per cliente e la gestione delle attività. Dimostra come la personalizzazione dell'AI possa portare a soluzioni pratiche e utili per il lavoro quotidiano."
+    },
+    {
+      "titolo": "Modelli OpenAI hanno violato un wallet crypto e compromesso altri siti web",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "data": "16/10/2026",
+      "riassunto": "Un report indica che alcuni modelli di OpenAI sono stati sfruttati per violare un portafoglio di criptovalute e compromettere diversi siti web. Questa notizia è cruciale perché mette in luce le crescenti implicazioni di sicurezza e i potenziali rischi legati all'uso improprio di agenti AI potenti. È un aspetto fondamentale da considerare quando si esplorano nuove tecnologie AI."
+    }
+  ]
+}

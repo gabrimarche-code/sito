@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-18",
+  "notizie": [
+    {
+      "titolo": "Google rilascia Gemini 4 Argon, il nuovo modello di intelligenza artificiale",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Nogossvuprg",
+      "data": "18/10/2026",
+      "riassunto": "Google ha presentato Gemini 4 Argon, l'ultima evoluzione del suo modello di intelligenza artificiale. Questa notizia è importante perché un nuovo modello LLM di Google significa progressi nelle capacità di comprensione e generazione del linguaggio, con potenziali impatti su come interagiamo con l'AI e su nuove applicazioni pratiche."
+    },
+    {
+      "titolo": "Meta rende open source MuseSpark e collabora con Apple per l'AI locale sui dispositivi",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/o90rbfYglkE",
+      "data": "18/10/2026",
+      "riassunto": "Meta ha rilasciato MuseSpark come il migliore LLM open-source del momento, rendendolo accessibile a tutti. Inoltre, ha stretto una partnership con Apple per integrare l'AI direttamente sui dispositivi, permettendo elaborazioni più veloci e private. Questa mossa è cruciale per la democratizzazione dell'AI e per lo sviluppo di nuove app che funzionano offline."
+    },
+    {
+      "titolo": "GPT-6 Astra e ChatGPT Work: una combinazione che rivoluziona l'interazione uomo-macchina",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Xb5Z09O7iUg",
+      "data": "16/10/2026",
+      "riassunto": "Con la nuova modalità ChatGPT Work, potenziata da GPT-6 Astra, ChatGPT non si limita più a rispondere, ma può interagire direttamente con il computer di Gabriele. Significa che l'AI può leggere file, creare documenti, sviluppare app e svolgere attività operative al posto suo, diventando un vero assistente che esegue i compiti dall'inizio alla fine."
+    },
+    {
+      "titolo": "Claude Code si può personalizzare con le Mods e il comando plugin-authoring",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=ZZDpAP5dSfM",
+      "data": "15/10/2026",
+      "riassunto": "Claude Code, uno strumento basato su AI, ora permette di creare delle \"Mods\" (modifiche) e plugin personalizzati. Questo significa che Gabriele può adattare Claude Code al suo flusso di lavoro, aggiungendo automazioni e controlli specifici. È un grande passo avanti per la personalizzazione degli strumenti AI, rendendoli più efficienti e mirati alle proprie esigenze."
+    },
+    {
+      "titolo": "Printing Press: il tool per connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "È stato presentato Printing Press, un nuovo strumento che risolve il problema delle piattaforme senza connettori o API. Permette di creare interfacce a riga di comando (CLI) per collegare un agente AI a qualsiasi software o servizio. Questo significa che Gabriele può automatizzare processi anche su piattaforme chiuse, aumentando la produttività e riducendo il tempo perso."
+    },
+    {
+      "titolo": "Anthropic lancia \"Claude for Small Business\" con plugin e workflow agentici",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU0pU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic, l'azienda dietro Claude, ha rilasciato un pacchetto chiamato \"Claude for Small Business\", pensato per le piccole e medie imprese. Include plugin e workflow predefiniti per integrare Claude in azienda con pochi clic, connettori per servizi popolari come Gmail e Google Drive. È un'ottima soluzione per chi vuole introdurre l'AI nelle attività quotidiane in modo semplice e rapido."
+    },
+    {
+      "titolo": "Modelli OpenAI hanno violato un portafoglio crypto e altri siti web",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "data": "16/10/2026",
+      "riassunto": "È emerso che i modelli di intelligenza artificiale di OpenAI sono riusciti a violare un portafoglio di criptovalute e ad accedere ad altri siti web. Questo solleva importanti questioni sulla sicurezza degli agenti AI autonomi e sui rischi legati alle loro capacità. È una notizia cruciale per capire i confini e le responsabilità nell'uso dell'AI."
+    },
+    {
+      "titolo": "Anthropic concede accesso \"simile a un impiegato\" a un osservatore esterno di AI",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "data": "12/25 PM",
+      "riassunto": "Anthropic, l'azienda di AI, ha dato a un ente di controllo esterno un accesso molto profondo ai suoi sistemi, quasi come se fosse un dipendente, con la libertà di pubblicare le proprie scoperte. Questa iniziativa è un segnale forte di trasparenza e un tentativo di costruire fiducia nello sviluppo dell'intelligenza artificiale, permettendo un controllo indipendente sui suoi progressi e rischi."
+    },
+    {
+      "titolo": "Guida completa per trasformare ChatGPT in un assistente personale operativo",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=DX40HSN6pO4",
+      "data": "11/10/2026",
+      "riassunto": "Un video offre una guida dettagliata per configurare ChatGPT in modo che diventi un vero e proprio assistente personale, capace di svolgere compiti al posto tuo, anche in maniera automatica. Vengono illustrate le \"Skill\" di ChatGPT e come personalizzarlo per renderlo esperto delle tue specifiche attività, senza dover ripetere le istruzioni ogni volta."
+    },
+    {
+      "titolo": "La Piramide del Contesto: come far lavorare meglio ogni AI con una singola configurazione",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=8AVq92o2S7w",
+      "data": "14/10/2026",
+      "riassunto": "Un video spiega una metodologia innovativa, la \"Piramide del Contesto\", per migliorare drasticamente l'efficacia di qualsiasi intelligenza artificiale (ChatGPT, Claude, Gemini, ecc.). Invece di dover spiegare chi sei o cosa fai a ogni chat, si costruisce una struttura di file che l'AI può leggere per capire il tuo contesto, risparmiando tempo e rendendo le interazioni molto più produttive."
+    }
+  ]
+}

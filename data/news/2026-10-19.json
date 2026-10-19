@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-19",
+  "notizie": [
+    {
+      "titolo": "GPT-6 Astra + ChatGPT Work: L'AI che Lavora da Sola sul Tuo PC",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Xb5Z09O7iUg",
+      "data": "16/10/2026",
+      "riassunto": "Questo video introduce una nuova funzionalità che unisce il potenziale di \"GPT-6 Astra\" (probabilmente una metafora per un'AI evoluta) con ChatGPT Work. L'idea è che l'AI non si limiti a rispondere, ma possa operare direttamente sul tuo computer, leggere file, creare documenti e persino sviluppare app. È un passo avanti per avere un assistente AI davvero operativo e autonomo."
+    },
+    {
+      "titolo": "LFM2.5-24B-A2B di Liquid AI: Un Potente Modello Open-Weight da Eseguire sul Tuo PC",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=-Teltl_7TOI",
+      "data": "19/10/2026",
+      "riassunto": "Viene presentato LFM2.5-24B-A2B di Liquid AI, un modello AI open-weight ideale per chi vuole un'intelligenza artificiale potente direttamente sul proprio PC senza dipendere dal cloud. È un modello Mixture of Experts (MoE) da 24 miliardi di parametri, ma ne attiva solo 2 miliardi per token, garantendo alte prestazioni con grande efficienza per l'uso locale."
+    },
+    {
+      "titolo": "Google rilascia Gemini 4 Argon: Tutto Quello Che Devi Sapere",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Nogossvuprg",
+      "data": "18/10/2026",
+      "riassunto": "Google ha annunciato il rilascio di Gemini 4 Argon, la nuova iterazione del suo modello di intelligenza artificiale. Questo short video spiega le principali novità e caratteristiche, fornendo un aggiornamento su uno dei LLM più attesi e le sue potenziali applicazioni future. È un'informazione chiave per restare aggiornati sull'evoluzione dei modelli di linguaggio."
+    },
+    {
+      "titolo": "Claude Code ora Personalizzabile con Mods e Plugin-Authoring",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=ZZDpAP5dSfM",
+      "data": "15/10/2026",
+      "riassunto": "Claude Code, il tool di Anthropic, si arricchisce con la possibilità di utilizzare le \"Mods\" e il comando \"plugin-authoring\". Questo significa che puoi personalizzare Claude Code adattandolo al tuo modo di lavorare, aggiungendo automazioni e controlli specifici. In questo modo, diventa uno strumento ancora più flessibile e potente per la produttività personale e aziendale."
+    },
+    {
+      "titolo": "Printing Press: Un Tool per Collegare Agenti AI a Qualsiasi Piattaforma (Anche senza API)",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve il problema di integrare l'AI con piattaforme che non hanno connettori o API pubbliche. Permette di creare Command Line Interfaces (CLI) per agenti AI, risparmiando tempo e aumentando la produttività. È una soluzione innovativa per l'automazione, specialmente per le piattaforme meno \"AI-friendly\"."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin pensato per integrare facilmente l'intelligenza artificiale Claude nelle piccole e medie imprese. Il pacchetto include connettori e workflow agentici pre-impostati per strumenti comuni come Gmail, Google Drive e Microsoft 365. Un'ottima soluzione per le PMI che vogliono automatizzare e migliorare la produttività con l'AI."
+    },
+    {
+      "titolo": "La Piramide del Contesto: Ottimizza l'Interazione con Qualsiasi AI",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=8AVq92o2S7w",
+      "data": "14/10/2026",
+      "riassunto": "Questo video presenta la \"Piramide del Contesto\", una metodologia per migliorare l'efficacia delle conversazioni con le AI come ChatGPT e Claude. Invece di ripetere sempre le stesse informazioni, si impara a costruire un contesto solido in pochi file markdown. Questo approccio, basato sul context engineering, permette all'AI di lavorare meglio e in modo più personalizzato per te."
+    },
+    {
+      "titolo": "I cloni di giochi basati su AI spaventano gli sviluppatori indie",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+      "data": "",
+      "riassunto": "L'industria dei videogiochi indie sta affrontando una nuova sfida: la facilità con cui l'intelligenza artificiale può essere usata per creare rapidamente cloni di giochi originali. Questo fenomeno sta causando preoccupazione tra gli sviluppatori, che temono di mostrare il proprio lavoro per paura che venga immediatamente copiato. La situazione solleva interrogativi sull'etica e sulla protezione della proprietà intellettuale nell'era dell'AI generativa."
+    },
+    {
+      "titolo": "Disney trova un modo per acquisire Character.AI evitando le sue cause legali",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "data": "",
+      "riassunto": "Disney ha ideato una strategia per acquisire Character.AI, una piattaforma basata su intelligenza artificiale, aggirando le cause legali che la coinvolgono. Character.AI è stata oggetto di polemiche per le accuse di aver incentivato comportamenti pericolosi tra i minori tramite i suoi bot. La notizia evidenzia le complessità legali e reputazionali legate alle acquisizioni nel settore AI e la gestione dei rischi associati."
+    },
+    {
+      "titolo": "Dal Vibe Coding all'Implementazione Reale: Le Sfide del Software AI in Azienda",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/watch?v=kfGh6P0Z_TU",
+      "data": "19/10/2026",
+      "riassunto": "Questo video esplora il \"Vibe Coding\", dove l'AI permette di creare prototipi software in poche ore anche senza programmare, definendo nuove skill digitali. Tuttavia, si concentra sulle vere sfide quando questi prototipi passano all'uso quotidiano in azienda, con dati e processi reali. Viene analizzato il gap tra la facile prototipazione AI e la robusta implementazione in contesti lavorativi complessi, un tema cruciale per l'adozione dell'AI."
+    }
+  ]
+}

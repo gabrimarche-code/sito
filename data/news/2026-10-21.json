@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-21",
+  "notizie": [
+    {
+      "titolo": "GPT-6 Astra + ChatGPT Work Cambia TUTTO (Tu Parli, Lui Lavora)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Xb5Z09O7iUg",
+      "data": "16/10/2026",
+      "riassunto": "Questo video presenta GPT-6 Astra, il nuovo modello di punta di OpenAI, integrato in ChatGPT Work. La novità principale è la capacità di ChatGPT di interagire direttamente col tuo computer per eseguire compiti complessi, non limitandosi a rispondere. Funziona come un vero assistente operativo che legge file, crea documenti e gestisce applicazioni, automatizzando il lavoro dall'inizio alla fine."
+    },
+    {
+      "titolo": "Ho testato Gemini 4 Argon, il nuovo modello di punta di Google",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=poaWeJmPGW0",
+      "data": "21/10/2026",
+      "riassunto": "Viene testato Gemini 4 Argon, il nuovo LLM di Google, attraverso 5 prove pratiche per valutarne le capacità rispetto a ChatGPT e Claude. Il test include la creazione di videogiochi, la revisione di codice, la trasformazione di ricerche in slide e la scrittura creativa. Il video ne evidenzia i punti di forza e debolezza, offrendo una recensione concreta sulle sue performance e costi."
+    },
+    {
+      "titolo": "Printing Press: connettere agenti AI a piattaforme senza API per maggiore produttività",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Il video presenta Printing Press, un nuovo strumento che risolve il problema di collegare agenti AI a piattaforme prive di API pubbliche, un limite che causa perdite di tempo e produttività. Printing Press permette di creare interfacce a riga di comando (CLI) per automatizzare interazioni, consumando meno \"token\" rispetto ad altre soluzioni. Viene mostrato un esempio pratico di creazione di una CLI per una community Skool."
+    },
+    {
+      "titolo": "Modello AI locale super veloce da 24B di parametri rilasciato da Liquid AI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/s9wy7WDFdKs",
+      "data": "21/10/2026",
+      "riassunto": "Simone Rizzo annuncia e testa un nuovo modello di intelligenza artificiale locale, sviluppato da Liquid AI. Questo LLM vanta 24 miliardi di parametri ed è descritto come super veloce, indicando un significativo progresso nella possibilità di eseguire modelli complessi direttamente sul proprio hardware. La notizia è interessante per chi cerca soluzioni AI potenti e indipendenti dal cloud."
+    },
+    {
+      "titolo": "Claude Code si può personalizzare con le Mods e plugin-authoring",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=ZZDpAP3dSfM",
+      "data": "15/10/2026",
+      "riassunto": "Viene presentata la nuova funzionalità di personalizzazione per Claude Code tramite \"Mods\" e il comando \"plugin-authoring\". Questo permette agli utenti di adattare Claude Code al proprio flusso di lavoro, aggiungendo automazioni e controlli specifici. Il video esplora come utilizzare queste modifiche per rendere l'LLM più flessibile e deterministico, avvicinandolo a strumenti avanzati di AI harness."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un pacchetto di connettori e workflow agentici progettato per le Piccole e Medie Imprese. Il plugin integra Claude direttamente nelle operazioni aziendali con pochi click, offrendo 31 skill e 12 connettori predefiniti per servizi come Gmail, Google Drive e Microsoft 365. È un passo importante per l'adozione dell'AI e delle automazioni nelle PMI."
+    },
+    {
+      "titolo": "I modelli OpenAI arrivano su Google Cloud",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/openai-models-google-cloud/",
+      "data": "21/10/2026",
+      "riassunto": "OpenAI ha annunciato una partnership strategica che porterà i suoi modelli di intelligenza artificiale su Google Cloud. Questa integrazione renderà i potenti LLM di OpenAI più accessibili e scalabili per le aziende che utilizzano l'infrastruttura Google, facilitando lo sviluppo e l'implementazione di soluzioni AI avanzate in diversi settori."
+    },
+    {
+      "titolo": "Jev 1.14: l'AI agent ora legge immagini e offre casi d'uso reali",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/6IU3eKfFr5A",
+      "data": "20/10/2026",
+      "riassunto": "Simone Rizzo mostra le nuove capacità di Jev 1.14, un agente AI che ora supporta l'input di immagini. Questa funzionalità multimodale apre nuove possibilità per casi d'uso reali, permettendo all'agente di \"vedere\" e interpretare contenuti visivi. Il video illustra cosa si può fare concretamente con questa versione aggiornata, aumentando la versatilità e l'utilità dell'AI."
+    },
+    {
+      "titolo": "Regia, il pannello su Claude Code per automazioni senza codice",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=tbBfWS_-qjc",
+      "data": "15/10/2026",
+      "riassunto": "Il video presenta \"Regia\", un pannello personalizzato creato all'interno di Claude Code per facilitare automazioni pratiche in azienda senza scrivere una riga di codice. Regia è progettato per compiti specifici come nascondere dati sensibili, contare ore per cliente e gestire le attività da fare. Viene spiegato come creare e quando è opportuno sviluppare un proprio \"mod\" per migliorare la produttività con Claude Code."
+    },
+    {
+      "titolo": "Il software non è morto, il codice è una commodity",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/shorts/di8oTDyRdww",
+      "data": "21/10/2026",
+      "riassunto": "Contrariamente all'idea che \"il software sia morto\" a causa della nascita di cloni open source di suite popolari, Raffaele Gaito argomenta che è il \"codice\" ad essere diventato una commodity, non il software. Il valore di un software, specialmente di fascia alta, risiede in molto più del semplice codice, includendo servizi, ecosistema e innovazione. È una riflessione interessante sull'evoluzione delle skill digitali e del mercato software nell'era dell'AI."
+    }
+  ]
+}

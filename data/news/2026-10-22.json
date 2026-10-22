@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-22",
+  "notizie": [
+    {
+      "titolo": "GPT-6 Astra + ChatGPT Work Cambia TUTTO (Tu Parli, Lui Lavora)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=Xb5Z09O7iUg",
+      "data": "16/10/2026",
+      "riassunto": "Viene introdotta la combinazione di GPT-6 Astra, un nuovo potente modello AI, con ChatGPT Work. Questa modalità permette all'AI di lavorare autonomamente sul tuo computer, leggendo file, creando documenti e usando il PC al posto tuo. È come avere un assistente operativo che esegue i compiti dall'inizio alla fine, semplicemente parlandogli."
+    },
+    {
+      "titolo": "Ho testato Gemini 4 Argon, il nuovo modello di punta di Google, con 5 test concreti: è DAVVERO all'altezza di ChatGPT e Claude?",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=poaWeJmPGW0",
+      "data": "21/10/2026",
+      "riassunto": "Viene presentata una recensione dettagliata del nuovo modello di Google, Gemini 4 Argon, mettendolo alla prova con vari test pratici. L'autore mostra dove Gemini eccelle rispetto a GPT-6 Astra e Claude, dove invece ha ancora delle lacune e quanto costa. Un'analisi utile per capire le capacità del nuovo LLM di Google."
+    },
+    {
+      "titolo": "Claude Motion e Claude Dashboards sono le due novità di Claude uscite l'8 ottobre",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Claude ha lanciato due nuove funzionalità molto pratiche: Claude Motion e Claude Dashboards. Con Motion puoi trasformare dati o prodotti in video da mostrare ai clienti, mentre Dashboards permette di convertire fogli Excel in dashboard interattive che si aggiornano automaticamente. Sono strumenti utili per la visualizzazione dati e la creazione di contenuti."
+    },
+    {
+      "titolo": "Anthropic lancia Claude Duet, l’agente AI autonomo che fa concorrenza ad OpenAI Dots, Muse Spark e Grok Bot",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/gTFAyhSrN9I",
+      "data": "22/10/2026",
+      "riassunto": "Anthropic, l'azienda dietro Claude, ha lanciato un nuovo agente AI autonomo chiamato Claude Duet. Questo nuovo strumento si propone come diretto concorrente di altri agenti AI importanti come OpenAI Dots, Muse Spark e Grok Bot. La sua uscita segna un passo avanti nel campo degli assistenti intelligenti capaci di operare in autonomia."
+    },
+    {
+      "titolo": "Printing Press, uno strumento che permette di creare CLI per collegare un agente AI a qualsiasi piattaforma",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "È stato presentato Printing Press, un nuovo strumento innovativo che risolve il problema di connettere agenti AI a piattaforme che non hanno API pubbliche o connettori diretti. Permette di creare interfacce a riga di comando (CLI) personalizzate, rendendo l'AI compatibile con quasi ogni piattaforma e aumentando la produttività, consumando meno \"token\"."
+    },
+    {
+      "titolo": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/uber-chatgpt-work-rollout/",
+      "data": "22/10/2026",
+      "riassunto": "Uber ha esteso l'uso di ChatGPT Work a tutti i suoi dipendenti, integrando le capacità di OpenAI nelle operazioni aziendali. Questo dimostra come le grandi aziende stiano adottando strumenti AI per migliorare la produttività e l'efficienza a tutti i livelli, permettendo ai team di sfruttare l'AI per compiti quotidiani e complessi."
+    },
+    {
+      "titolo": "Anche con la versione Max di Claude, che arriva a 180 euro al mese, per il GDPR non sei in regola se ci carichi dati personali.",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/shorts/uSc-7EGZiVs",
+      "data": "22/10/2026",
+      "riassunto": "Un avviso importante per chi usa o intende usare Claude Max, anche nella versione a pagamento da 180 euro al mese: i termini e condizioni non garantiscono la conformità al GDPR se si caricano dati personali. Viene sottolineata la necessità di essere consapevoli di queste limitazioni e di adottare l'unica strada possibile per essere in regola con la normativa sulla privacy."
+    },
+    {
+      "titolo": "Vulnerabilità severa di PHP scoperta con l’AI, hanno hackersto open code",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/Pa14U1bYVmk",
+      "data": "22/10/2026",
+      "riassunto": "È stata scoperta una grave vulnerabilità nel linguaggio di programmazione PHP, con l'intelligenza artificiale usata per gli attacchi che hanno già colpito diverse piattaforme. Questo solleva preoccupazioni sull'uso dell'AI nell'hacking e sulla necessità di proteggere i siti web. Viene offerto un consiglio pratico su come difendersi."
+    },
+    {
+      "titolo": "Una diga che gira ancora su Windows XP. Un’AI capace di aprirla e inondare una valle. Fantascienza o scenario realistic",
+      "fonte": "YouTube @GiulioMichelon",
+      "link": "https://www.youtube.com/shorts/JQeg-zkYUP0",
+      "data": "18/10/2026",
+      "riassunto": "Viene discusso uno scenario allarmante: un'AI che potrebbe sfruttare le vulnerabilità di sistemi obsoleti come Windows XP, ancora in uso in infrastrutture critiche come le dighe, per causare danni gravi. Si riflette sulla linea sottile tra fantascienza e realtà riguardo ai rischi di sicurezza legati all'intelligenza artificiale e ai sistemi datati."
+    },
+    {
+      "titolo": "Questi video di face swap virali si fanno in pochissimo tempo con @higgsfield.ai",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/yYuKt6MeCwU",
+      "data": "21/10/2026",
+      "riassunto": "È stata presentata Higgsfield.ai, una nuova app che permette di creare video di \"face swap\" (scambio di volti) in modo rapido e semplice, rendendoli virali. Questo strumento dimostra come l'intelligenza artificiale stia rendendo accessibili a tutti tecniche di editing video avanzate, aprendo nuove possibilità per la creazione di contenuti creativi e divertenti."
+    }
+  ]
+}

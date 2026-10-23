@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-23",
+  "notizie": [
+    {
+      "titolo": "Il nuovo AI Act è in vigore: cosa cambia per usare l'intelligenza artificiale nel lavoro",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=fs6dActC94k",
+      "data": "23/10/2026",
+      "riassunto": "L'AI Act è entrato in vigore ad agosto e ha un impatto diretto su come le aziende e i professionisti possono usare l'intelligenza artificiale. Non si tratta più solo di aumentare la produttività, ma anche di rispettare nuove regole. Questo video spiega le implicazioni pratiche della normativa per chi usa l'AI sul lavoro, una cosa importantissima da sapere."
+    },
+    {
+      "titolo": "Test di Timestral, il nuovo modello di Mistral per prevedere dati nel tempo",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=Lm0-BvHMIIA",
+      "data": "23/10/2026",
+      "riassunto": "Mistral ha lanciato Timestral, un nuovo modello di intelligenza artificiale pensato per analizzare e prevedere l'andamento dei dati nel tempo. Il video mostra come funziona, testandolo su dati reali e usando Claude Code per creare un flusso di lavoro. È super utile per capire come le PMI possono usare l'AI per anticipare le tendenze."
+    },
+    {
+      "titolo": "Anthropic lancia Claude Duet, il nuovo agente AI autonomo che sfida OpenAI e altri",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/gTFAyhSrN9I",
+      "data": "22/10/2026",
+      "riassunto": "Anthropic ha presentato Claude Duet, un nuovo agente di intelligenza artificiale progettato per operare in modo autonomo. Questo agente entra in competizione diretta con altre soluzioni avanzate come OpenAI Dots, Muse Spark e Grok Bot, promettendo nuove funzionalità e capacità per l'automazione intelligente."
+    },
+    {
+      "titolo": "Trading con l'AI: un esperimento reale con Claude che gestisce 100.000$ virtuali",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=EG4yKGT7DEc",
+      "data": "23/10/2026",
+      "riassunto": "In questo video, viene mostrato un esperimento concreto dove l'intelligenza artificiale Claude viene utilizzata per fare trading. Viene assegnato a Claude un conto virtuale da 100.000$ e delle regole precise, lasciandolo investire autonomamente 24 ore su 24. È un esempio pratico e affascinante di automazione AI in un contesto finanziario."
+    },
+    {
+      "titolo": "Ho testato REA, il tool virale di GitHub che “smonta” le app con l'intelligenza artificiale",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=nGaE-8wAkq4",
+      "data": "23/10/2026",
+      "riassunto": "REA (Reverse Engineer Anything) è un tool di GitHub che promette di analizzare qualsiasi app usando l'AI, anche senza avere il codice sorgente. Il video mostra un test pratico di questo strumento, installandolo con un solo comando e utilizzandolo per replicare funzionalità di un'app. È un tool rivoluzionario per il reverse engineering con AI, molto interessante per chi lavora con lo sviluppo."
+    },
+    {
+      "titolo": "Recensione di Gemini 4 Argon: il nuovo modello di punta di Google alla prova con 5 test",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=poaWeJmPGW0",
+      "data": "21/10/2026",
+      "riassunto": "Questo video presenta un'analisi approfondita di Gemini 4 Argon, il più recente modello di punta di Google. Vengono eseguiti cinque test concreti per valutarne le capacità, confrontandolo con concorrenti come ChatGPT e Claude. La recensione esplora i suoi punti di forza e debolezza, fornendo una panoramica completa sulle sue prestazioni e sul costo di utilizzo."
+    },
+    {
+      "titolo": "Scopri GPT Sol 6.1 su RunableAI: un nuovo modello da provare",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/bZ6R0664_OE",
+      "data": "23/10/2026",
+      "riassunto": "Un nuovo modello di linguaggio, GPT Sol 6.1, è disponibile per essere testato sulla piattaforma RunableAI. Se sei interessato a provare le ultime novità in fatto di LLM e piattaforme dedicate all'intelligenza artificiale, questo è un'ottima occasione."
+    },
+    {
+      "titolo": "Crea video di face swap virali in pochi istanti con Higgsfield.ai",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/yYuKt6MeCwU",
+      "data": "21/10/2026",
+      "riassunto": "Higgsfield.ai è un nuovo tool che permette di creare video di face swap (scambio di volti) in modo estremamente rapido e semplice. È un esempio perfetto di come l'intelligenza artificiale generativa stia rendendo accessibili funzionalità creative avanzate, permettendoti di produrre contenuti virali con pochi clic."
+    },
+    {
+      "titolo": "Printing Press: il tool per connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è uno strumento innovativo che risolve un grande problema: collegare gli agenti AI a piattaforme che non offrono API pubbliche o connettori. Permette di creare interfacce a riga di comando (CLI) per far interagire l'AI con quasi tutto, migliorando la produttività e riducendo il consumo di token. Ideale per estendere le capacità delle tue automazioni AI."
+    },
+    {
+      "titolo": "Claude Motion e Claude Dashboards: le nuove funzionalità per dati e video",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Claude ha lanciato due nuove potenti funzionalità: Claude Motion e Claude Dashboards. Motion ti permette di trasformare dati o prodotti in video, mentre Dashboards può convertire file Excel in dashboard interattive che si aggiornano automaticamente. Sono strumenti fantastici per visualizzare dati e creare presentazioni dinamiche con estrema facilità."
+    }
+  ]
+}

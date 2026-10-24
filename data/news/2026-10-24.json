@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-24",
+  "notizie": [
+    {
+      "titolo": "La Cina sfida i giganti AI con Kimi K3.1 Pro, un LLM che supera GPT‑6 Astra",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=1NpcvLNt3c",
+      "data": "24/10/2026",
+      "riassunto": "La Cina ha lanciato Kimi K3.1 Pro, un nuovo modello di intelligenza artificiale sviluppato da Moonshot AI, che in alcuni test interni sembra superare persino GPT-6 Astra. Questo LLM rappresenta un'importante innovazione nel campo dell'AI generativa, offrendo capacità avanzate e ponendo nuove sfide ai leader del settore. Il video ne analizza le potenzialità e cosa significa avere modelli sempre più potenti."
+    },
+    {
+      "titolo": "Ho testato Gemini 4 Argon: il nuovo modello di Google è all'altezza di ChatGPT e Claude?",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=poaWeJmPGW0",
+      "data": "21/10/2026",
+      "riassunto": "Il video presenta un test approfondito del nuovo modello di punta di Google, Gemini 4 Argon, per valutarne la competitività rispetto a ChatGPT e Claude. Attraverso 5 test pratici, dalla creazione di videogiochi alla revisione di codice e alla generazione di presentazioni, vengono mostrati i suoi punti di forza e le aree di miglioramento, oltre a un'analisi dei costi in Italia."
+    },
+    {
+      "titolo": "Claude Duet: il nuovo assistente AI autonomo di Anthropic per l'azienda",
+      "fonte": "YouTube @giovannibeggiato",
+      "link": "https://www.youtube.com/watch?v=ygHXwYaJzIw",
+      "data": "22/10/2026",
+      "riassunto": "Anthropic ha introdotto Claude Duet, un nuovo agente AI autonomo progettato per essere un assistente intelligente che può operare in diversi contesti aziendali. Questo strumento mira a semplificare l'implementazione dell'intelligenza artificiale nelle imprese, offrendo soluzioni per automatizzare processi complessi e migliorare l'efficienza, concorrendo con altri sistemi autonomi sul mercato."
+    },
+    {
+      "titolo": "Claude Motion e Claude Dashboards: le novità per trasformare dati in video e Excel in dashboard interattive",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Anthropic ha rilasciato due importanti aggiornamenti per Claude: Claude Motion e Claude Dashboards. Queste funzionalità permettono agli utenti di trasformare facilmente fogli Excel in dashboard dinamiche che si aggiornano automaticamente e di creare video accattivanti direttamente dai propri dati o prodotti, rendendo la visualizzazione e la comunicazione delle informazioni più semplice e immediata."
+    },
+    {
+      "titolo": "REA (Reverse Engineer Anything): il tool AI virale che smonta e ricostruisce qualsiasi app",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=nGaE-8wAkq4",
+      "data": "23/10/2026",
+      "riassunto": "È stato testato REA, un tool di intelligenza artificiale molto discusso su GitHub, che permette di fare reverse engineering su qualsiasi applicazione. Questo strumento innovativo integra le capacità dell'AI per analizzare il funzionamento interno di un programma senza avere il codice sorgente, aiutando gli sviluppatori a comprendere e ricostruire applicazioni. Il video mostra come installarlo e metterlo alla prova."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Per superare la limitazione delle piattaforme senza API, è stato introdotto Printing Press. Questo strumento permette di creare interfacce a riga di comando (CLI) per collegare un agente AI a praticamente qualsiasi piattaforma. In questo modo, gli agenti AI possono interagire con un ecosistema molto più ampio di servizi, aumentando l'automazione e l'efficienza, e consumando meno token rispetto ad altre soluzioni."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: un pacchetto di connettori e workflow AI per PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato Claude for Small Business, un plugin pensato specificamente per le Piccole e Medie Imprese. Il pacchetto include una serie di connettori e workflow agentici preconfigurati, che integrano Claude con servizi essenziali come Gmail, Google Drive e Microsoft 365. L'obiettivo è facilitare l'adozione dell'AI e l'automazione dei processi nelle PMI, rendendo queste tecnologie più accessibili."
+    },
+    {
+      "titolo": "Trading con l'AI: ho insegnato a Claude a investire autonomamente con 100.000$ virtuali",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=EG4yKGT7DEc",
+      "data": "23/10/2026",
+      "riassunto": "Un interessante esperimento ha visto Claude, un modello di intelligenza artificiale, gestire un conto di trading virtuale da 100.000 dollari. Dopo avergli fornito regole chiare, l'AI è stata in grado di investire autonomamente 24 ore su 24. Questo dimostra le notevoli potenzialità dell'intelligenza artificiale nell'automazione di processi complessi e nell'applicazione pratica in settori come quello finanziario."
+    },
+    {
+      "titolo": "Intelligenza Artificiale: costi alle stelle e paura per il mondo del lavoro nella \"guerra dei token\"",
+      "fonte": "Everyeye Tech",
+      "link": "https://tech.everyeye.it/articoli/speciale-intelligenza-artificiale-costi-stelle-paura-mondo-lavoro-cosa-guerra-token-67723.html",
+      "data": "",
+      "riassunto": "L'articolo approfondisce il fenomeno dei costi elevati legati all'Intelligenza Artificiale, in particolare nel contesto della \"guerra dei token\", e le crescenti preoccupazioni riguardo all'impatto di queste tecnologie sul mondo del lavoro. Viene analizzato il rapporto tra l'evoluzione rapida dell'AI, le sue implicazioni economiche e le sfide che ne derivano per il futuro dell'occupazione, un tema cruciale per chi segue il settore."
+    },
+    {
+      "titolo": "Un nuovo tipo di AI che legge e decide: addestra Claude sui tuoi dati senza codice",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=RxddbpyDJY4",
+      "data": "24/10/2026",
+      "riassunto": "È stato presentato un innovativo tipo di intelligenza artificiale che, anziché limitarsi a generare testo, è capace di leggere dati e prendere decisioni in una frazione di secondo. Un workshop mostra come sia possibile addestrare modelli come Claude sui propri dati, senza la necessità di scrivere alcuna riga di codice, aprendo nuove frontiere per l'automazione decisionale e rendendo l'AI più accessibile a tutti."
+    }
+  ]
+}

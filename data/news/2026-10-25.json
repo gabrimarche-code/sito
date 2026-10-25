@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-25",
+  "notizie": [
+    {
+      "titolo": "Kimi K3.1 Pro, la sfida cinese ai giganti dell'AI che supera GPT-6 Astra",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=1NpcvLN8t3c",
+      "data": "24/10/2026",
+      "riassunto": "La Cina lancia Kimi K3.1 Pro di Moonshot AI, un nuovo modello di intelligenza artificiale che, secondo i benchmark dell'azienda, supererebbe addirittura GPT-6 Astra. Questo LLM promette capacità sempre più potenti con pesi aperti, dimostrando come la competizione nel settore sia sempre più accesa e la tecnologia AI si stia evolvendo a ritmi incredibili."
+    },
+    {
+      "titolo": "Gemini 4 Argon, il nuovo modello di punta di Google, alla prova contro ChatGPT e Claude",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=poaWeJmPGW0",
+      "data": "21/10/2026",
+      "riassunto": "Google ha rilasciato Gemini 4 Argon, il suo ultimo modello di intelligenza artificiale, che è stato messo alla prova in diversi test pratici. Il video analizza le sue performance, confrontandolo con i giganti del settore come ChatGPT e Claude. Viene esplorato dove Gemini eccelle, dove ha ancora margini di miglioramento e il suo costo, offrendo una panoramica completa sulle sue capacità."
+    },
+    {
+      "titolo": "Anthropic lancia Claude Duet, il nuovo agente AI autonomo per sfidare OpenAI e Grok Bot",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/gTFAyhSrN9I",
+      "data": "22/10/2026",
+      "riassunto": "Anthropic ha presentato Claude Duet, un nuovo agente di intelligenza artificiale autonomo che si propone come diretto concorrente di soluzioni simili come OpenAI Dots e Grok Bot. Questo agente è progettato per operare in modo indipendente, suggerendo un futuro dove l'AI potrà gestire compiti complessi con sempre maggiore autonomia, un passo avanti significativo nel campo degli agenti conversazionali."
+    },
+    {
+      "titolo": "La nuova AI che legge e decide senza codice: addestra Claude sui tuoi dati dal vivo",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=RxddbpyDJY4",
+      "data": "24/10/2026",
+      "riassunto": "È emerso un nuovo tipo di intelligenza artificiale che non si limita a scrivere, ma legge e prende decisioni in una frazione di secondo. La cosa più interessante è che potrai vederla all'opera addestrando Claude sui tuoi dati, il tutto senza scrivere nemmeno una riga di codice. Questo apre scenari incredibili per l'automazione e l'analisi decisionale, rendendo l'AI più accessibile che mai."
+    },
+    {
+      "titolo": "Trading con l'AI: un esperimento dove Claude gestisce un conto virtuale da 100.000$ 24 ore su 24",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=EG4yKGT7DEc",
+      "data": "23/10/2026",
+      "riassunto": "Un esperimento ambizioso ha visto Claude, l'intelligenza artificiale, gestire un conto di trading virtuale da 100.000 dollari. L'AI opera in autonomia 24 ore su 24, seguendo regole preimpostate. Questo dimostra le potenzialità dell'intelligenza artificiale nell'automazione di compiti complessi e ad alto rischio, aprendo nuove frontiere per l'investimento e la gestione finanziaria automatizzata."
+    },
+    {
+      "titolo": "REA (Reverse Engineer Anything): il tool AI virale che smonta qualsiasi app e ti aiuta a ricostruirla",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=nGaE-8wAkq4",
+      "data": "23/10/2026",
+      "riassunto": "REA, o Reverse Engineer Anything, è il nuovo tool virale su GitHub che promette di analizzare e \"smontare\" qualsiasi applicazione grazie all'intelligenza artificiale. Permette di capire il funzionamento interno di un programma senza avere il codice originale e persino di ricostruirlo. È uno strumento potente per sviluppatori e appassionati, testato dal vivo per ricreare parti di app Mac."
+    },
+    {
+      "titolo": "Printing Press: lo strumento per connettere agenti AI a piattaforme senza API pubbliche",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Per superare il problema di collegare agenti AI a piattaforme che non offrono API pubbliche, è stato sviluppato Printing Press. Questo strumento permette di creare interfacce a riga di comando (CLI) per far interagire l'intelligenza artificiale con qualsiasi servizio. È una soluzione innovativa per migliorare la produttività e le automazioni, consumando meno token rispetto ad altre alternative."
+    },
+    {
+      "titolo": "Claude for Small Business: Anthropic lancia un pacchetto di connettori e workflow AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto Claude for Small Business, un plugin pensato per integrare facilmente l'intelligenza artificiale nelle piccole e medie imprese. Il pacchetto include 31 skill e 12 connettori pronti all'uso per servizi come Gmail e Microsoft 365, permettendo alle PMI di sfruttare subito le capacità di Claude per migliorare i workflow e la produttività senza complesse configurazioni."
+    },
+    {
+      "titolo": "Claude Motion e Claude Dashboards: le nuove funzionalità per trasformare dati in video e dashboard dinamiche",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Claude ha introdotto due nuove e potenti funzionalità: Claude Motion e Claude Dashboards. Con Motion, è possibile trasformare dati e prodotti in video coinvolgenti, mentre Dashboards permette di creare dashboard dinamiche e auto-aggiornanti direttamente da file come Excel. Questi strumenti rendono l'analisi dati e la creazione di contenuti molto più accessibili e dinamiche grazie all'AI."
+    },
+    {
+      "titolo": "I più recenti dispositivi e wearable con intelligenza artificiale da tenere d'occhio",
+      "fonte": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-",
+      "data": "",
+      "riassunto": "Il mercato dei dispositivi e dei wearable sta assistendo a una rapida integrazione dell'intelligenza artificiale. Questo articolo presenta una panoramica dei gadget AI più innovativi e promettenti, dai dispositivi indossabili intelligenti a nuove categorie di prodotti che sfruttano l'AI per migliorare l'esperienza utente. Un'ottima risorsa per chi vuole rimanere aggiornato sulle tendenze hardware AI."
+    }
+  ]
+}

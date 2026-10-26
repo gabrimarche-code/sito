@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-26",
+  "notizie": [
+    {
+      "titolo": "OpenAI presenta GPT-6.1 Terra",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "data": "26/10/2026",
+      "riassunto": "OpenAI ha annunciato il lancio di GPT-6.1 Terra, un nuovo modello di linguaggio che promette di portare significative innovazioni nel campo dell'intelligenza artificiale generativa. Questo aggiornamento mira a migliorare ulteriormente le capacità di comprensione e generazione di testo, offrendo nuove opportunità per sviluppatori e utenti finali nell'applicazione dell'AI in diversi contesti."
+    },
+    {
+      "titolo": "Kimi K3.1 Pro: il nuovo modello cinese open weight che sfida GPT Astra di OpenAI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/MsC3RRHTXfo",
+      "data": "25/10/2026",
+      "riassunto": "È stato lanciato Kimi K3.1 Pro, un nuovo modello di linguaggio AI cinese con \"open weight\" che si sta dimostrando estremamente competitivo. Secondo le prime valutazioni, questo LLM è addirittura in grado di superare le prestazioni di GPT Astra di OpenAI. Questa notizia è importante perché indica una crescente competizione nel settore degli LLM a livello globale."
+    },
+    {
+      "titolo": "ChatGPT Sites: creare siti e app con una frase, il futuro del web design?",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=LexcQOqz-xw",
+      "data": "26/10/2026",
+      "riassunto": "Gabriele ha testato \"ChatGPT Sites\", un tool che permette di creare siti web e app semplicemente descrivendoli con una frase, ottenendo un sito online con link immediato. Il video mostra 8 casi d'uso pratici, dal sito di lancio a una dashboard dinamica, esplorando come l'AI stia rivoluzionando il web design e l'automazione della creazione di piattaforme digitali."
+    },
+    {
+      "titolo": "REA (Reverse Engineer Anything): il tool AI che smonta e ricostruisce app",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=nGaE-8wAkq4",
+      "data": "23/10/2026",
+      "riassunto": "Gabriele ha provato REA (Reverse Engineer Anything), un tool virale di GitHub che sfrutta l'AI per \"smontare\" e capire il funzionamento di qualsiasi applicazione senza averne il codice sorgente. Il video dimostra come REA si integri con agenti AI come Claude Code per analizzare un programma e aiutare a ricostruirlo o aggiungervi nuove funzionalità, aprendo nuove possibilità nel reverse engineering e nello sviluppo software."
+    },
+    {
+      "titolo": "Printing Press: collegare agenti AI a qualsiasi piattaforma tramite CLI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Questo video presenta Printing Press, un nuovo strumento che risolve il problema di collegare gli agenti AI a piattaforme che non hanno API pubbliche o connettori diretti. Permette di creare interfacce a riga di comando (CLI) personalizzate, rendendo possibile l'automazione e l'interazione con qualsiasi servizio. Questo tool è efficiente nell'uso dei token e apre nuove frontiere per l'integrazione dell'AI."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un pacchetto di connettori e workflow basati su agenti AI progettato specificamente per le Piccole e Medie Imprese. Questo plugin, che si integra in Claude Cowork, include 31 skill e 12 connettori pronti all'uso (come Gmail, Google Drive e Microsoft 365), offrendo alle PMI un modo rapido per portare l'Intelligenza Artificiale nelle loro operazioni quotidiane e migliorare la produttività."
+    },
+    {
+      "titolo": "Claude Motion e Claude Dashboards: le nuove funzionalità AI per dati e video",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Sono state lanciate due nuove importanti funzionalità per Claude: Claude Motion e Claude Dashboards. Claude Dashboards permette di trasformare facilmente un foglio Excel in una dashboard interattiva e auto-aggiornante, mentre Claude Motion (attualmente in beta) consente di creare video a partire da dati o descrizioni di prodotti. Questi strumenti rendono l'AI di Claude ancora più versatile per analisi dati e creazione di contenuti multimediali."
+    },
+    {
+      "titolo": "Costruire Agenti AI personalizzati: il progetto Hermes Agent",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=jLwCOaFxgc8",
+      "data": "26/10/2026",
+      "riassunto": "Antonio Guadagno ha avviato un progetto per costruire un agente AI personalizzato chiamato \"Hermes Agent\", mostrandone passo dopo passo la configurazione, la gestione della memoria e i collegamenti con le applicazioni di lavoro. L'obiettivo è creare un assistente AI che conosca a fondo il suo lavoro, sia accessibile anche da smartphone e diventi un punto di riferimento per l'automazione delle sue attività."
+    },
+    {
+      "titolo": "Trading automatizzato con Claude AI: un esperimento da 100.000$ virtuali",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=EG4yKGT7DEc",
+      "data": "23/10/2026",
+      "riassunto": "Giovanni Castagna ha avviato un esperimento interessante, affidando a Claude AI un conto di trading virtuale da 100.000 dollari e un set di regole specifiche. L'obiettivo è vedere come l'AI gestisce gli investimenti autonomamente 24 ore su 24. Questo dimostra un'applicazione pratica e innovativa dell'intelligenza artificiale nel campo della finanza, con un focus sull'automazione decisionale."
+    },
+    {
+      "titolo": "I modder sbloccano le GeForce RTX: prestazioni IA e di calcolo raddoppiate gratis fino a 2x",
+      "fonte": "Everyeye Tech",
+      "link": "https://tech.everyeye.it/notizie/modder-sbloccano-geforce-rtx-prestazioni-ia-calcolo-raddoppiate-gratis-2x-908078.html",
+      "data": "",
+      "riassunto": "Alcuni modder hanno scoperto un modo per sbloccare le schede grafiche NVIDIA GeForce RTX, riuscendo a raddoppiare le loro prestazioni sia nel calcolo tradizionale che nelle operazioni di Intelligenza Artificiale, e il tutto gratuitamente. Questo significa che chi ha queste schede potrebbe ottenere molta più potenza per task legati all'AI senza dover comprare hardware nuovo o più costoso."
+    }
+  ]
+}

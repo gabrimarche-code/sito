@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-27",
+  "notizie": [
+    {
+      "titolo": "Timestral: il nuovo LLM di Mistral che eccelle nelle previsioni per le PMI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/-mDrwjGbTaA",
+      "data": "27/10/2026",
+      "riassunto": "Mistral ha lanciato Timestral, un nuovo modello di linguaggio che sembra superare il TimesFM di Google nella capacità di prevedere il futuro. Questo lo rende uno strumento molto potente, specialmente per le Piccole e Medie Imprese (PMI) che possono usarlo per anticipare tendenze di mercato o gestire meglio le loro operazioni. È un esempio concreto di come i nuovi LLM possano portare vantaggi competitivi."
+    },
+    {
+      "titolo": "OpenAI introduce i \"Dots\", agenti AI autonomi che vanno oltre ChatGPT",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/wfGovNTTVH8",
+      "data": "27/10/2026",
+      "riassunto": "OpenAI ha presentato i \"Dots\", nuovi agenti AI autonomi che rappresentano un'evoluzione rispetto a ChatGPT. A differenza di un chatbot che risponde a comandi specifici, i Dots possono agire in modo indipendente, prendere decisioni e svolgere compiti complessi. Questo apre scenari interessanti per l'automazione, permettendo all'AI di gestire processi più articolati senza supervisione costante."
+    },
+    {
+      "titolo": "Come ChatGPT crea siti web e app da zero con una semplice frase (ChatGPT Sites)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=LexcQOqz-xw",
+      "data": "26/10/2026",
+      "riassunto": "Ora è possibile creare siti web e app semplicemente descrivendoli a ChatGPT. Grazie a strumenti come \"ChatGPT Sites\", puoi scrivere una frase e ottenere un sito online con un link funzionante, oppure una landing page o una dashboard. Questo tool rivoluziona il web design, rendendolo accessibile anche a chi non ha competenze tecniche e accelerando enormemente la fase di prototipazione e lancio di nuovi progetti."
+    },
+    {
+      "titolo": "REA: il tool AI virale che \"smonta\" qualsiasi app per capirne il funzionamento",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=nGaE-8wAkq4",
+      "data": "23/10/2026",
+      "riassunto": "REA (Reverse Engineer Anything) è un nuovo tool di GitHub che usa l'intelligenza artificiale per analizzare e capire il funzionamento di qualsiasi applicazione, anche senza avere accesso al codice sorgente. È come se potesse \"smontare\" un programma per vedere come è fatto. Questo strumento è incredibilmente utile per lo sviluppo, permettendo di ricostruire o integrare parti di software in modo più efficiente."
+    },
+    {
+      "titolo": "Claude lancia Motion e Dashboards: video e analisi dati automatizzati con l'AI",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Claude ha introdotto due nuove funzionalità molto interessanti: Claude Motion e Claude Dashboards. Con Motion, puoi trasformare dati o prodotti in video in modo automatico, ottimo per presentazioni ai clienti. Dashboards, invece, permette di trasformare file come Excel in pannelli di controllo interattivi che si aggiornano da soli. Sono strumenti potenti per migliorare la visualizzazione dei dati e la creazione di contenuti."
+    },
+    {
+      "titolo": "Printing Press: connettere agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Spesso è difficile far interagire gli agenti AI con piattaforme che non hanno connettori o API pubbliche, limitando le automazioni. Printing Press è uno strumento innovativo che risolve questo problema, permettendo di creare \"Command Line Interfaces\" (CLI) personalizzate per connettere l'AI a qualsiasi piattaforma. Questo significa più flessibilità e produttività, estendendo le capacità di automazione degli agenti AI dove prima non era possibile."
+    },
+    {
+      "titolo": "Claude for Small Business: l'AI di Anthropic a portata di PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un pacchetto di connettori e workflow preconfigurati che integra facilmente Claude nelle aziende, soprattutto le PMI. Include decine di skill e connettori pronti all'uso per servizi come Gmail, Google Drive e Microsoft 365. È un modo semplice e veloce per le piccole e medie imprese di iniziare a sfruttare il potenziale dell'intelligenza artificiale per migliorare l'efficienza quotidiana."
+    },
+    {
+      "titolo": "DeepMind presenta Genie 4, il modello AI che crea mondi virtuali più realistici",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "data": "27/10/2026",
+      "riassunto": "DeepMind, la divisione AI di Google, ha svelato Genie 4, un nuovo modello AI che promette di generare mondi virtuali con fisica più realistica, includendo anche audio e personaggi umani più credibili. Questo \"world model\" sarà presto disponibile per gli sviluppatori e gli abbonati a Google AI Ultra, aprendo nuove frontiere per la creazione di simulazioni, videogiochi e ambienti virtuali interattivi."
+    },
+    {
+      "titolo": "Modder sbloccano le GeForce RTX: prestazioni IA raddoppiate gratis",
+      "fonte": "Everyeye Tech",
+      "link": "https://tech.everyeye.it/notizie/modder-sbloccano-geforce-rtx-prestazioni-ia-calcolo-raddoppiate-gratis-2x-908078.html",
+      "data": "",
+      "riassunto": "Alcuni modder hanno trovato il modo di sbloccare le schede grafiche GeForce RTX, raddoppiando le loro prestazioni nel calcolo IA e in altre operazioni. Questo significa che gli utenti possono ottenere un incremento significativo di potenza per le loro applicazioni di intelligenza artificiale senza dover acquistare hardware più costoso. È una notizia entusiasmante per chi sfrutta le GPU per carichi di lavoro AI e vuole massimizzare l'efficienza."
+    },
+    {
+      "titolo": "Esperimento: un agente AI di Claude gestisce un conto trading da 100.000$",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=EG4yKGT7DEc",
+      "data": "23/10/2026",
+      "riassunto": "In un esperimento, è stato dato a Claude un conto virtuale da 100.000$ con regole specifiche, e l'AI è stata in grado di investire autonomamente 24 ore su 24. Questo dimostra il potenziale dell'intelligenza artificiale nell'automazione di compiti complessi e ad alto rischio, come il trading finanziario, e offre uno sguardo su come gli agenti AI possono operare in contesti reali seguendo istruzioni predefinite."
+    }
+  ]
+}

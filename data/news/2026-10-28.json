@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-28",
+  "notizie": [
+    {
+      "titolo": "Google annuncia Gemini 4 Carbon, il suo nuovo modello AI di frontiera",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "data": "",
+      "riassunto": "Google ha presentato Gemini 4 Carbon, il suo ultimissimo modello di intelligenza artificiale di frontiera. Anche se per ora non è accessibile al pubblico, questa novità dimostra la direzione in cui Google sta spingendo la ricerca sugli LLM. È un'evoluzione più performante del precedente modello Argon, segnando un passo importante nel panorama dell'AI."
+    },
+    {
+      "titolo": "OpenAI e ServiceNow espandono la partnership per workflow aziendali e sicurezza",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/openai-servicenow-partnership-expansion/",
+      "data": "28/10/2026",
+      "riassunto": "OpenAI e ServiceNow stanno rafforzando la loro collaborazione per integrare l'AI di OpenAI in diversi ambiti aziendali, dallo sviluppo software alla gestione della sicurezza. Questo significa che le imprese potranno utilizzare l'intelligenza artificiale per automatizzare e ottimizzare un'ampia gamma di processi interni, rendendo i flussi di lavoro più efficienti e proteggendo meglio i dati."
+    },
+    {
+      "titolo": "Anthropic lancia nuove norme per l'uso etico dell'AI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/UUrAgu5Y9-c",
+      "data": "28/10/2026",
+      "riassunto": "Anthropic, la società dietro al modello Claude, ha introdotto nuove linee guida che entreranno in vigore il 14 novembre. Queste norme sono state pensate per prevenire l'uso improprio o dannoso dell'intelligenza artificiale, promuovendo un approccio più responsabile. È un segnale importante sull'attenzione all'etica nell'evoluzione e nell'utilizzo degli agenti AI."
+    },
+    {
+      "titolo": "Mistral rilascia Timestral, un nuovo modello AI per previsioni future ottimizzato per le PMI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/-mDrwjGbTaA",
+      "data": "27/10/2026",
+      "riassunto": "Mistral AI ha presentato Timestral, un nuovo modello di fondazione che si dimostra più efficace di TimesFM di Google nella previsione di eventi futuri. Questo strumento è particolarmente utile per le Piccole e Medie Imprese (PMI), offrendo la possibilità di analizzare i dati e fare proiezioni più accurate per supportare decisioni strategiche e migliorare la pianificazione."
+    },
+    {
+      "titolo": "I Dots: gli agenti AI autonomi di OpenAI a confronto con ChatGPT",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/wfGovNTTVH8",
+      "data": "27/10/2026",
+      "riassunto": "È stato fatto un test sui \"Dots\", i nuovi agenti AI autonomi sviluppati da OpenAI, per capire cosa li differenzia da ChatGPT. Questi agenti promettono di agire in modo più indipendente, gestendo compiti complessi senza un'interazione continua. Il video esplora le loro funzionalità e le nuove opportunità che offrono rispetto all'approccio conversazionale tradizionale."
+    },
+    {
+      "titolo": "Come costruire il tuo agente AI personalizzato: il progetto Hermes Agent",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=jLwCOaFxgc8",
+      "data": "26/10/2026",
+      "riassunto": "Antonio Guadagno ha avviato un progetto per creare un agente AI su misura, chiamato Hermes Agent. Nel video, mostra passo dopo passo come configurare l'agente, come gestire la sua memoria e come collegarlo alle applicazioni utilizzate per lavorare. È una guida molto pratica per chi vuole sviluppare automazioni personalizzate e integrare l'AI nel proprio flusso di lavoro quotidiano."
+    },
+    {
+      "titolo": "Le app Adobe ricostruite gratis e open source, con integrazione di Claude Opus 5.5",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=LluVYuKfYvE",
+      "data": "28/10/2026",
+      "riassunto": "Un team ha ricreato gratuitamente e in open source le principali applicazioni di Adobe, come PhotoCraft (Photoshop) e FilmCraft (Premiere). La caratteristica innovativa è l'integrazione con Claude Opus 5.5, che consente di controllare queste app tramite comandi AI. Questo offre un'alternativa potente e accessibile per la creatività e la produttività, bypassando i costi dei software tradizionali."
+    },
+    {
+      "titolo": "ChatGPT ora crea siti e app da solo: 8 casi d'uso reali con ChatGPT Sites",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=LexcQOqz-xw",
+      "data": "26/10/2026",
+      "riassunto": "Grazie a ChatGPT Sites, è possibile creare siti web e applicazioni semplicemente descrivendo l'idea in una frase. Il video illustra 8 esempi pratici, mostrando come l'AI possa generare rapidamente progetti diversi, da una landing page a una dashboard dinamica. Questo strumento rende la creazione di presenze online e automazioni estremamente semplice, cambiando il panorama del web design."
+    },
+    {
+      "titolo": "Printing Press: collega agenti AI a qualsiasi piattaforma senza API pubbliche",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo tool progettato per superare l'ostacolo di far interagire l'intelligenza artificiale con piattaforme che non offrono API pubbliche. Questo strumento permette di creare facilmente interfacce a riga di comando (CLI) per connettere un agente AI a qualsiasi software, ottimizzando il consumo di token e migliorando l'efficienza. È una soluzione pratica per automatizzare processi anche in sistemi meno moderni."
+    },
+    {
+      "titolo": "Claude Motion e Claude Dashboards: le nuove funzionalità per video e analisi dati",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Anthropic ha introdotto due importanti novità per Claude: Claude Motion e Claude Dashboards. Motion permette di trasformare dati o prodotti in video, perfetto per presentazioni ai clienti, mentre Dashboards facilita la conversione di file Excel in dashboard interattive e dinamiche. Questi strumenti, disponibili per i piani più avanzati di Claude, migliorano significativamente le capacità di visualizzazione dei dati e l'automazione."
+    }
+  ]
+}

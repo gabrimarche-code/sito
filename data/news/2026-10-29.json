@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-29",
+  "notizie": [
+    {
+      "titolo": "Certi avvocati hanno fatto una figuraccia con l'AI ma con questo nuovo tool le cose potrebbero cambiare",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/certi-avvocati-hanno-fatto-una-figuraccia-con-lai-ma-con-questo-nuovo-tool-le-cose-potrebbero-cambiare",
+      "data": "",
+      "riassunto": "Anthropic ha lanciato dei nuovi strumenti per Claude, specificamente pensati per il settore legale. Il più interessante è un sistema che controlla le citazioni legali nelle fonti, aiutando gli avvocati a verificare l'affidabilità delle informazioni generate dall'AI ed evitando brutte figure, lasciando sempre all'umano la decisione finale."
+    },
+    {
+      "titolo": "Un aggiornamento della Model Spec per un'AI più capace e benefica",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/updated-model-spec/",
+      "data": "29/10/2026",
+      "riassunto": "OpenAI ha rilasciato un aggiornamento della sua \"Model Spec\", una sorta di linea guida per lo sviluppo dei suoi modelli di intelligenza artificiale. L'obiettivo è creare AI sempre più potenti, ma anche più sicure e utili per l'umanità, affrontando le sfide legate al loro impatto futuro."
+    },
+    {
+      "titolo": "Gemini 4 Carbon: ecco tutto quello che devi sapere sul nuovo modello di Google",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/JPSc-j5SKI",
+      "data": "28/10/2026",
+      "riassunto": "Google ha presentato Gemini 4 Carbon, il suo nuovo modello di intelligenza artificiale. Questo short video spiega le caratteristiche principali di questo LLM (Large Language Model), evidenziandone le potenzialità e le novità che introduce rispetto alle versioni precedenti, un passo avanti nello sviluppo dell'AI di Google."
+    },
+    {
+      "titolo": "Hanno Appena Ricostruito Adobe GRATIS (e Claude le Usa al Posto Tuo)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=LluVYuKfYvE",
+      "data": "28/10/2026",
+      "riassunto": "Un team ha creato ArtCraft, una suite di 7 app gratuite e open source (come PhotoCraft, FilmCraft) che emulano i programmi Adobe (Photoshop, Premiere, ecc.). La vera chicca è l'integrazione con Claude Opus 5.5: puoi comandare tutte le funzioni delle app direttamente con l'AI, trasformando ogni voce di menu in un comando."
+    },
+    {
+      "titolo": "Il Web Design È MORTO? ChatGPT Ora Crea Siti e App da Solo",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=LexcQOqz-xw",
+      "data": "26/10/2026",
+      "riassunto": "Con ChatGPT Sites, ora puoi creare siti web e app semplicemente scrivendo una frase. Il video mostra 8 casi d'uso reali, dal lancio di un prodotto a una dashboard automatica, evidenziando come l'AI stia rivoluzionando il web design, rendendo la creazione di progetti online accessibile anche ai non esperti."
+    },
+    {
+      "titolo": "Top 10 repository di Claude Skills (ottobre 2026)",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/1IhYJbz_pd8",
+      "data": "28/10/2026",
+      "riassunto": "Un riassunto delle 10 \"skill\" più popolari per Claude nell'ultimo mese. Queste skill sono strumenti aggiuntivi che potenziano Claude, permettendogli di fare cose specifiche come il debugging del codice, l'analisi di sicurezza o la creazione di illustrazioni isometriche, offrendo nuove possibilità per sviluppatori e professionisti."
+    },
+    {
+      "titolo": "Grok Bot spiegato passo passo: come ho creato 10 assistenti IA che mi gestiscono la vita privata",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=r8iNTbx3YDQ",
+      "data": "29/10/2026",
+      "riassunto": "Questo video spiega come configurare e usare Grok Bot, l'AI di X, per automatizzare la gestione della vita quotidiana. Vengono mostrate routine per scadenze, spese, salute e acquisti, anche a computer spento, e come due Grok Bot possono comunicare tra loro, replicando il sistema anche per il lavoro."
+    },
+    {
+      "titolo": "Claude Motion e Claude Dashboards sono le due novità di Claude uscite l'8 ottobre",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Anthropic ha lanciato due nuove funzionalità per Claude: Claude Motion e Claude Dashboards. Il video spiega come trasformare facilmente un foglio Excel in una dashboard che si aggiorna automaticamente e come creare video dinamici dai propri dati o prodotti, utili per presentazioni o comunicazioni."
+    },
+    {
+      "titolo": "Agenti AI e Hermes Agent: costruisco il mio agente AI personalizzato",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=jLwCOaFxgc8",
+      "data": "26/10/2026",
+      "riassunto": "Il video avvia un progetto per la creazione di un agente AI personalizzato, chiamato Hermes Agent. Viene mostrato passo dopo passo come configurarlo, gestirne la memoria e collegarlo alle applicazioni di lavoro, offrendo un'occasione pratica per capire come costruire e sfruttare un'AI su misura per le proprie esigenze professionali."
+    },
+    {
+      "titolo": "Anthropic ha lanciato Claude for Small Business: un plugin che porta Claude dentro la tua azienda",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un plugin progettato per le Piccole e Medie Imprese. Questo pacchetto include una serie di connettori e workflow predefiniti (come Gmail, Google Drive, Microsoft 365) che permettono alle PMI di integrare facilmente Claude nelle loro operazioni e automatizzare vari processi aziendali con pochi clic."
+    }
+  ]
+}

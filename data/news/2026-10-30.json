@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-30",
+  "notizie": [
+    {
+      "titolo": "Claude for Legal: il nuovo tool di Anthropic per avvocati con controllo citazioni",
+      "fonte": "Tom's Hardware Italia",
+      "link": "https://www.tomshw.it/business/certi-avvocati-hanno-fatto-una-figuraccia-con-lai-ma-con-questo-nuovo-tool-le-cose-potrebbero-cambiare",
+      "data": "",
+      "riassunto": "Anthropic ha lanciato Claude for Legal, un pacchetto di sei nuovi strumenti pensati per i professionisti del diritto. Questi tool includono un sistema avanzato per il controllo delle citazioni sulle fonti, fondamentale per garantire l'accuratezza e prevenire errori legali nell'uso dell'AI. L'obiettivo è offrire strumenti affidabili per l'assistenza legale, lasciando sempre al professionista la decisione finale."
+    },
+    {
+      "titolo": "Google Gemini 4 Carbon: tutte le novità sul nuovo modello AI",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/JPSc-j5S2KI",
+      "data": "28/10/2026",
+      "riassunto": "Google ha presentato Gemini 4 Carbon, il suo più recente e potente modello di intelligenza artificiale. Questo annuncio è cruciale per chi segue l'evoluzione degli LLM, in quanto promette di introdurre significativi miglioramenti nelle capacità e nelle prestazioni dell'AI. È una notizia imperdibile per capire dove si sta dirigendo il futuro dell'AI di Google."
+    },
+    {
+      "titolo": "OpenAI lancia i \"Dots\", agenti AI autonomi: cosa cambia rispetto a ChatGPT?",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/wfGovNTTVH8",
+      "data": "27/10/2026",
+      "riassunto": "OpenAI ha introdotto i \"Dots\", una nuova generazione di agenti AI autonomi che si distinguono dai classici chatbot come ChatGPT per la loro capacità di operare in modo più indipendente. Questi agenti sono progettati per svolgere compiti complessi e prendere iniziative. Il video spiega le principali differenze e il potenziale rivoluzionario che i Dots potrebbero avere nel campo dell'AI."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: il plugin AI per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha annunciato Claude for Small Business, un plugin innovativo che permette alle piccole e medie imprese di integrare facilmente l'intelligenza artificiale Claude nelle proprie operazioni quotidiane. Questo pacchetto include una serie di connettori e workflow \"agentici\" pronti all'uso, ideali per automatizzare attività come la gestione di email e documenti, aumentando significativamente la produttività aziendale."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Printing Press è un nuovo strumento che risolve un grande ostacolo per l'automazione AI: la difficoltà di connettere agenti AI a piattaforme che non offrono API pubbliche. Questo tool permette di creare interfacce a riga di comando (CLI) per qualsiasi servizio, consentendo all'AI di interagire anche con sistemi normalmente inaccessibili. Significa più automazioni e meno tempo sprecato, ottimizzando l'uso dei token."
+    },
+    {
+      "titolo": "Claude Motion e Claude Dashboards: le nuove funzioni per video e analisi dati",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Claude ha rilasciato due funzionalità innovative: Claude Motion e Claude Dashboards. Motion consente di trasformare i tuoi dati o prodotti in video animati in modo rapido e semplice. Dashboards, invece, permette di convertire fogli Excel in dashboard interattive che si aggiornano automaticamente. Queste novità espandono le capacità di Claude, rendendolo uno strumento ancora più versatile per la creazione di contenuti e l'analisi avanzata dei dati."
+    },
+    {
+      "titolo": "ArtCraft: le alternative gratuite ad Adobe potenziate da Claude",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=LluVYuKfYvE",
+      "data": "28/10/2026",
+      "riassunto": "Un nuovo team chiamato ArtCraft ha ricostruito da zero le funzionalità principali di Adobe, offrendo suite di app gratuite e open source come PhotoCraft (Photoshop) e FilmCraft (Premiere). La vera svolta è l'integrazione con Claude Opus 5.5, che consente di controllare queste applicazioni tramite comandi AI. Ogni funzione di menu può essere gestita dall'intelligenza artificiale, rendendo l'editing e la creazione di contenuti più intuitivi e potenti."
+    },
+    {
+      "titolo": "Creare animazioni e motion graphics con Claude scrivendo solo codice JavaScript",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=TjMf4YOtlf0",
+      "data": "30/10/2026",
+      "riassunto": "Sorprendentemente, Claude, pur non avendo un modello video diretto, può generare animazioni e motion graphics complesse. Il trucco sta nel fargli scrivere codice JavaScript che disegna ogni singolo fotogramma. Questo tutorial mostra come, utilizzando prompt specifici, è possibile creare contenuti visivi animati di alta qualità, in modo innovativo e gratuito, senza bisogno di software di animazione dedicati."
+    },
+    {
+      "titolo": "Costruire il tuo agente AI personalizzato: guida passo passo con Hermes Agent",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=jLwCOaFxgc8",
+      "data": "26/10/2026",
+      "riassunto": "Questo video introduce un progetto pratico per la creazione di un agente AI personalizzato, chiamato Hermes Agent. Viene illustrato passo dopo passo come configurare l'agente, gestire la sua memoria e collegarlo alle applicazioni di lavoro quotidiane. È una risorsa preziosa per chi desidera esplorare la costruzione di assistenti AI su misura, fornendo sia le istruzioni che un'analisi delle sfide pratiche."
+    },
+    {
+      "titolo": "L'impatto dell'AI sul mercato del lavoro e le nuove skill per i junior",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/watch?v=4HfeGHvM1LI",
+      "data": "30/10/2026",
+      "riassunto": "L'intelligenza artificiale sta rivoluzionando il mercato del lavoro, in particolare per i giovani e le posizioni entry-level. Questo video analizza perché i lavori junior sono i più esposti all'automazione AI e quali compiti l'AI può già svolgere in autonomia. Discute inoltre quali competenze umane, come il giudizio e l'esperienza, diventano sempre più cruciali e come i neolaureati possono distinguersi in questo scenario in continua evoluzione."
+    }
+  ]
+}

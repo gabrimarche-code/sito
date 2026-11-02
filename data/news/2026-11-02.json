@@ -1,0 +1,75 @@
+{
+  "data": "2026-11-02",
+  "notizie": [
+    {
+      "titolo": "Claude Motion e Claude Dashboards: le nuove funzionalità per video e analisi dati",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUJymY",
+      "data": "22/10/2026",
+      "riassunto": "Claude, l'AI di Anthropic, ha lanciato due nuove funzionalità super interessanti: Claude Motion e Claude Dashboards. Motion ti permette di trasformare i tuoi dati o un'idea in un video animato, creando motion graphics complesse direttamente dalla chat. Dashboards, invece, ti aiuta a visualizzare e aggiornare in automatico i tuoi dati, per esempio trasformando un file Excel in una dashboard interattiva. Perfette per presentazioni o analisi rapide!"
+    },
+    {
+      "titolo": "Printing Press: connetti gli agenti AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Finalmente uno strumento che risolve un grande problema: Printing Press. Questo tool ti permette di creare delle CLI (interfacce a riga di comando) per far interagire i tuoi agenti AI con piattaforme che normalmente non hanno connettori o API pubbliche. Significa che puoi automatizzare processi e far lavorare l'AI anche con quei servizi \"isolati\", risparmiando tempo e token."
+    },
+    {
+      "titolo": "Ho testato i Dots di OpenAI: ecco cosa cambia rispetto a ChatGPT",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/wfGovNTTVH8",
+      "data": "27/10/2026",
+      "riassunto": "OpenAI ha rilasciato i suoi nuovi agenti AI autonomi, chiamati Dots. Questo short ti dà un'idea dei primi test e delle differenze principali rispetto a ChatGPT. È interessante capire come questi \"agenti\" evoluti possano interagire in modo più indipendente e cosa significhino per il futuro delle automazioni e dell'interazione con l'AI."
+    },
+    {
+      "titolo": "Come creare animazioni e motion graphics pazzesche con Claude",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=TjMf4YOtlf0",
+      "data": "30/10/2026",
+      "riassunto": "Ti sembra strano, ma Claude, anche senza un modello video specifico, può creare animazioni e motion graphics! Questo video ti mostra come farlo passo dopo passo, usando Claude per scrivere il codice JavaScript che disegna ogni fotogramma. Ci sono anche dei prompt gratuiti per iniziare subito, trasformando una semplice chat in uno strumento creativo per video."
+    },
+    {
+      "titolo": "Claude come direttore creativo: creo grafiche per campagne con AI e Linearity",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=vvW4u16Aq2o",
+      "data": "01/11/2026",
+      "riassunto": "Immagina di creare intere campagne grafiche in pochi minuti, senza usare software complessi o agenzie. In questo video, viene mostrato come Claude possa agire da vero \"direttore creativo\", generando le idee e le grafiche, che poi vengono finalizzate e modificate con Linearity. È un esempio pratico di come l'AI generativa possa rivoluzionare il mondo del design e del marketing."
+    },
+    {
+      "titolo": "Costruire un Second Brain per il tuo agente AI con Obsidian (e non solo)",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=7GwLfArq5_g",
+      "data": "02/11/2026",
+      "riassunto": "Vuoi migliorare la produttività dei tuoi agenti AI? Questo video spiega come costruire un \"Second Brain\" (un sistema per organizzare le tue conoscenze) da collegare a agenti come Claude Code, Hermes Agent o altri. Viene introdotto anche il ruolo facoltativo di Obsidian per visualizzare i collegamenti. Un metodo super utile per rendere i tuoi assistenti AI più intelligenti e informati."
+    },
+    {
+      "titolo": "Grok Bot: 10 assistenti IA che gestiscono la mia vita privata (e non solo)",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=r8iNTbx3YDQ",
+      "data": "29/10/2026",
+      "riassunto": "Se ti piacciono le automazioni, questo video ti mostrerà come creare ben 10 assistenti IA personalizzati con Grok Bot (il tool incluso nell'abbonamento X Premium). Questi \"bot\" possono aiutarti a gestire scadenze, casa, salute, spese e acquisti, lavorando anche a computer spento. Viene spiegato come impostare il master prompt e farli comunicare tra loro."
+    },
+    {
+      "titolo": "Ottimizzare e personalizzare la tua Android TV con Claude Code",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=nFxwqU3gCB8",
+      "data": "30/10/2026",
+      "riassunto": "La tua Smart TV Android è lenta e piena di cose inutili? Questo video mostra un esperimento per \"sbloccarla\" e ottimizzarla usando Claude Code. Viene provato a collegare l'AI alla TV per pulire le app superflue e creare una nuova interfaccia più essenziale. È un esempio pratico e divertente di come l'AI possa essere usata per personalizzare e migliorare la tecnologia che già possediamo."
+    },
+    {
+      "titolo": "Claude for Small Business: il plugin di Anthropic per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha lanciato Claude for Small Business, un pacchetto di connettori e workflow pensato per le Piccole e Medie Imprese. Si attiva dentro Claude Cowork e include 31 \"skill\" e 12 connettori pronti all'uso per strumenti come Gmail, Google Drive e Microsoft 365. È un modo semplice e veloce per le aziende di integrare Claude nei loro flussi di lavoro e aumentare la produttività."
+    },
+    {
+      "titolo": "L'Intelligenza Artificiale sta cambiando il mercato del lavoro junior",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/watch?v=4HfeGHvM1LI",
+      "data": "30/10/2026",
+      "riassunto": "L'intelligenza artificiale sta avendo un impatto significativo sul mercato del lavoro, specialmente per i ruoli entry-level. Questo video analizza come l'AI stia già svolgendo molti compiti solitamente affidati ai junior e quali competenze diventano fondamentali per i giovani che cercano di entrare nel mondo del lavoro. È una riflessione importante su come adattarsi e sviluppare le giuste skill digitali."
+    }
+  ]
+}

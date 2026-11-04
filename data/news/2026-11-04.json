@@ -1,0 +1,75 @@
+{
+  "data": "2026-11-04",
+  "notizie": [
+    {
+      "titolo": "Qwen3.8 flash next invia dati in Cina (e problemi privacy)",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/1H2MhpGglHI",
+      "data": "04/11/2026",
+      "riassunto": "È stata scoperta una grave falla nel modello di intelligenza artificiale Qwen3.8 flash next: sembra che invii di nascosto dati in Cina. Questo solleva seri problemi di privacy, mostrando che neanche con i modelli open-weight siamo al sicuro riguardo al controllo dei nostri dati. È un campanello d'allarme per la sicurezza nell'uso degli LLM."
+    },
+    {
+      "titolo": "Come costruire un Second Brain da collegare al tuo agente AI",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=7GwLfArq5_g",
+      "data": "02/11/2026",
+      "riassunto": "Questo video ti guida passo passo nella creazione di un \"Second Brain\" digitale, una sorta di cervello esterno per la tua intelligenza artificiale. Puoi collegarlo a diversi agenti AI come Hermes Agent, Claude Code o ChatGPT Work per renderli più efficaci. Viene anche mostrato come Obsidian possa essere un valido strumento opzionale per organizzare e visualizzare le informazioni del tuo Second Brain."
+    },
+    {
+      "titolo": "Ho testato i Dots di OpenAI, gli agenti AI autonomi: cosa cambia rispetto a ChatGPT?",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/wfGovNTTVH8",
+      "data": "27/10/2026",
+      "riassunto": "Sono stati testati i nuovi \"Dots\" di OpenAI, presentati come veri e veri e propri agenti AI autonomi. Il video esplora cosa li rende diversi e più avanzati rispetto a ChatGPT, suggerendo un'evoluzione verso sistemi AI più indipendenti e capaci di operare senza costante supervisione umana. È una notizia interessante per chi vuole capire le prossime frontiere dell'intelligenza artificiale."
+    },
+    {
+      "titolo": "Agenti AI da zero: ho creato 7 dipendenti AI che lavorano mentre dormo, senza una riga di codice",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=j0w_jQjKPxY",
+      "data": "04/11/2026",
+      "riassunto": "Scopri come creare e assumere i tuoi primi \"dipendenti AI\" senza scrivere una sola riga di codice. Il video spiega come funzionano questi agenti AI autonomi che possono svolgere compiti per te anche quando non sei attivo, liberando tempo e aumentando la tua produttività. Un kit gratuito con prompt e regole per gestirli è disponibile per iniziare subito."
+    },
+    {
+      "titolo": "Claude come direttore creativo, Linearity come studio grafico: campagne complete generate con l’AI",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=vvW4u16Aq2o",
+      "data": "01/11/2026",
+      "riassunto": "Questo video mostra come utilizzare Claude come un vero e proprio direttore creativo e Linearity come uno studio grafico, per generare campagne pubblicitarie complete e personalizzabili in pochi minuti. È un sistema che permette di creare grafiche avanzate senza bisogno di software complessi come Photoshop o Figma, ottimizzando i tempi e i costi per la produzione di materiali visivi."
+    },
+    {
+      "titolo": "Claude e ChatGPT hanno finalmente un rivale serio: Kimi K3.1 Pro, e puoi provarlo GRATIS",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=IcJ49rzLvrI",
+      "data": "04/11/2026",
+      "riassunto": "Moonshot AI ha lanciato Kimi K3.1 Pro, un nuovo modello che si presenta come un serio concorrente per giganti come Claude Opus 5.5 e GPT-6 Astra. Il video mette alla prova Kimi K3.1 Pro con lavori reali, dimostrando le sue capacità in diversi ambiti come la creazione di contenuti e documenti aziendali. La buona notizia è che puoi provarlo gratuitamente per valutarne le performance."
+    },
+    {
+      "titolo": "Printing Press: l'AI si collega a qualsiasi piattaforma, anche senza API pubbliche",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Scopri Printing Press, un nuovo strumento che risolve il problema di collegare l'intelligenza artificiale a piattaforme che non offrono API pubbliche. Permette di creare Command Line Interface (CLI) per far interagire gli agenti AI con qualsiasi sistema, riducendo anche il consumo di token rispetto ad altre soluzioni. Questo apre nuove possibilità di automazione per sistemi che prima erano inaccessibili all'AI."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: l'AI per le PMI in pochi click",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato \"Claude for Small Business\", un plugin pensato specificamente per le Piccole e Medie Imprese. Questo pacchetto include una serie di connettori e workflow pre-impostati per integrare Claude con strumenti comuni come Gmail, Google Drive e Microsoft 365, permettendo alle PMI di adottare l'AI per migliorare la produttività in modo semplice e veloce."
+    },
+    {
+      "titolo": "Grok Bot spiegato passo passo: 10 assistenti IA che ti gestiscono la vita privata",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=r8iNTbx3YDQ",
+      "data": "29/10/2026",
+      "riassunto": "Questo video ti mostra come creare e usare \"Grok Bot\", gli assistenti IA inclusi nell'abbonamento X Premium, per gestire la tua vita privata. Vengono illustrati esempi di come organizzare scadenze, gestire la casa, la salute e le spese, anche con il computer spento. È un esempio pratico di come gli agenti AI possano automatizzare e semplificare molti aspetti della routine quotidiana."
+    },
+    {
+      "titolo": "Claude Motion e Claude Dashboards: le novità di Claude per video e analisi dati",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=mI1ahdUjymY",
+      "data": "22/10/2026",
+      "riassunto": "Scopri le ultime funzionalità di Claude: Motion e Dashboards. Claude Motion ti permette di trasformare i tuoi dati o prodotti in video accattivanti, mentre Claude Dashboards converte un semplice Excel in una dashboard interattiva e auto-aggiornante. Sono strumenti potenti per migliorare la presentazione di dati e la creazione di contenuti visivi, disponibili nei piani più avanzati di Claude."
+    }
+  ]
+}

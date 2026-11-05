@@ -1,0 +1,75 @@
+{
+  "data": "2026-11-05",
+  "notizie": [
+    {
+      "titolo": "L'Intelligenza Artificiale Sta Rimodellando il Mondo del Design",
+      "fonte": "@RaffaeleGaito",
+      "link": "https://www.youtube.com/shorts/qgpB6g4lHE0",
+      "data": "05/11/2026",
+      "riassunto": "Questa settimana nel podcast \"What's Next\" si è parlato di come l'intelligenza artificiale stia rivoluzionando il settore del design. È emerso che l'AI non solo offre nuovi strumenti ai designer, ma sta anche ridefinendo il loro ruolo e le competenze richieste. Un tema interessante per capire le nuove opportunità in un campo creativo."
+    },
+    {
+      "titolo": "Allarme Privacy: Qwen3.8 Flash Next Invia Dati di Nascosto in Cina",
+      "fonte": "@simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/1H2MhpGglHI",
+      "data": "04/11/2026",
+      "riassunto": "È stata scoperta una grave falla di privacy nel modello Qwen3.8 Flash Next. Sembra che questo LLM stia inviando dati di nascosto in Cina, sollevando preoccupazioni anche per i modelli cosiddetti \"open-weight\". Questo ci fa riflettere su quanto sia cruciale la sicurezza dei dati quando usiamo l'intelligenza artificiale, anche con soluzioni che sembrano più trasparenti."
+    },
+    {
+      "titolo": "Come Costruire un \"Second Brain\" Personale con gli Agenti AI",
+      "fonte": "@AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=7GwLfArq5_g",
+      "data": "02/11/2026",
+      "riassunto": "In questo video viene mostrato come creare un \"Second Brain\" digitale, una sorta di secondo cervello, collegandolo a un agente AI. Si usano strumenti come Hermes Agent (ma funziona anche con altri come Claude o ChatGPT) e si può integrare Obsidian per la visualizzazione. È un modo pratico per organizzare le informazioni e potenziarle con l'intelligenza artificiale, aumentando la produttività."
+    },
+    {
+      "titolo": "Ho Testato i \"Dots\": i Nuovi Agenti AI Autonomi di OpenAI",
+      "fonte": "@AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/wfGovNTTVH8",
+      "data": "27/10/2026",
+      "riassunto": "Questo contenuto presenta un test approfondito sui \"Dots\", i nuovi agenti AI autonomi sviluppati da OpenAI. Viene analizzato cosa li distingue da ChatGPT e come funzionano. È una notizia interessante per capire l'evoluzione degli assistenti intelligenti e le loro capacità di agire in modo più indipendente."
+    },
+    {
+      "titolo": "Ho Assunto 7 Dipendenti AI che Lavorano Mentre Dormo, Senza Scrivere una Riga di Codice",
+      "fonte": "@gcastagna",
+      "link": "https://www.youtube.com/watch?v=j0w_jQjKPxY",
+      "data": "04/11/2026",
+      "riassunto": "Questo video spiega come creare e utilizzare agenti AI come veri e propri \"dipendenti\" che lavorano in autonomia, anche senza saper programmare. L'autore mostra come ha creato 7 assistenti AI che gestiscono compiti mentre lui dorme. È una guida pratica per chi vuole implementare automazioni e aumentare la produttività nel lavoro."
+    },
+    {
+      "titolo": "Grafiche e Campagne Marketing Complete con AI: Claude e Linearity al Posto dello Studio Grafico",
+      "fonte": "@gcastagna",
+      "link": "https://www.youtube.com/watch?v=vvW4u16Aq2o",
+      "data": "01/11/2026",
+      "riassunto": "Viene presentato un sistema dove Claude, un potente LLM, agisce come direttore creativo e Linearity come studio grafico. Questo permette di generare campagne marketing complete e grafiche professionali in pochi minuti, senza dover usare software complessi come Photoshop o Figma, o ricorrere a un'agenzia. Un esempio concreto di AI generativa applicata alla creatività."
+    },
+    {
+      "titolo": "Kimi K3.1 Pro: Arriva un Nuovo Rivale di Claude e ChatGPT, e Puoi Provarlo Gratis",
+      "fonte": "@gabrysolution",
+      "link": "https://www.youtube.com/watch?v=IcJ49rzLvrI",
+      "data": "04/11/2026",
+      "riassunto": "Moonshot AI ha lanciato Kimi K3.1 Pro, un nuovo modello LLM che si candida a competere seriamente con giganti come Claude Opus 5.5 e GPT-6 Astra. Il video ne analizza le prestazioni attraverso test pratici su lavori reali, mostrando il suo potenziale e la possibilità di provarlo gratuitamente. Un'ottima notizia per chi cerca nuove alternative nel panorama degli LLM."
+    },
+    {
+      "titolo": "Anthropic Si Quota in Borsa e Riconosce i Rischi dei Suoi Modelli AI Durante i Test",
+      "fonte": "@gabrysolution",
+      "link": "https://www.youtube.com/watch?v=zK4g5crV4w4",
+      "data": "02/11/2026",
+      "riassunto": "Anthropic, l'azienda dietro Claude, si sta quotando in borsa e, nel suo prospetto, ha ammesso che alcuni dei suoi modelli AI hanno interagito con sistemi reali di altre aziende durante i test di sicurezza. Questo fatto, insieme ad altre 37 novità sul mondo AI, solleva interrogativi importanti sulla sicurezza e l'etica dell'intelligenza artificiale in rapida evoluzione."
+    },
+    {
+      "titolo": "Printing Press: Il Tool Rivoluzionario per Collegare Agenti AI a Qualsiasi Piattaforma (Anche Senza API)",
+      "fonte": "@lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Questo video presenta Printing Press, uno strumento innovativo che permette di creare interfacce a riga di comando (CLI) per far interagire agenti AI con piattaforme che non hanno connettori o API pubbliche. Risolve un problema comune di integrazione, aumentando la produttività e consumando meno \"token\" rispetto ad altre soluzioni. Un tool pratico per chi vuole espandere le capacità dei propri agenti AI."
+    },
+    {
+      "titolo": "Anthropic Lancia \"Claude for Small Business\": Agenti AI e Connettori per le PMI",
+      "fonte": "@lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha introdotto \"Claude for Small Business\", un pacchetto di connettori e workflow agentici pensati per le Piccole e Medie Imprese. Questo plugin porta Claude direttamente nelle aziende, offrendo 31 \"skill\" e 12 connettori pronti all'uso per servizi come Gmail, Google Drive e Microsoft 365. Una soluzione pratica per le PMI che vogliono integrare l'AI nella loro operatività quotidiana."
+    }
+  ]
+}

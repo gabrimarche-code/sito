@@ -1,0 +1,75 @@
+{
+  "data": "2026-11-08",
+  "notizie": [
+    {
+      "titolo": "Gli LLM ora leggono e scrivono i pesi delle reti neurali con il weight-space programming",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/yFIkKe5jDzw",
+      "data": "08/11/2026",
+      "riassunto": "Questa è una notizia che promette di cambiare le regole del gioco nell'AI. Si parla di \"weight-space programming\", una nuova tecnica che permette ai modelli LLM di leggere e modificare direttamente i \"pesi\" delle reti neurali. In parole semplici, l'AI sta diventando capace di ottimizzare e migliorare il proprio funzionamento in modo ancora più profondo, rendendosi più autonoma e potente."
+    },
+    {
+      "titolo": "Kimi K3.1 Pro, un nuovo e serio rivale gratuito per Claude e ChatGPT",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=IcJ49rzLvrI",
+      "data": "04/11/2026",
+      "riassunto": "Moonshot AI ha lanciato Kimi K3.1 Pro, un nuovo modello LLM che si presenta come un agguerrito concorrente per i giganti come Claude Opus 5.5 e GPT-6 Astra. Il video ne testa le capacità su 5 lavori reali, dalla creazione di contenuti alla gestione di documenti aziendali, dimostrando prestazioni elevate. La cosa più interessante è che puoi provarlo gratis!"
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business: un plugin per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha rilasciato un nuovo plugin chiamato Claude for Small Business, pensato per le Piccole e Medie Imprese. Questo strumento integra Claude direttamente nelle aziende in pochi click, offrendo un pacchetto di connettori e workflow preimpostati per migliorare la produttività. Include skill e connettori pronti all'uso per servizi come Gmail, Google Drive e Microsoft 365, semplificando l'adozione dell'AI."
+    },
+    {
+      "titolo": "Grok Bot: 10 assistenti AI per gestire la vita privata e lavorativa",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=r8iNTbx3YDQ",
+      "data": "29/10/2026",
+      "riassunto": "Questo video ti mostra come creare e utilizzare Grok Bot per avere fino a 10 assistenti AI che gestiscono la tua vita privata (scadenze, casa, salute, spese) e lavorativa, anche quando il computer è spento. Spiega come funziona il \"master prompt\" per la configurazione iniziale, le routine e persino come due Grok Bot possono comunicare tra loro, offrendo un esempio pratico di automazione personale avanzata."
+    },
+    {
+      "titolo": "Agenti AI \"dipendenti\": come assumere 7 AI senza codice",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=j0w_jQjKPxY",
+      "data": "04/11/2026",
+      "riassunto": "Viene presentato un metodo per creare e \"assumere\" agenti AI che lavorano in autonomia, anche mentre dormi, senza dover scrivere una singola riga di codice. Il video spiega come funzionano questi \"dipendenti AI\" e ti mostra come puoi iniziare a implementare il tuo primo assistente per automatizzare compiti e processi, sia per il lavoro che per la gestione della vita quotidiana."
+    },
+    {
+      "titolo": "Costruire un Second Brain con un agente AI (es. Hermes Agent)",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=7GwLfArq5_g",
+      "data": "02/11/2026",
+      "riassunto": "Il video dimostra come costruire un \"Second Brain\" digitale, ovvero un sistema per organizzare tutte le tue conoscenze e informazioni, collegandolo a un agente AI come Hermes Agent. Questa configurazione permette all'intelligenza artificiale di accedere e utilizzare le tue informazioni per fornire risposte più precise e contestualizzate, oltre a svolgere attività automatizzate. Viene anche suggerito l'uso di Obsidian per visualizzare i collegamenti tra i tuoi dati."
+    },
+    {
+      "titolo": "Metodo completo per studiare con l'AI senza delegare l'apprendimento",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/watch?v=RjKzIUmwekk",
+      "data": "08/11/2026",
+      "riassunto": "Questo video illustra un metodo completo per integrare l'intelligenza artificiale nel tuo processo di studio, non per farti fare il lavoro al posto tuo, ma come un vero e proprio \"compagno\" di apprendimento. Ti mostra come l'AI può aiutarti a organizzare il lavoro, mantenere alta la concentrazione, capire meglio concetti complessi e ripassare in modo più efficace, anche con la \"ChatGPT Study Mode\" per farti interrogare."
+    },
+    {
+      "titolo": "Printing Press: un tool per connettere agenti AI a piattaforme senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Viene presentato Printing Press, uno strumento innovativo che risolve un problema comune: come collegare agenti AI a piattaforme che non offrono API pubbliche o connettori diretti. Permette di creare interfacce a riga di comando (CLI) personalizzate, rendendo possibile l'automazione e l'interazione dell'AI anche con sistemi altrimenti \"chiusi\", ottimizzando l'uso dei token e migliorando notevolmente la produttività."
+    },
+    {
+      "titolo": "Revolut sceglie il modello AI cinese GLM per risparmiare sui token",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/cKh4NPg5wwc",
+      "data": "07/11/2026",
+      "riassunto": "La notizia evidenzia una mossa strategica di Revolut, che ha deciso di implementare un modello di intelligenza artificiale cinese, il GLM, preferendolo alle soluzioni di Anthropic o OpenAI. La scelta è motivata da un impressionante risparmio sui costi dei token, che si stima sia intorno al 90%. Questo è un esempio concreto di come le aziende stiano esplorando alternative più economiche ma altrettanto efficaci nel panorama degli LLM."
+    },
+    {
+      "titolo": "La roadmap completa per imparare l'AI nel 2026 partendo da zero",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=hWGNlPTJIwg",
+      "data": "06/11/2026",
+      "riassunto": "Questo video offre una guida dettagliata per chiunque voglia imparare l'intelligenza artificiale nel 2026, partendo da zero. Presenta un percorso strutturato come un gioco di ruolo, con diverse \"classi\" (come Condottiero, Pirata, Evocatore, ecc.) e le relative abilità da sbloccare. Suggerisce corsi (molti dei quali gratuiti) e certificazioni utili per aiutarti a scegliere il percorso più adatto ai tuoi obiettivi e interessi nel mondo dell'AI."
+    }
+  ]
+}

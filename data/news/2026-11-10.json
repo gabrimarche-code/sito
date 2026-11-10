@@ -2,18 +2,74 @@
   "data": "2026-11-10",
   "notizie": [
     {
-      "titolo": "I 5 problemi dell'LLM Wiki e la soluzione Annota.ai per trasformare i tuoi documenti",
+      "titolo": "Anthropic lancia Fable 5.2 e Mythos 5.2: la nuova frontiera degli LLM",
       "fonte": "YouTube @simone_rizzo98",
-      "link": "https://www.youtube.com/watch?v=-M_D7RBvkZ4",
-      "data": "09/11/2026",
-      "riassunto": "Andrej Karpathy ha proposto l'LLM Wiki, un agente AI pensato per trasformare i tuoi documenti in una Wikipedia privata. Tuttavia, l'implementazione pratica in azienda presenta delle sfide. Questo video analizza i 5 problemi principali di LLM Wiki e introduce Annota.ai, una soluzione che promette di superarli, offrendo una \"ricetta\" pratica per sviluppare soluzioni AI avanzate."
+      "link": "https://www.youtube.com/watch?v=xr_CXrd6Wpk",
+      "data": "10/11/2026",
+      "riassunto": "Anthropic ha rilasciato due nuovi e potentissimi modelli di intelligenza artificiale, Fable 5.2 e Mythos 5.2. Questi modelli, originariamente pensati per la sicurezza informatica, promettono di spingere ancora più avanti i limiti dell'AI, con risultati impressionanti nel coding e nelle applicazioni scientifiche. Sono davvero una novità da tenere d'occhio per capire dove sta andando l'intelligenza artificiale."
     },
     {
-      "titolo": "I \"Constraint Decoding Models\": la nuova famiglia di modelli AI che supera gli LLM",
-      "fonte": "YouTube @simone_rizzo98",
-      "link": "https://www.youtube.com/shorts/l_d23ch1Oq8",
+      "titolo": "Prompt perfetti: la tecnica delle 11 parole per interagire al meglio con l'AI",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=eKw_IWwrGYw",
+      "data": "08/11/2026",
+      "riassunto": "Vuoi ottenere risposte migliori da ChatGPT, Gemini o Claude? Questo video rivela una tecnica geniale per scrivere prompt efficaci, usando una singola frase di sole 11 parole. È una dritta fondamentale per chiunque voglia migliorare le proprie capacità di \"prompt engineering\" e tirare fuori il massimo dagli strumenti di intelligenza artificiale, aumentando così la propria produttività."
+    },
+    {
+      "titolo": "Crea il tuo Second Brain con Agenti AI e Obsidian per una gestione conoscenza smart",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=7GwLfArq5_g",
+      "data": "02/11/2026",
+      "riassunto": "Impara a costruire un \"Second Brain\" personalizzato, un sistema per organizzare e gestire le tue informazioni, integrandolo con un agente AI. La configurazione mostrata, che può usare Obsidian per visualizzare i collegamenti, è compatibile con diversi agenti AI come Hermes Agent, Claude Code e ChatGPT Work. È un ottimo modo per automatizzare la gestione della conoscenza e rendere le tue informazioni sempre accessibili."
+    },
+    {
+      "titolo": "Raspberry Pi e AI: il tuo cloud di casa configurato senza codice",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=uPkr5ohPX64",
+      "data": "10/11/2026",
+      "riassunto": "Stanco degli abbonamenti per il cloud? Questo video ti mostra come creare il tuo cloud personale con un Raspberry Pi per foto e film. La parte più innovativa è che l'AI può configurare tutto il sistema per te, senza che tu debba scrivere una riga di codice. È un esempio perfetto di come l'intelligenza artificiale possa semplificare progetti tecnologici complessi, rendendoli accessibili a tutti."
+    },
+    {
+      "titolo": "Dentro OpenAI: tra agenti AI segreti, GPT-6.1 Astra e ricavi record",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=rtsu_XbSlRw",
       "data": "09/11/2026",
-      "riassunto": "È emersa una nuova categoria di modelli AI chiamata \"Constraint Decoding Models\". Questi modelli vantano nuove primitive, molto più potenti di quelle esistenti (simili a Jev, ma migliorate), e si stanno dimostrando superiori agli attuali LLM in moltissimi compiti. Rappresentano un passo avanti significativo nell'intelligenza artificiale, aprendo nuove possibilità per agenti AI più efficienti."
+      "riassunto": "Scopri cosa sta realmente succedendo nel cuore di OpenAI, l'azienda dietro ChatGPT. Tra 1.200 agenti AI su una bacheca segreta, attacchi a Hugging Face, la cancellazione del modello GPT-6.1 Astra e licenziamenti, l'azienda sta vivendo un periodo turbolento ma con ricavi mai così alti. Un'analisi approfondita delle dinamiche interne e del futuro di uno dei giganti dell'intelligenza artificiale."
+    },
+    {
+      "titolo": "La Roadmap completa per imparare l'AI nel 2026 partendo da zero",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=hWGNlPTJIwg",
+      "data": "06/11/2026",
+      "riassunto": "Se vuoi iniziare o approfondire le tue conoscenze nell'intelligenza artificiale, questa roadmap è la guida che fa per te. Ti offre un percorso completo e strutturato, diviso in \"classi\" con abilità specifiche da sbloccare, indicando corsi (anche gratuiti), libri e certificazioni più utili per il 2026. È la tua bussola per navigare nel mondo dell'AI e sviluppare competenze richieste."
+    },
+    {
+      "titolo": "Printing Press: Collega ogni agente AI a qualsiasi piattaforma, anche senza API",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Molti strumenti AI faticano a integrarsi con piattaforme che non hanno connettori diretti o API pubbliche, limitando la produttività. Printing Press è un nuovo tool che risolve questo problema: ti permette di creare delle \"Command Line Interfaces\" (CLI) personalizzate per collegare i tuoi agenti AI a praticamente qualsiasi servizio. È un modo efficiente e versatile per automatizzare processi anche complessi."
+    },
+    {
+      "titolo": "Claude for Small Business: l'AI di Anthropic con plugin pronti per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hsU2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic ha lanciato \"Claude for Small Business\", un pacchetto di plugin e workflow pensato per le Piccole e Medie Imprese. Questo tool, attivabile tramite Claude Cowork, include 31 \"skill\" e 12 connettori già pronti per l'uso, come quelli per Gmail, Google Drive e Microsoft 365. Permette alle PMI di integrare facilmente l'intelligenza artificiale per migliorare la produttività senza sforzi."
+    },
+    {
+      "titolo": "AssistentI AI per il tuo team con Claude e Notion: decisioni guidate dalle tue regole",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=kBQIgjHdkC0",
+      "data": "05/11/2026",
+      "riassunto": "Scopri come creare un assistente AI condiviso per il tuo team usando i \"progetti\" di Claude e il connettore Notion. Questo sistema permette al team di prendere decisioni seguendo le tue regole, anche quando non sei presente. L'AI può guidare le scelte, richiedere approvazioni specifiche e persino registrare automaticamente le nuove decisioni importanti, ottimizzando il lavoro di squadra."
+    },
+    {
+      "titolo": "Grok Bot: 10 assistenti IA per automatizzare e gestire la tua vita privata",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=r8iNTbx3YDQ",
+      "data": "29/10/2026",
+      "riassunto": "Impara a creare ben 10 assistenti AI personalizzati, i \"Grok Bot\", per gestire ogni aspetto della tua vita privata, dalle scadenze alla casa, dalla salute alle spese. Questi bot funzionano anche quando il tuo computer è spento e possono persino comunicare tra loro. Il video mostra come impostarli con un \"master prompt\" per automatizzare tantissimi aspetti, rendendoti la vita più semplice e organizzata."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "data": "2026-11-10",
+  "notizie": [
+    {
+      "titolo": "I 5 problemi dell'LLM Wiki e la soluzione Annota.ai per trasformare i tuoi documenti",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=-M_D7RBvkZ4",
+      "data": "09/11/2026",
+      "riassunto": "Andrej Karpathy ha proposto l'LLM Wiki, un agente AI pensato per trasformare i tuoi documenti in una Wikipedia privata. Tuttavia, l'implementazione pratica in azienda presenta delle sfide. Questo video analizza i 5 problemi principali di LLM Wiki e introduce Annota.ai, una soluzione che promette di superarli, offrendo una \"ricetta\" pratica per sviluppare soluzioni AI avanzate."
+    },
+    {
+      "titolo": "I \"Constraint Decoding Models\": la nuova famiglia di modelli AI che supera gli LLM",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/l_d23ch1Oq8",
+      "data": "09/11/2026",
+      "riassunto": "È emersa una nuova categoria di modelli AI chiamata \"Constraint Decoding Models\". Questi modelli vantano nuove primitive, molto più potenti di quelle esistenti (simili a Jev, ma migliorate), e si stanno dimostrando superiori agli attuali LLM in moltissimi compiti. Rappresentano un passo avanti significativo nell'intelligenza artificiale, aprendo nuove possibilità per agenti AI più efficienti."
+    }
+  ]
+}

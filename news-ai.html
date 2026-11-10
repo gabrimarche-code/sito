@@ -37,7 +37,8 @@ select:focus{border-color:#7B5FC8}
   <div class="selettore">
     <label>Archivio date:</label>
     <select id="sel" onchange="mostra(this.value)">
-      <option value="2026-11-08">08/11/2026</option>
+      <option value="2026-11-10">10/11/2026</option>
+<option value="2026-11-08">08/11/2026</option>
 <option value="2026-11-07">07/11/2026</option>
 <option value="2026-11-06">06/11/2026</option>
 <option value="2026-11-05">05/11/2026</option>
@@ -165,7 +166,20 @@ select:focus{border-color:#7B5FC8}
 
     </select>
   </div>
-  <div class="giorno" data-date="2026-11-08">
+  <div class="giorno" data-date="2026-11-10">
+<div class="notizia">
+  <div class="notizia-fonte">YouTube @simone_rizzo98 &bull; 09/11/2026</div>
+  <div class="notizia-titolo">I 5 problemi dell'LLM Wiki e la soluzione Annota.ai per trasformare i tuoi documenti</div>
+  <div class="notizia-riassunto">Andrej Karpathy ha proposto l'LLM Wiki, un agente AI pensato per trasformare i tuoi documenti in una Wikipedia privata. Tuttavia, l'implementazione pratica in azienda presenta delle sfide. Questo video analizza i 5 problemi principali di LLM Wiki e introduce Annota.ai, una soluzione che promette di superarli, offrendo una "ricetta" pratica per sviluppare soluzioni AI avanzate.</div>
+  <a href="https://www.youtube.com/watch?v=-M_D7RBvkZ4" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div>
+<div class="notizia">
+  <div class="notizia-fonte">YouTube @simone_rizzo98 &bull; 09/11/2026</div>
+  <div class="notizia-titolo">I "Constraint Decoding Models": la nuova famiglia di modelli AI che supera gli LLM</div>
+  <div class="notizia-riassunto">È emersa una nuova categoria di modelli AI chiamata "Constraint Decoding Models". Questi modelli vantano nuove primitive, molto più potenti di quelle esistenti (simili a Jev, ma migliorate), e si stanno dimostrando superiori agli attuali LLM in moltissimi compiti. Rappresentano un passo avanti significativo nell'intelligenza artificiale, aprendo nuove possibilità per agenti AI più efficienti.</div>
+  <a href="https://www.youtube.com/shorts/l_d23ch1Oq8" target="_blank" rel="noopener" class="notizia-link">Leggi l'articolo completo &rarr;</a>
+</div></div>
+<div class="giorno" data-date="2026-11-08">
 <div class="notizia">
   <div class="notizia-fonte">YouTube @simone_rizzo98 &bull; 08/11/2026</div>
   <div class="notizia-titolo">Gli LLM ora leggono e scrivono i pesi delle reti neurali con il weight-space programming</div>
@@ -7793,7 +7807,7 @@ function mostra(d){
   var el=document.querySelector('.giorno[data-date="'+d+'"]');
   if(el)el.classList.add('attivo');
 }
-mostra('2026-11-08');
+mostra('2026-11-10');
 </script>
 </body>
 </html>

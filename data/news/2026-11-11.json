@@ -1,0 +1,75 @@
+{
+  "data": "2026-11-11",
+  "notizie": [
+    {
+      "titolo": "OpenAI lancia \"Businesses in ChatGPT\" per le aziende",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "data": "10/11/2026",
+      "riassunto": "OpenAI ha introdotto una nuova funzionalità chiamata \"Businesses in ChatGPT\", pensata per le aziende. Questo significa che le imprese potranno integrare e usare ChatGPT in modi più strutturati e specifici per le loro esigenze, probabilmente con strumenti e configurazioni dedicate. È un passo importante per rendere l'intelligenza artificiale ancora più utile nel mondo del lavoro quotidiano."
+    },
+    {
+      "titolo": "Anthropic lancia Claude for Small Business, un plugin per le PMI",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/shorts/y9id7hs2OU",
+      "data": "19/05/2026",
+      "riassunto": "Anthropic, una delle aziende leader nel campo degli LLM, ha lanciato \"Claude for Small Business\". Si tratta di un plugin che permette alle Piccole e Medie Imprese di integrare facilmente Claude nei loro workflow. Questo pacchetto include connettori e skill già pronti per strumenti come Gmail e Microsoft 365, rendendo l'AI più accessibile e utile per la produttività aziendale, anche per chi non ha grandi risorse tecniche."
+    },
+    {
+      "titolo": "Come usare Fable 5.2 in modo efficiente (e risparmiare crediti)",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/XNZJIXtjyfA",
+      "data": "11/11/2026",
+      "riassunto": "Questo video ti spiega un trucco pratico per sfruttare al meglio Fable 5.2, un modello AI di Anthropic, senza consumare troppi crediti. Il segreto è abbinarlo a qwen3.8 da 27B, ottimizzando così l'utilizzo e riducendo i costi. È un consiglio super utile per chi lavora con gli LLM e cerca modi per essere più efficiente e parsimonioso."
+    },
+    {
+      "titolo": "4 Nuovi AI Tools per la Produttività: Higgsfield, Clay, Email Voice e Myree",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/shorts/jjmS0q4eVo",
+      "data": "11/11/2026",
+      "riassunto": "Questo short presenta quattro nuovi strumenti AI che possono rivoluzionare la tua produttività. Higgsfield ti aiuta a creare immagini e video per annunci direttamente dalla chat, Clay è uno strumento di lead generation integrato in Claude, Email Voice crea bozze email con il tuo stile personale e Myree funziona come un secondo cervello per le tue note e informazioni. Sono tool molto pratici per automatizzare diverse attività quotidiane."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare agenti AI a qualsiasi piattaforma",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "\"Printing Press\" è un nuovo strumento che risolve un problema comune: come far interagire gli agenti AI con piattaforme che non hanno connettori o API pubbliche. Permette di creare delle CLI (Command Line Interface) personalizzate, collegando il tuo agente AI a qualsiasi servizio. Questo significa più automazione e meno tempo perso, anche con software meno moderni, e consuma meno token rispetto ad altre soluzioni."
+    },
+    {
+      "titolo": "Grok Bot: come automatizzare la vita privata con 10 assistenti AI",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=r8iNTbx3YDQ",
+      "data": "29/10/2026",
+      "riassunto": "Questo video spiega come creare e configurare \"Grok Bot\", una serie di 10 assistenti AI personalizzati per gestire la tua vita privata. Dalle scadenze di casa alla salute, dalle spese agli acquisti, questi bot funzionano anche a computer spento e possono persino dialogare tra loro. È un esempio concreto e avanzato di come gli agenti AI possano portare automazione e organizzazione nella vita di tutti i giorni."
+    },
+    {
+      "titolo": "Costruire un Second Brain con un agente AI (es. Hermes Agent)",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=7GwLfArq5_g",
+      "data": "02/11/2026",
+      "riassunto": "Il video mostra come costruire un \"Second Brain\" (un sistema di gestione della conoscenza personale) collegandolo a un agente AI come Hermes Agent. Questa configurazione, applicabile anche ad altri agenti come Claude o ChatGPT Work, ti permette di organizzare le tue informazioni e renderle accessibili e utilizzabili dall'AI per migliorare la tua produttività e l'automazione dei processi decisionali."
+    },
+    {
+      "titolo": "Raspberry Pi e AI: creare un cloud di casa configurato dall'AI senza codice",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=uPkr5ohPX64",
+      "data": "10/11/2026",
+      "riassunto": "Questo video spiega come trasformare un Raspberry Pi in un cloud personale per foto e film, con la particolarità che la configurazione è interamente gestita dall'AI, senza bisogno di scrivere una riga di codice. È un'automazione super interessante per chi vuole avere un proprio spazio di archiviazione dati, eliminando gli abbonamenti a servizi cloud esterni e sfruttando l'AI per semplificare l'installazione."
+    },
+    {
+      "titolo": "Prompt perfetti per LLM: la tecnica delle 11 parole",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=eKw_IWwrGYw",
+      "data": "08/11/2026",
+      "riassunto": "Vuoi migliorare la qualità delle tue interazioni con ChatGPT, Claude, Gemini e altri LLM? Questo video rivela un segreto di prompt engineering: una singola frase di 11 parole che funge da \"ciliegina sulla torta\" per le tue istruzioni. Imparare a formulare prompt efficaci è una skill digitale fondamentale nell'era dell'AI, e questo consiglio pratico ti aiuterà a ottenere risposte migliori e più precise."
+    },
+    {
+      "titolo": "Cosa sta succedendo davvero dentro OpenAI: agenti AI, GPT-6.1 Astra e crisi interna",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=rtsu_XbSlRw",
+      "data": "09/11/2026",
+      "riassunto": "Un'analisi approfondita sugli eventi recenti e i retroscena di OpenAI, l'azienda dietro ChatGPT. Si parla di 1.200 agenti AI su una bacheca segreta, di 700 agenti che \"attaccano\" Hugging Face, della cancellazione del modello GPT-6.1 Astra e del licenziamento di ricercatori. Per un appassionato di AI come te, è un riassunto intrigante sulle dinamiche interne e sui futuri sviluppi dei modelli LLM più importanti."
+    }
+  ]
+}

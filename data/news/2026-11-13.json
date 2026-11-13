@@ -1,0 +1,75 @@
+{
+  "data": "2026-11-13",
+  "notizie": [
+    {
+      "titolo": "OpenAI lancia \"ChatGPT Wallet\": i tuoi agenti AI potranno fare acquisti per te",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "data": "13/11/2026",
+      "riassunto": "OpenAI ha introdotto \"ChatGPT Wallet\", una nuova funzione che permette agli agenti AI, chiamati \"Dots\", di fare acquisti online per tuo conto. Questi agenti potranno navigare, scegliere prodotti, aggiungere al carrello e completare il pagamento. È un passo avanti significativo nelle automazioni basate sull'intelligenza artificiale, rendendo i tuoi assistenti digitali ancora più autonomi e pratici per la gestione delle spese o degli acquisti ricorrenti."
+    },
+    {
+      "titolo": "OpenAI presenta \"Businesses in ChatGPT\": nuove funzionalità per l'uso aziendale dell'AI",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-businesses-in-chatgpt/",
+      "data": "10/11/2026",
+      "riassunto": "OpenAI ha lanciato \"Businesses in ChatGPT\", una serie di nuove funzionalità pensate per le aziende che vogliono integrare l'AI nei loro flussi di lavoro. Ora le attività possono avere profili verificati all'interno di ChatGPT, offrendo maggiore sicurezza e fiducia nelle interazioni. Questo apre nuove possibilità per l'automazione dei servizi clienti, la gestione dei processi interni e la creazione di assistenti specializzati per ogni tipo di business."
+    },
+    {
+      "titolo": "L'evoluzione dell'AI: in arrivo nuovi modelli non solo per generare testo",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/watch?v=s9uEBaGsWgI",
+      "data": "13/11/2026",
+      "riassunto": "Raffaele Gaito esplora l'emergere di una nuova categoria di modelli di intelligenza artificiale, diversi dai tradizionali chatbot. Questi nuovi modelli non sono pensati solo per scrivere testi, ma per svolgere compiti più complessi e variegati, spingendo il concetto di agenti AI verso nuove frontiere. È un segnale chiaro di come l'AI stia evolvendo oltre la semplice generazione di linguaggio, aprendo scenari per automazioni e applicazioni pratiche molto più ampie."
+    },
+    {
+      "titolo": "Qual è il miglior OCR AI da eseguire in locale? Un confronto tra MiniCPM-OCR, PaddleOCR e Xiaomi-OCR-0",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/watch?v=9kJo38GyZOM",
+      "data": "13/11/2026",
+      "riassunto": "Simone Rizzo mette a confronto tre soluzioni OCR (Optical Character Recognition) basate su AI open source che puoi eseguire direttamente sul tuo computer: MiniCPM-OCR, PaddleOCR e Xiaomi-OCR-0. Il video analizza come si comportano nell'estrazione di testo da immagini e documenti, evidenziando pro, contro e differenze. È una risorsa preziosa per chi cerca tool pratici e gratuiti per digitalizzare testi da immagini, utile per la produttività personale o per progetti specifici."
+    },
+    {
+      "titolo": "Anthropic lancia \"Claude Meetings\": l'AI per ottimizzare le tue riunioni",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/9nFnU9aMrUU",
+      "data": "13/11/2026",
+      "riassunto": "Anthropic ha appena introdotto \"Claude Meetings\", un nuovo strumento che integra l'intelligenza di Claude nelle tue riunioni. Questo tool è progettato per aiutarti a gestire e riassumere le conversazioni, prendere appunti in automatico e forse anche identificare i punti chiave delle discussioni. È una novità entusiasmante per migliorare la produttività e l'efficienza delle riunioni, liberandoti dal compito di scrivere a mano e permettendoti di concentrarti sul contenuto."
+    },
+    {
+      "titolo": "Come creare un team di Agenti AI con Paperclip: la tua piccola azienda virtuale",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=AygiJSMyMq0",
+      "data": "12/11/2026",
+      "riassunto": "Antonio Guadagno mostra come usare Paperclip per costruire una vera e propria \"azienda AI\", mettendo in comunicazione agenti come Claude Code, Codex ed Hermes Agent. L'idea è assegnare un obiettivo a un agente \"manager\" che poi delega e coordina le attività a \"ricercatori\" e \"sviluppatori\" virtuali. È un esempio pratico e avanzato di automazione, utile per chi vuole esplorare come far collaborare diversi modelli AI per raggiungere obiettivi complessi."
+    },
+    {
+      "titolo": "Agenti AI senza codice: 4 tool per leggere la posta, ordinare idee e prepararsi ai colloqui",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=I_C7jCxsFBc",
+      "data": "13/11/2026",
+      "riassunto": "Giuseppe Castagna presenta quattro agenti AI che non richiedono alcuna conoscenza di programmazione, pensati per migliorare la tua produttività quotidiana. Questi agenti possono aiutarti a leggere e gestire la posta elettronica, organizzare le tue idee, analizzare contratti complessi e persino prepararti per un colloquio di lavoro. Sono esempi concreti di come l'AI stia diventando sempre più accessibile e utile per automatizzare e semplificare le attività di routine."
+    },
+    {
+      "titolo": "Come usare Google Gemini da zero (Aggiornamento Novembre 2026): scegli il piano e ottieni risposte migliori",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=6WjE14OhyTY",
+      "data": "12/11/2026",
+      "riassunto": "Questo video di GabrySolution è una guida aggiornata a novembre 2026 sull'uso di Google Gemini, tenendo conto delle recenti modifiche ai piani e alle funzionalità. Spiega come scegliere il piano giusto (gratuito, AI Plus, AI Pro o Ultra), come impostarlo in pochi minuti e come formulare le richieste per ottenere risposte di alta qualità al primo colpo. È fondamentale per chi vuole sfruttare al massimo le potenzialità di Gemini con le informazioni più recenti."
+    },
+    {
+      "titolo": "Cosa succede davvero dentro OpenAI? Crisi, agenti segreti e ricavi in crescita",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=rtsu_XbSlRw",
+      "data": "09/11/2026",
+      "riassunto": "Il video di GabrySolution ricostruisce sei mesi turbolenti all'interno di OpenAI, l'azienda dietro ChatGPT. Si parla di 1.200 agenti AI su una bacheca segreta, di un attacco a Hugging Face, della cancellazione del progetto GPT-6.1 Astra e del licenziamento di tre ricercatori. Nonostante queste \"crepe\" interne, i ricavi di OpenAI sono ai massimi storici. È una notizia interessante per capire le dinamiche e le sfide che le grandi aziende AI stanno affrontando."
+    },
+    {
+      "titolo": "Le 5 funzioni di Claude che quasi nessuno usa per trasformare la produttività",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=rX_xW67mHIE",
+      "data": "12/11/2026",
+      "riassunto": "Questo video di Vantaggio Artificiale ti mostra come sfruttare al massimo Claude, andando oltre il semplice utilizzo come motore di ricerca. Vengono illustrate cinque funzioni avanzate che possono fare la differenza nella tua produttività quotidiana, come la creazione automatica di documenti e slide in PowerPoint, volantini personalizzati con il tuo logo, listini prezzi e preventivi, e la gestione automatica delle liste di contatti da richiamare. È una guida pratica per elevare il tuo uso di Claude."
+    }
+  ]
+}

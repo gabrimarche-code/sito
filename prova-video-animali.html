@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Il bosco magico - video di prova</title>
+  <meta name="description" content="Un breve video di venti secondi sugli animali del bosco, con la voce di Jessica.">
+  <meta property="og:title" content="Il bosco magico - Una storia per Alessio">
+  <meta property="og:type" content="video.other">
+  <meta property="og:image" content="video/bosco_animali_poster.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root { --crema:#FBF2EB; --viola:#7B5FC8; --viola-scuro:#5A3FA8; --verde:#2D6A4F; --oro:#D4A843; --testo:#292929; --testo2:#4D4D4D; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "Poppins", sans-serif; color: var(--testo); background:
+      radial-gradient(900px 500px at 10% 0%, rgba(196,179,232,.45), transparent 60%),
+      radial-gradient(800px 500px at 100% 100%, rgba(212,168,67,.25), transparent 60%),
+      var(--crema); min-height: 100vh; }
+    main { max-width: 960px; margin: 0 auto; padding: 48px 20px 32px; text-align: center; }
+    h1 { font-family: "Zilla Slab", serif; font-weight: 600; font-size: clamp(2.2rem, 7vw, 3.75rem); line-height: 1.1; color: var(--viola-scuro); }
+    .sotto { margin-top: 12px; font-size: 1.15rem; color: var(--testo2); }
+    .video { margin: 32px auto 0; border-radius: 28px; overflow: hidden; background: #fff; box-shadow: 0 24px 70px rgba(90,63,168,.20); }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #fff; }
+    .invito { margin-top: 28px; font-size: 1.1rem; }
+    .pill { display: inline-block; margin-top: 18px; padding: 14px 34px; border-radius: 9999px; background: var(--viola); color: #fff; font-weight: 600; text-decoration: none; transition: background-color 200ms ease-in-out; }
+    .pill:hover, .pill:focus-visible { background: var(--viola-scuro); }
+    footer { margin-top: 40px; font-size: .85rem; color: var(--testo2); line-height: 1.6; }
+    @media (prefers-reduced-motion: reduce) { .pill { transition: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Il bosco magico</h1>
+    <p class="sotto">Una storia per Alessio, in venti secondi.</p>
+
+    <div class="video">
+      <video controls playsinline preload="metadata" poster="video/bosco_animali_poster.jpg">
+        <source src="video/bosco_animali.mp4" type="video/mp4">
+        Il tuo browser non riesce a riprodurre il video.
+      </video>
+    </div>
+
+    <p class="invito">Siediti comodo. Premi play e ascolta il bosco.</p>
+    <a class="pill" href="index.html">Torna alle storie</a>
+
+    <footer>
+      Voce: Jessica (ElevenLabs). Suoni del bosco: elevenlabs.io.<br>
+      Illustrazioni dalla storia "Viaggio nel bosco". Video creato con HyperFrames (HeyGen, licenza Apache-2.0). Pagina di prova.
+    </footer>
+  </main>
+</body>
+</html>

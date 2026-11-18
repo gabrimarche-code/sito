@@ -1,0 +1,75 @@
+{
+  "data": "2026-11-18",
+  "notizie": [
+    {
+      "titolo": "Claude Fable 5.2 e Gemini 4 Carbon: i modelli AI del momento a confronto (+ 20 novità)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=4b74V5TOW5E",
+      "data": "15/11/2026",
+      "riassunto": "Questo video confronta i due nuovi e potentissimi modelli AI, Claude Fable 5.2 e Gemini 4 Carbon, lanciati a distanza di poche ore. Viene spiegato quale modello potrebbe essere più conveniente a seconda delle esigenze, il loro costo effettivo e come utilizzarli in modo efficiente per non superare i limiti. Vengono anche presentate altre 20 importanti novità nel mondo dell'AI, da Nvidia a ChatGPT."
+    },
+    {
+      "titolo": "Google lancia i modelli Gemini 4: Hydrogen, Argon e Carbon",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/zoFPvDOCW4I",
+      "data": "15/11/2026",
+      "riassunto": "Google ha annunciato il lancio dei suoi nuovi modelli Gemini 4, denominati Hydrogen, Argon e Carbon. Questa notizia è cruciale per chi segue l'evoluzione degli LLM, in quanto Gemini è uno dei principali concorrenti di OpenAI e Anthropic. L'introduzione di nuove versioni indica progressi significativi nelle capacità di questi modelli di intelligenza artificiale."
+    },
+    {
+      "titolo": "12 Nuovi Tool AI GRATIS che battono i servizi a pagamento",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=dMUCopkgDgw",
+      "data": "16/11/2026",
+      "riassunto": "Questo video presenta e prova 12 nuovi tool AI gratuiti che, in molti casi, offrono prestazioni comparabili o superiori a soluzioni a pagamento, permettendo di risparmiare centinaia di euro in abbonamenti. Vengono mostrate alternative gratuite a servizi popolari come ChatGPT Plus, Midjourney e Canva Pro, con prove pratiche per ciascuno e dettagli sui limiti della versione gratuita, utili per progetti personali o semplici."
+    },
+    {
+      "titolo": "Agenti AI senza codice: 4 automazioni pratiche per produttività",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=I_C7jCxsFBc",
+      "data": "13/11/2026",
+      "riassunto": "Scopri come utilizzare 4 agenti AI senza codice per automatizzare attività quotidiane e aumentare la produttività. Questi agenti possono aiutarti a gestire la posta, organizzare le idee, analizzare contratti e prepararti per colloqui di lavoro. Il video offre anche un kit gratuito con i prompt pronti per essere usati con ChatGPT, Claude, Gemini e Grok."
+    },
+    {
+      "titolo": "Trasforma Claude in un mini CFO aziendale: collegamento a gestionale",
+      "fonte": "YouTube @aclasio",
+      "link": "https://www.youtube.com/watch?v=Al-cGCpgoAE",
+      "data": "17/11/2026",
+      "riassunto": "Questo video mostra come collegare Claude (o ChatGPT) al gestionale della tua azienda, trasformandolo in un vero e proprio \"mini CFO personale\". Interrogando direttamente i dati del gestionale (come Fattura24) tramite l'AI, puoi ottenere in tempo reale analisi su fatturato, costi, incassi e andamento economico, senza dover esportare manualmente report o caricare documenti."
+    },
+    {
+      "titolo": "AI per investire: ho fatto gestire 10.000€ a ChatGPT e Claude",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=sNe7hv5ln-4",
+      "data": "17/11/2026",
+      "riassunto": "Un esperimento audace in cui l'autore ha affidato la gestione di 10.000€ a ChatGPT e Claude, collegandoli direttamente al suo conto di investimento. Il video mostra l'esito di questa prova, evidenziando le potenzialità e i rischi dell'utilizzo dell'intelligenza artificiale per decisioni finanziarie e automazioni in campo di investimento."
+    },
+    {
+      "titolo": "Guida all'AI in locale: come scegliere modelli e hardware per la tua azienda",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/watch?v=TlPnMeZLU-g",
+      "data": "17/11/2026",
+      "riassunto": "Se vuoi implementare l'AI in locale nella tua azienda ma non sai da dove iniziare, questa guida ti spiega tutto ciò che serve. Vengono esaminati modelli \"open weights\" come Qwen 3.8 27B e Qwen 4, confrontate soluzioni hardware come Mac Mini, Mac Studio e NVIDIA DGX Spark, e ti aiuta a orientarti in base alle tue esigenze per scegliere la configurazione più adatta."
+    },
+    {
+      "titolo": "Printing Press: il tool per collegare agenti AI a qualsiasi piattaforma (anche senza API)",
+      "fonte": "YouTube @lorenzodelia125",
+      "link": "https://www.youtube.com/watch?v=sUghBRZlJUo",
+      "data": "21/05/2026",
+      "riassunto": "Questo video presenta Printing Press, uno strumento innovativo che risolve il problema delle piattaforme senza connettori per l'AI. Permette di creare interfacce a riga di comando (CLI) per collegare un agente AI a qualsiasi piattaforma, anche quelle che non offrono API pubbliche, ottimizzando l'uso dei token rispetto ad altre soluzioni e migliorando la produttività."
+    },
+    {
+      "titolo": "5 funzioni di Claude che non usi (e che ti faranno risparmiare tempo)",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=rX_xW67mHIE",
+      "data": "12/11/2026",
+      "riassunto": "Un tutorial pratico su come sfruttare Claude oltre la semplice ricerca, mostrando 5 funzioni avanzate che pochi utilizzano. Viene spiegato come Claude può aiutarti a creare documenti, presentazioni PowerPoint, volantini personalizzati con il tuo logo, listini Excel e persino generare una lista settimanale di contatti da richiamare, ottimizzando tempo e risorse."
+    },
+    {
+      "titolo": "La prossima simulazione di Will Wright userà l'AI per attingere ai tuoi ricordi",
+      "fonte": "Ars Technica AI",
+      "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+      "data": "18/11/2026 (dal contesto della pagina, data di pubblicazione dell'articolo relativo all'estratto)",
+      "riassunto": "Will Wright, il creatore di giochi iconici come _The Sims_, sta sviluppando una nuova simulazione chiamata _MyMems_ che utilizzerà l'intelligenza artificiale per estrarre contenuti direttamente dai ricordi degli utenti. Questa innovativa applicazione dell'AI mira a creare esperienze di gioco profondamente personalizzate e immersive, trasformando il concetto di simulazione in un'esplorazione della propria memoria e psiche."
+    }
+  ]
+}

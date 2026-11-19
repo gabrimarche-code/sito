@@ -126,7 +126,8 @@ def seleziona_top10_gemini(contenuti):
     prompt = (
         "Sei l'assistente personale di Gabriele, appassionato di AI, nuovi tool e tecnologia.\n"
         "Analizza tutti i contenuti seguenti (articoli di siti tech e video YouTube italiani) "
-        "e seleziona le TOP 10 notizie piu interessanti e rilevanti su: AI, nuovi tool, nuove app, skill digitali, automazioni, LLM.\n\n"
+        "e seleziona le TOP 10 notizie piu interessanti e rilevanti su: AI, nuovi tool, nuove app, skill digitali, automazioni, LLM. "
+        "Il digest esce ogni 5 giorni: scegli solo le piu rilevanti e importanti degli ultimi giorni, niente notizie minori.\n\n"
         "IGNORA: notizie di politica, sport, gossip, hardware gaming non AI, notizie duplicate.\n"
         "PRIORITA: AI generativa, nuovi modelli LLM, tool pratici per produttivita, automazioni, notizie pratiche e utili.\n\n"
         "Per ogni notizia usa ESATTAMENTE questo formato (niente altro):\n\n"
@@ -262,7 +263,7 @@ def genera_html_archivio():
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI News del Giorno</title>
-<meta name="description" content="Le notizie del giorno sul mondo dell'intelligenza artificiale, raccolte in un digest quotidiano.">
+<meta name="description" content="Le notizie piu importanti sul mondo dell'intelligenza artificiale, raccolte in un digest ogni 5 giorni.">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
@@ -289,7 +290,7 @@ select:focus{{border-color:#7B5FC8}}
 <body>
 <div class="header">
   <h1>AI News del Giorno</h1>
-  <p>Le 10 notizie piu importanti su AI, tool e tecnologia &mdash; selezionate da Gemini ogni giorno alle 18:00</p>
+  <p>Le 10 notizie piu importanti su AI, tool e tecnologia &mdash; selezionate da Gemini ogni 5 giorni</p>
 </div>
 <div class="container">
   <div class="selettore">
@@ -300,7 +301,7 @@ select:focus{{border-color:#7B5FC8}}
   </div>
   {giorni_html}
 </div>
-<div class="footer">Aggiornato automaticamente ogni giorno alle 18:00 &bull; Powered by Gemini AI + Firecrawl</div>
+<div class="footer">Aggiornato automaticamente ogni 5 giorni &bull; Powered by Gemini AI + Firecrawl</div>
 <script>
 function mostra(d){{
   document.querySelectorAll('.giorno').forEach(g=>g.classList.remove('attivo'));

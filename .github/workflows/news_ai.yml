@@ -2,7 +2,7 @@ name: AI News Digest Serale
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # ogni giorno alle 18:00 ora italiana estiva (UTC+2/CEST)
+    - cron: '0 16 * * *'  # controllo ogni giorno alle 18:00 (estate); il lavoro parte solo ogni 5 giorni (vedi "Cadenza")
   workflow_dispatch:
 
 permissions:
@@ -12,19 +12,29 @@ jobs:
   digest:
     runs-on: ubuntu-latest
     steps:
+      - name: Cadenza (ogni 5 giorni dal 20/11/2026; l'avvio a mano parte sempre)
+        id: cadenza
+        run: |
+          giorni=$(( ($(date -u -d "$(date -u +%F)" +%s) - $(date -u -d 2026-11-20 +%s)) / 86400 ))
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$giorni" -ge 0 ] && [ $((giorni % 5)) -eq 0 ]; }; then echo "vai=si" >> "$GITHUB_OUTPUT"; else echo "vai=no" >> "$GITHUB_OUTPUT"; fi
+
       - uses: actions/checkout@v4
+        if: steps.cadenza.outputs.vai == 'si'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Installa Python
+        if: steps.cadenza.outputs.vai == 'si'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Installa dipendenze
+        if: steps.cadenza.outputs.vai == 'si'
         run: pip install google-api-python-client google-auth google-auth-oauthlib requests
 
       - name: Esegui AI News Digest
+        if: steps.cadenza.outputs.vai == 'si'
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -34,6 +44,7 @@ jobs:
         run: python python/news_ai_digest.py
 
       - name: Pubblica su sito
+        if: steps.cadenza.outputs.vai == 'si'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

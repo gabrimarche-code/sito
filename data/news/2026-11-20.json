@@ -1,0 +1,75 @@
+{
+  "data": "2026-11-20",
+  "notizie": [
+    {
+      "titolo": "Google lancia i modelli Gemini 4: Hydrogen, Argon e Carbon",
+      "fonte": "YouTube @AntonioGuadagnoAI",
+      "link": "https://www.youtube.com/shorts/zoFPvDOCW4I",
+      "data": "15/11/2026",
+      "riassunto": "Google ha annunciato la nuova generazione dei suoi modelli di intelligenza artificiale Gemini, con le versioni \"Hydrogen\", \"Argon\" e \"Carbon\". Questi nuovi modelli promettono prestazioni migliorate e nuove funzionalità, spingendo ulteriormente i limiti dell'AI generativa. Un aggiornamento importante per chi segue lo sviluppo degli LLM."
+    },
+    {
+      "titolo": "20 superpoteri di Google Gemini che il 99% non conosce (quasi tutti GRATIS)",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=K6iOSqstwdg",
+      "data": "19/11/2026",
+      "riassunto": "Questo video rivela 20 funzionalità avanzate e meno conosciute di Google Gemini, molte delle quali sono disponibili gratuitamente. Si parla di Gemini Live con la fotocamera, azioni programmate, Canvas per creare app senza codice e Deep Research. Una risorsa utilissima per sfruttare al massimo Gemini e migliorare la produttività."
+    },
+    {
+      "titolo": "Claude si aggiorna con lavagna, foglio di calcolo e integrazioni app (es. HubSpot)",
+      "fonte": "YouTube @VantaggioArtificiale",
+      "link": "https://www.youtube.com/watch?v=qQT8UwIk3ZI",
+      "data": "19/11/2026",
+      "riassunto": "Claude ha introdotto nuove funzionalità che lo trasformano in uno strumento ancora più versatile. Ora puoi usare una lavagna virtuale, fogli di calcolo per l'analisi dati e integrare direttamente app come HubSpot all'interno della chat. Queste novità, disponibili con il piano a pagamento, mirano a rendere Claude un vero e proprio assistente completo per il lavoro."
+    },
+    {
+      "titolo": "Scopri il comando /rewind di Claude per ottimizzare le conversazioni AI",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/shorts/sYp8mCVwX34",
+      "data": "20/11/2026",
+      "riassunto": "Un trucco poco noto per usare Claude in modo più efficiente è il comando \"/rewind\". Ti permette di tornare a un punto precedente della conversazione, eliminando tutto ciò che è stato detto dopo. Questo aiuta a pulire il contesto, ridurre il consumo di token e minimizzare gli errori, rendendo il tuo lavoro con l'AI molto più fluido."
+    },
+    {
+      "titolo": "12 nuovi tool AI gratuiti che battono le alternative a pagamento",
+      "fonte": "YouTube @gabrysolution",
+      "link": "https://www.youtube.com/watch?v=dMUCopkgDgw",
+      "data": "16/11/2026",
+      "riassunto": "Un'analisi di 12 strumenti AI appena lanciati, che offrono funzionalità potenti e sono gratuiti. Vengono presentate alternative gratuite a servizi come ChatGPT Plus, Midjourney e Canva Pro, perfette per l'uso personale o piccoli progetti. Un'ottima risorsa per scoprire tool di produttività senza spendere."
+    },
+    {
+      "titolo": "Il codice di condotta AI di Confcommercio per le imprese italiane",
+      "fonte": "YouTube @RaffaeleGaito",
+      "link": "https://www.youtube.com/shorts/dWB-k_h5mgc",
+      "data": "20/11/2026",
+      "riassunto": "Confcommercio ha realizzato un codice di condotta per aiutare le aziende italiane a utilizzare l'AI in modo etico e conforme alle normative. Questo strumento fornisce linee guida chiare su come integrare l'AI nelle attività lavorative, proteggere la privacy dei dati e navigare tra le responsabilità legali e l'AI Act. Essenziale per un uso responsabile dell'AI in ambito business."
+    },
+    {
+      "titolo": "Come investire 10.000€ usando ChatGPT e Claude",
+      "fonte": "YouTube @gcastagna",
+      "link": "https://www.youtube.com/watch?v=sNe7hv5ln-4",
+      "data": "17/11/2026",
+      "riassunto": "Il video mostra un esperimento pratico in cui ChatGPT e Claude sono stati collegati a un conto di investimento per gestire 10.000€. L'autore spiega il processo e i risultati, offrendo uno sguardo su come l'intelligenza artificiale può essere applicata a decisioni finanziarie complesse. Un caso d'uso affascinante per le automazioni e l'AI."
+    },
+    {
+      "titolo": "Microsoft brevetta il training AI distribuito sfruttando le GPU degli utenti",
+      "fonte": "YouTube @simone_rizzo98",
+      "link": "https://www.youtube.com/shorts/UNfgdp09IVU",
+      "data": "20/11/2026",
+      "riassunto": "Microsoft ha depositato un brevetto per un sistema di training AI distribuito che permetterebbe di utilizzare le GPU dei PC degli utenti. Questo potrebbe significare che, in futuro, si potrebbe essere \"pagati\" per contribuire all'addestramento dei modelli di intelligenza artificiale di Microsoft, aprendo nuove frontiere per lo sviluppo dell'AI e l'uso delle risorse hardware."
+    },
+    {
+      "titolo": "MedChemBench: un nuovo benchmark per l'AI in chimica medicinale",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/introducing-medchembench/",
+      "data": "20/11/2026",
+      "riassunto": "OpenAI ha introdotto MedChemBench, un nuovo benchmark progettato per valutare e migliorare le capacità dell'AI nel campo della chimica medicinale. Questo strumento è cruciale per accelerare la scoperta di nuovi farmaci e molecole, mostrando come l'AI stia diventando fondamentale nella ricerca scientifica e nell'innovazione farmaceutica."
+    },
+    {
+      "titolo": "Come OpenAI Performance Factory mantiene ChatGPT veloce",
+      "fonte": "OpenAI Blog",
+      "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/",
+      "data": "19/11/2026",
+      "riassunto": "OpenAI ha svelato dettagli sulla sua \"Performance Factory\", il sistema che permette a ChatGPT di rimanere veloce e reattivo nonostante l'enorme carico di richieste. L'articolo esplora le tecniche e le strategie ingegneristiche utilizzate per ottimizzare l'infrastruttura, garantendo un'esperienza utente fluida. Interessante per capire la complessità dietro i LLM."
+    }
+  ]
+}
